@@ -1,22 +1,11 @@
 NAME
-Are Cade ?
+The Leaderboard Game
 
 SLOGAN
-Be Cade !
-
-PITCH
 Compete for the highscore, recruit for more
 
-MISSION
+PITCH
 An arcade game that lets you compete with friends but also recruit them to help climb the leaderboard
-
-OBJECTIVES
--Accessibility
--Competition
--Cooperation
--Outrun
--Parties
--Replayability
 
 PRICING
 0.99€/$/£ + Free friend codes as rewards
