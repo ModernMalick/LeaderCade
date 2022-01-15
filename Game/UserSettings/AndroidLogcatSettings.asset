@@ -2,16 +2,64 @@
     "m_SelectedDeviceId": "R58N31N7N3M",
     "m_SelectedPackage": {
         "deviceId": "R58N31N7N3M",
-        "name": "com.DefaultCompany.AreCade",
-        "processId": 12389,
+        "name": "com.DefaultCompany.TheLeaderboardGame",
+        "processId": 6879,
         "exited": false
     },
     "m_SelectedPriority": 0,
     "m_KnownPackagesForSerialization": [
         {
             "deviceId": "R58N31N7N3M",
-            "name": "com.DefaultCompany.AreCade",
-            "processId": 12389,
+            "name": "com.DefaultCompany.TheLeaderboardGame",
+            "processId": 25321,
+            "exited": true
+        },
+        {
+            "deviceId": "R58N31N7N3M",
+            "name": "com.DefaultCompany.TheLeaderboardGame",
+            "processId": 26443,
+            "exited": true
+        },
+        {
+            "deviceId": "R58N31N7N3M",
+            "name": "com.DefaultCompany.TheLeaderboardGame",
+            "processId": 26865,
+            "exited": true
+        },
+        {
+            "deviceId": "R58N31N7N3M",
+            "name": "com.DefaultCompany.TheLeaderboardGame",
+            "processId": 27234,
+            "exited": true
+        },
+        {
+            "deviceId": "R58N31N7N3M",
+            "name": "com.DefaultCompany.TheLeaderboardGame",
+            "processId": 4063,
+            "exited": true
+        },
+        {
+            "deviceId": "R58N31N7N3M",
+            "name": "com.DefaultCompany.TheLeaderboardGame",
+            "processId": 4258,
+            "exited": false
+        },
+        {
+            "deviceId": "R58N31N7N3M",
+            "name": "com.DefaultCompany.TheLeaderboardGame",
+            "processId": 5093,
+            "exited": false
+        },
+        {
+            "deviceId": "R58N31N7N3M",
+            "name": "com.DefaultCompany.TheLeaderboardGame",
+            "processId": 6453,
+            "exited": false
+        },
+        {
+            "deviceId": "R58N31N7N3M",
+            "name": "com.DefaultCompany.TheLeaderboardGame",
+            "processId": 6879,
             "exited": false
         }
     ],

@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637776915156779907
-    m_Hash: 3918486963
+      ticks: 637777809997561723
+    m_Hash: 3160483926
   m_LockFileStatus:
     m_FilePath: C:/Users/malic/Documents/MN10GAMES/The Leaderboard Game/Game/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637776915156859980
-    m_Hash: 1104129542
+      ticks: 637777810246359292
+    m_Hash: 3563466399
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -905,12 +905,12 @@ m_PackageAssets:
         url: https://github.com/Unity-Technologies/Graphics.git
         revision: b0e3273299e678bccb11e08d28c49d481c731c7e
         path: 
-    - packageId: com.unity.render-pipelines.universal@10.7.0
+    - packageId: com.unity.render-pipelines.universal@10.8.1
       testable: 0
       isDirectDependency: 1
-      version: 10.7.0
+      version: 10.8.1
       source: 1
-      resolvedPath: C:\Users\malic\Documents\MN10GAMES\The Leaderboard Game\Game\Library\PackageCache\com.unity.render-pipelines.universal@10.7.0
+      resolvedPath: C:\Users\malic\Documents\MN10GAMES\The Leaderboard Game\Game\Library\PackageCache\com.unity.render-pipelines.universal@10.8.1
       assetPath: Packages/com.unity.render-pipelines.universal
       name: com.unity.render-pipelines.universal
       displayName: Universal RP
@@ -971,22 +971,20 @@ m_PackageAssets:
         - 10.8.0
         - 10.8.1
         compatible:
-        - 10.7.0
-        - 10.8.0
         - 10.8.1
-        verified: 10.7.0
+        verified: 10.8.1
       dependencies:
       - name: com.unity.mathematics
         version: 1.1.0
       - name: com.unity.render-pipelines.core
-        version: 10.7.0
+        version: 10.8.1
       - name: com.unity.shadergraph
-        version: 10.7.0
+        version: 10.8.1
       resolvedDependencies:
       - name: com.unity.mathematics
         version: 1.2.1
       - name: com.unity.render-pipelines.core
-        version: 10.7.0
+        version: 10.8.1
       - name: com.unity.ugui
         version: 1.0.0
       - name: com.unity.modules.ui
@@ -998,7 +996,7 @@ m_PackageAssets:
       - name: com.unity.modules.jsonserialize
         version: 1.0.0
       - name: com.unity.shadergraph
-        version: 10.7.0
+        version: 10.8.1
       - name: com.unity.searcher
         version: 4.3.2
       keywords:
@@ -1020,13 +1018,13 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637678189980000000
+      datePublishedTicks: 637756825800000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.com/Unity-Technologies/Graphics.git
-        revision: 65f895bbddc2d4875c1b605a1921764ddcb0f703
+        revision: 31a193989d1e4e18ec3dced0f45168f8d2552a9a
         path: 
     - packageId: com.unity.textmeshpro@3.0.6
       testable: 0
@@ -3154,12 +3152,12 @@ m_PackageAssets:
         url: 
         revision: 
         path: 
-    - packageId: com.unity.render-pipelines.core@10.7.0
+    - packageId: com.unity.render-pipelines.core@10.8.1
       testable: 0
       isDirectDependency: 0
-      version: 10.7.0
+      version: 10.8.1
       source: 1
-      resolvedPath: C:\Users\malic\Documents\MN10GAMES\The Leaderboard Game\Game\Library\PackageCache\com.unity.render-pipelines.core@10.7.0
+      resolvedPath: C:\Users\malic\Documents\MN10GAMES\The Leaderboard Game\Game\Library\PackageCache\com.unity.render-pipelines.core@10.8.1
       assetPath: Packages/com.unity.render-pipelines.core
       name: com.unity.render-pipelines.core
       displayName: Core RP Library
@@ -3276,10 +3274,8 @@ m_PackageAssets:
         - 10.8.0
         - 10.8.1
         compatible:
-        - 10.7.0
-        - 10.8.0
         - 10.8.1
-        verified: 10.7.0
+        verified: 10.8.1
       dependencies:
       - name: com.unity.ugui
         version: 1.0.0
@@ -3311,20 +3307,20 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637678188680000000
+      datePublishedTicks: 637756824220000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.com/Unity-Technologies/Graphics.git
-        revision: 65f895bbddc2d4875c1b605a1921764ddcb0f703
+        revision: 31a193989d1e4e18ec3dced0f45168f8d2552a9a
         path: 
-    - packageId: com.unity.shadergraph@10.7.0
+    - packageId: com.unity.shadergraph@10.8.1
       testable: 0
       isDirectDependency: 0
-      version: 10.7.0
+      version: 10.8.1
       source: 1
-      resolvedPath: C:\Users\malic\Documents\MN10GAMES\The Leaderboard Game\Game\Library\PackageCache\com.unity.shadergraph@10.7.0
+      resolvedPath: C:\Users\malic\Documents\MN10GAMES\The Leaderboard Game\Game\Library\PackageCache\com.unity.shadergraph@10.8.1
       assetPath: Packages/com.unity.shadergraph
       name: com.unity.shadergraph
       displayName: Shader Graph
@@ -3438,18 +3434,16 @@ m_PackageAssets:
         - 10.8.0
         - 10.8.1
         compatible:
-        - 10.7.0
-        - 10.8.0
         - 10.8.1
-        verified: 10.7.0
+        verified: 10.8.1
       dependencies:
       - name: com.unity.render-pipelines.core
-        version: 10.7.0
+        version: 10.8.1
       - name: com.unity.searcher
         version: 4.3.2
       resolvedDependencies:
       - name: com.unity.render-pipelines.core
-        version: 10.7.0
+        version: 10.8.1
       - name: com.unity.ugui
         version: 1.0.0
       - name: com.unity.modules.ui
@@ -3475,13 +3469,13 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637678188860000000
+      datePublishedTicks: 637756824360000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.com/Unity-Technologies/Graphics.git
-        revision: 65f895bbddc2d4875c1b605a1921764ddcb0f703
+        revision: 31a193989d1e4e18ec3dced0f45168f8d2552a9a
         path: 
     - packageId: com.unity.barracuda@1.0.4
       testable: 0
@@ -3530,6 +3524,20 @@ m_PackageAssets:
         - 1.3.0-preview
         - 1.3.1-preview
         - 1.3.2-preview
+        - 1.3.3-preview
+        - 1.4.0-preview
+        - 2.0.0-pre.2
+        - 2.0.0-pre.3
+        - 2.0.0-pre.4
+        - 2.0.0-pre.5
+        - 2.0.0-pre.6
+        - 2.0.0
+        - 2.1.0-preview
+        - 2.2.0-preview
+        - 2.2.1-preview
+        - 2.3.0-preview
+        - 2.3.1-preview
+        - 2.4.0-preview
         compatible:
         - 0.2.7-preview
         - 0.3.0-preview
@@ -3557,6 +3565,20 @@ m_PackageAssets:
         - 1.3.0-preview
         - 1.3.1-preview
         - 1.3.2-preview
+        - 1.3.3-preview
+        - 1.4.0-preview
+        - 2.0.0-pre.2
+        - 2.0.0-pre.3
+        - 2.0.0-pre.4
+        - 2.0.0-pre.5
+        - 2.0.0-pre.6
+        - 2.0.0
+        - 2.1.0-preview
+        - 2.2.0-preview
+        - 2.2.1-preview
+        - 2.3.0-preview
+        - 2.3.1-preview
+        - 2.4.0-preview
         verified: 1.0.4
       dependencies:
       - name: com.unity.burst
@@ -4200,4 +4222,4 @@ m_PackageAssets:
   m_LocalPackages:
     m_LocalFileStatus: []
 m_ProjectPath: C:/Users/malic/Documents/MN10GAMES/The Leaderboard Game/Game/Packages
-m_EditorVersion: 2020.3.25f1 (9b9180224418)
+m_EditorVersion: 2020.3.26f1 (7298b473bc1a)
