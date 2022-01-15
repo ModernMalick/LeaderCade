@@ -1,3 +1,4 @@
+using Elements.Ball;
 using UnityEngine;
 
 public class ShotManager : MonoBehaviour
@@ -20,7 +21,9 @@ public class ShotManager : MonoBehaviour
     
     private GameObject _ball;
     private Vector3 _ballPosition;
-
+    private Rigidbody _ballRigidbody;
+    private BallCollisionManager _ballCollisionManager;
+    
     private bool _touching;
 
     private void Update()
@@ -40,13 +43,15 @@ public class ShotManager : MonoBehaviour
         inputManager.touched = false;
         scoreManager.Scorer();
         targetPositionManager.ChangePosition();
+        _ballCollisionManager.scored = false;
     }
 
     private void MoveBall()
     {
-        _ballPosition = Vector3.MoveTowards(_ballPosition, _targetPosition, Time.deltaTime * speed);
-        _ball.transform.position = _ballPosition;
-        _touching = _ballPosition == _targetPosition;
+        if(_ball == null) return;
+        _ballPosition =  Vector3.MoveTowards (_ballPosition, _targetPosition, speed * Time.fixedDeltaTime);
+        _ballRigidbody.MovePosition(_ballPosition);
+        _touching = _ballCollisionManager.scored;
     }
 
     private bool TouchedTarget()
@@ -69,5 +74,7 @@ public class ShotManager : MonoBehaviour
         if(ballManager.CurrentGameObject == null) return;
         _ball = ballManager.CurrentGameObject;
         _ballPosition = _ball.transform.position;
+        _ballRigidbody = _ball.GetComponent<Rigidbody>();
+        _ballCollisionManager = _ball.GetComponent<BallCollisionManager>();
     }
 }

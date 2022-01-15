@@ -10,13 +10,13 @@ public class TimeManager : MonoBehaviour
     [SerializeField] private float timeIncrements;
     
     private float _remainingTime;
-    
-    void Start()
+
+    private void Start()
     {
         _remainingTime = timeIncrements;
     }
 
-    void Update()
+    private void Update()
     {
         if (_remainingTime <= 0)
         {
