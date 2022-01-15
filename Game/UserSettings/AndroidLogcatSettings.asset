@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "R58N31N7N3M",
         "name": "com.DefaultCompany.TheLeaderboardGame",
-        "processId": 6879,
+        "processId": 16174,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -60,6 +60,18 @@
             "deviceId": "R58N31N7N3M",
             "name": "com.DefaultCompany.TheLeaderboardGame",
             "processId": 6879,
+            "exited": false
+        },
+        {
+            "deviceId": "R58N31N7N3M",
+            "name": "com.DefaultCompany.TheLeaderboardGame",
+            "processId": 8003,
+            "exited": false
+        },
+        {
+            "deviceId": "R58N31N7N3M",
+            "name": "com.DefaultCompany.TheLeaderboardGame",
+            "processId": 16174,
             "exited": false
         }
     ],

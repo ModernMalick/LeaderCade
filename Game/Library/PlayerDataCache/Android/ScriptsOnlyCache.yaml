@@ -5,6 +5,7 @@ ScriptsOnlyBuild:
     - InstanceManager
     - ScoreManager
     - ShotManager
+    - TargetPositionManager
     - TimeManager
     Unity.AdaptivePerformance.Editor.dll:
     - UnityEditor.AdaptivePerformance.Editor.AdaptivePerformanceGeneralSettingsPerBuildTarget
@@ -215,6 +216,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 31268}
     - Class: 114
       Script: {instanceID: 31952}
+    - Class: 114
+      Script: {instanceID: 33414}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1528,7 +1531,7 @@ ScriptsOnlyBuild:
     className: InputManager
   - hash:
       serializedVersion: 2
-      Hash: 50ac6c6c01d876eea085153ac5853038
+      Hash: 919367da32279cb9eaf157c0f469db92
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ShotManager
@@ -1550,6 +1553,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: TimeManager
+  - hash:
+      serializedVersion: 2
+      Hash: c4093c01586d1a98eb738de065932e5c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TargetPositionManager
   platform: 13
   scenePathNames:
   - Assets/Scenes/Gameplay.unity

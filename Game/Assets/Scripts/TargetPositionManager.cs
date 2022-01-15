@@ -15,8 +15,8 @@ public class TargetPositionManager : MonoBehaviour
     
     public void ChangePosition()
     {
-        var newX = Random.Range(minX, maxX);
-        var newY = Random.Range(minY, maxY);
-        instanceManager.startPosition = new Vector3(newX, newY, 19f);
+        // var newX = Random.Range(minX, maxX);
+        // var newY = Random.Range(minY, maxY);
+        // instanceManager.startPosition = new Vector3(newX, newY, 19f);
     }
 }
