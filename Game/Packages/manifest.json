@@ -2,6 +2,7 @@
   "dependencies": {
     "com.unity.adaptiveperformance": "2.2.1",
     "com.unity.adaptiveperformance.samsung.android": "2.2.1",
+    "com.unity.device-simulator": "3.0.3-preview",
     "com.unity.ide.rider": "2.0.7",
     "com.unity.inputsystem": "1.2.0",
     "com.unity.ml-agents": "1.0.8",

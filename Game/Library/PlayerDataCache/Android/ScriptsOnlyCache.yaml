@@ -1,29 +1,27 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - Elements.Ball.BallCollisionManager
     - InputManager
     - InstanceManager
+    - ObstaclePositionManager
     - ScoreManager
     - ShotManager
     - TargetPositionManager
     - TimeManager
     Unity.AdaptivePerformance.Editor.dll:
     - UnityEditor.AdaptivePerformance.Editor.AdaptivePerformanceGeneralSettingsPerBuildTarget
-    Unity.AdaptivePerformance.Samsung.Android.Editor.dll:
-    - UnityEditor.AdaptivePerformance.Samsung.Android.Editor.SamsungAndroidProviderSettingsEditor
     Unity.AdaptivePerformance.Samsung.Android.dll:
     - UnityEngine.AdaptivePerformance.Samsung.Android.SamsungAndroidProviderLoader
     - UnityEngine.AdaptivePerformance.Samsung.Android.SamsungAndroidProviderSettings
     Unity.AdaptivePerformance.Simulator.Editor.dll:
     - UnityEditor.AdaptivePerformance.Simulator.Editor.SimulatorProviderLoader
     - UnityEditor.AdaptivePerformance.Simulator.Editor.SimulatorProviderSettings
-    - UnityEditor.AdaptivePerformance.Simulator.Editor.SimulatorProviderSettingsEditor
     Unity.AdaptivePerformance.dll:
     - UnityEngine.AdaptivePerformance.AdaptivePerformanceGeneralSettings
     - UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings
     Unity.InputSystem.dll:
     - UnityEngine.InputSystem.EnhancedTouch.TouchSimulation
-    - UnityEngine.InputSystem.InputActionAsset
     - UnityEngine.InputSystem.InputSettings
     - UnityEngine.InputSystem.InputSystemObject
     - UnityEngine.InputSystem.RemoteInputPlayerConnection
@@ -127,97 +125,101 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
+      Script: {instanceID: 1686}
+    - Class: 114
       Script: {instanceID: 1688}
     - Class: 114
       Script: {instanceID: 1690}
     - Class: 114
       Script: {instanceID: 1692}
     - Class: 114
-      Script: {instanceID: 1694}
+      Script: {instanceID: 1702}
     - Class: 114
-      Script: {instanceID: 1704}
+      Script: {instanceID: 1838}
     - Class: 114
-      Script: {instanceID: 1840}
+      Script: {instanceID: 2398}
     - Class: 114
-      Script: {instanceID: 2402}
+      Script: {instanceID: 2492}
     - Class: 114
-      Script: {instanceID: 2496}
+      Script: {instanceID: 3100}
     - Class: 114
-      Script: {instanceID: 3198}
+      Script: {instanceID: 3196}
     - Class: 114
-      Script: {instanceID: 3268}
+      Script: {instanceID: 3266}
     - Class: 114
-      Script: {instanceID: 3346}
+      Script: {instanceID: 3344}
     - Class: 114
-      Script: {instanceID: 3368}
+      Script: {instanceID: 3366}
     - Class: 114
-      Script: {instanceID: 3430}
+      Script: {instanceID: 3394}
     - Class: 114
-      Script: {instanceID: 3548}
+      Script: {instanceID: 3412}
     - Class: 114
-      Script: {instanceID: 3648}
+      Script: {instanceID: 3432}
     - Class: 114
-      Script: {instanceID: 3952}
+      Script: {instanceID: 3550}
     - Class: 114
-      Script: {instanceID: 4076}
+      Script: {instanceID: 3650}
     - Class: 114
-      Script: {instanceID: 4340}
+      Script: {instanceID: 3832}
     - Class: 114
-      Script: {instanceID: 5098}
+      Script: {instanceID: 3956}
     - Class: 114
-      Script: {instanceID: 5112}
+      Script: {instanceID: 4080}
     - Class: 114
-      Script: {instanceID: 5172}
+      Script: {instanceID: 4344}
     - Class: 114
-      Script: {instanceID: 5356}
+      Script: {instanceID: 4594}
     - Class: 114
-      Script: {instanceID: 5358}
+      Script: {instanceID: 5104}
     - Class: 114
-      Script: {instanceID: 5374}
+      Script: {instanceID: 5118}
     - Class: 114
-      Script: {instanceID: 5630}
+      Script: {instanceID: 5178}
     - Class: 114
-      Script: {instanceID: 5732}
+      Script: {instanceID: 5362}
     - Class: 114
-      Script: {instanceID: 5858}
+      Script: {instanceID: 5364}
     - Class: 114
-      Script: {instanceID: 5930}
+      Script: {instanceID: 5380}
+    - Class: 114
+      Script: {instanceID: 5636}
+    - Class: 114
+      Script: {instanceID: 5694}
+    - Class: 114
+      Script: {instanceID: 5740}
+    - Class: 114
+      Script: {instanceID: 5866}
     - Class: 114
       Script: {instanceID: 5938}
     - Class: 114
-      Script: {instanceID: 6038}
+      Script: {instanceID: 5944}
     - Class: 114
-      Script: {instanceID: 6086}
+      Script: {instanceID: 6044}
     - Class: 114
-      Script: {instanceID: 6138}
+      Script: {instanceID: 6092}
     - Class: 114
-      Script: {instanceID: 6212}
+      Script: {instanceID: 6144}
     - Class: 114
-      Script: {instanceID: 6314}
+      Script: {instanceID: 6218}
     - Class: 114
-      Script: {instanceID: 6444}
+      Script: {instanceID: 6320}
     - Class: 114
-      Script: {instanceID: 6544}
+      Script: {instanceID: 6450}
     - Class: 114
-      Script: {instanceID: 6598}
+      Script: {instanceID: 6524}
     - Class: 114
-      Script: {instanceID: 7168}
+      Script: {instanceID: 6552}
     - Class: 114
-      Script: {instanceID: 7440}
+      Script: {instanceID: 6606}
     - Class: 114
-      Script: {instanceID: 7668}
+      Script: {instanceID: 7176}
     - Class: 114
-      Script: {instanceID: 24016}
+      Script: {instanceID: 7386}
     - Class: 114
-      Script: {instanceID: 24272}
+      Script: {instanceID: 7450}
     - Class: 114
-      Script: {instanceID: 27048}
-    - Class: 114
-      Script: {instanceID: 31268}
-    - Class: 114
-      Script: {instanceID: 31952}
-    - Class: 114
-      Script: {instanceID: 33414}
+      Script: {instanceID: 7678}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -547,6 +549,12 @@ ScriptsOnlyBuild:
     className: ShadowCaster2D
   - hash:
       serializedVersion: 2
+      Hash: 5fd02266eab6b752c0d366ea99dcf638
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: InputManager
+  - hash:
+      serializedVersion: 2
       Hash: 5d5b0c61f3ab6ff5f41b1bbe19764526
     assemblyName: Unity.InputSystem.dll
     namespaceName: UnityEngine.InputSystem.OnScreen
@@ -617,6 +625,18 @@ ScriptsOnlyBuild:
     assemblyName: Unity.InputSystem.dll
     namespaceName: UnityEngine.InputSystem.Editor
     className: InputActionImporterEditor
+  - hash:
+      serializedVersion: 2
+      Hash: d90b31d069bb81cc85b694ee7aad76da
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ObstaclePositionManager
+  - hash:
+      serializedVersion: 2
+      Hash: 1c4fdedd5659b20646e7a320b423fe13
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: InstanceManager
   - hash:
       serializedVersion: 2
       Hash: 2388eb9e99b86b3813e7b6dbfe4b3e0c
@@ -707,6 +727,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: ActivationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: aaa06faf9d50f1914ca9787a23874682
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ShotManager
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -899,6 +925,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
     namespaceName: UnityEngine.Rendering.Universal
     className: Vignette
+  - hash:
+      serializedVersion: 2
+      Hash: c4093c01586d1a98eb738de065932e5c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TargetPositionManager
   - hash:
       serializedVersion: 2
       Hash: 7d1a3e12579b7bd0f94909057ffba8d0
@@ -1123,6 +1155,12 @@ ScriptsOnlyBuild:
     className: UIFoldout
   - hash:
       serializedVersion: 2
+      Hash: ad04a8948345d757b3c45ae95fe78ef3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TimeManager
+  - hash:
+      serializedVersion: 2
       Hash: a1aa98c78061c6f03a8c124cda576e67
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -1277,6 +1315,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
     namespaceName: UnityEngine.Rendering.Universal
     className: FilmGrain
+  - hash:
+      serializedVersion: 2
+      Hash: b97122c419285e0ad979538603042c4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ScoreManager
   - hash:
       serializedVersion: 2
       Hash: caa533b001ae39b864ba8425019e2268
@@ -1447,6 +1491,12 @@ ScriptsOnlyBuild:
     className: MultiplayerEventSystem
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Elements.Ball
+    className: BallCollisionManager
+  - hash:
+      serializedVersion: 2
       Hash: 72763ba72b43403ee09a4c54b07cb346
     assemblyName: Unity.InputSystem.dll
     namespaceName: UnityEngine.InputSystem.XR
@@ -1523,42 +1573,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
-  - hash:
-      serializedVersion: 2
-      Hash: 5fd02266eab6b752c0d366ea99dcf638
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: InputManager
-  - hash:
-      serializedVersion: 2
-      Hash: 919367da32279cb9eaf157c0f469db92
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ShotManager
-  - hash:
-      serializedVersion: 2
-      Hash: 1c4fdedd5659b20646e7a320b423fe13
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: InstanceManager
-  - hash:
-      serializedVersion: 2
-      Hash: d1f89533f5f7886a941daee2c902354f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ScoreManager
-  - hash:
-      serializedVersion: 2
-      Hash: ad04a8948345d757b3c45ae95fe78ef3
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: TimeManager
-  - hash:
-      serializedVersion: 2
-      Hash: c4093c01586d1a98eb738de065932e5c
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: TargetPositionManager
   platform: 13
   scenePathNames:
   - Assets/Scenes/Gameplay.unity

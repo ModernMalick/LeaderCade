@@ -1,0 +1,4 @@
+#Sun Jan 16 20:44:29 CET 2022
+base.0=C\:\\Users\\malic\\Documents\\MN10GAMES\\The Leaderboard Game\\Game\\Temp\\gradleOut\\launcher\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

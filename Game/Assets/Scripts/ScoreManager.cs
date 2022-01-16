@@ -1,18 +1,15 @@
+using Elements.Ball;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class ScoreManager : MonoBehaviour
 {
-    [Header("UI")]
-    [SerializeField] private Text text;
-    
-    [Header("VARIABLES")]
-    [SerializeField] private int startIncrement;
+    [Header("UI")] [SerializeField] private Text text;
+
+    [Header("VARIABLES")] [SerializeField] private int startIncrement;
+
     [SerializeField] private int incrementPercentage;
 
-    [Header("MANAGERS")]
-    [SerializeField] private TimeManager timeManager;
-    
     [HideInInspector] public int score;
     private int _scoreIncrements;
 
@@ -20,6 +17,7 @@ public class ScoreManager : MonoBehaviour
     {
         score = 0;
         _scoreIncrements = startIncrement;
+        BallCollisionManager.OnScoring += Scorer;
     }
 
     private void Update()
@@ -27,10 +25,9 @@ public class ScoreManager : MonoBehaviour
         text.text = score.ToString();
     }
 
-    public void Scorer()
+    private void Scorer()
     {
         score += _scoreIncrements;
-        _scoreIncrements += (_scoreIncrements / 100) * incrementPercentage;
-        timeManager.AddTime();
+        _scoreIncrements += _scoreIncrements / 100 * incrementPercentage;
     }
 }

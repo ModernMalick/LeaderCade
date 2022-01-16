@@ -3,13 +3,15 @@ using UnityEngine.InputSystem;
 
 public class InputManager : MonoBehaviour
 {
-    private Camera _camera;
-    
     [HideInInspector] public GameObject gameObjectTouched;
     [HideInInspector] public bool touched;
+    private Camera _camera;
+
+    public static InputManager Instance { get; private set; }
 
     private void Awake()
     {
+        Instance = this;
         _camera = Camera.main;
         gameObjectTouched = null;
     }
@@ -18,24 +20,23 @@ public class InputManager : MonoBehaviour
     {
         CheckTouch();
         ResetTouch();
-        SetCheck();
+        SetTouched();
     }
 
-    private void SetCheck()
+    private void SetTouched()
     {
-        if(!touched) return;
+        if (!touched) return;
         var touchPosition = Pointer.current.position.ReadValue();
         var ray = _camera.ScreenPointToRay(touchPosition);
-        gameObjectTouched = !Physics.Raycast(ray, out var hit) ? null : hit.collider.gameObject;
+        var touchedObject = !Physics.Raycast(ray, out var hit) ? null : hit.collider.gameObject;
+        if (touchedObject == null || !touchedObject.CompareTag("Target")) return;
+        gameObjectTouched = touchedObject;
     }
 
     private void CheckTouch()
     {
-        if(Pointer.current == null) return;
-        if (Pointer.current.press.wasPressedThisFrame)
-        {
-            touched = true;
-        }
+        if (Pointer.current == null) return;
+        if (Pointer.current.press.wasPressedThisFrame) touched = true;
     }
 
     private void ResetTouch()

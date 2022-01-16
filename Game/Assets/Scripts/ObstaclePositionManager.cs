@@ -1,12 +1,50 @@
+using Elements.Ball;
 using UnityEngine;
 
 public class ObstaclePositionManager : MonoBehaviour
 {
-    [SerializeField] private new GameObject gameObject;
-    private Rigidbody _rigidbody;
+    [Header("VARIABLES")] [SerializeField] private float speed;
+
+    [SerializeField] private float maxSpeed;
+
+    [Header("X RANGE")] [SerializeField] private float maxX;
+
+    [SerializeField] private float minX;
+    private Vector3 _currentPosition;
+
+    private bool _goingRight = true;
+    private float _targetX;
 
     private void Start()
     {
-        _rigidbody = gameObject.GetComponent<Rigidbody>();
+        BallCollisionManager.OnScoring += UpdateSpeed;
+    }
+
+    private void Update()
+    {
+        ReachedTarget();
+        _targetX = _goingRight ? maxX : minX;
+        MoveObstacle();
+    }
+
+    private void MoveObstacle()
+    {
+        _currentPosition = gameObject.transform.position;
+        var targetPosition = new Vector3(_targetX, _currentPosition.y, _currentPosition.z);
+        var newPosition = Vector3.MoveTowards(_currentPosition, targetPosition, speed * Time.deltaTime);
+        gameObject.transform.position = newPosition;
+    }
+
+    private void ReachedTarget()
+    {
+        if (_currentPosition.x.Equals(maxX))
+            _goingRight = false;
+        else if (_currentPosition.x.Equals(minX)) _goingRight = true;
+    }
+
+    private void UpdateSpeed()
+    {
+        if (speed >= maxSpeed) return;
+        speed += 0.05f;
     }
 }

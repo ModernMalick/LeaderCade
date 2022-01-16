@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "R58N31N7N3M",
         "name": "com.DefaultCompany.TheLeaderboardGame",
-        "processId": 16174,
+        "processId": 8952,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -11,67 +11,55 @@
         {
             "deviceId": "R58N31N7N3M",
             "name": "com.DefaultCompany.TheLeaderboardGame",
-            "processId": 25321,
+            "processId": 23758,
             "exited": true
         },
         {
             "deviceId": "R58N31N7N3M",
             "name": "com.DefaultCompany.TheLeaderboardGame",
-            "processId": 26443,
+            "processId": 24695,
+            "exited": true
+        },
+        {
+            "deviceId": "R58N31N7N3M",
+            "name": "com.sec.android.app.launcher",
+            "processId": 2206,
+            "exited": false
+        },
+        {
+            "deviceId": "R58N31N7N3M",
+            "name": "com.DefaultCompany.TheLeaderboardGame",
+            "processId": 27579,
             "exited": true
         },
         {
             "deviceId": "R58N31N7N3M",
             "name": "com.DefaultCompany.TheLeaderboardGame",
-            "processId": 26865,
+            "processId": 27761,
             "exited": true
         },
         {
             "deviceId": "R58N31N7N3M",
             "name": "com.DefaultCompany.TheLeaderboardGame",
-            "processId": 27234,
+            "processId": 28235,
             "exited": true
         },
         {
             "deviceId": "R58N31N7N3M",
             "name": "com.DefaultCompany.TheLeaderboardGame",
-            "processId": 4063,
-            "exited": true
-        },
-        {
-            "deviceId": "R58N31N7N3M",
-            "name": "com.DefaultCompany.TheLeaderboardGame",
-            "processId": 4258,
+            "processId": 28592,
             "exited": false
         },
         {
             "deviceId": "R58N31N7N3M",
             "name": "com.DefaultCompany.TheLeaderboardGame",
-            "processId": 5093,
+            "processId": 22047,
             "exited": false
         },
         {
             "deviceId": "R58N31N7N3M",
             "name": "com.DefaultCompany.TheLeaderboardGame",
-            "processId": 6453,
-            "exited": false
-        },
-        {
-            "deviceId": "R58N31N7N3M",
-            "name": "com.DefaultCompany.TheLeaderboardGame",
-            "processId": 6879,
-            "exited": false
-        },
-        {
-            "deviceId": "R58N31N7N3M",
-            "name": "com.DefaultCompany.TheLeaderboardGame",
-            "processId": 8003,
-            "exited": false
-        },
-        {
-            "deviceId": "R58N31N7N3M",
-            "name": "com.DefaultCompany.TheLeaderboardGame",
-            "processId": 16174,
+            "processId": 8952,
             "exited": false
         }
     ],

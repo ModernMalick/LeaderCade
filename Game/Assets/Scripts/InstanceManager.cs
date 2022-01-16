@@ -6,9 +6,9 @@ public class InstanceManager : MonoBehaviour
     [SerializeField] private new string name;
     [SerializeField] public Vector3 startPosition;
 
-    public GameObject CurrentGameObject { get; private set; }
-
     private int _id;
+
+    public GameObject CurrentGameObject { get; private set; }
 
     private void Start()
     {
@@ -31,7 +31,7 @@ public class InstanceManager : MonoBehaviour
     private void CheckGameObject()
     {
         var gameObjectDestroyed = CurrentGameObject == null;
-        if(!gameObjectDestroyed) return;
+        if (!gameObjectDestroyed) return;
         NewGameObject();
     }
 }
