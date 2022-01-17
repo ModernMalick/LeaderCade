@@ -9,7 +9,7 @@ namespace Elements.Ball
         {
             if (collision.collider.CompareTag("Target"))
                 OnScoring?.Invoke();
-            else if (collision.collider.CompareTag("Obstacle")) Debug.Log("DEAD");
+            else if (collision.collider.CompareTag("Obstacle")) LossManager.OnLoss();
         }
 
         public static event Action OnScoring;

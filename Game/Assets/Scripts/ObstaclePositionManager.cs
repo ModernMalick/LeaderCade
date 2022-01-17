@@ -3,9 +3,10 @@ using UnityEngine;
 
 public class ObstaclePositionManager : MonoBehaviour
 {
-    [Header("VARIABLES")] [SerializeField] private float speed;
-
+    [Header("VARIABLES")] [SerializeField] private float initialSpeed;
     [SerializeField] private float maxSpeed;
+    [SerializeField] private float levelCap;
+    private float _speed;
 
     [Header("X RANGE")] [SerializeField] private float maxX;
 
@@ -18,6 +19,7 @@ public class ObstaclePositionManager : MonoBehaviour
     private void Start()
     {
         BallCollisionManager.OnScoring += UpdateSpeed;
+        _speed = initialSpeed;
     }
 
     private void Update()
@@ -31,7 +33,7 @@ public class ObstaclePositionManager : MonoBehaviour
     {
         _currentPosition = gameObject.transform.position;
         var targetPosition = new Vector3(_targetX, _currentPosition.y, _currentPosition.z);
-        var newPosition = Vector3.MoveTowards(_currentPosition, targetPosition, speed * Time.deltaTime);
+        var newPosition = Vector3.MoveTowards(_currentPosition, targetPosition, _speed * Time.deltaTime);
         gameObject.transform.position = newPosition;
     }
 
@@ -44,7 +46,7 @@ public class ObstaclePositionManager : MonoBehaviour
 
     private void UpdateSpeed()
     {
-        if (speed >= maxSpeed) return;
-        speed += 0.05f;
+        if (_speed >= maxSpeed) return;
+        _speed += (maxSpeed - initialSpeed) / levelCap;
     }
 }

@@ -20,7 +20,7 @@ public class TimeManager : MonoBehaviour
     {
         if (_remainingTime <= 0)
         {
-            Debug.Log("LOST");
+            LossManager.OnLoss();
             return;
         }
 
