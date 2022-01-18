@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace Elements.Ball
+namespace Objects.Ball
 {
     public class BallCollisionManager : MonoBehaviour
     {

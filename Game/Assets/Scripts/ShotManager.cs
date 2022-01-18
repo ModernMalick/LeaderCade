@@ -1,4 +1,4 @@
-using Elements.Ball;
+using Objects.Ball;
 using UnityEngine;
 
 public class ShotManager : MonoBehaviour

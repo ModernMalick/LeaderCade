@@ -1,4 +1,4 @@
-using Elements.Ball;
+using Objects.Ball;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -13,7 +13,7 @@ public class TimeManager : MonoBehaviour
     private void Start()
     {
         _remainingTime = timeIncrements;
-        BallCollisionManager.OnScoring += AddTime;
+        BallCollisionManager.OnScoring += () => _remainingTime = timeIncrements;
     }
 
     private void Update()
@@ -26,10 +26,5 @@ public class TimeManager : MonoBehaviour
 
         _remainingTime -= Time.deltaTime;
         text.text = _remainingTime.ToString("F0");
-    }
-
-    private void AddTime()
-    {
-        _remainingTime = timeIncrements;
     }
 }

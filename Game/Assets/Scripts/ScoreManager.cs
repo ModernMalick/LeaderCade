@@ -1,4 +1,4 @@
-using Elements.Ball;
+using Objects.Ball;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -9,7 +9,6 @@ public class ScoreManager : MonoBehaviour
 
     private void Start()
     {
-        score = 0;
         BallCollisionManager.OnScoring += Scorer;
     }
 

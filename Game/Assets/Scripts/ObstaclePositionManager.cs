@@ -1,4 +1,4 @@
-using Elements.Ball;
+using Objects.Ball;
 using UnityEngine;
 
 public class ObstaclePositionManager : MonoBehaviour
@@ -6,7 +6,6 @@ public class ObstaclePositionManager : MonoBehaviour
     [Header("VARIABLES")] [SerializeField] private float initialSpeed;
     [SerializeField] private float maxSpeed;
     [SerializeField] private float levelCap;
-    private float _speed;
 
     [Header("X RANGE")] [SerializeField] private float maxX;
 
@@ -14,6 +13,7 @@ public class ObstaclePositionManager : MonoBehaviour
     private Vector3 _currentPosition;
 
     private bool _goingRight = true;
+    private float _speed;
     private float _targetX;
 
     private void Start()
