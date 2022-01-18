@@ -1,7 +1,8 @@
+using Objects.Ball;
 using TMPro;
 using UnityEngine;
 
-namespace Objects.UI
+namespace Objects.UI.HUD
 {
     public class HUDScore : MonoBehaviour
     {
@@ -10,9 +11,11 @@ namespace Objects.UI
         private void Start()
         {
             _textMeshPro = gameObject.GetComponent<TextMeshProUGUI>();
+            UpdateScore();
+            BallCollisionManager.OnScoring += UpdateScore;
         }
 
-        private void Update()
+        private void UpdateScore()
         {
             _textMeshPro.text = ScoreManager.Instance.Score.ToString("0");
         }
