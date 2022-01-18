@@ -25,6 +25,7 @@ public class ShotManager : MonoBehaviour
     {
         _inputManager = InputManager.Instance;
         BallCollisionManager.OnScoring += ResetShot;
+        LossManager.Loss += ResetShot;
     }
 
     private void Update()

@@ -18,6 +18,7 @@ public class InputManager : MonoBehaviour
 
     private void Update()
     {
+        if(LossManager.Lost) return;
         CheckTouch();
         ResetTouch();
         SetTouched();

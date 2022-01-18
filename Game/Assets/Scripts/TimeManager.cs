@@ -1,30 +1,35 @@
 using Objects.Ball;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class TimeManager : MonoBehaviour
 {
-    [Header("UI")] [SerializeField] private Text text;
-
     [Header("VARIABLES")] [SerializeField] private float timeIncrements;
 
-    private float _remainingTime;
+    public static TimeManager Instance { get; private set; }
+
+    public float RemainingTime { get; private set; }
+
+    private void Awake()
+    {
+        Instance = this;
+    }
 
     private void Start()
     {
-        _remainingTime = timeIncrements;
-        BallCollisionManager.OnScoring += () => _remainingTime = timeIncrements;
+        RemainingTime = timeIncrements;
+        BallCollisionManager.OnScoring += () => RemainingTime = timeIncrements;
     }
 
     private void Update()
     {
-        if (_remainingTime <= 0)
+        if(LossManager.Lost) return;
+
+        if (RemainingTime <= 0)
         {
             LossManager.OnLoss();
             return;
         }
 
-        _remainingTime -= Time.deltaTime;
-        text.text = _remainingTime.ToString("F0");
+        RemainingTime -= Time.deltaTime;
     }
 }

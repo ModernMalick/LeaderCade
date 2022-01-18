@@ -1,4 +1,4 @@
-using System.Collections;
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -7,7 +7,7 @@ namespace MStudio
     /// <summary>
     /// Details of custom design
     /// </summary>
-    [System.Serializable]
+    [Serializable]
     public class ColorDesign
     {
         [Tooltip("Rename gameObject begin with this keychar")]

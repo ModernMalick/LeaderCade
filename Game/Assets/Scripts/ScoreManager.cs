@@ -1,24 +1,27 @@
 using Objects.Ball;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class ScoreManager : MonoBehaviour
 {
-    [Header("UI")] [SerializeField] private Text text;
-    [HideInInspector] public int score;
+    [field: HideInInspector]
+    public int Score { get; private set; }
+    public int HighScore { get; private set; }
+
+    public static ScoreManager Instance { get; private set; }
+
+    private void Awake()
+    {
+        Instance = this;
+    }
 
     private void Start()
     {
         BallCollisionManager.OnScoring += Scorer;
     }
 
-    private void Update()
-    {
-        text.text = score.ToString();
-    }
-
     private void Scorer()
     {
-        score++;
+        Score += 1;
+        HighScore = Score;
     }
 }

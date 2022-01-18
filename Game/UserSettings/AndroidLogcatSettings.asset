@@ -17,12 +17,6 @@
         {
             "deviceId": "R58N31N7N3M",
             "name": "com.DefaultCompany.TheLeaderboardGame",
-            "processId": 22047,
-            "exited": true
-        },
-        {
-            "deviceId": "R58N31N7N3M",
-            "name": "com.DefaultCompany.TheLeaderboardGame",
             "processId": 8952,
             "exited": true
         },
@@ -42,6 +36,12 @@
             "deviceId": "R58N31N7N3M",
             "name": "com.DefaultCompany.TheLeaderboardGame",
             "processId": 15447,
+            "exited": true
+        },
+        {
+            "deviceId": "R58N31N7N3M",
+            "name": "com.DefaultCompany.TheLeaderboardGame",
+            "processId": 11624,
             "exited": true
         }
     ],

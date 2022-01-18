@@ -26,7 +26,7 @@ namespace MStudio
 
         private static void OnHierarchyWindow(int instanceID, Rect selectionRect)
         {
-            UnityEngine.Object instance = EditorUtility.InstanceIDToObject(instanceID);
+            Object instance = EditorUtility.InstanceIDToObject(instanceID);
 
             if (instance != null)
             {
