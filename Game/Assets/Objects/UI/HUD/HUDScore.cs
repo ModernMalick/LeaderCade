@@ -11,14 +11,13 @@ namespace Objects.UI.HUD
         private void Start()
         {
             _textMeshPro = gameObject.GetComponent<TextMeshProUGUI>();
-            _textMeshPro.text = ScoreManager.Instance.Score.ToString("0");
+            UpdateScore();
             BallCollisionManager.OnScoring += UpdateScore;
         }
 
         private void UpdateScore()
         {
-            var newScore = ScoreManager.Instance.Score + 1;
-            _textMeshPro.text = newScore.ToString("0");
+            _textMeshPro.text = ScoreManager.Instance.Score.ToString("0");
         }
     }
 }
