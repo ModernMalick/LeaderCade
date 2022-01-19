@@ -33,10 +33,6 @@ public class ShotManager : MonoBehaviour
         CheckTarget();
         if (!TouchedTarget()) return;
         CheckBall();
-    }
-
-    private void FixedUpdate()
-    {
         MoveBall();
     }
 

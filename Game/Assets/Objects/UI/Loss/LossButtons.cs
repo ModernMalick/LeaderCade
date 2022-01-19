@@ -3,9 +3,9 @@ using UnityEngine.SceneManagement;
 
 namespace Objects.UI.Loss
 {
-    public class Retry : MonoBehaviour
+    public class LossButtons : MonoBehaviour
     {
-        public void OnRetry()
+        public void Retry()
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }

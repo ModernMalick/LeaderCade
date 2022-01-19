@@ -123,7 +123,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 9001832217430290294}
         m_TargetAssemblyTypeName: Objects.UI.Loss.Retry, Assembly-CSharp
-        m_MethodName: OnRetry
+        m_MethodName: Retry
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

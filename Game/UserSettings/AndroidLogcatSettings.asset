@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "R58N31N7N3M",
         "name": "com.DefaultCompany.TheLeaderboardGame",
-        "processId": 16142,
+        "processId": 11055,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -13,24 +13,6 @@
             "name": "com.sec.android.app.launcher",
             "processId": 2206,
             "exited": false
-        },
-        {
-            "deviceId": "R58N31N7N3M",
-            "name": "com.DefaultCompany.TheLeaderboardGame",
-            "processId": 14058,
-            "exited": true
-        },
-        {
-            "deviceId": "R58N31N7N3M",
-            "name": "com.DefaultCompany.TheLeaderboardGame",
-            "processId": 15452,
-            "exited": true
-        },
-        {
-            "deviceId": "R58N31N7N3M",
-            "name": "com.android.settings",
-            "processId": 14690,
-            "exited": true
         },
         {
             "deviceId": "R58N31N7N3M",
@@ -48,12 +30,24 @@
             "deviceId": "R58N31N7N3M",
             "name": "com.DefaultCompany.TheLeaderboardGame",
             "processId": 15763,
-            "exited": false
+            "exited": true
         },
         {
             "deviceId": "R58N31N7N3M",
             "name": "com.DefaultCompany.TheLeaderboardGame",
             "processId": 16142,
+            "exited": true
+        },
+        {
+            "deviceId": "R58N31N7N3M",
+            "name": "com.DefaultCompany.TheLeaderboardGame",
+            "processId": 21244,
+            "exited": true
+        },
+        {
+            "deviceId": "R58N31N7N3M",
+            "name": "com.DefaultCompany.TheLeaderboardGame",
+            "processId": 11055,
             "exited": false
         }
     ],
