@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "R58N31N7N3M",
         "name": "com.DefaultCompany.TheLeaderboardGame",
-        "processId": 15763,
+        "processId": 16142,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -48,6 +48,12 @@
             "deviceId": "R58N31N7N3M",
             "name": "com.DefaultCompany.TheLeaderboardGame",
             "processId": 15763,
+            "exited": false
+        },
+        {
+            "deviceId": "R58N31N7N3M",
+            "name": "com.DefaultCompany.TheLeaderboardGame",
+            "processId": 16142,
             "exited": false
         }
     ],

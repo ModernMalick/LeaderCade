@@ -1,5 +1,6 @@
 using Objects.Ball;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class TimeManager : MonoBehaviour
 {
@@ -16,8 +17,22 @@ public class TimeManager : MonoBehaviour
 
     private void Start()
     {
-        RemainingTime = timeIncrements;
         BallCollisionManager.OnScoring += () => RemainingTime = timeIncrements;
+    }
+    
+    private void OnEnable()
+    {
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        RemainingTime = timeIncrements;
+    }
+
+    private void OnDisable()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
     }
 
     private void Update()

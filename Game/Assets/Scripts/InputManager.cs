@@ -1,6 +1,8 @@
+using System;
 using Objects.Ball;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class InputManager : MonoBehaviour
 {
@@ -13,13 +15,26 @@ public class InputManager : MonoBehaviour
     {
         Instance = this;
         _camera = Camera.main;
-        gameObjectTouched = null;
     }
 
     private void Start()
     {
-        ResetTouch();
         BallCollisionManager.OnScoring += ResetTouch;
+    }
+
+    private void OnEnable()
+    {
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        ResetTouch();
+    }
+
+    private void OnDisable()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
     }
 
     private void Update()
