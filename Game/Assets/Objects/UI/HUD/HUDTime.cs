@@ -1,7 +1,7 @@
 using TMPro;
 using UnityEngine;
 
-namespace Objects.UI
+namespace Objects.UI.HUD
 {
     public class HUDTime : MonoBehaviour
     {
