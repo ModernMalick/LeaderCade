@@ -1,10 +1,10 @@
+using Objects.Ball;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class InputManager : MonoBehaviour
 {
     [HideInInspector] public GameObject gameObjectTouched;
-    [HideInInspector] public bool touched;
     private Camera _camera;
 
     public static InputManager Instance { get; private set; }
@@ -16,17 +16,22 @@ public class InputManager : MonoBehaviour
         gameObjectTouched = null;
     }
 
+    private void Start()
+    {
+        ResetTouch();
+        BallCollisionManager.OnScoring += ResetTouch;
+    }
+
     private void Update()
     {
         if(LossManager.Lost) return;
         CheckTouch();
-        ResetTouch();
-        SetTouched();
     }
 
-    private void SetTouched()
+    private void CheckTouch()
     {
-        if (!touched) return;
+        if (Pointer.current == null) return;
+        if (!Pointer.current.press.wasPressedThisFrame) return;
         var touchPosition = Pointer.current.position.ReadValue();
         var ray = _camera.ScreenPointToRay(touchPosition);
         var touchedObject = !Physics.Raycast(ray, out var hit) ? null : hit.collider.gameObject;
@@ -34,15 +39,8 @@ public class InputManager : MonoBehaviour
         gameObjectTouched = touchedObject;
     }
 
-    private void CheckTouch()
-    {
-        if (Pointer.current == null) return;
-        if (Pointer.current.press.wasPressedThisFrame) touched = true;
-    }
-
     private void ResetTouch()
     {
-        if (touched) return;
         gameObjectTouched = null;
     }
 }
