@@ -9,5 +9,10 @@ namespace Objects.UI.Loss
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
+
+        public void Quit()
+        {
+            SceneManager.LoadScene("Menu");
+        }
     }
 }
