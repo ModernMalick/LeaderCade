@@ -41,7 +41,15 @@ public class ScoreManager : MonoBehaviour
     private void Scorer()
     {
         Score++;
+        IncrementTotal();
         if (Score < PrefsHighScore) return;
         HighScore = Score;
+    }
+
+    private static void IncrementTotal()
+    {
+        const string key = "totalscore";
+        var currentTotal = PlayerPrefs.GetInt(key, 0);
+        PlayerPrefs.SetInt(key, currentTotal + 1);
     }
 }

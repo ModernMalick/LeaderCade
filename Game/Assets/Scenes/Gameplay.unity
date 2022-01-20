@@ -318,6 +318,14 @@ PrefabInstance:
       propertyPath: m_Padding.m_Top
       value: 100
       objectReference: {fileID: 0}
+    - target: {fileID: 3269671398849723081, guid: b377a92051e0af047b6e5a8cd3607324, type: 3}
+      propertyPath: m_enableWordWrapping
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7357435141488921920, guid: b377a92051e0af047b6e5a8cd3607324, type: 3}
+      propertyPath: m_enableWordWrapping
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7357435141488921950, guid: b377a92051e0af047b6e5a8cd3607324, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -348,6 +356,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7357435141499850688, guid: b377a92051e0af047b6e5a8cd3607324, type: 3}
       propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7357435141499850690, guid: b377a92051e0af047b6e5a8cd3607324, type: 3}
+      propertyPath: m_enableWordWrapping
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7357435141513795887, guid: b377a92051e0af047b6e5a8cd3607324, type: 3}
