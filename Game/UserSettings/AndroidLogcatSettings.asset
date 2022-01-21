@@ -2,8 +2,8 @@
     "m_SelectedDeviceId": "R58N31N7N3M",
     "m_SelectedPackage": {
         "deviceId": "R58N31N7N3M",
-        "name": "com.DefaultCompany.TheLeaderboardGame",
-        "processId": 12323,
+        "name": "com.MalickNdiaye.LeaderCade",
+        "processId": 8804,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -13,24 +13,6 @@
             "name": "com.sec.android.app.launcher",
             "processId": 2206,
             "exited": false
-        },
-        {
-            "deviceId": "R58N31N7N3M",
-            "name": "com.DefaultCompany.TheLeaderboardGame",
-            "processId": 17118,
-            "exited": true
-        },
-        {
-            "deviceId": "R58N31N7N3M",
-            "name": "com.DefaultCompany.TheLeaderboardGame",
-            "processId": 4959,
-            "exited": true
-        },
-        {
-            "deviceId": "R58N31N7N3M",
-            "name": "com.DefaultCompany.TheLeaderboardGame",
-            "processId": 15763,
-            "exited": true
         },
         {
             "deviceId": "R58N31N7N3M",
@@ -48,12 +30,30 @@
             "deviceId": "R58N31N7N3M",
             "name": "com.DefaultCompany.TheLeaderboardGame",
             "processId": 11055,
-            "exited": false
+            "exited": true
         },
         {
             "deviceId": "R58N31N7N3M",
             "name": "com.DefaultCompany.TheLeaderboardGame",
             "processId": 12323,
+            "exited": true
+        },
+        {
+            "deviceId": "R58N31N7N3M",
+            "name": "com.MalickNdiaye.LeaderCade",
+            "processId": 20269,
+            "exited": true
+        },
+        {
+            "deviceId": "R58N31N7N3M",
+            "name": "com.reddit.frontpage",
+            "processId": 4000,
+            "exited": false
+        },
+        {
+            "deviceId": "R58N31N7N3M",
+            "name": "com.MalickNdiaye.LeaderCade",
+            "processId": 8804,
             "exited": false
         }
     ],

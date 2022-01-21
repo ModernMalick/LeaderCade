@@ -1,3 +1,4 @@
+using System;
 using Objects.Ball;
 using TMPro;
 using UnityEngine;
@@ -13,6 +14,11 @@ namespace Objects.UI.HUD
             _textMeshPro = gameObject.GetComponent<TextMeshProUGUI>();
             UpdateScore();
             BallCollisionManager.OnScoring += UpdateScore;
+        }
+
+        private void OnDestroy()
+        {
+            BallCollisionManager.OnScoring -= UpdateScore;
         }
 
         private void UpdateScore()

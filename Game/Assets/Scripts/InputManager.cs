@@ -17,14 +17,10 @@ public class InputManager : MonoBehaviour
         _camera = Camera.main;
     }
 
-    private void Start()
-    {
-        BallCollisionManager.OnScoring += ResetTouch;
-    }
-
     private void OnEnable()
     {
         SceneManager.sceneLoaded += OnSceneLoaded;
+        BallCollisionManager.OnScoring += ResetTouch;
     }
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
@@ -35,6 +31,7 @@ public class InputManager : MonoBehaviour
     private void OnDisable()
     {
         SceneManager.sceneLoaded -= OnSceneLoaded;
+        BallCollisionManager.OnScoring -= ResetTouch;
     }
 
     private void Update()

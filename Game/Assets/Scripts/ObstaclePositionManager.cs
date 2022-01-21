@@ -1,3 +1,4 @@
+using System;
 using Objects.Ball;
 using UnityEngine;
 
@@ -20,6 +21,11 @@ public class ObstaclePositionManager : MonoBehaviour
     {
         BallCollisionManager.OnScoring += UpdateSpeed;
         _speed = initialSpeed;
+    }
+
+    private void OnDestroy()
+    {
+        BallCollisionManager.OnScoring -= UpdateSpeed;
     }
 
     private void Update()

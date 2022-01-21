@@ -15,15 +15,12 @@ public class ScoreManager : MonoBehaviour
     {
         Instance = this;
     }
-
-    private void Start()
-    {
-        BallCollisionManager.OnScoring += Scorer;
-    }
     
     private void OnEnable()
     {
         SceneManager.sceneLoaded += OnSceneLoaded;
+        BallCollisionManager.OnScoring += Scorer;
+        BallCollisionManager.OnScoring += IncrementTotal;
     }
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
@@ -36,20 +33,22 @@ public class ScoreManager : MonoBehaviour
     private void OnDisable()
     {
         SceneManager.sceneLoaded -= OnSceneLoaded;
+        BallCollisionManager.OnScoring -= Scorer;
+        BallCollisionManager.OnScoring -= IncrementTotal;
     }
 
     private void Scorer()
     {
         Score++;
-        IncrementTotal();
         if (Score < PrefsHighScore) return;
         HighScore = Score;
     }
 
-    private static void IncrementTotal()
+    private void IncrementTotal()
     {
         const string key = "totalscore";
         var currentTotal = PlayerPrefs.GetInt(key, 0);
-        PlayerPrefs.SetInt(key, currentTotal + 1);
+        var newTotal = currentTotal + 1;
+        PlayerPrefs.SetInt(key, newTotal);
     }
 }

@@ -1,3 +1,4 @@
+using System;
 using Objects.Ball;
 using TMPro;
 using UnityEngine;
@@ -13,6 +14,11 @@ namespace Objects.UI.HUD
             _textMeshPro = gameObject.GetComponent<TextMeshProUGUI>();
             _textMeshPro.text = ScoreManager.Instance.HighScore.ToString("0");
             BallCollisionManager.OnScoring += UpdateHighScore;
+        }
+
+        private void OnDestroy()
+        {
+            BallCollisionManager.OnScoring -= UpdateHighScore;
         }
 
         private void UpdateHighScore()

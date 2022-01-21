@@ -14,15 +14,11 @@ public class TimeManager : MonoBehaviour
     {
         Instance = this;
     }
-
-    private void Start()
-    {
-        BallCollisionManager.OnScoring += () => RemainingTime = timeIncrements;
-    }
     
     private void OnEnable()
     {
         SceneManager.sceneLoaded += OnSceneLoaded;
+        BallCollisionManager.OnScoring += () => RemainingTime = timeIncrements;
     }
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)

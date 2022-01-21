@@ -1,5 +1,7 @@
+using System;
 using Objects.Ball;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class TargetPositionManager : MonoBehaviour
 {
@@ -16,6 +18,11 @@ public class TargetPositionManager : MonoBehaviour
     private void Start()
     {
         BallCollisionManager.OnScoring += ChangePosition;
+    }
+
+    private void OnDestroy()
+    {
+        BallCollisionManager.OnScoring -= ChangePosition;
     }
 
     private void ChangePosition()
