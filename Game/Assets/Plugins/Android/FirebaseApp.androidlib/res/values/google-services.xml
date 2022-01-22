@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/gcm_defaultSenderId,@string/google_storage_bucket,@string/project_id,@string/google_api_key,@string/google_crash_reporting_api_key,@string/google_app_id,@string/default_android_client_id,@string/default_web_client_id">
+  <string name="gcm_defaultSenderId" translatable="false">739599185047</string>
+  <string name="google_storage_bucket" translatable="false">leadercade-a45d0.appspot.com</string>
+  <string name="project_id" translatable="false">leadercade-a45d0</string>
+  <string name="google_api_key" translatable="false">AIzaSyDw8NkDF-0yTDfCPn9DgaP9hBSnShLnCBQ</string>
+  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDw8NkDF-0yTDfCPn9DgaP9hBSnShLnCBQ</string>
+  <string name="google_app_id" translatable="false">1:739599185047:android:e0166f9a297bcd7fb8a5d2</string>
+  <string name="default_android_client_id" translatable="false">739599185047-811v7h3915gl5boh74u51r33ibj98coc.apps.googleusercontent.com</string>
+  <string name="default_web_client_id" translatable="false">739599185047-pf89ef4bhdsnld2pi62kg5um2n37bica.apps.googleusercontent.com</string>
+</resources>

@@ -1,4 +1,5 @@
 using System;
+using Firebase.Auth;
 using GooglePlayGames;
 using GooglePlayGames.BasicApi;
 using UnityEngine;
@@ -7,7 +8,33 @@ namespace Objects.UI.Menu.Main
 {
     public class Login : MonoBehaviour
     {
-        private void Start()
+        private string _authCode;
+        
+        #if UNITY_IPHONE
+            private void Start()
+            {
+                Debug.Log("STARTED IOS");
+            }
+        #endif
+
+        #if UNITY_Android
+                 private void Start()
+        {
+            AndroidLogin();
+        }
+
+        private void AndroidLogin()
+        {
+            PlayGamesSetup();
+            Social.localUser.Authenticate((success) =>
+            {
+                if (!success) return;
+                _authCode = PlayGamesPlatform.Instance.GetServerAuthCode();
+            });
+            FirebaseLogin();
+        }
+
+        private static void PlayGamesSetup()
         {
             var config = new PlayGamesClientConfiguration.Builder()
                 .RequestServerAuthCode(false)
@@ -16,12 +43,13 @@ namespace Objects.UI.Menu.Main
             PlayGamesPlatform.InitializeInstance(config);
             PlayGamesPlatform.Activate();
         }
+        #endif
 
-        public void AndroidLogin()
+        private void FirebaseLogin()
         {
-            Social.localUser.Authenticate((bool success) => {
-                Debug.Log("Connection success = " + success);
-            });
+            var auth = FirebaseAuth.DefaultInstance;
+            var credential = PlayGamesAuthProvider.GetCredential(_authCode);
+            auth.SignInWithCredentialAsync(credential);
         }
     }
 }
