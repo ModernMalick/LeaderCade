@@ -1,4 +1,5 @@
 using System;
+using Objects.FireBaseManager;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -31,13 +32,16 @@ public class LossManager : MonoBehaviour
     {
         Lost = true;
         SetHighScore();
+        FirebaseManager.UpdateTotalScore();
         Loss?.Invoke();
     }
 
     private static void SetHighScore()
     {
-        if (ScoreManager.Instance.Score < PlayerPrefs.GetInt("highscore", 0)) return;
-        PlayerPrefs.SetInt("highscore", ScoreManager.Instance.Score);
+        var highscore = ScoreManager.Instance.Score;
+        if (highscore < PlayerPrefs.GetInt("highscore", 0)) return;
+        PlayerPrefs.SetInt("highscore", highscore);
+        FirebaseManager.UpdateHighScore(highscore);
     }
 
     private void CheckPanel()
