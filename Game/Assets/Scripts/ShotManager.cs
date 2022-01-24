@@ -1,4 +1,3 @@
-using System;
 using Objects.Ball;
 using UnityEngine;
 
@@ -29,18 +28,18 @@ public class ShotManager : MonoBehaviour
         LossManager.Loss += ResetShot;
     }
 
-    private void OnDestroy()
-    {
-        BallCollisionManager.OnScoring -= ResetShot;
-        LossManager.Loss -= ResetShot;
-    }
-
     private void Update()
     {
         CheckTarget();
         if (!TouchedTarget()) return;
         CheckBall();
         MoveBall();
+    }
+
+    private void OnDestroy()
+    {
+        BallCollisionManager.OnScoring -= ResetShot;
+        LossManager.Loss -= ResetShot;
     }
 
     private void ResetShot()

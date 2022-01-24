@@ -1,4 +1,3 @@
-using System;
 using Objects.Ball;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -17,15 +16,16 @@ public class InputManager : MonoBehaviour
         _camera = Camera.main;
     }
 
+    private void Update()
+    {
+        if (LossManager.Lost) return;
+        CheckTouch();
+    }
+
     private void OnEnable()
     {
         SceneManager.sceneLoaded += OnSceneLoaded;
         BallCollisionManager.OnScoring += ResetTouch;
-    }
-
-    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
-    {
-        ResetTouch();
     }
 
     private void OnDisable()
@@ -34,10 +34,9 @@ public class InputManager : MonoBehaviour
         BallCollisionManager.OnScoring -= ResetTouch;
     }
 
-    private void Update()
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        if(LossManager.Lost) return;
-        CheckTouch();
+        ResetTouch();
     }
 
     private void CheckTouch()

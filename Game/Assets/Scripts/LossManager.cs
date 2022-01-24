@@ -5,15 +5,21 @@ using UnityEngine.SceneManagement;
 
 public class LossManager : MonoBehaviour
 {
-    public static event Action Loss;
-    [SerializeField] private GameObject lossPanelPrefab;
     private static GameObject _lossPanel;
     public static bool Lost;
+    [SerializeField] private GameObject lossPanelPrefab;
 
     private void OnEnable()
     {
         SceneManager.sceneLoaded += OnSceneLoaded;
     }
+
+    private void OnDisable()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
+
+    public static event Action Loss;
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
@@ -23,16 +29,11 @@ public class LossManager : MonoBehaviour
         Loss += () => { _lossPanel.SetActive(true); };
     }
 
-    private void OnDisable()
-    {
-        SceneManager.sceneLoaded -= OnSceneLoaded;
-    }
-
     public static void OnLoss()
     {
         Lost = true;
         SetHighScore();
-        FirebaseManager.UpdateTotalScore();
+        UserManager.UpdateTotalScore();
         Loss?.Invoke();
     }
 
@@ -41,12 +42,12 @@ public class LossManager : MonoBehaviour
         var highscore = ScoreManager.Instance.Score;
         if (highscore < PlayerPrefs.GetInt("highscore", 0)) return;
         PlayerPrefs.SetInt("highscore", highscore);
-        FirebaseManager.UpdateHighScore();
+        UserManager.UpdateHighScore();
     }
 
     private void CheckPanel()
     {
-        if(_lossPanel != null) return;
+        if (_lossPanel != null) return;
         _lossPanel = Instantiate(lossPanelPrefab);
     }
 }

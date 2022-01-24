@@ -1,7 +1,5 @@
-using System;
 using Objects.Ball;
 using UnityEngine;
-using Random = UnityEngine.Random;
 
 public class TargetPositionManager : MonoBehaviour
 {

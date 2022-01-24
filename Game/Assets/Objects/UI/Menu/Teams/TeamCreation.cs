@@ -10,11 +10,9 @@ namespace Objects.UI.Menu.Teams
 
         public void CreateTeam()
         {
-            Debug.Log("Started Creation");
             var input = nameInput.GetComponent<TextMeshProUGUI>();
-            if(string.IsNullOrEmpty(input.text)) return;
+            if (string.IsNullOrEmpty(input.text)) return;
             var inputText = input.text;
-            Debug.Log(inputText);
             FirebaseManager.CreateTeam(inputText);
         }
     }

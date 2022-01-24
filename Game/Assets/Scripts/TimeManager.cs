@@ -14,26 +14,10 @@ public class TimeManager : MonoBehaviour
     {
         Instance = this;
     }
-    
-    private void OnEnable()
-    {
-        SceneManager.sceneLoaded += OnSceneLoaded;
-        BallCollisionManager.OnScoring += () => RemainingTime = timeIncrements;
-    }
-
-    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
-    {
-        RemainingTime = timeIncrements;
-    }
-
-    private void OnDisable()
-    {
-        SceneManager.sceneLoaded -= OnSceneLoaded;
-    }
 
     private void Update()
     {
-        if(LossManager.Lost) return;
+        if (LossManager.Lost) return;
 
         if (RemainingTime <= 0)
         {
@@ -42,5 +26,21 @@ public class TimeManager : MonoBehaviour
         }
 
         RemainingTime -= Time.deltaTime;
+    }
+
+    private void OnEnable()
+    {
+        SceneManager.sceneLoaded += OnSceneLoaded;
+        BallCollisionManager.OnScoring += () => RemainingTime = timeIncrements;
+    }
+
+    private void OnDisable()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
+
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        RemainingTime = timeIncrements;
     }
 }

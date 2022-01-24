@@ -1,4 +1,3 @@
-using Objects.FireBaseManager;
 using UnityEngine;
 
 namespace Objects.UI.Menu
@@ -14,10 +13,9 @@ namespace Objects.UI.Menu
             panelMain.SetActive(false);
             panelTeams.SetActive(true);
         }
-        
+
         public void OnClickTeamCreation()
         {
-            // if(FirebaseManager.CheckTeam()) return;
             panelTeams.SetActive(false);
             panelTeamCreation.SetActive(true);
         }

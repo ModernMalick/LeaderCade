@@ -1,8 +1,6 @@
-using System;
 using Objects.FireBaseManager;
 using TMPro;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 namespace Objects.UI.Menu.Main
 {

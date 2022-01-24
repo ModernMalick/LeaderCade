@@ -1,14 +1,13 @@
 using Objects.FireBaseManager;
 using TMPro;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 namespace Objects.UI.Menu.Main
 {
     public class MainHighScore : MonoBehaviour
     {
         private TextMeshProUGUI _textMeshPro;
-        
+
         private void Start()
         {
             SetTexts();
