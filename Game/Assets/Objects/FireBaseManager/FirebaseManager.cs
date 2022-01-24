@@ -23,7 +23,7 @@ namespace Objects.FireBaseManager
 
         private static void CheckNewUser()
         {
-            Reference.Child("users").Child(User.DisplayName).GetValueAsync().ContinueWith(task =>
+            Reference.Child("Users").Child(User.UserId).GetValueAsync().ContinueWith(task =>
             {
                 if (task.IsFaulted || task.IsCanceled) return;
                 var snapshot = task.Result;
@@ -48,23 +48,36 @@ namespace Objects.FireBaseManager
         private static void WriteNewUser()
         {
             Debug.Log("Connection of " + User.DisplayName);
-            var highscore = PlayerPrefs.GetInt("highscore", 0); 
-            var totalscore = PlayerPrefs.GetInt("totalscore", 0);
-            var user = new User(highscore, totalscore);
-            var json = JsonUtility.ToJson(user);
-            Reference.Child("users").Child(User.DisplayName).SetRawJsonValueAsync(json);
+            Reference.Child("Users").Child(User.UserId).Child("Nickname").SetValueAsync(User.DisplayName);
+            UpdateHighScore();
+            UpdateTotalScore();
             Debug.Log("Pushed " + User.UserId);
         }
 
-        public static void UpdateHighScore(int highscore)
+        public static void UpdateHighScore()
         {
-            Reference.Child("users").Child(User.DisplayName).Child("Highscore").SetValueAsync(highscore);
+            var currentHigh = PlayerPrefs.GetInt("highscore", 0);
+            Reference.Child("Users").Child(User.UserId).Child("Highscore").SetValueAsync(currentHigh);
         }
 
         public static void UpdateTotalScore()
         {
             var currentTotal = PlayerPrefs.GetInt("totalscore", 0);
-            Reference.Child("users").Child(User.DisplayName).Child("Totalscore").SetValueAsync(currentTotal);
+            Reference.Child("Users").Child(User.UserId).Child("Totalscore").SetValueAsync(currentTotal);
+        }
+
+        public static void CreateTeam(String name)
+        {
+            Debug.Log("Creation of " + name + " for " + User.DisplayName);
+            var key = Reference.Child("Teams").Push().Key;
+            Reference.Child("Teams").Child(key).Child("Name").SetValueAsync(name);
+            Reference.Child("Users").Child(User.UserId).Child("Team_ID").SetValueAsync(key);
+        }
+        
+        public static void QuitTeam()
+        {
+            Debug.Log("Exit of " + User.DisplayName + " for " + User.DisplayName);
+            Reference.Child("Users").Child(User.UserId).Child("Team_ID").SetValueAsync("");
         }
     }
 }

@@ -41,7 +41,7 @@ public class LossManager : MonoBehaviour
         var highscore = ScoreManager.Instance.Score;
         if (highscore < PlayerPrefs.GetInt("highscore", 0)) return;
         PlayerPrefs.SetInt("highscore", highscore);
-        FirebaseManager.UpdateHighScore(highscore);
+        FirebaseManager.UpdateHighScore();
     }
 
     private void CheckPanel()
