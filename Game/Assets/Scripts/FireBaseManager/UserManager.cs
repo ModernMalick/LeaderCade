@@ -1,20 +1,25 @@
-﻿using UnityEngine;
+﻿using Firebase.Database;
+using UnityEngine;
 
-namespace Objects.FireBaseManager
+namespace FireBaseManager
 {
     public class UserManager : MonoBehaviour
     {
+        public static DatabaseReference ReferenceUser()
+        {
+            return FirebaseManager.Reference.Child("Users").Child(FirebaseManager.User.UserId);
+        }
+
         private static void CreateUser()
         {
-            FirebaseManager.Reference.Child("Users").Child(FirebaseManager.User.UserId).Child("Nickname")
-                .SetValueAsync(FirebaseManager.User.DisplayName);
+            ReferenceUser().Child("Nickname").SetValueAsync(FirebaseManager.User.DisplayName);
             UpdateHighScore();
             UpdateTotalScore();
         }
 
         public static void GetUser()
         {
-            FirebaseManager.Reference.Child("Users").Child(FirebaseManager.User.UserId).GetValueAsync().ContinueWith(
+            ReferenceUser().GetValueAsync().ContinueWith(
                 task =>
                 {
                     if (task.IsFaulted || task.IsCanceled) return;
@@ -26,9 +31,13 @@ namespace Objects.FireBaseManager
                         LoadStats(highscore, totalscore);
                         return;
                     }
-
                     CreateUser();
                 });
+        }
+        
+        public static string GetTeam()
+        {
+            return ReferenceUser().Child("Team_ID").GetValueAsync().Result.Value.ToString();
         }
         
         private static void LoadStats(int highscore, int totalscore)
@@ -41,22 +50,19 @@ namespace Objects.FireBaseManager
         public static void UpdateHighScore()
         {
             var currentHigh = PlayerPrefs.GetInt("highscore", 0);
-            FirebaseManager.Reference.Child("Users").Child(FirebaseManager.User.UserId).Child("Highscore")
-                .SetValueAsync(currentHigh);
+            ReferenceUser().Child("Highscore").SetValueAsync(currentHigh);
         }
 
         public static void UpdateTotalScore()
         {
             var currentTotal = PlayerPrefs.GetInt("totalscore", 0);
-            FirebaseManager.Reference.Child("Users").Child(FirebaseManager.User.UserId).Child("Totalscore")
-                .SetValueAsync(currentTotal);
+            ReferenceUser().Child("Totalscore").SetValueAsync(currentTotal);
         }
 
         public static void UpdateTeam(string teamID)
         {
             teamID ??= "";
-            FirebaseManager.Reference.Child("Users").Child(FirebaseManager.User.UserId).Child("Team_ID")
-                .SetValueAsync(teamID);
+            ReferenceUser().Child("Team_ID").SetValueAsync(teamID);
         }
     }
 }

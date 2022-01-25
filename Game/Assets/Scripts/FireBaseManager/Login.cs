@@ -1,4 +1,5 @@
 using Firebase.Auth;
+using FireBaseManager;
 using GooglePlayGames;
 using GooglePlayGames.BasicApi;
 using UnityEngine;

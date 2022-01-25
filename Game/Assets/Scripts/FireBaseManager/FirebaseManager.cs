@@ -3,7 +3,7 @@ using Firebase.Auth;
 using Firebase.Database;
 using UnityEngine;
 
-namespace Objects.FireBaseManager
+namespace FireBaseManager
 {
     public class FirebaseManager : MonoBehaviour
     {
@@ -16,6 +16,8 @@ namespace Objects.FireBaseManager
             User = FirebaseAuth.DefaultInstance.CurrentUser;
             Reference = FirebaseDatabase.DefaultInstance.RootReference;
             UserManager.GetUser();
+            Debug.Log("Returned & team is " + UserManager.GetTeam());
+            Debug.Log("Returned & team users are " + TeamManager.GetTeamUserCount());
         }
 
         public static void OnLoad()

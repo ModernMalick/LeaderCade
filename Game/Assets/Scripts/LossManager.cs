@@ -1,4 +1,5 @@
 using System;
+using FireBaseManager;
 using Objects.FireBaseManager;
 using UnityEngine;
 using UnityEngine.SceneManagement;
