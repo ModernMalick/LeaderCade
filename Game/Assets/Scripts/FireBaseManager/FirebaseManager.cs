@@ -1,35 +1,35 @@
 using System;
+using System.Collections;
+using System.Collections.Generic;
 using Firebase.Auth;
-using Firebase.Database;
 using UnityEngine;
+using UnityEngine.Networking;
 
 namespace FireBaseManager
 {
     public class FirebaseManager : MonoBehaviour
     {
-        public static FirebaseUser User { get; private set; }
-        public static DatabaseReference Reference { get; private set; }
+        public static User User = new User();
+        public static Team Team = new Team();
+        public static readonly FirebaseUser FbUser = FirebaseAuth.DefaultInstance.CurrentUser;
         public static event Action Load;
+        public const string Php = "https://leadercade.000webhostapp.com/";
 
         public static void SetupFirebase()
         {
-            User = FirebaseAuth.DefaultInstance.CurrentUser;
-            Reference = FirebaseDatabase.DefaultInstance.RootReference;
-            UserManager.GetUser();
-            Debug.Log("Returned & team is " + UserManager.GetTeam());
-            Debug.Log("Returned & team users are " + TeamManager.GetTeamUserCount());
+            StaticCoroutine.Start(User.ReadUser());
         }
 
-        public static void OnLoad()
+        private static void OnLoad()
         {
             Load?.Invoke();
         }
 
-        public static void CreateTeam(string name)
+        private static void LoadStats(int highscore, int totalscore)
         {
-            var key = Reference.Child("Teams").Push().Key;
-            UserManager.UpdateTeam(key);
-            TeamManager.CreateTeam(key, name);
+            PlayerPrefs.SetInt("highscore", highscore);
+            PlayerPrefs.SetInt("totalscore", totalscore);
+            OnLoad();
         }
     }
 }

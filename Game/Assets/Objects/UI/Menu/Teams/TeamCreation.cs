@@ -1,4 +1,3 @@
-using FireBaseManager;
 using TMPro;
 using UnityEngine;
 
@@ -13,7 +12,6 @@ namespace Objects.UI.Menu.Teams
             var input = nameInput.GetComponent<TextMeshProUGUI>();
             if (string.IsNullOrEmpty(input.text)) return;
             var inputText = input.text;
-            FirebaseManager.CreateTeam(inputText);
         }
     }
 }
