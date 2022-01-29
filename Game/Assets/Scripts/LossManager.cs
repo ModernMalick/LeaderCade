@@ -34,7 +34,6 @@ public class LossManager : MonoBehaviour
     {
         Lost = true;
         SetHighScore();
-        // StaticCoroutine.Start(User.UpdateTotalScore());
         Loss?.Invoke();
     }
 
@@ -43,7 +42,7 @@ public class LossManager : MonoBehaviour
         var highscore = ScoreManager.Instance.Score;
         if (highscore < PlayerPrefs.GetInt("highscore", 0)) return;
         PlayerPrefs.SetInt("highscore", highscore);
-        // StaticCoroutine.Start(User.UpdateHighScore());
+        UserManager.UpdateHighScore();
     }
 
     private void CheckPanel()

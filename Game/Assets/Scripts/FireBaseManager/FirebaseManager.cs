@@ -9,12 +9,11 @@ namespace FireBaseManager
     {
         public static readonly DatabaseReference Reference = FirebaseDatabase.DefaultInstance.RootReference;
         public static readonly FirebaseUser FbUser = FirebaseAuth.DefaultInstance.CurrentUser;
-        public static User User;
         public static event Action Load;
 
         public static void SetupFirebase()
         {
-            UserManager.CreateUser();
+            UserManager.ReadUser();
         }
 
         private static void OnLoad()
@@ -22,7 +21,7 @@ namespace FireBaseManager
             Load?.Invoke();
         }
 
-        private static void LoadStats(int highscore)
+        public static void LoadStats(int highscore)
         {
             PlayerPrefs.SetInt("highscore", highscore);
             OnLoad();

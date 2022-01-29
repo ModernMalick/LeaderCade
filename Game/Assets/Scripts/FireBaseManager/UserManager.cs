@@ -1,28 +1,44 @@
-﻿using UnityEngine;
+﻿using Firebase.Database;
+using UnityEngine;
 
 namespace FireBaseManager
 {
     public class UserManager : MonoBehaviour
     {
-        public static void CreateUser()
+        private static DatabaseReference ReferenceUser()
         {
-            var currentHigh = PlayerPrefs.GetInt("highscore", 0);
-            var fbuser = FirebaseManager.FbUser;
-            var displayName = fbuser.DisplayName;
-            var id = fbuser.UserId;
-            var user = new User(id,displayName,0);
-            var json = JsonUtility.ToJson(user);
-            FirebaseManager.Reference.Child("users").Child(id).SetRawJsonValueAsync(json);
+            return FirebaseManager.Reference.Child("Users").Child(FirebaseManager.FbUser.UserId);
+        }
+
+        private static void CreateUser()
+        {
+            var displayName =  FirebaseManager.FbUser.DisplayName;
+            ReferenceUser().Child("Nickname").SetValueAsync(displayName);
+            UpdateHighScore();
+            ReadUser();
         }
         
         public static void ReadUser()
         {
-            
+            ReferenceUser().GetValueAsync().ContinueWith(
+                task =>
+                {
+                    if (task.IsFaulted || task.IsCanceled) return;
+                    var snapshot = task.Result;
+                    if (snapshot.Exists)
+                    {
+                        var highscore = int.Parse(snapshot.Child("Highscore").Value.ToString());
+                        FirebaseManager.LoadStats(highscore);
+                        return;
+                    }
+                    CreateUser();
+        });
         }
 
         public static void UpdateHighScore()
         {
             var currentHigh = PlayerPrefs.GetInt("highscore", 0);
+            ReferenceUser().Child("Highscore").SetValueAsync(currentHigh);
         }
     }
 }
