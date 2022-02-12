@@ -1,4 +1,5 @@
-﻿using Firebase.Database;
+﻿using Firebase.Auth;
+using Firebase.Database;
 using UnityEngine;
 
 namespace FireBaseManager
@@ -38,6 +39,7 @@ namespace FireBaseManager
         public static void UpdateHighScore()
         {
             var currentHigh = PlayerPrefs.GetInt("highscore", 0);
+            if(!FirebaseManager.Connected) return;
             ReferenceUser().Child("Highscore").SetValueAsync(currentHigh);
         }
     }

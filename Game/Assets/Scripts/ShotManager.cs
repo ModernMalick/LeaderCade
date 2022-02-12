@@ -1,3 +1,4 @@
+using System;
 using Objects.Ball;
 using UnityEngine;
 
@@ -33,6 +34,10 @@ public class ShotManager : MonoBehaviour
         CheckTarget();
         if (!TouchedTarget()) return;
         CheckBall();
+    }
+
+    private void FixedUpdate()
+    {
         MoveBall();
     }
 

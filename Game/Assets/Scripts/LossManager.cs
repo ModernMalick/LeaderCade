@@ -1,6 +1,7 @@
 using System;
 using FireBaseManager;
 using Objects.FireBaseManager;
+using Objects.UI.Leaderboard;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -34,6 +35,7 @@ public class LossManager : MonoBehaviour
     {
         Lost = true;
         SetHighScore();
+        LeaderboardManager.InstantiateRows();
         Loss?.Invoke();
     }
 

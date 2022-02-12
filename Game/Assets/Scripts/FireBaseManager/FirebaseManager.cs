@@ -1,19 +1,28 @@
 using System;
 using Firebase.Auth;
 using Firebase.Database;
+using Objects.UI.Leaderboard;
 using UnityEngine;
 
 namespace FireBaseManager
 {
     public class FirebaseManager : MonoBehaviour
     {
-        public static readonly DatabaseReference Reference = FirebaseDatabase.DefaultInstance.RootReference;
-        public static readonly FirebaseUser FbUser = FirebaseAuth.DefaultInstance.CurrentUser;
+        public static DatabaseReference Reference;
+        public static FirebaseUser FbUser;
         public static event Action Load;
+        public static bool Connected;
+
+        private void Awake()
+        {
+            Reference = FirebaseDatabase.DefaultInstance.RootReference;
+            FbUser = FirebaseAuth.DefaultInstance.CurrentUser;
+        }
 
         public static void SetupFirebase()
         {
             UserManager.ReadUser();
+            Connected = FbUser != null;
         }
 
         private static void OnLoad()

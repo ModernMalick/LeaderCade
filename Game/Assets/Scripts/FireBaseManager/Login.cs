@@ -2,7 +2,9 @@ using Firebase.Auth;
 using FireBaseManager;
 using GooglePlayGames;
 using GooglePlayGames.BasicApi;
+using UnityEditor;
 using UnityEngine;
+using UnityEngine.SocialPlatforms.GameCenter;
 
 namespace Objects.FireBaseManager
 {
@@ -11,14 +13,33 @@ namespace Objects.FireBaseManager
         private string _authCode;
 
 #if UNITY_IPHONE
-            private void Start()
+        private void Awake()
+        {
+            IosLogin();
+        }
+
+        private void IosLogin()
+        {
+            Social.localUser.Authenticate(success =>
             {
-                Debug.Log("STARTED IOS");
-            }
+                if (!success) return;
+                FirebaseIosLogin();
+            });
+        }
+        
+        private void FirebaseIosLogin()
+        {
+            var auth = FirebaseAuth.DefaultInstance;
+            var credential = GameCenterAuthProvider.GetCredentialAsync().Result;
+            auth.SignInWithCredentialAsync(credential).ContinueWith(task =>
+            {
+                if (task.IsCanceled || task.IsFaulted) return;
+                FirebaseManager.SetupFirebase();
+            });
+        }
 #endif
 
 #if UNITY_ANDROID
-
         private void Awake()
         {
             AndroidLogin();
@@ -31,7 +52,7 @@ namespace Objects.FireBaseManager
             {
                 if (!success) return;
                 _authCode = PlayGamesPlatform.Instance.GetServerAuthCode();
-                FirebaseLogin();
+                FirebaseAndroidLogin();
             });
         }
 
@@ -40,13 +61,11 @@ namespace Objects.FireBaseManager
             var config = new PlayGamesClientConfiguration.Builder()
                 .RequestServerAuthCode(false)
                 .Build();
-
             PlayGamesPlatform.InitializeInstance(config);
             PlayGamesPlatform.Activate();
         }
-#endif
-
-        private void FirebaseLogin()
+        
+        private void FirebaseAndroidLogin()
         {
             var auth = FirebaseAuth.DefaultInstance;
             var credential = PlayGamesAuthProvider.GetCredential(_authCode);
@@ -56,5 +75,6 @@ namespace Objects.FireBaseManager
                 FirebaseManager.SetupFirebase();
             });
         }
+#endif
     }
 }

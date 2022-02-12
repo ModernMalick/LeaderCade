@@ -1,3 +1,4 @@
+using System;
 using Objects.Ball;
 using UnityEngine;
 
@@ -26,6 +27,10 @@ public class ObstaclePositionManager : MonoBehaviour
     {
         ReachedTarget();
         _targetX = _goingRight ? maxX : minX;
+    }
+
+    private void FixedUpdate()
+    {
         MoveObstacle();
     }
 

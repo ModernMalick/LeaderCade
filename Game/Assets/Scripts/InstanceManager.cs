@@ -31,7 +31,7 @@ public class InstanceManager : MonoBehaviour
     private void CheckGameObject()
     {
         var gameObjectDestroyed = CurrentGameObject == null;
-        if (!gameObjectDestroyed) return;
+        if (!gameObjectDestroyed || LossManager.Lost) return;
         NewGameObject();
     }
 }

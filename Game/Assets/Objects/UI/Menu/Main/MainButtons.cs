@@ -9,5 +9,10 @@ namespace Objects.UI.Menu.Main
         {
             SceneManager.LoadScene("Gameplay");
         }
+        
+        public void OpenSite()
+        {
+            Application.OpenURL("https://malick-ndiaye.github.io/");
+        }
     }
 }
