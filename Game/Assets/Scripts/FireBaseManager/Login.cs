@@ -34,7 +34,31 @@ namespace FireBaseManager
             var nonce = GenerateRandomString.GenerateSHA256NonceFromRawNonce(rawNonce);
             
             var loginArgs = new AppleAuthLoginArgs(LoginOptions.IncludeEmail | LoginOptions.IncludeFullName, nonce);
+            
+            var quickLoginArgs = new AppleAuthQuickLoginArgs();
 
+            _appleAuthManager.QuickLogin(
+                quickLoginArgs,
+                credential =>
+                {
+                    // Received a valid credential!
+                    // Try casting to IAppleIDCredential or IPasswordCredential
+
+                    // Previous Apple sign in credential
+                    var appleIdCredential = credential as IAppleIDCredential; 
+
+                    // Saved Keychain credential (read about Keychain Items)
+                    var passwordCredential = credential as IPasswordCredential;
+                },
+                error =>
+                {
+                    // Quick login failed. The user has never used Sign in With Apple on your app. Go to login screen
+                    initialLogin(loginArgs, rawNonce);
+                });
+        }
+
+        private void initialLogin(AppleAuthLoginArgs loginArgs, string rawNonce)
+        {
             _appleAuthManager.LoginWithAppleId(
                 loginArgs,
                 credential =>
