@@ -38,11 +38,13 @@ struct Void_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5;
 struct U3CU3Ec__DisplayClass7_0_t151AA911046231053CE1D427AE89E0E434792E11;
 
 IL2CPP_EXTERN_C RuntimeClass* Action_1_t080BA8EFA9616A494EBB4DD352BFEF943792E05B_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Assert_t3AC091724A3B45CF2E68EB3CE3EABC651436F1BC_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Marshal_tEBAFAE20369FCB1B38C49C4E27A8D8C2C4B55058_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Math_tA269614262430118C9FC5C4D9EF4F61C812568F0_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Parallel_tB59282E278156AA32B2BACBD33B31FD4C9922646_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* SingleU5BU5D_t47E8DBF5B597C122478D1FFBD9DD57399A0650FA_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass7_0_t151AA911046231053CE1D427AE89E0E434792E11_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C String_t* _stringLiteral324DBEC73CCF851FC937A137548684F0C8C99EFC;
 IL2CPP_EXTERN_C const RuntimeMethod* Action_1__ctor_mC14E24B188C6C29726CFCBC0E98734C95A1F6F7F_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass7_0_U3CMultiplyBlockUnroll8xhParallelWithPaddingU3Eb__0_m94BEC7B52C407A729FFC223A9A63AA56EFA2E437_RuntimeMethod_var;
 struct Delegate_t_marshaled_com;
@@ -90,6 +92,51 @@ struct MatrixUtils_t09F1EE4948488A4FFC9B8E0D2E76673B3FC17C03  : public RuntimeOb
 public:
 
 public:
+};
+
+
+// System.String
+struct String_t  : public RuntimeObject
+{
+public:
+	// System.Int32 System.String::m_stringLength
+	int32_t ___m_stringLength_0;
+	// System.Char System.String::m_firstChar
+	Il2CppChar ___m_firstChar_1;
+
+public:
+	inline static int32_t get_offset_of_m_stringLength_0() { return static_cast<int32_t>(offsetof(String_t, ___m_stringLength_0)); }
+	inline int32_t get_m_stringLength_0() const { return ___m_stringLength_0; }
+	inline int32_t* get_address_of_m_stringLength_0() { return &___m_stringLength_0; }
+	inline void set_m_stringLength_0(int32_t value)
+	{
+		___m_stringLength_0 = value;
+	}
+
+	inline static int32_t get_offset_of_m_firstChar_1() { return static_cast<int32_t>(offsetof(String_t, ___m_firstChar_1)); }
+	inline Il2CppChar get_m_firstChar_1() const { return ___m_firstChar_1; }
+	inline Il2CppChar* get_address_of_m_firstChar_1() { return &___m_firstChar_1; }
+	inline void set_m_firstChar_1(Il2CppChar value)
+	{
+		___m_firstChar_1 = value;
+	}
+};
+
+struct String_t_StaticFields
+{
+public:
+	// System.String System.String::Empty
+	String_t* ___Empty_5;
+
+public:
+	inline static int32_t get_offset_of_Empty_5() { return static_cast<int32_t>(offsetof(String_t_StaticFields, ___Empty_5)); }
+	inline String_t* get_Empty_5() const { return ___Empty_5; }
+	inline String_t** get_address_of_Empty_5() { return &___Empty_5; }
+	inline void set_Empty_5(String_t* value)
+	{
+		___Empty_5 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___Empty_5), (void*)value);
+	}
 };
 
 
@@ -854,6 +901,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Marshal_Copy_m2EC4B6B80F5BA13FA7C4116588
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Marshal_Copy_m2D013820DD53B2B978A9759C619F1BB29850575F (SingleU5BU5D_t47E8DBF5B597C122478D1FFBD9DD57399A0650FA* ___source0, int32_t ___startIndex1, intptr_t ___destination2, int32_t ___length3, const RuntimeMethod* method);
 // System.Void Unity.Barracuda.MatrixUtils/<>c__DisplayClass7_0::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass7_0__ctor_mD79C926F24C4A67247037920166564174A3EE2AE (U3CU3Ec__DisplayClass7_0_t151AA911046231053CE1D427AE89E0E434792E11 * __this, const RuntimeMethod* method);
+// System.Void UnityEngine.Assertions.Assert::IsTrue(System.Boolean,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Assert_IsTrue_mA4B3C02713D80BBFBB9CD7E99B6732324C5206E3 (bool ___condition0, String_t* ___message1, const RuntimeMethod* method);
 // System.Void System.Action`1<System.Int32>::.ctor(System.Object,System.IntPtr)
 inline void Action_1__ctor_mC14E24B188C6C29726CFCBC0E98734C95A1F6F7F (Action_1_t080BA8EFA9616A494EBB4DD352BFEF943792E05B * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
 {
@@ -912,9 +961,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MatrixUtils_CopyBlockWithPadding_mC8A56F
 	}
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
-	int32_t V_2 = 0;
+	bool V_2 = false;
 	int32_t V_3 = 0;
 	int32_t V_4 = 0;
+	bool V_5 = false;
+	bool V_6 = false;
+	int32_t V_7 = 0;
+	bool V_8 = false;
 	{
 		// Array.Clear(blockOut, 0, bs * bs);
 		SingleU5BU5D_t47E8DBF5B597C122478D1FFBD9DD57399A0650FA* L_0 = ___blockOut5;
@@ -939,116 +992,125 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MatrixUtils_CopyBlockWithPadding_mC8A56F
 		V_1 = ((int32_t)il2cpp_codegen_subtract((int32_t)L_10, (int32_t)L_11));
 		// if (transpose)
 		bool L_12 = ___transpose7;
-		if (!L_12)
+		V_2 = L_12;
+		bool L_13 = V_2;
+		if (!L_13)
 		{
-			goto IL_005b;
+			goto IL_0074;
 		}
 	}
 	{
 		// for (var j = 0; j < count; ++j)
-		V_2 = 0;
-		goto IL_0056;
+		V_3 = 0;
+		goto IL_0067;
 	}
 
-IL_002e:
+IL_0033:
 	{
 		// for (var i = row; i < rowFinal; i++)
-		int32_t L_13 = ___row1;
-		V_3 = L_13;
-		goto IL_004e;
+		int32_t L_14 = ___row1;
+		V_4 = L_14;
+		goto IL_0058;
 	}
 
-IL_0032:
+IL_0038:
 	{
 		// blockOut[(i - row) * bs + j] = matrixIn[i + (col + j) * N];
-		SingleU5BU5D_t47E8DBF5B597C122478D1FFBD9DD57399A0650FA* L_14 = ___blockOut5;
-		int32_t L_15 = V_3;
-		int32_t L_16 = ___row1;
-		int32_t L_17 = ___bs6;
-		int32_t L_18 = V_2;
-		float* L_19 = ___matrixIn0;
-		int32_t L_20 = V_3;
-		int32_t L_21 = ___col3;
-		int32_t L_22 = V_2;
-		int32_t L_23 = ___N2;
-		float L_24 = *((float*)((float*)il2cpp_codegen_add((intptr_t)L_19, (intptr_t)((intptr_t)il2cpp_codegen_multiply((intptr_t)((intptr_t)((int32_t)il2cpp_codegen_add((int32_t)L_20, (int32_t)((int32_t)il2cpp_codegen_multiply((int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_21, (int32_t)L_22)), (int32_t)L_23))))), (int32_t)4)))));
-		NullCheck(L_14);
-		(L_14)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add((int32_t)((int32_t)il2cpp_codegen_multiply((int32_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_15, (int32_t)L_16)), (int32_t)L_17)), (int32_t)L_18))), (float)L_24);
+		SingleU5BU5D_t47E8DBF5B597C122478D1FFBD9DD57399A0650FA* L_15 = ___blockOut5;
+		int32_t L_16 = V_4;
+		int32_t L_17 = ___row1;
+		int32_t L_18 = ___bs6;
+		int32_t L_19 = V_3;
+		float* L_20 = ___matrixIn0;
+		int32_t L_21 = V_4;
+		int32_t L_22 = ___col3;
+		int32_t L_23 = V_3;
+		int32_t L_24 = ___N2;
+		float L_25 = *((float*)((float*)il2cpp_codegen_add((intptr_t)L_20, (intptr_t)((intptr_t)il2cpp_codegen_multiply((intptr_t)((intptr_t)((int32_t)il2cpp_codegen_add((int32_t)L_21, (int32_t)((int32_t)il2cpp_codegen_multiply((int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_22, (int32_t)L_23)), (int32_t)L_24))))), (int32_t)4)))));
+		NullCheck(L_15);
+		(L_15)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add((int32_t)((int32_t)il2cpp_codegen_multiply((int32_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_16, (int32_t)L_17)), (int32_t)L_18)), (int32_t)L_19))), (float)L_25);
 		// for (var i = row; i < rowFinal; i++)
-		int32_t L_25 = V_3;
-		V_3 = ((int32_t)il2cpp_codegen_add((int32_t)L_25, (int32_t)1));
+		int32_t L_26 = V_4;
+		V_4 = ((int32_t)il2cpp_codegen_add((int32_t)L_26, (int32_t)1));
 	}
 
-IL_004e:
+IL_0058:
 	{
 		// for (var i = row; i < rowFinal; i++)
-		int32_t L_26 = V_3;
-		int32_t L_27 = V_0;
-		if ((((int32_t)L_26) < ((int32_t)L_27)))
+		int32_t L_27 = V_4;
+		int32_t L_28 = V_0;
+		V_5 = (bool)((((int32_t)L_27) < ((int32_t)L_28))? 1 : 0);
+		bool L_29 = V_5;
+		if (L_29)
 		{
-			goto IL_0032;
+			goto IL_0038;
 		}
 	}
 	{
 		// for (var j = 0; j < count; ++j)
-		int32_t L_28 = V_2;
-		V_2 = ((int32_t)il2cpp_codegen_add((int32_t)L_28, (int32_t)1));
+		int32_t L_30 = V_3;
+		V_3 = ((int32_t)il2cpp_codegen_add((int32_t)L_30, (int32_t)1));
 	}
 
-IL_0056:
+IL_0067:
 	{
 		// for (var j = 0; j < count; ++j)
-		int32_t L_29 = V_2;
-		int32_t L_30 = V_1;
-		if ((((int32_t)L_29) < ((int32_t)L_30)))
+		int32_t L_31 = V_3;
+		int32_t L_32 = V_1;
+		V_6 = (bool)((((int32_t)L_31) < ((int32_t)L_32))? 1 : 0);
+		bool L_33 = V_6;
+		if (L_33)
 		{
-			goto IL_002e;
+			goto IL_0033;
 		}
 	}
 	{
-		// }
-		return;
+		goto IL_00b0;
 	}
 
-IL_005b:
+IL_0074:
 	{
 		// for (var i = row; i < rowFinal; i++)
-		int32_t L_31 = ___row1;
-		V_4 = L_31;
-		goto IL_0089;
+		int32_t L_34 = ___row1;
+		V_7 = L_34;
+		goto IL_00a5;
 	}
 
-IL_0060:
+IL_0079:
 	{
 		// Marshal.Copy((IntPtr)(matrixIn + i * M + col), blockOut, (i - row) * bs, count);
-		float* L_32 = ___matrixIn0;
-		int32_t L_33 = V_4;
-		int32_t L_34 = ___M4;
-		int32_t L_35 = ___col3;
-		intptr_t L_36;
-		L_36 = IntPtr_op_Explicit_mBD40223EE90BDDF40A24C0F321D3398DEA300495((void*)(void*)((float*)il2cpp_codegen_add((intptr_t)((float*)il2cpp_codegen_add((intptr_t)L_32, (intptr_t)((intptr_t)il2cpp_codegen_multiply((intptr_t)((intptr_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_33, (int32_t)L_34))), (int32_t)4)))), (intptr_t)((intptr_t)il2cpp_codegen_multiply((intptr_t)((intptr_t)L_35), (int32_t)4)))), /*hidden argument*/NULL);
-		SingleU5BU5D_t47E8DBF5B597C122478D1FFBD9DD57399A0650FA* L_37 = ___blockOut5;
-		int32_t L_38 = V_4;
-		int32_t L_39 = ___row1;
-		int32_t L_40 = ___bs6;
-		int32_t L_41 = V_1;
+		float* L_35 = ___matrixIn0;
+		int32_t L_36 = V_7;
+		int32_t L_37 = ___M4;
+		int32_t L_38 = ___col3;
+		intptr_t L_39;
+		L_39 = IntPtr_op_Explicit_mBD40223EE90BDDF40A24C0F321D3398DEA300495((void*)(void*)((float*)il2cpp_codegen_add((intptr_t)((float*)il2cpp_codegen_add((intptr_t)L_35, (intptr_t)((intptr_t)il2cpp_codegen_multiply((intptr_t)((intptr_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_36, (int32_t)L_37))), (int32_t)4)))), (intptr_t)((intptr_t)il2cpp_codegen_multiply((intptr_t)((intptr_t)L_38), (int32_t)4)))), /*hidden argument*/NULL);
+		SingleU5BU5D_t47E8DBF5B597C122478D1FFBD9DD57399A0650FA* L_40 = ___blockOut5;
+		int32_t L_41 = V_7;
+		int32_t L_42 = ___row1;
+		int32_t L_43 = ___bs6;
+		int32_t L_44 = V_1;
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tEBAFAE20369FCB1B38C49C4E27A8D8C2C4B55058_il2cpp_TypeInfo_var);
-		Marshal_Copy_m2EC4B6B80F5BA13FA7C4116588F03D221619AF0C((intptr_t)L_36, L_37, ((int32_t)il2cpp_codegen_multiply((int32_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_38, (int32_t)L_39)), (int32_t)L_40)), L_41, /*hidden argument*/NULL);
+		Marshal_Copy_m2EC4B6B80F5BA13FA7C4116588F03D221619AF0C((intptr_t)L_39, L_40, ((int32_t)il2cpp_codegen_multiply((int32_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_41, (int32_t)L_42)), (int32_t)L_43)), L_44, /*hidden argument*/NULL);
 		// for (var i = row; i < rowFinal; i++)
-		int32_t L_42 = V_4;
-		V_4 = ((int32_t)il2cpp_codegen_add((int32_t)L_42, (int32_t)1));
+		int32_t L_45 = V_7;
+		V_7 = ((int32_t)il2cpp_codegen_add((int32_t)L_45, (int32_t)1));
 	}
 
-IL_0089:
+IL_00a5:
 	{
 		// for (var i = row; i < rowFinal; i++)
-		int32_t L_43 = V_4;
-		int32_t L_44 = V_0;
-		if ((((int32_t)L_43) < ((int32_t)L_44)))
+		int32_t L_46 = V_7;
+		int32_t L_47 = V_0;
+		V_8 = (bool)((((int32_t)L_46) < ((int32_t)L_47))? 1 : 0);
+		bool L_48 = V_8;
+		if (L_48)
 		{
-			goto IL_0060;
+			goto IL_0079;
 		}
 	}
+
+IL_00b0:
 	{
 		// }
 		return;
@@ -1067,6 +1129,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MatrixUtils_CopyBlockWithPadding_m1CD120
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	int32_t V_2 = 0;
+	bool V_3 = false;
 	{
 		// var rowFinal = Math.Min(row + bs, N);
 		int32_t L_0 = ___row2;
@@ -1087,10 +1150,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MatrixUtils_CopyBlockWithPadding_m1CD120
 		// for (var i = row; i < rowFinal; i++)
 		int32_t L_9 = ___row2;
 		V_2 = L_9;
-		goto IL_0044;
+		goto IL_0046;
 	}
 
-IL_001f:
+IL_0020:
 	{
 		// Marshal.Copy(blockOut, (i - row) * bs, (IntPtr)(matrixIn + i * M + col), count);
 		SingleU5BU5D_t47E8DBF5B597C122478D1FFBD9DD57399A0650FA* L_10 = ___blockOut0;
@@ -1111,14 +1174,16 @@ IL_001f:
 		V_2 = ((int32_t)il2cpp_codegen_add((int32_t)L_20, (int32_t)1));
 	}
 
-IL_0044:
+IL_0046:
 	{
 		// for (var i = row; i < rowFinal; i++)
 		int32_t L_21 = V_2;
 		int32_t L_22 = V_0;
-		if ((((int32_t)L_21) < ((int32_t)L_22)))
+		V_3 = (bool)((((int32_t)L_21) < ((int32_t)L_22))? 1 : 0);
+		bool L_23 = V_3;
+		if (L_23)
 		{
-			goto IL_001f;
+			goto IL_0020;
 		}
 	}
 	{
@@ -1143,20 +1208,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MatrixUtils_MultiplyBlockUnroll8xhPadded
 	int32_t V_11 = 0;
 	float V_12 = 0.0f;
 	int32_t V_13 = 0;
+	bool V_14 = false;
+	bool V_15 = false;
+	bool V_16 = false;
 	{
 		// for (int i = 0; i < bs; i++)
 		V_0 = 0;
-		goto IL_01bb;
+		goto IL_01ce;
 	}
 
-IL_0007:
+IL_0008:
 	{
 		// for (int j = 0; j < bs; j += 8)
 		V_1 = 0;
-		goto IL_01b0;
+		goto IL_01bc;
 	}
 
-IL_000e:
+IL_0010:
 	{
 		// int baseC = i * bs + j;
 		int32_t L_0 = V_0;
@@ -1205,10 +1273,10 @@ IL_000e:
 		V_10 = L_26;
 		// for (int l = 0; l < bs; l++)
 		V_11 = 0;
-		goto IL_013d;
+		goto IL_0142;
 	}
 
-IL_0083:
+IL_0086:
 	{
 		// float A = Ap[i * bs + l];
 		float* L_27 = ___Ap0;
@@ -1283,86 +1351,92 @@ IL_0083:
 		V_11 = ((int32_t)il2cpp_codegen_add((int32_t)L_75, (int32_t)1));
 	}
 
-IL_013d:
+IL_0142:
 	{
 		// for (int l = 0; l < bs; l++)
 		int32_t L_76 = V_11;
 		int32_t L_77 = ___bs3;
-		if ((((int32_t)L_76) < ((int32_t)L_77)))
+		V_14 = (bool)((((int32_t)L_76) < ((int32_t)L_77))? 1 : 0);
+		bool L_78 = V_14;
+		if (L_78)
 		{
-			goto IL_0083;
+			goto IL_0086;
 		}
 	}
 	{
 		// *(Cp + baseC) = sum0;
-		float* L_78 = ___Cp2;
-		int32_t L_79 = V_2;
-		float L_80 = V_3;
-		*((float*)((float*)il2cpp_codegen_add((intptr_t)L_78, (intptr_t)((intptr_t)il2cpp_codegen_multiply((intptr_t)((intptr_t)L_79), (int32_t)4))))) = (float)L_80;
+		float* L_79 = ___Cp2;
+		int32_t L_80 = V_2;
+		float L_81 = V_3;
+		*((float*)((float*)il2cpp_codegen_add((intptr_t)L_79, (intptr_t)((intptr_t)il2cpp_codegen_multiply((intptr_t)((intptr_t)L_80), (int32_t)4))))) = (float)L_81;
 		// *(Cp + baseC + 1) = sum1;
-		float* L_81 = ___Cp2;
-		int32_t L_82 = V_2;
-		float L_83 = V_4;
-		*((float*)((float*)il2cpp_codegen_add((intptr_t)((float*)il2cpp_codegen_add((intptr_t)L_81, (intptr_t)((intptr_t)il2cpp_codegen_multiply((intptr_t)((intptr_t)L_82), (int32_t)4)))), (int32_t)4))) = (float)L_83;
+		float* L_82 = ___Cp2;
+		int32_t L_83 = V_2;
+		float L_84 = V_4;
+		*((float*)((float*)il2cpp_codegen_add((intptr_t)((float*)il2cpp_codegen_add((intptr_t)L_82, (intptr_t)((intptr_t)il2cpp_codegen_multiply((intptr_t)((intptr_t)L_83), (int32_t)4)))), (int32_t)4))) = (float)L_84;
 		// *(Cp + baseC + 2) = sum2;
-		float* L_84 = ___Cp2;
-		int32_t L_85 = V_2;
-		float L_86 = V_5;
-		*((float*)((float*)il2cpp_codegen_add((intptr_t)((float*)il2cpp_codegen_add((intptr_t)L_84, (intptr_t)((intptr_t)il2cpp_codegen_multiply((intptr_t)((intptr_t)L_85), (int32_t)4)))), (intptr_t)((intptr_t)il2cpp_codegen_multiply((intptr_t)((intptr_t)2), (int32_t)4))))) = (float)L_86;
+		float* L_85 = ___Cp2;
+		int32_t L_86 = V_2;
+		float L_87 = V_5;
+		*((float*)((float*)il2cpp_codegen_add((intptr_t)((float*)il2cpp_codegen_add((intptr_t)L_85, (intptr_t)((intptr_t)il2cpp_codegen_multiply((intptr_t)((intptr_t)L_86), (int32_t)4)))), (intptr_t)((intptr_t)il2cpp_codegen_multiply((intptr_t)((intptr_t)2), (int32_t)4))))) = (float)L_87;
 		// *(Cp + baseC + 3) = sum3;
-		float* L_87 = ___Cp2;
-		int32_t L_88 = V_2;
-		float L_89 = V_6;
-		*((float*)((float*)il2cpp_codegen_add((intptr_t)((float*)il2cpp_codegen_add((intptr_t)L_87, (intptr_t)((intptr_t)il2cpp_codegen_multiply((intptr_t)((intptr_t)L_88), (int32_t)4)))), (intptr_t)((intptr_t)il2cpp_codegen_multiply((intptr_t)((intptr_t)3), (int32_t)4))))) = (float)L_89;
+		float* L_88 = ___Cp2;
+		int32_t L_89 = V_2;
+		float L_90 = V_6;
+		*((float*)((float*)il2cpp_codegen_add((intptr_t)((float*)il2cpp_codegen_add((intptr_t)L_88, (intptr_t)((intptr_t)il2cpp_codegen_multiply((intptr_t)((intptr_t)L_89), (int32_t)4)))), (intptr_t)((intptr_t)il2cpp_codegen_multiply((intptr_t)((intptr_t)3), (int32_t)4))))) = (float)L_90;
 		// *(Cp + baseC + 4) = sum4;
-		float* L_90 = ___Cp2;
-		int32_t L_91 = V_2;
-		float L_92 = V_7;
-		*((float*)((float*)il2cpp_codegen_add((intptr_t)((float*)il2cpp_codegen_add((intptr_t)L_90, (intptr_t)((intptr_t)il2cpp_codegen_multiply((intptr_t)((intptr_t)L_91), (int32_t)4)))), (intptr_t)((intptr_t)il2cpp_codegen_multiply((intptr_t)((intptr_t)4), (int32_t)4))))) = (float)L_92;
+		float* L_91 = ___Cp2;
+		int32_t L_92 = V_2;
+		float L_93 = V_7;
+		*((float*)((float*)il2cpp_codegen_add((intptr_t)((float*)il2cpp_codegen_add((intptr_t)L_91, (intptr_t)((intptr_t)il2cpp_codegen_multiply((intptr_t)((intptr_t)L_92), (int32_t)4)))), (intptr_t)((intptr_t)il2cpp_codegen_multiply((intptr_t)((intptr_t)4), (int32_t)4))))) = (float)L_93;
 		// *(Cp + baseC + 5) = sum5;
-		float* L_93 = ___Cp2;
-		int32_t L_94 = V_2;
-		float L_95 = V_8;
-		*((float*)((float*)il2cpp_codegen_add((intptr_t)((float*)il2cpp_codegen_add((intptr_t)L_93, (intptr_t)((intptr_t)il2cpp_codegen_multiply((intptr_t)((intptr_t)L_94), (int32_t)4)))), (intptr_t)((intptr_t)il2cpp_codegen_multiply((intptr_t)((intptr_t)5), (int32_t)4))))) = (float)L_95;
+		float* L_94 = ___Cp2;
+		int32_t L_95 = V_2;
+		float L_96 = V_8;
+		*((float*)((float*)il2cpp_codegen_add((intptr_t)((float*)il2cpp_codegen_add((intptr_t)L_94, (intptr_t)((intptr_t)il2cpp_codegen_multiply((intptr_t)((intptr_t)L_95), (int32_t)4)))), (intptr_t)((intptr_t)il2cpp_codegen_multiply((intptr_t)((intptr_t)5), (int32_t)4))))) = (float)L_96;
 		// *(Cp + baseC + 6) = sum6;
-		float* L_96 = ___Cp2;
-		int32_t L_97 = V_2;
-		float L_98 = V_9;
-		*((float*)((float*)il2cpp_codegen_add((intptr_t)((float*)il2cpp_codegen_add((intptr_t)L_96, (intptr_t)((intptr_t)il2cpp_codegen_multiply((intptr_t)((intptr_t)L_97), (int32_t)4)))), (intptr_t)((intptr_t)il2cpp_codegen_multiply((intptr_t)((intptr_t)6), (int32_t)4))))) = (float)L_98;
+		float* L_97 = ___Cp2;
+		int32_t L_98 = V_2;
+		float L_99 = V_9;
+		*((float*)((float*)il2cpp_codegen_add((intptr_t)((float*)il2cpp_codegen_add((intptr_t)L_97, (intptr_t)((intptr_t)il2cpp_codegen_multiply((intptr_t)((intptr_t)L_98), (int32_t)4)))), (intptr_t)((intptr_t)il2cpp_codegen_multiply((intptr_t)((intptr_t)6), (int32_t)4))))) = (float)L_99;
 		// *(Cp + baseC + 7) = sum7;
-		float* L_99 = ___Cp2;
-		int32_t L_100 = V_2;
-		float L_101 = V_10;
-		*((float*)((float*)il2cpp_codegen_add((intptr_t)((float*)il2cpp_codegen_add((intptr_t)L_99, (intptr_t)((intptr_t)il2cpp_codegen_multiply((intptr_t)((intptr_t)L_100), (int32_t)4)))), (intptr_t)((intptr_t)il2cpp_codegen_multiply((intptr_t)((intptr_t)7), (int32_t)4))))) = (float)L_101;
-		// for (int j = 0; j < bs; j += 8)
-		int32_t L_102 = V_1;
-		V_1 = ((int32_t)il2cpp_codegen_add((int32_t)L_102, (int32_t)8));
-	}
-
-IL_01b0:
-	{
+		float* L_100 = ___Cp2;
+		int32_t L_101 = V_2;
+		float L_102 = V_10;
+		*((float*)((float*)il2cpp_codegen_add((intptr_t)((float*)il2cpp_codegen_add((intptr_t)L_100, (intptr_t)((intptr_t)il2cpp_codegen_multiply((intptr_t)((intptr_t)L_101), (int32_t)4)))), (intptr_t)((intptr_t)il2cpp_codegen_multiply((intptr_t)((intptr_t)7), (int32_t)4))))) = (float)L_102;
 		// for (int j = 0; j < bs; j += 8)
 		int32_t L_103 = V_1;
-		int32_t L_104 = ___bs3;
-		if ((((int32_t)L_103) < ((int32_t)L_104)))
+		V_1 = ((int32_t)il2cpp_codegen_add((int32_t)L_103, (int32_t)8));
+	}
+
+IL_01bc:
+	{
+		// for (int j = 0; j < bs; j += 8)
+		int32_t L_104 = V_1;
+		int32_t L_105 = ___bs3;
+		V_15 = (bool)((((int32_t)L_104) < ((int32_t)L_105))? 1 : 0);
+		bool L_106 = V_15;
+		if (L_106)
 		{
-			goto IL_000e;
+			goto IL_0010;
 		}
 	}
 	{
 		// for (int i = 0; i < bs; i++)
-		int32_t L_105 = V_0;
-		V_0 = ((int32_t)il2cpp_codegen_add((int32_t)L_105, (int32_t)1));
+		int32_t L_107 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_add((int32_t)L_107, (int32_t)1));
 	}
 
-IL_01bb:
+IL_01ce:
 	{
 		// for (int i = 0; i < bs; i++)
-		int32_t L_106 = V_0;
-		int32_t L_107 = ___bs3;
-		if ((((int32_t)L_106) < ((int32_t)L_107)))
+		int32_t L_108 = V_0;
+		int32_t L_109 = ___bs3;
+		V_16 = (bool)((((int32_t)L_108) < ((int32_t)L_109))? 1 : 0);
+		bool L_110 = V_16;
+		if (L_110)
 		{
-			goto IL_0007;
+			goto IL_0008;
 		}
 	}
 	{
@@ -1378,14 +1452,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MatrixUtils_MultiplyBlockUnroll8xhParall
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1__ctor_mC14E24B188C6C29726CFCBC0E98734C95A1F6F7F_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_t080BA8EFA9616A494EBB4DD352BFEF943792E05B_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_t3AC091724A3B45CF2E68EB3CE3EABC651436F1BC_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Parallel_tB59282E278156AA32B2BACBD33B31FD4C9922646_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass7_0_U3CMultiplyBlockUnroll8xhParallelWithPaddingU3Eb__0_m94BEC7B52C407A729FFC223A9A63AA56EFA2E437_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass7_0_t151AA911046231053CE1D427AE89E0E434792E11_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral324DBEC73CCF851FC937A137548684F0C8C99EFC);
 		s_Il2CppMethodInitialized = true;
 	}
 	U3CU3Ec__DisplayClass7_0_t151AA911046231053CE1D427AE89E0E434792E11 * V_0 = NULL;
 	int32_t V_1 = 0;
 	int32_t V_2 = 0;
+	bool V_3 = false;
+	int32_t V_4 = 0;
+	bool V_5 = false;
+	int32_t V_6 = 0;
 	int32_t G_B6_0 = 0;
 	int32_t G_B6_1 = 0;
 	int32_t G_B5_0 = 0;
@@ -1449,79 +1529,91 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MatrixUtils_MultiplyBlockUnroll8xhParall
 		U3CU3Ec__DisplayClass7_0_t151AA911046231053CE1D427AE89E0E434792E11 * L_25 = V_0;
 		NullCheck(L_25);
 		bool L_26 = L_25->get_transposeA_4();
-		if (!L_26)
+		V_3 = L_26;
+		bool L_27 = V_3;
+		if (!L_27)
 		{
-			goto IL_0084;
+			goto IL_008b;
 		}
 	}
 	{
 		// var tmp = AN; AN = AM; AM = tmp;
-		U3CU3Ec__DisplayClass7_0_t151AA911046231053CE1D427AE89E0E434792E11 * L_27 = V_0;
-		NullCheck(L_27);
-		int32_t L_28 = L_27->get_AN_2();
-		V_1 = L_28;
+		U3CU3Ec__DisplayClass7_0_t151AA911046231053CE1D427AE89E0E434792E11 * L_28 = V_0;
+		NullCheck(L_28);
+		int32_t L_29 = L_28->get_AN_2();
+		V_4 = L_29;
 		// var tmp = AN; AN = AM; AM = tmp;
-		U3CU3Ec__DisplayClass7_0_t151AA911046231053CE1D427AE89E0E434792E11 * L_29 = V_0;
 		U3CU3Ec__DisplayClass7_0_t151AA911046231053CE1D427AE89E0E434792E11 * L_30 = V_0;
+		U3CU3Ec__DisplayClass7_0_t151AA911046231053CE1D427AE89E0E434792E11 * L_31 = V_0;
+		NullCheck(L_31);
+		int32_t L_32 = L_31->get_AM_3();
 		NullCheck(L_30);
-		int32_t L_31 = L_30->get_AM_3();
-		NullCheck(L_29);
-		L_29->set_AN_2(L_31);
+		L_30->set_AN_2(L_32);
 		// var tmp = AN; AN = AM; AM = tmp;
-		U3CU3Ec__DisplayClass7_0_t151AA911046231053CE1D427AE89E0E434792E11 * L_32 = V_0;
-		int32_t L_33 = V_1;
-		NullCheck(L_32);
-		L_32->set_AM_3(L_33);
+		U3CU3Ec__DisplayClass7_0_t151AA911046231053CE1D427AE89E0E434792E11 * L_33 = V_0;
+		int32_t L_34 = V_4;
+		NullCheck(L_33);
+		L_33->set_AM_3(L_34);
 	}
 
-IL_0084:
+IL_008b:
 	{
 		// if (transposeB)
-		U3CU3Ec__DisplayClass7_0_t151AA911046231053CE1D427AE89E0E434792E11 * L_34 = V_0;
-		NullCheck(L_34);
-		bool L_35 = L_34->get_transposeB_8();
-		if (!L_35)
+		U3CU3Ec__DisplayClass7_0_t151AA911046231053CE1D427AE89E0E434792E11 * L_35 = V_0;
+		NullCheck(L_35);
+		bool L_36 = L_35->get_transposeB_8();
+		V_5 = L_36;
+		bool L_37 = V_5;
+		if (!L_37)
 		{
-			goto IL_00a6;
+			goto IL_00b5;
 		}
 	}
 	{
 		// var tmp = BN; BN = BM; BM = tmp;
-		U3CU3Ec__DisplayClass7_0_t151AA911046231053CE1D427AE89E0E434792E11 * L_36 = V_0;
-		NullCheck(L_36);
-		int32_t L_37 = L_36->get_BN_6();
-		V_2 = L_37;
-		// var tmp = BN; BN = BM; BM = tmp;
 		U3CU3Ec__DisplayClass7_0_t151AA911046231053CE1D427AE89E0E434792E11 * L_38 = V_0;
-		U3CU3Ec__DisplayClass7_0_t151AA911046231053CE1D427AE89E0E434792E11 * L_39 = V_0;
-		NullCheck(L_39);
-		int32_t L_40 = L_39->get_BM_7();
 		NullCheck(L_38);
-		L_38->set_BN_6(L_40);
+		int32_t L_39 = L_38->get_BN_6();
+		V_6 = L_39;
 		// var tmp = BN; BN = BM; BM = tmp;
+		U3CU3Ec__DisplayClass7_0_t151AA911046231053CE1D427AE89E0E434792E11 * L_40 = V_0;
 		U3CU3Ec__DisplayClass7_0_t151AA911046231053CE1D427AE89E0E434792E11 * L_41 = V_0;
-		int32_t L_42 = V_2;
 		NullCheck(L_41);
-		L_41->set_BM_7(L_42);
+		int32_t L_42 = L_41->get_BM_7();
+		NullCheck(L_40);
+		L_40->set_BN_6(L_42);
+		// var tmp = BN; BN = BM; BM = tmp;
+		U3CU3Ec__DisplayClass7_0_t151AA911046231053CE1D427AE89E0E434792E11 * L_43 = V_0;
+		int32_t L_44 = V_6;
+		NullCheck(L_43);
+		L_43->set_BM_7(L_44);
 	}
 
-IL_00a6:
+IL_00b5:
 	{
 		// int N = AN;
-		U3CU3Ec__DisplayClass7_0_t151AA911046231053CE1D427AE89E0E434792E11 * L_43 = V_0;
-		U3CU3Ec__DisplayClass7_0_t151AA911046231053CE1D427AE89E0E434792E11 * L_44 = V_0;
-		NullCheck(L_44);
-		int32_t L_45 = L_44->get_AN_2();
-		NullCheck(L_43);
-		L_43->set_N_12(L_45);
-		// int M = AM;
+		U3CU3Ec__DisplayClass7_0_t151AA911046231053CE1D427AE89E0E434792E11 * L_45 = V_0;
 		U3CU3Ec__DisplayClass7_0_t151AA911046231053CE1D427AE89E0E434792E11 * L_46 = V_0;
 		NullCheck(L_46);
-		int32_t L_47 = L_46->get_AM_3();
-		// int K = BM;
+		int32_t L_47 = L_46->get_AN_2();
+		NullCheck(L_45);
+		L_45->set_N_12(L_47);
+		// int M = AM;
 		U3CU3Ec__DisplayClass7_0_t151AA911046231053CE1D427AE89E0E434792E11 * L_48 = V_0;
 		NullCheck(L_48);
-		int32_t L_49 = L_48->get_BM_7();
+		int32_t L_49 = L_48->get_AM_3();
+		V_1 = L_49;
+		// int K = BM;
+		U3CU3Ec__DisplayClass7_0_t151AA911046231053CE1D427AE89E0E434792E11 * L_50 = V_0;
+		NullCheck(L_50);
+		int32_t L_51 = L_50->get_BM_7();
+		V_2 = L_51;
+		// Assert.IsTrue(bs >= 8, "Matrix Mul block size should be >= 8");
+		U3CU3Ec__DisplayClass7_0_t151AA911046231053CE1D427AE89E0E434792E11 * L_52 = V_0;
+		NullCheck(L_52);
+		int32_t L_53 = L_52->get_bs_0();
+		IL2CPP_RUNTIME_CLASS_INIT(Assert_t3AC091724A3B45CF2E68EB3CE3EABC651436F1BC_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mA4B3C02713D80BBFBB9CD7E99B6732324C5206E3((bool)((((int32_t)((((int32_t)L_53) < ((int32_t)8))? 1 : 0)) == ((int32_t)0))? 1 : 0), _stringLiteral324DBEC73CCF851FC937A137548684F0C8C99EFC, /*hidden argument*/NULL);
 		// Parallel.For(0, (BM / bs) + (BM % bs > 0 ? 1 : 0), colB =>
 		// {
 		//     float[] blockA = new float[bs * bs];
@@ -1549,49 +1641,49 @@ IL_00a6:
 		//         }
 		//     }
 		// });
-		U3CU3Ec__DisplayClass7_0_t151AA911046231053CE1D427AE89E0E434792E11 * L_50 = V_0;
-		NullCheck(L_50);
-		int32_t L_51 = L_50->get_BM_7();
-		U3CU3Ec__DisplayClass7_0_t151AA911046231053CE1D427AE89E0E434792E11 * L_52 = V_0;
-		NullCheck(L_52);
-		int32_t L_53 = L_52->get_bs_0();
 		U3CU3Ec__DisplayClass7_0_t151AA911046231053CE1D427AE89E0E434792E11 * L_54 = V_0;
 		NullCheck(L_54);
 		int32_t L_55 = L_54->get_BM_7();
 		U3CU3Ec__DisplayClass7_0_t151AA911046231053CE1D427AE89E0E434792E11 * L_56 = V_0;
 		NullCheck(L_56);
 		int32_t L_57 = L_56->get_bs_0();
-		G_B5_0 = ((int32_t)((int32_t)L_51/(int32_t)L_53));
+		U3CU3Ec__DisplayClass7_0_t151AA911046231053CE1D427AE89E0E434792E11 * L_58 = V_0;
+		NullCheck(L_58);
+		int32_t L_59 = L_58->get_BM_7();
+		U3CU3Ec__DisplayClass7_0_t151AA911046231053CE1D427AE89E0E434792E11 * L_60 = V_0;
+		NullCheck(L_60);
+		int32_t L_61 = L_60->get_bs_0();
+		G_B5_0 = ((int32_t)((int32_t)L_55/(int32_t)L_57));
 		G_B5_1 = 0;
-		if ((((int32_t)((int32_t)((int32_t)L_55%(int32_t)L_57))) > ((int32_t)0)))
+		if ((((int32_t)((int32_t)((int32_t)L_59%(int32_t)L_61))) > ((int32_t)0)))
 		{
-			G_B6_0 = ((int32_t)((int32_t)L_51/(int32_t)L_53));
+			G_B6_0 = ((int32_t)((int32_t)L_55/(int32_t)L_57));
 			G_B6_1 = 0;
-			goto IL_00e1;
+			goto IL_0108;
 		}
 	}
 	{
 		G_B7_0 = 0;
 		G_B7_1 = G_B5_0;
 		G_B7_2 = G_B5_1;
-		goto IL_00e2;
+		goto IL_0109;
 	}
 
-IL_00e1:
+IL_0108:
 	{
 		G_B7_0 = 1;
 		G_B7_1 = G_B6_0;
 		G_B7_2 = G_B6_1;
 	}
 
-IL_00e2:
+IL_0109:
 	{
-		U3CU3Ec__DisplayClass7_0_t151AA911046231053CE1D427AE89E0E434792E11 * L_58 = V_0;
-		Action_1_t080BA8EFA9616A494EBB4DD352BFEF943792E05B * L_59 = (Action_1_t080BA8EFA9616A494EBB4DD352BFEF943792E05B *)il2cpp_codegen_object_new(Action_1_t080BA8EFA9616A494EBB4DD352BFEF943792E05B_il2cpp_TypeInfo_var);
-		Action_1__ctor_mC14E24B188C6C29726CFCBC0E98734C95A1F6F7F(L_59, L_58, (intptr_t)((intptr_t)U3CU3Ec__DisplayClass7_0_U3CMultiplyBlockUnroll8xhParallelWithPaddingU3Eb__0_m94BEC7B52C407A729FFC223A9A63AA56EFA2E437_RuntimeMethod_var), /*hidden argument*/Action_1__ctor_mC14E24B188C6C29726CFCBC0E98734C95A1F6F7F_RuntimeMethod_var);
+		U3CU3Ec__DisplayClass7_0_t151AA911046231053CE1D427AE89E0E434792E11 * L_62 = V_0;
+		Action_1_t080BA8EFA9616A494EBB4DD352BFEF943792E05B * L_63 = (Action_1_t080BA8EFA9616A494EBB4DD352BFEF943792E05B *)il2cpp_codegen_object_new(Action_1_t080BA8EFA9616A494EBB4DD352BFEF943792E05B_il2cpp_TypeInfo_var);
+		Action_1__ctor_mC14E24B188C6C29726CFCBC0E98734C95A1F6F7F(L_63, L_62, (intptr_t)((intptr_t)U3CU3Ec__DisplayClass7_0_U3CMultiplyBlockUnroll8xhParallelWithPaddingU3Eb__0_m94BEC7B52C407A729FFC223A9A63AA56EFA2E437_RuntimeMethod_var), /*hidden argument*/Action_1__ctor_mC14E24B188C6C29726CFCBC0E98734C95A1F6F7F_RuntimeMethod_var);
 		IL2CPP_RUNTIME_CLASS_INIT(Parallel_tB59282E278156AA32B2BACBD33B31FD4C9922646_il2cpp_TypeInfo_var);
-		ParallelLoopResult_t23A783309EEC5F5EE29FFA083DD242DF6E2613D3  L_60;
-		L_60 = Parallel_For_m5099AB9A9261CBD286DD8D5AC4608C924CDA15D4(G_B7_2, ((int32_t)il2cpp_codegen_add((int32_t)G_B7_1, (int32_t)G_B7_0)), L_59, /*hidden argument*/NULL);
+		ParallelLoopResult_t23A783309EEC5F5EE29FFA083DD242DF6E2613D3  L_64;
+		L_64 = Parallel_For_m5099AB9A9261CBD286DD8D5AC4608C924CDA15D4(G_B7_2, ((int32_t)il2cpp_codegen_add((int32_t)G_B7_1, (int32_t)G_B7_0)), L_63, /*hidden argument*/NULL);
 		// }
 		return;
 	}
@@ -1778,6 +1870,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass7_0_U3CMultiplyBloc
 	SingleU5BU5D_t47E8DBF5B597C122478D1FFBD9DD57399A0650FA* V_8 = NULL;
 	SingleU5BU5D_t47E8DBF5B597C122478D1FFBD9DD57399A0650FA* V_9 = NULL;
 	SingleU5BU5D_t47E8DBF5B597C122478D1FFBD9DD57399A0650FA* V_10 = NULL;
+	bool V_11 = false;
+	bool V_12 = false;
 	{
 		// float[] blockA = new float[bs * bs];
 		int32_t L_0 = __this->get_bs_0();
@@ -1796,17 +1890,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass7_0_U3CMultiplyBloc
 		V_2 = L_8;
 		// for (int rowA = 0; rowA < N; rowA += bs)
 		V_3 = 0;
-		goto IL_017e;
+		goto IL_0192;
 	}
 
-IL_0040:
+IL_0041:
 	{
 		// for (int l = 0; l < AM; l += bs)
 		V_4 = 0;
-		goto IL_0168;
+		goto IL_0174;
 	}
 
-IL_0048:
+IL_004b:
 	{
 		// CopyBlockWithPadding(Ap, rowA, AN, l, AM, blockA, bs, transposeA);
 		float* L_9 = __this->get_Ap_1();
@@ -1845,7 +1939,7 @@ IL_0048:
 		V_8 = L_35;
 		if (!L_35)
 		{
-			goto IL_00d1;
+			goto IL_00d8;
 		}
 	}
 	{
@@ -1853,24 +1947,24 @@ IL_0048:
 		NullCheck(L_36);
 		if (((int32_t)((int32_t)(((RuntimeArray*)L_36)->max_length))))
 		{
-			goto IL_00d7;
+			goto IL_00de;
 		}
 	}
 
-IL_00d1:
+IL_00d8:
 	{
 		V_5 = (float*)((uintptr_t)0);
-		goto IL_00e2;
+		goto IL_00e9;
 	}
 
-IL_00d7:
+IL_00de:
 	{
 		SingleU5BU5D_t47E8DBF5B597C122478D1FFBD9DD57399A0650FA* L_37 = V_8;
 		NullCheck(L_37);
 		V_5 = (float*)((uintptr_t)((L_37)->GetAddressAt(static_cast<il2cpp_array_size_t>(0))));
 	}
 
-IL_00e2:
+IL_00e9:
 	{
 		// fixed (float* blockAp = blockA, blockBp = blockB, blockCp = blockC)
 		SingleU5BU5D_t47E8DBF5B597C122478D1FFBD9DD57399A0650FA* L_38 = V_1;
@@ -1878,7 +1972,7 @@ IL_00e2:
 		V_9 = L_39;
 		if (!L_39)
 		{
-			goto IL_00ee;
+			goto IL_00f5;
 		}
 	}
 	{
@@ -1886,24 +1980,24 @@ IL_00e2:
 		NullCheck(L_40);
 		if (((int32_t)((int32_t)(((RuntimeArray*)L_40)->max_length))))
 		{
-			goto IL_00f4;
+			goto IL_00fb;
 		}
 	}
 
-IL_00ee:
+IL_00f5:
 	{
 		V_6 = (float*)((uintptr_t)0);
-		goto IL_00ff;
+		goto IL_0106;
 	}
 
-IL_00f4:
+IL_00fb:
 	{
 		SingleU5BU5D_t47E8DBF5B597C122478D1FFBD9DD57399A0650FA* L_41 = V_9;
 		NullCheck(L_41);
 		V_6 = (float*)((uintptr_t)((L_41)->GetAddressAt(static_cast<il2cpp_array_size_t>(0))));
 	}
 
-IL_00ff:
+IL_0106:
 	{
 		// fixed (float* blockAp = blockA, blockBp = blockB, blockCp = blockC)
 		SingleU5BU5D_t47E8DBF5B597C122478D1FFBD9DD57399A0650FA* L_42 = V_2;
@@ -1911,7 +2005,7 @@ IL_00ff:
 		V_10 = L_43;
 		if (!L_43)
 		{
-			goto IL_010b;
+			goto IL_0112;
 		}
 	}
 	{
@@ -1919,24 +2013,24 @@ IL_00ff:
 		NullCheck(L_44);
 		if (((int32_t)((int32_t)(((RuntimeArray*)L_44)->max_length))))
 		{
-			goto IL_0111;
+			goto IL_0118;
 		}
 	}
 
-IL_010b:
+IL_0112:
 	{
 		V_7 = (float*)((uintptr_t)0);
-		goto IL_011c;
+		goto IL_0123;
 	}
 
-IL_0111:
+IL_0118:
 	{
 		SingleU5BU5D_t47E8DBF5B597C122478D1FFBD9DD57399A0650FA* L_45 = V_10;
 		NullCheck(L_45);
 		V_7 = (float*)((uintptr_t)((L_45)->GetAddressAt(static_cast<il2cpp_array_size_t>(0))));
 	}
 
-IL_011c:
+IL_0123:
 	{
 		// MatrixUtils.MultiplyBlockUnroll8xhPadded(blockAp, blockBp, blockCp, bs);
 		float* L_46 = V_5;
@@ -1963,31 +2057,35 @@ IL_011c:
 		V_4 = ((int32_t)il2cpp_codegen_add((int32_t)L_58, (int32_t)L_59));
 	}
 
-IL_0168:
+IL_0174:
 	{
 		// for (int l = 0; l < AM; l += bs)
 		int32_t L_60 = V_4;
 		int32_t L_61 = __this->get_AM_3();
-		if ((((int32_t)L_60) < ((int32_t)L_61)))
+		V_11 = (bool)((((int32_t)L_60) < ((int32_t)L_61))? 1 : 0);
+		bool L_62 = V_11;
+		if (L_62)
 		{
-			goto IL_0048;
+			goto IL_004b;
 		}
 	}
 	{
 		// for (int rowA = 0; rowA < N; rowA += bs)
-		int32_t L_62 = V_3;
-		int32_t L_63 = __this->get_bs_0();
-		V_3 = ((int32_t)il2cpp_codegen_add((int32_t)L_62, (int32_t)L_63));
+		int32_t L_63 = V_3;
+		int32_t L_64 = __this->get_bs_0();
+		V_3 = ((int32_t)il2cpp_codegen_add((int32_t)L_63, (int32_t)L_64));
 	}
 
-IL_017e:
+IL_0192:
 	{
 		// for (int rowA = 0; rowA < N; rowA += bs)
-		int32_t L_64 = V_3;
-		int32_t L_65 = __this->get_N_12();
-		if ((((int32_t)L_64) < ((int32_t)L_65)))
+		int32_t L_65 = V_3;
+		int32_t L_66 = __this->get_N_12();
+		V_12 = (bool)((((int32_t)L_65) < ((int32_t)L_66))? 1 : 0);
+		bool L_67 = V_12;
+		if (L_67)
 		{
-			goto IL_0040;
+			goto IL_0041;
 		}
 	}
 	{

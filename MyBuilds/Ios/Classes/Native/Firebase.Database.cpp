@@ -528,18 +528,12 @@ struct FutureBase_t8A0245B874D87A58E48E0C9F16C54FD8003534F4;
 struct FutureVoid_t04BD035498A9875EA1D6F629741C9D1ED31EFE29;
 // Firebase.Database.Internal.Future_InternalDataSnapshot
 struct Future_InternalDataSnapshot_tE50D574CB430FB94DB2113492F5A9A1079163782;
-// Firebase.Platform.IAppConfigExtensions
-struct IAppConfigExtensions_tAF751AD5BD32E4587148715BFD93D3F2F85BBB7A;
 // System.IAsyncResult
 struct IAsyncResult_tC9F97BF36FCF122D29D3101D80642278297BF370;
-// Firebase.Platform.IClockService
-struct IClockService_t73670E2711989DB3EB884D84BE9A79D303AC1D91;
 // System.Collections.IDictionary
 struct IDictionary_t99871C56B8EC2452AC5C4CF3831695E617B89D3A;
 // System.Collections.IEnumerator
 struct IEnumerator_t5956F3AFB7ECF1117E3BC5890E7FC7B7F7A04105;
-// Firebase.Platform.ILoggingService
-struct ILoggingService_tD55B1336E14C994826F5A52B0F362008247F1066;
 // System.IO.IOException
 struct IOException_t09E5C01DA4748C36D703728C4668C5CDF3882EBA;
 // System.IndexOutOfRangeException
@@ -598,8 +592,6 @@ struct ValueChangedEventArgs_tCFDF49267E5DE9B5B6420FBF6DEDBCBB7F78025C;
 struct Variant_tC9E895EAF1DFC875B36FD116E647B6CF93AC0068;
 // System.Void
 struct Void_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5;
-// System.WeakReference
-struct WeakReference_tB8558D16C98417FD98C920C42C0CC5C9FF825C76;
 // Firebase.Database.DataSnapshot/DataSnapshotEnumerator
 struct DataSnapshotEnumerator_t5F0DC213F676A5E2B32A8D28B55B65F143F97424;
 // Firebase.Database.DataSnapshot/DataSnapshotList
@@ -689,7 +681,6 @@ IL2CPP_EXTERN_C RuntimeClass* FirebaseException_t80812F0C7BA9277B701A891E7575AC4
 IL2CPP_EXTERN_C RuntimeClass* FutureVoid_t04BD035498A9875EA1D6F629741C9D1ED31EFE29_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Future_InternalDataSnapshot_tE50D574CB430FB94DB2113492F5A9A1079163782_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* GC_tD6F0377620BF01385965FD29272CF088A4309C0D_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* IAppConfigExtensions_tAF751AD5BD32E4587148715BFD93D3F2F85BBB7A_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* IDictionary_2_tB2BA32920A64A34C26C09922B355F2ED14D11205_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* IDictionary_2_tB4E97D5B9CF7274B9297433145AC382F20ACCF14_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* IDisposable_t099785737FC6A1E3699919A94109383715A8D807_il2cpp_TypeInfo_var;
@@ -727,7 +718,6 @@ IL2CPP_EXTERN_C RuntimeClass* SWIGPendingException_t598FE8E30B9457312ECB6973A125
 IL2CPP_EXTERN_C RuntimeClass* SWIGStringDelegate_tEC83CFCF354A8CE82D4CAF132FD5AC459AE1224B_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* SWIGStringHelper_tB66B16ED5BFF2AF2C7952C1288F9659F7939B040_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* SWIG_CompletionDelegate_tA8D1F511687314492DCF200EFA9141D61FE38AC1_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* Services_tA8A3B3E48044107EAC272A3F409EFC54E43DD861_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* String_t_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* SystemException_tC551B4D6EE3772B5F32C71EE8C719F4B43ECCC62_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* TaskCompletionSource_1_t0191AA91EA1ABB8621B9AE6BAF286EF65E50DB27_il2cpp_TypeInfo_var;
@@ -804,9 +794,9 @@ IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_set_Item_m42DA01E2CDA9AE33FE52
 IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_set_Item_mDADD4AF2D09DB970C2DA40007E966A4C0C19521D_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* EventHandler_1_Invoke_m91AC45C7E239BBF1DEAF7D32C7E95B7966D44424_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* EventHandler_1_Invoke_mD9F0F6BC91CA464914467DE2F22466FAF7D61711_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* FirebaseDatabase_GetInstance_mB8BD61E43E0635E1C49FEF5E6776458B453E5891_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* FirebaseDatabase_GetInstance_mF0005360FD07073793D18180159FCAAAFE21C539_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* FirebaseDatabase_OnAppDisposed_m47C09B6E45483FFE71C9D0933E1F2B4829504359_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* FirebaseDatabase_get_DefaultInstance_m75D618D373BDD71ACEA9A351126AB3F937B69D4A_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Future_InternalDataSnapshot_GetResult_mB737568CE9D114E1F8464CE0F46AD7A3B0E273B3_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Future_InternalDataSnapshot_SWIG_CompletionDispatcher_m7905C61D5D9AE818AA4AC3F0F838FA01B5E4D852_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Future_InternalDataSnapshot_SWIG_FreeCompletionData_m3F18A53533DF61CC0DC043AEC2AEB91ECB7EDD00_RuntimeMethod_var;
@@ -1743,25 +1733,6 @@ public:
 };
 
 
-// Firebase.Platform.FirebaseAppPlatform
-struct FirebaseAppPlatform_t021911DCA26421E6DA90CB02A5028748C46B0ED5  : public RuntimeObject
-{
-public:
-	// System.WeakReference Firebase.Platform.FirebaseAppPlatform::<app>k__BackingField
-	WeakReference_tB8558D16C98417FD98C920C42C0CC5C9FF825C76 * ___U3CappU3Ek__BackingField_0;
-
-public:
-	inline static int32_t get_offset_of_U3CappU3Ek__BackingField_0() { return static_cast<int32_t>(offsetof(FirebaseAppPlatform_t021911DCA26421E6DA90CB02A5028748C46B0ED5, ___U3CappU3Ek__BackingField_0)); }
-	inline WeakReference_tB8558D16C98417FD98C920C42C0CC5C9FF825C76 * get_U3CappU3Ek__BackingField_0() const { return ___U3CappU3Ek__BackingField_0; }
-	inline WeakReference_tB8558D16C98417FD98C920C42C0CC5C9FF825C76 ** get_address_of_U3CappU3Ek__BackingField_0() { return &___U3CappU3Ek__BackingField_0; }
-	inline void set_U3CappU3Ek__BackingField_0(WeakReference_tB8558D16C98417FD98C920C42C0CC5C9FF825C76 * value)
-	{
-		___U3CappU3Ek__BackingField_0 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___U3CappU3Ek__BackingField_0), (void*)value);
-	}
-};
-
-
 // Firebase.Database.FirebaseDatabase
 struct FirebaseDatabase_tF1A65E0ED193AF145CFAFF4D2A13F851118CE470  : public RuntimeObject
 {
@@ -1922,54 +1893,6 @@ public:
 	{
 		___childListener_3 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___childListener_3), (void*)value);
-	}
-};
-
-
-// Firebase.Platform.Services
-struct Services_tA8A3B3E48044107EAC272A3F409EFC54E43DD861  : public RuntimeObject
-{
-public:
-
-public:
-};
-
-struct Services_tA8A3B3E48044107EAC272A3F409EFC54E43DD861_StaticFields
-{
-public:
-	// Firebase.Platform.IAppConfigExtensions Firebase.Platform.Services::<AppConfig>k__BackingField
-	RuntimeObject* ___U3CAppConfigU3Ek__BackingField_0;
-	// Firebase.Platform.IClockService Firebase.Platform.Services::<Clock>k__BackingField
-	RuntimeObject* ___U3CClockU3Ek__BackingField_1;
-	// Firebase.Platform.ILoggingService Firebase.Platform.Services::<Logging>k__BackingField
-	RuntimeObject* ___U3CLoggingU3Ek__BackingField_2;
-
-public:
-	inline static int32_t get_offset_of_U3CAppConfigU3Ek__BackingField_0() { return static_cast<int32_t>(offsetof(Services_tA8A3B3E48044107EAC272A3F409EFC54E43DD861_StaticFields, ___U3CAppConfigU3Ek__BackingField_0)); }
-	inline RuntimeObject* get_U3CAppConfigU3Ek__BackingField_0() const { return ___U3CAppConfigU3Ek__BackingField_0; }
-	inline RuntimeObject** get_address_of_U3CAppConfigU3Ek__BackingField_0() { return &___U3CAppConfigU3Ek__BackingField_0; }
-	inline void set_U3CAppConfigU3Ek__BackingField_0(RuntimeObject* value)
-	{
-		___U3CAppConfigU3Ek__BackingField_0 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___U3CAppConfigU3Ek__BackingField_0), (void*)value);
-	}
-
-	inline static int32_t get_offset_of_U3CClockU3Ek__BackingField_1() { return static_cast<int32_t>(offsetof(Services_tA8A3B3E48044107EAC272A3F409EFC54E43DD861_StaticFields, ___U3CClockU3Ek__BackingField_1)); }
-	inline RuntimeObject* get_U3CClockU3Ek__BackingField_1() const { return ___U3CClockU3Ek__BackingField_1; }
-	inline RuntimeObject** get_address_of_U3CClockU3Ek__BackingField_1() { return &___U3CClockU3Ek__BackingField_1; }
-	inline void set_U3CClockU3Ek__BackingField_1(RuntimeObject* value)
-	{
-		___U3CClockU3Ek__BackingField_1 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___U3CClockU3Ek__BackingField_1), (void*)value);
-	}
-
-	inline static int32_t get_offset_of_U3CLoggingU3Ek__BackingField_2() { return static_cast<int32_t>(offsetof(Services_tA8A3B3E48044107EAC272A3F409EFC54E43DD861_StaticFields, ___U3CLoggingU3Ek__BackingField_2)); }
-	inline RuntimeObject* get_U3CLoggingU3Ek__BackingField_2() const { return ___U3CLoggingU3Ek__BackingField_2; }
-	inline RuntimeObject** get_address_of_U3CLoggingU3Ek__BackingField_2() { return &___U3CLoggingU3Ek__BackingField_2; }
-	inline void set_U3CLoggingU3Ek__BackingField_2(RuntimeObject* value)
-	{
-		___U3CLoggingU3Ek__BackingField_2 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___U3CLoggingU3Ek__BackingField_2), (void*)value);
 	}
 };
 
@@ -5484,12 +5407,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FirebaseApp_remove_AppDisposed_m1E390E90
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FirebaseApp_t3592A6306730FCDF285B555F3B4A83F56B9C093D * FirebaseApp_get_DefaultInstance_mCC924BAC33B68B03C851ACE856930B839F8267D7 (const RuntimeMethod* method);
 // System.Void Firebase.Database.DatabaseException::.ctor(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DatabaseException__ctor_m5067A29469F9322D223E0A094F11D696548E9E7F (DatabaseException_tF930F9D59783A56D6A0783B2FBC0AD464C493140 * __this, String_t* ___message0, const RuntimeMethod* method);
-// Firebase.Database.FirebaseDatabase Firebase.Database.FirebaseDatabase::GetInstance(Firebase.FirebaseApp)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FirebaseDatabase_tF1A65E0ED193AF145CFAFF4D2A13F851118CE470 * FirebaseDatabase_GetInstance_m76521A08A8A8C5388359A14B8F880AE83CE73110 (FirebaseApp_t3592A6306730FCDF285B555F3B4A83F56B9C093D * ___app0, const RuntimeMethod* method);
-// Firebase.Platform.IAppConfigExtensions Firebase.Platform.Services::get_AppConfig()
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Services_get_AppConfig_mAE84F30BF7A0A0D522CC280712623B53961FB98D_inline (const RuntimeMethod* method);
-// Firebase.Platform.FirebaseAppPlatform Firebase.FirebaseApp::get_AppPlatform()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FirebaseAppPlatform_t021911DCA26421E6DA90CB02A5028748C46B0ED5 * FirebaseApp_get_AppPlatform_m95A32F1D4ECE2C65F4691EE17E4BDF1A57FAED9D (FirebaseApp_t3592A6306730FCDF285B555F3B4A83F56B9C093D * __this, const RuntimeMethod* method);
 // Firebase.Database.FirebaseDatabase Firebase.Database.FirebaseDatabase::GetInstance(Firebase.FirebaseApp,System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FirebaseDatabase_tF1A65E0ED193AF145CFAFF4D2A13F851118CE470 * FirebaseDatabase_GetInstance_mF0005360FD07073793D18180159FCAAAFE21C539 (FirebaseApp_t3592A6306730FCDF285B555F3B4A83F56B9C093D * ___app0, String_t* ___url1, const RuntimeMethod* method);
 // System.Boolean System.String::IsNullOrEmpty(System.String)
@@ -7642,8 +7559,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FirebaseDatabase_set_App_mAB8EC362940845
 		return;
 	}
 }
-// Firebase.Database.FirebaseDatabase Firebase.Database.FirebaseDatabase::get_DefaultInstance()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FirebaseDatabase_tF1A65E0ED193AF145CFAFF4D2A13F851118CE470 * FirebaseDatabase_get_DefaultInstance_m75D618D373BDD71ACEA9A351126AB3F937B69D4A (const RuntimeMethod* method)
+// Firebase.Database.FirebaseDatabase Firebase.Database.FirebaseDatabase::GetInstance(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FirebaseDatabase_tF1A65E0ED193AF145CFAFF4D2A13F851118CE470 * FirebaseDatabase_GetInstance_mB8BD61E43E0635E1C49FEF5E6776458B453E5891 (String_t* ___url0, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -7667,44 +7584,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FirebaseDatabase_tF1A65E0ED193AF145CFAFF4D2A1
 	{
 		DatabaseException_tF930F9D59783A56D6A0783B2FBC0AD464C493140 * L_2 = (DatabaseException_tF930F9D59783A56D6A0783B2FBC0AD464C493140 *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&DatabaseException_tF930F9D59783A56D6A0783B2FBC0AD464C493140_il2cpp_TypeInfo_var)));
 		DatabaseException__ctor_m5067A29469F9322D223E0A094F11D696548E9E7F(L_2, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral50384A583A192C06635CCD8BE23070E725470116)), /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&FirebaseDatabase_get_DefaultInstance_m75D618D373BDD71ACEA9A351126AB3F937B69D4A_RuntimeMethod_var)));
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&FirebaseDatabase_GetInstance_mB8BD61E43E0635E1C49FEF5E6776458B453E5891_RuntimeMethod_var)));
 	}
 
 IL_0017:
 	{
 		FirebaseApp_t3592A6306730FCDF285B555F3B4A83F56B9C093D * L_3 = V_0;
-		IL2CPP_RUNTIME_CLASS_INIT(FirebaseDatabase_tF1A65E0ED193AF145CFAFF4D2A13F851118CE470_il2cpp_TypeInfo_var);
-		FirebaseDatabase_tF1A65E0ED193AF145CFAFF4D2A13F851118CE470 * L_4;
-		L_4 = FirebaseDatabase_GetInstance_m76521A08A8A8C5388359A14B8F880AE83CE73110(L_3, /*hidden argument*/NULL);
-		return L_4;
-	}
-}
-// Firebase.Database.FirebaseDatabase Firebase.Database.FirebaseDatabase::GetInstance(Firebase.FirebaseApp)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FirebaseDatabase_tF1A65E0ED193AF145CFAFF4D2A13F851118CE470 * FirebaseDatabase_GetInstance_m76521A08A8A8C5388359A14B8F880AE83CE73110 (FirebaseApp_t3592A6306730FCDF285B555F3B4A83F56B9C093D * ___app0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseDatabase_tF1A65E0ED193AF145CFAFF4D2A13F851118CE470_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IAppConfigExtensions_tAF751AD5BD32E4587148715BFD93D3F2F85BBB7A_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Services_tA8A3B3E48044107EAC272A3F409EFC54E43DD861_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		FirebaseApp_t3592A6306730FCDF285B555F3B4A83F56B9C093D * L_0 = ___app0;
-		IL2CPP_RUNTIME_CLASS_INIT(Services_tA8A3B3E48044107EAC272A3F409EFC54E43DD861_il2cpp_TypeInfo_var);
-		RuntimeObject* L_1;
-		L_1 = Services_get_AppConfig_mAE84F30BF7A0A0D522CC280712623B53961FB98D_inline(/*hidden argument*/NULL);
-		FirebaseApp_t3592A6306730FCDF285B555F3B4A83F56B9C093D * L_2 = ___app0;
-		NullCheck(L_2);
-		FirebaseAppPlatform_t021911DCA26421E6DA90CB02A5028748C46B0ED5 * L_3;
-		L_3 = FirebaseApp_get_AppPlatform_m95A32F1D4ECE2C65F4691EE17E4BDF1A57FAED9D(L_2, /*hidden argument*/NULL);
-		NullCheck(L_1);
-		String_t* L_4;
-		L_4 = InterfaceFuncInvoker1< String_t*, RuntimeObject* >::Invoke(0 /* System.String Firebase.Platform.IAppConfigExtensions::GetDatabaseUrl(Firebase.Platform.IFirebaseAppPlatform) */, IAppConfigExtensions_tAF751AD5BD32E4587148715BFD93D3F2F85BBB7A_il2cpp_TypeInfo_var, L_1, L_3);
+		String_t* L_4 = ___url0;
 		IL2CPP_RUNTIME_CLASS_INIT(FirebaseDatabase_tF1A65E0ED193AF145CFAFF4D2A13F851118CE470_il2cpp_TypeInfo_var);
 		FirebaseDatabase_tF1A65E0ED193AF145CFAFF4D2A13F851118CE470 * L_5;
-		L_5 = FirebaseDatabase_GetInstance_mF0005360FD07073793D18180159FCAAAFE21C539(L_0, L_4, /*hidden argument*/NULL);
+		L_5 = FirebaseDatabase_GetInstance_mF0005360FD07073793D18180159FCAAAFE21C539(L_3, L_4, /*hidden argument*/NULL);
 		return L_5;
 	}
 }
@@ -14603,20 +14492,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR FirebaseApp_t3592A6306730FCDF285B
 {
 	{
 		FirebaseApp_t3592A6306730FCDF285B555F3B4A83F56B9C093D * L_0 = __this->get_U3CAppU3Ek__BackingField_4();
-		return L_0;
-	}
-}
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Services_get_AppConfig_mAE84F30BF7A0A0D522CC280712623B53961FB98D_inline (const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Services_tA8A3B3E48044107EAC272A3F409EFC54E43DD861_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		IL2CPP_RUNTIME_CLASS_INIT(Services_tA8A3B3E48044107EAC272A3F409EFC54E43DD861_il2cpp_TypeInfo_var);
-		RuntimeObject* L_0 = ((Services_tA8A3B3E48044107EAC272A3F409EFC54E43DD861_StaticFields*)il2cpp_codegen_static_fields_for(Services_tA8A3B3E48044107EAC272A3F409EFC54E43DD861_il2cpp_TypeInfo_var))->get_U3CAppConfigU3Ek__BackingField_0();
 		return L_0;
 	}
 }

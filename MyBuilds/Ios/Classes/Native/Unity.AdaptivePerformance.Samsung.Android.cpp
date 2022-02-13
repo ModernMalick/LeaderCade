@@ -1213,7 +1213,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdaptiveFramerate_OnEnabled_m4AD7A50ACB2
 // System.Void UnityEngine.AdaptivePerformance.AdaptiveFramerate::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdaptiveFramerate__ctor_m694304B14B58592958A80FB83E43A309ABF8D77A (AdaptiveFramerate_t36C9F58174C8E949088A8B300BAD24B14382B81F * __this, const RuntimeMethod* method);
 // UnityEngine.AdaptivePerformance.Samsung.Android.SamsungAndroidProviderSettings UnityEngine.AdaptivePerformance.Samsung.Android.SamsungAndroidProviderSettings::GetSettings()
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR SamsungAndroidProviderSettings_tBEEAB62061DF28F7475E9F0D4DBDFE1B6897434A * SamsungAndroidProviderSettings_GetSettings_m5F3D48F7276BAC793B6E1B0174B71E8010BC5EDA_inline (const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SamsungAndroidProviderSettings_tBEEAB62061DF28F7475E9F0D4DBDFE1B6897434A * SamsungAndroidProviderSettings_GetSettings_m5F3D48F7276BAC793B6E1B0174B71E8010BC5EDA (const RuntimeMethod* method);
 // System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceLoaderHelper::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdaptivePerformanceLoaderHelper__ctor_mE84DD1B4F467A7999870517C658B85B4C5109EB2 (AdaptivePerformanceLoaderHelper_t640C781590CAA0FF7B63C4E702CA325C1ABD8441 * __this, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.List`1<UnityEngine.AdaptivePerformance.Provider.AdaptivePerformanceSubsystemDescriptor>::.ctor()
@@ -1282,6 +1282,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdaptiveVariableRefreshRate_Awake_m51C73
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&VariableRefreshRateEventHandler_t06D300F6DD7FDB78D3404003A1C81A149DBFAC83_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	bool V_0 = false;
+	bool V_1 = false;
 	{
 		// base.Awake();
 		AdaptiveFramerate_Awake_m2901D3518B13C9D60696D9A2287A7B673148E2BE(__this, /*hidden argument*/NULL);
@@ -1290,56 +1292,64 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdaptiveVariableRefreshRate_Awake_m51C73
 		IL2CPP_RUNTIME_CLASS_INIT(Object_tF2F3778131EFF286AF62B7B013A170F95A91571A_il2cpp_TypeInfo_var);
 		bool L_1;
 		L_1 = Object_op_Equality_mEE9EC7EB5C7DC3E95B94AB904E1986FC4D566D54(L_0, (Object_tF2F3778131EFF286AF62B7B013A170F95A91571A *)NULL, /*hidden argument*/NULL);
-		if (!L_1)
+		V_0 = L_1;
+		bool L_2 = V_0;
+		if (!L_2)
 		{
-			goto IL_0015;
+			goto IL_001a;
 		}
 	}
 	{
 		// return;
-		return;
+		goto IL_0076;
 	}
 
-IL_0015:
+IL_001a:
 	{
 		// m_VRR = VariableRefreshRate.Instance;
-		RuntimeObject* L_2;
-		L_2 = VariableRefreshRate_get_Instance_mEF8EA6B518B43B9ECF2F493D20AE908A66934765_inline(/*hidden argument*/NULL);
-		__this->set_m_VRR_13(L_2);
+		RuntimeObject* L_3;
+		L_3 = VariableRefreshRate_get_Instance_mEF8EA6B518B43B9ECF2F493D20AE908A66934765_inline(/*hidden argument*/NULL);
+		__this->set_m_VRR_13(L_3);
 		// if (m_VRR == null)
-		RuntimeObject* L_3 = __this->get_m_VRR_13();
-		if (L_3)
+		RuntimeObject* L_4 = __this->get_m_VRR_13();
+		V_1 = (bool)((((RuntimeObject*)(RuntimeObject*)L_4) == ((RuntimeObject*)(RuntimeObject *)NULL))? 1 : 0);
+		bool L_5 = V_1;
+		if (!L_5)
 		{
-			goto IL_0030;
+			goto IL_003d;
 		}
 	}
 	{
 		// Enabled = false;
 		VirtActionInvoker1< bool >::Invoke(7 /* System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::set_Enabled(System.Boolean) */, __this, (bool)0);
 		// return;
-		return;
+		goto IL_0076;
 	}
 
-IL_0030:
+IL_003d:
 	{
 		// m_VRR.RefreshRateChanged += RefreshRateChanged;
-		RuntimeObject* L_4 = __this->get_m_VRR_13();
-		VariableRefreshRateEventHandler_t06D300F6DD7FDB78D3404003A1C81A149DBFAC83 * L_5 = (VariableRefreshRateEventHandler_t06D300F6DD7FDB78D3404003A1C81A149DBFAC83 *)il2cpp_codegen_object_new(VariableRefreshRateEventHandler_t06D300F6DD7FDB78D3404003A1C81A149DBFAC83_il2cpp_TypeInfo_var);
-		VariableRefreshRateEventHandler__ctor_mE2BC720F515C20D25FC2ED862998C3D072CB2230(L_5, __this, (intptr_t)((intptr_t)AdaptiveVariableRefreshRate_RefreshRateChanged_mF193DBF673D4AA6593CDBC2466505413B3CBBEA0_RuntimeMethod_var), /*hidden argument*/NULL);
-		NullCheck(L_4);
-		InterfaceActionInvoker1< VariableRefreshRateEventHandler_t06D300F6DD7FDB78D3404003A1C81A149DBFAC83 * >::Invoke(3 /* System.Void UnityEngine.AdaptivePerformance.Samsung.Android.IVariableRefreshRate::add_RefreshRateChanged(UnityEngine.AdaptivePerformance.Samsung.Android.VariableRefreshRateEventHandler) */, IVariableRefreshRate_tDE89F043B8996572722116FCB1A8BC2EB4B3DD77_il2cpp_TypeInfo_var, L_4, L_5);
-		// m_CurrentRefreshRateIndex = Array.IndexOf(m_VRR.SupportedRefreshRates, m_VRR.CurrentRefreshRate);
 		RuntimeObject* L_6 = __this->get_m_VRR_13();
+		VariableRefreshRateEventHandler_t06D300F6DD7FDB78D3404003A1C81A149DBFAC83 * L_7 = (VariableRefreshRateEventHandler_t06D300F6DD7FDB78D3404003A1C81A149DBFAC83 *)il2cpp_codegen_object_new(VariableRefreshRateEventHandler_t06D300F6DD7FDB78D3404003A1C81A149DBFAC83_il2cpp_TypeInfo_var);
+		VariableRefreshRateEventHandler__ctor_mE2BC720F515C20D25FC2ED862998C3D072CB2230(L_7, __this, (intptr_t)((intptr_t)AdaptiveVariableRefreshRate_RefreshRateChanged_mF193DBF673D4AA6593CDBC2466505413B3CBBEA0_RuntimeMethod_var), /*hidden argument*/NULL);
 		NullCheck(L_6);
-		Int32U5BU5D_t70F1BDC14B1786481B176D6139A5E3B87DC54C32* L_7;
-		L_7 = InterfaceFuncInvoker0< Int32U5BU5D_t70F1BDC14B1786481B176D6139A5E3B87DC54C32* >::Invoke(0 /* System.Int32[] UnityEngine.AdaptivePerformance.Samsung.Android.IVariableRefreshRate::get_SupportedRefreshRates() */, IVariableRefreshRate_tDE89F043B8996572722116FCB1A8BC2EB4B3DD77_il2cpp_TypeInfo_var, L_6);
+		InterfaceActionInvoker1< VariableRefreshRateEventHandler_t06D300F6DD7FDB78D3404003A1C81A149DBFAC83 * >::Invoke(3 /* System.Void UnityEngine.AdaptivePerformance.Samsung.Android.IVariableRefreshRate::add_RefreshRateChanged(UnityEngine.AdaptivePerformance.Samsung.Android.VariableRefreshRateEventHandler) */, IVariableRefreshRate_tDE89F043B8996572722116FCB1A8BC2EB4B3DD77_il2cpp_TypeInfo_var, L_6, L_7);
+		// m_CurrentRefreshRateIndex = Array.IndexOf(m_VRR.SupportedRefreshRates, m_VRR.CurrentRefreshRate);
 		RuntimeObject* L_8 = __this->get_m_VRR_13();
 		NullCheck(L_8);
-		int32_t L_9;
-		L_9 = InterfaceFuncInvoker0< int32_t >::Invoke(1 /* System.Int32 UnityEngine.AdaptivePerformance.Samsung.Android.IVariableRefreshRate::get_CurrentRefreshRate() */, IVariableRefreshRate_tDE89F043B8996572722116FCB1A8BC2EB4B3DD77_il2cpp_TypeInfo_var, L_8);
-		int32_t L_10;
-		L_10 = Array_IndexOf_TisInt32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_m6F8F84EAF15D94B2244AD7E39E8A66FB3984A1E8(L_7, L_9, /*hidden argument*/Array_IndexOf_TisInt32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_m6F8F84EAF15D94B2244AD7E39E8A66FB3984A1E8_RuntimeMethod_var);
-		__this->set_m_CurrentRefreshRateIndex_14(L_10);
+		Int32U5BU5D_t70F1BDC14B1786481B176D6139A5E3B87DC54C32* L_9;
+		L_9 = InterfaceFuncInvoker0< Int32U5BU5D_t70F1BDC14B1786481B176D6139A5E3B87DC54C32* >::Invoke(0 /* System.Int32[] UnityEngine.AdaptivePerformance.Samsung.Android.IVariableRefreshRate::get_SupportedRefreshRates() */, IVariableRefreshRate_tDE89F043B8996572722116FCB1A8BC2EB4B3DD77_il2cpp_TypeInfo_var, L_8);
+		RuntimeObject* L_10 = __this->get_m_VRR_13();
+		NullCheck(L_10);
+		int32_t L_11;
+		L_11 = InterfaceFuncInvoker0< int32_t >::Invoke(1 /* System.Int32 UnityEngine.AdaptivePerformance.Samsung.Android.IVariableRefreshRate::get_CurrentRefreshRate() */, IVariableRefreshRate_tDE89F043B8996572722116FCB1A8BC2EB4B3DD77_il2cpp_TypeInfo_var, L_10);
+		int32_t L_12;
+		L_12 = Array_IndexOf_TisInt32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_m6F8F84EAF15D94B2244AD7E39E8A66FB3984A1E8(L_9, L_11, /*hidden argument*/Array_IndexOf_TisInt32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_m6F8F84EAF15D94B2244AD7E39E8A66FB3984A1E8_RuntimeMethod_var);
+		__this->set_m_CurrentRefreshRateIndex_14(L_12);
+	}
+
+IL_0076:
+	{
 		// }
 		return;
 	}
@@ -1353,29 +1363,36 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdaptiveVariableRefreshRate_OnDisabled_m
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IVariableRefreshRate_tDE89F043B8996572722116FCB1A8BC2EB4B3DD77_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	bool V_0 = false;
 	{
 		// base.OnDisabled();
 		AdaptiveFramerate_OnDisabled_m82036310F44027467DF42B4F9DD60A0832C0A954(__this, /*hidden argument*/NULL);
 		// if (m_VRR == null)
 		RuntimeObject* L_0 = __this->get_m_VRR_13();
-		if (L_0)
+		V_0 = (bool)((((RuntimeObject*)(RuntimeObject*)L_0) == ((RuntimeObject*)(RuntimeObject *)NULL))? 1 : 0);
+		bool L_1 = V_0;
+		if (!L_1)
 		{
-			goto IL_000f;
+			goto IL_0017;
 		}
 	}
 	{
 		// return;
-		return;
+		goto IL_0029;
 	}
 
-IL_000f:
+IL_0017:
 	{
 		// m_VRR.SetRefreshRateByIndex(m_DefaultRefreshRateIndex);
-		RuntimeObject* L_1 = __this->get_m_VRR_13();
-		int32_t L_2 = __this->get_m_DefaultRefreshRateIndex_15();
-		NullCheck(L_1);
-		bool L_3;
-		L_3 = InterfaceFuncInvoker1< bool, int32_t >::Invoke(2 /* System.Boolean UnityEngine.AdaptivePerformance.Samsung.Android.IVariableRefreshRate::SetRefreshRateByIndex(System.Int32) */, IVariableRefreshRate_tDE89F043B8996572722116FCB1A8BC2EB4B3DD77_il2cpp_TypeInfo_var, L_1, L_2);
+		RuntimeObject* L_2 = __this->get_m_VRR_13();
+		int32_t L_3 = __this->get_m_DefaultRefreshRateIndex_15();
+		NullCheck(L_2);
+		bool L_4;
+		L_4 = InterfaceFuncInvoker1< bool, int32_t >::Invoke(2 /* System.Boolean UnityEngine.AdaptivePerformance.Samsung.Android.IVariableRefreshRate::SetRefreshRateByIndex(System.Int32) */, IVariableRefreshRate_tDE89F043B8996572722116FCB1A8BC2EB4B3DD77_il2cpp_TypeInfo_var, L_2, L_3);
+	}
+
+IL_0029:
+	{
 		// }
 		return;
 	}
@@ -1390,35 +1407,42 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdaptiveVariableRefreshRate_OnEnabled_mA
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IVariableRefreshRate_tDE89F043B8996572722116FCB1A8BC2EB4B3DD77_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	bool V_0 = false;
 	{
 		// base.OnEnabled();
 		AdaptiveFramerate_OnEnabled_m4AD7A50ACB2E0AE57290E09F5198D9CA6AD2235E(__this, /*hidden argument*/NULL);
 		// if (m_VRR == null)
 		RuntimeObject* L_0 = __this->get_m_VRR_13();
-		if (L_0)
+		V_0 = (bool)((((RuntimeObject*)(RuntimeObject*)L_0) == ((RuntimeObject*)(RuntimeObject *)NULL))? 1 : 0);
+		bool L_1 = V_0;
+		if (!L_1)
 		{
-			goto IL_000f;
+			goto IL_0017;
 		}
 	}
 	{
 		// return;
-		return;
+		goto IL_0038;
 	}
 
-IL_000f:
+IL_0017:
 	{
 		// m_DefaultRefreshRateIndex = Array.IndexOf(m_VRR.SupportedRefreshRates, m_VRR.CurrentRefreshRate);
-		RuntimeObject* L_1 = __this->get_m_VRR_13();
-		NullCheck(L_1);
-		Int32U5BU5D_t70F1BDC14B1786481B176D6139A5E3B87DC54C32* L_2;
-		L_2 = InterfaceFuncInvoker0< Int32U5BU5D_t70F1BDC14B1786481B176D6139A5E3B87DC54C32* >::Invoke(0 /* System.Int32[] UnityEngine.AdaptivePerformance.Samsung.Android.IVariableRefreshRate::get_SupportedRefreshRates() */, IVariableRefreshRate_tDE89F043B8996572722116FCB1A8BC2EB4B3DD77_il2cpp_TypeInfo_var, L_1);
-		RuntimeObject* L_3 = __this->get_m_VRR_13();
-		NullCheck(L_3);
-		int32_t L_4;
-		L_4 = InterfaceFuncInvoker0< int32_t >::Invoke(1 /* System.Int32 UnityEngine.AdaptivePerformance.Samsung.Android.IVariableRefreshRate::get_CurrentRefreshRate() */, IVariableRefreshRate_tDE89F043B8996572722116FCB1A8BC2EB4B3DD77_il2cpp_TypeInfo_var, L_3);
+		RuntimeObject* L_2 = __this->get_m_VRR_13();
+		NullCheck(L_2);
+		Int32U5BU5D_t70F1BDC14B1786481B176D6139A5E3B87DC54C32* L_3;
+		L_3 = InterfaceFuncInvoker0< Int32U5BU5D_t70F1BDC14B1786481B176D6139A5E3B87DC54C32* >::Invoke(0 /* System.Int32[] UnityEngine.AdaptivePerformance.Samsung.Android.IVariableRefreshRate::get_SupportedRefreshRates() */, IVariableRefreshRate_tDE89F043B8996572722116FCB1A8BC2EB4B3DD77_il2cpp_TypeInfo_var, L_2);
+		RuntimeObject* L_4 = __this->get_m_VRR_13();
+		NullCheck(L_4);
 		int32_t L_5;
-		L_5 = Array_IndexOf_TisInt32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_m6F8F84EAF15D94B2244AD7E39E8A66FB3984A1E8(L_2, L_4, /*hidden argument*/Array_IndexOf_TisInt32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_m6F8F84EAF15D94B2244AD7E39E8A66FB3984A1E8_RuntimeMethod_var);
-		__this->set_m_DefaultRefreshRateIndex_15(L_5);
+		L_5 = InterfaceFuncInvoker0< int32_t >::Invoke(1 /* System.Int32 UnityEngine.AdaptivePerformance.Samsung.Android.IVariableRefreshRate::get_CurrentRefreshRate() */, IVariableRefreshRate_tDE89F043B8996572722116FCB1A8BC2EB4B3DD77_il2cpp_TypeInfo_var, L_4);
+		int32_t L_6;
+		L_6 = Array_IndexOf_TisInt32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_m6F8F84EAF15D94B2244AD7E39E8A66FB3984A1E8(L_3, L_5, /*hidden argument*/Array_IndexOf_TisInt32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_m6F8F84EAF15D94B2244AD7E39E8A66FB3984A1E8_RuntimeMethod_var);
+		__this->set_m_DefaultRefreshRateIndex_15(L_6);
+	}
+
+IL_0038:
+	{
 		// }
 		return;
 	}
@@ -1434,27 +1458,34 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdaptiveVariableRefreshRate_OnDestroy_mF
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&VariableRefreshRateEventHandler_t06D300F6DD7FDB78D3404003A1C81A149DBFAC83_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	bool V_0 = false;
 	{
 		// if (m_VRR == null)
 		RuntimeObject* L_0 = __this->get_m_VRR_13();
-		if (L_0)
+		V_0 = (bool)((((RuntimeObject*)(RuntimeObject*)L_0) == ((RuntimeObject*)(RuntimeObject *)NULL))? 1 : 0);
+		bool L_1 = V_0;
+		if (!L_1)
 		{
-			goto IL_0009;
+			goto IL_0010;
 		}
 	}
 	{
 		// return;
-		return;
+		goto IL_0028;
 	}
 
-IL_0009:
+IL_0010:
 	{
 		// m_VRR.RefreshRateChanged -= RefreshRateChanged;
-		RuntimeObject* L_1 = __this->get_m_VRR_13();
-		VariableRefreshRateEventHandler_t06D300F6DD7FDB78D3404003A1C81A149DBFAC83 * L_2 = (VariableRefreshRateEventHandler_t06D300F6DD7FDB78D3404003A1C81A149DBFAC83 *)il2cpp_codegen_object_new(VariableRefreshRateEventHandler_t06D300F6DD7FDB78D3404003A1C81A149DBFAC83_il2cpp_TypeInfo_var);
-		VariableRefreshRateEventHandler__ctor_mE2BC720F515C20D25FC2ED862998C3D072CB2230(L_2, __this, (intptr_t)((intptr_t)AdaptiveVariableRefreshRate_RefreshRateChanged_mF193DBF673D4AA6593CDBC2466505413B3CBBEA0_RuntimeMethod_var), /*hidden argument*/NULL);
-		NullCheck(L_1);
-		InterfaceActionInvoker1< VariableRefreshRateEventHandler_t06D300F6DD7FDB78D3404003A1C81A149DBFAC83 * >::Invoke(4 /* System.Void UnityEngine.AdaptivePerformance.Samsung.Android.IVariableRefreshRate::remove_RefreshRateChanged(UnityEngine.AdaptivePerformance.Samsung.Android.VariableRefreshRateEventHandler) */, IVariableRefreshRate_tDE89F043B8996572722116FCB1A8BC2EB4B3DD77_il2cpp_TypeInfo_var, L_1, L_2);
+		RuntimeObject* L_2 = __this->get_m_VRR_13();
+		VariableRefreshRateEventHandler_t06D300F6DD7FDB78D3404003A1C81A149DBFAC83 * L_3 = (VariableRefreshRateEventHandler_t06D300F6DD7FDB78D3404003A1C81A149DBFAC83 *)il2cpp_codegen_object_new(VariableRefreshRateEventHandler_t06D300F6DD7FDB78D3404003A1C81A149DBFAC83_il2cpp_TypeInfo_var);
+		VariableRefreshRateEventHandler__ctor_mE2BC720F515C20D25FC2ED862998C3D072CB2230(L_3, __this, (intptr_t)((intptr_t)AdaptiveVariableRefreshRate_RefreshRateChanged_mF193DBF673D4AA6593CDBC2466505413B3CBBEA0_RuntimeMethod_var), /*hidden argument*/NULL);
+		NullCheck(L_2);
+		InterfaceActionInvoker1< VariableRefreshRateEventHandler_t06D300F6DD7FDB78D3404003A1C81A149DBFAC83 * >::Invoke(4 /* System.Void UnityEngine.AdaptivePerformance.Samsung.Android.IVariableRefreshRate::remove_RefreshRateChanged(UnityEngine.AdaptivePerformance.Samsung.Android.VariableRefreshRateEventHandler) */, IVariableRefreshRate_tDE89F043B8996572722116FCB1A8BC2EB4B3DD77_il2cpp_TypeInfo_var, L_2, L_3);
+	}
+
+IL_0028:
+	{
 		// }
 		return;
 	}
@@ -1469,33 +1500,40 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdaptiveVariableRefreshRate_RefreshRateC
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IVariableRefreshRate_tDE89F043B8996572722116FCB1A8BC2EB4B3DD77_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	bool V_0 = false;
 	{
 		// if (m_VRR == null)
 		RuntimeObject* L_0 = __this->get_m_VRR_13();
-		if (L_0)
+		V_0 = (bool)((((RuntimeObject*)(RuntimeObject*)L_0) == ((RuntimeObject*)(RuntimeObject *)NULL))? 1 : 0);
+		bool L_1 = V_0;
+		if (!L_1)
 		{
-			goto IL_0009;
+			goto IL_0010;
 		}
 	}
 	{
 		// return;
-		return;
+		goto IL_0031;
 	}
 
-IL_0009:
+IL_0010:
 	{
 		// m_CurrentRefreshRateIndex = Array.IndexOf(m_VRR.SupportedRefreshRates, m_VRR.CurrentRefreshRate);
-		RuntimeObject* L_1 = __this->get_m_VRR_13();
-		NullCheck(L_1);
-		Int32U5BU5D_t70F1BDC14B1786481B176D6139A5E3B87DC54C32* L_2;
-		L_2 = InterfaceFuncInvoker0< Int32U5BU5D_t70F1BDC14B1786481B176D6139A5E3B87DC54C32* >::Invoke(0 /* System.Int32[] UnityEngine.AdaptivePerformance.Samsung.Android.IVariableRefreshRate::get_SupportedRefreshRates() */, IVariableRefreshRate_tDE89F043B8996572722116FCB1A8BC2EB4B3DD77_il2cpp_TypeInfo_var, L_1);
-		RuntimeObject* L_3 = __this->get_m_VRR_13();
-		NullCheck(L_3);
-		int32_t L_4;
-		L_4 = InterfaceFuncInvoker0< int32_t >::Invoke(1 /* System.Int32 UnityEngine.AdaptivePerformance.Samsung.Android.IVariableRefreshRate::get_CurrentRefreshRate() */, IVariableRefreshRate_tDE89F043B8996572722116FCB1A8BC2EB4B3DD77_il2cpp_TypeInfo_var, L_3);
+		RuntimeObject* L_2 = __this->get_m_VRR_13();
+		NullCheck(L_2);
+		Int32U5BU5D_t70F1BDC14B1786481B176D6139A5E3B87DC54C32* L_3;
+		L_3 = InterfaceFuncInvoker0< Int32U5BU5D_t70F1BDC14B1786481B176D6139A5E3B87DC54C32* >::Invoke(0 /* System.Int32[] UnityEngine.AdaptivePerformance.Samsung.Android.IVariableRefreshRate::get_SupportedRefreshRates() */, IVariableRefreshRate_tDE89F043B8996572722116FCB1A8BC2EB4B3DD77_il2cpp_TypeInfo_var, L_2);
+		RuntimeObject* L_4 = __this->get_m_VRR_13();
+		NullCheck(L_4);
 		int32_t L_5;
-		L_5 = Array_IndexOf_TisInt32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_m6F8F84EAF15D94B2244AD7E39E8A66FB3984A1E8(L_2, L_4, /*hidden argument*/Array_IndexOf_TisInt32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_m6F8F84EAF15D94B2244AD7E39E8A66FB3984A1E8_RuntimeMethod_var);
-		__this->set_m_CurrentRefreshRateIndex_14(L_5);
+		L_5 = InterfaceFuncInvoker0< int32_t >::Invoke(1 /* System.Int32 UnityEngine.AdaptivePerformance.Samsung.Android.IVariableRefreshRate::get_CurrentRefreshRate() */, IVariableRefreshRate_tDE89F043B8996572722116FCB1A8BC2EB4B3DD77_il2cpp_TypeInfo_var, L_4);
+		int32_t L_6;
+		L_6 = Array_IndexOf_TisInt32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_m6F8F84EAF15D94B2244AD7E39E8A66FB3984A1E8(L_3, L_5, /*hidden argument*/Array_IndexOf_TisInt32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_m6F8F84EAF15D94B2244AD7E39E8A66FB3984A1E8_RuntimeMethod_var);
+		__this->set_m_CurrentRefreshRateIndex_14(L_6);
+	}
+
+IL_0031:
+	{
 		// }
 		return;
 	}
@@ -1509,89 +1547,115 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdaptiveVariableRefreshRate_OnLevelIncre
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IVariableRefreshRate_tDE89F043B8996572722116FCB1A8BC2EB4B3DD77_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	int32_t V_0 = 0;
-	int32_t V_1 = 0;
+	bool V_0 = false;
+	bool V_1 = false;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	bool V_4 = false;
+	bool V_5 = false;
+	int32_t G_B6_0 = 0;
 	{
 		// if (m_VRR == null)
 		RuntimeObject* L_0 = __this->get_m_VRR_13();
-		if (L_0)
+		V_0 = (bool)((((RuntimeObject*)(RuntimeObject*)L_0) == ((RuntimeObject*)(RuntimeObject *)NULL))? 1 : 0);
+		bool L_1 = V_0;
+		if (!L_1)
 		{
-			goto IL_0009;
+			goto IL_0010;
 		}
 	}
 	{
 		// return;
-		return;
+		goto IL_006e;
 	}
 
-IL_0009:
+IL_0010:
 	{
 		// if (m_CurrentRefreshRateIndex > 0)
-		int32_t L_1 = __this->get_m_CurrentRefreshRateIndex_14();
-		if ((((int32_t)L_1) <= ((int32_t)0)))
+		int32_t L_2 = __this->get_m_CurrentRefreshRateIndex_14();
+		V_1 = (bool)((((int32_t)L_2) > ((int32_t)0))? 1 : 0);
+		bool L_3 = V_1;
+		if (!L_3)
 		{
-			goto IL_0053;
+			goto IL_006e;
 		}
 	}
 	{
 		// var rateIndex = m_CurrentRefreshRateIndex - 1;
-		int32_t L_2 = __this->get_m_CurrentRefreshRateIndex_14();
-		V_0 = ((int32_t)il2cpp_codegen_subtract((int32_t)L_2, (int32_t)1));
+		int32_t L_4 = __this->get_m_CurrentRefreshRateIndex_14();
+		V_2 = ((int32_t)il2cpp_codegen_subtract((int32_t)L_4, (int32_t)1));
 		// var fps = m_VRR.SupportedRefreshRates[rateIndex];
-		RuntimeObject* L_3 = __this->get_m_VRR_13();
-		NullCheck(L_3);
-		Int32U5BU5D_t70F1BDC14B1786481B176D6139A5E3B87DC54C32* L_4;
-		L_4 = InterfaceFuncInvoker0< Int32U5BU5D_t70F1BDC14B1786481B176D6139A5E3B87DC54C32* >::Invoke(0 /* System.Int32[] UnityEngine.AdaptivePerformance.Samsung.Android.IVariableRefreshRate::get_SupportedRefreshRates() */, IVariableRefreshRate_tDE89F043B8996572722116FCB1A8BC2EB4B3DD77_il2cpp_TypeInfo_var, L_3);
-		int32_t L_5 = V_0;
-		NullCheck(L_4);
-		int32_t L_6 = L_5;
-		int32_t L_7 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
-		V_1 = L_7;
+		RuntimeObject* L_5 = __this->get_m_VRR_13();
+		NullCheck(L_5);
+		Int32U5BU5D_t70F1BDC14B1786481B176D6139A5E3B87DC54C32* L_6;
+		L_6 = InterfaceFuncInvoker0< Int32U5BU5D_t70F1BDC14B1786481B176D6139A5E3B87DC54C32* >::Invoke(0 /* System.Int32[] UnityEngine.AdaptivePerformance.Samsung.Android.IVariableRefreshRate::get_SupportedRefreshRates() */, IVariableRefreshRate_tDE89F043B8996572722116FCB1A8BC2EB4B3DD77_il2cpp_TypeInfo_var, L_5);
+		int32_t L_7 = V_2;
+		NullCheck(L_6);
+		int32_t L_8 = L_7;
+		int32_t L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		V_3 = L_9;
 		// if (fps < MinBound || fps > MaxBound)
-		int32_t L_8 = V_1;
-		float L_9;
-		L_9 = VirtFuncInvoker0< float >::Invoke(16 /* System.Single UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::get_MinBound() */, __this);
-		if ((((float)((float)((float)L_8))) < ((float)L_9)))
-		{
-			goto IL_003d;
-		}
-	}
-	{
-		int32_t L_10 = V_1;
+		int32_t L_10 = V_3;
 		float L_11;
-		L_11 = VirtFuncInvoker0< float >::Invoke(18 /* System.Single UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::get_MaxBound() */, __this);
-		if ((!(((float)((float)((float)L_10))) > ((float)L_11))))
+		L_11 = VirtFuncInvoker0< float >::Invoke(16 /* System.Single UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::get_MinBound() */, __this);
+		if ((((float)((float)((float)L_10))) < ((float)L_11)))
 		{
-			goto IL_003e;
+			goto IL_004b;
 		}
 	}
-
-IL_003d:
 	{
-		// return;
-		return;
+		int32_t L_12 = V_3;
+		float L_13;
+		L_13 = VirtFuncInvoker0< float >::Invoke(18 /* System.Single UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::get_MaxBound() */, __this);
+		G_B6_0 = ((((float)((float)((float)L_12))) > ((float)L_13))? 1 : 0);
+		goto IL_004c;
 	}
 
-IL_003e:
+IL_004b:
 	{
-		// if (m_VRR.SetRefreshRateByIndex(rateIndex))
-		RuntimeObject* L_12 = __this->get_m_VRR_13();
-		int32_t L_13 = V_0;
-		NullCheck(L_12);
-		bool L_14;
-		L_14 = InterfaceFuncInvoker1< bool, int32_t >::Invoke(2 /* System.Boolean UnityEngine.AdaptivePerformance.Samsung.Android.IVariableRefreshRate::SetRefreshRateByIndex(System.Int32) */, IVariableRefreshRate_tDE89F043B8996572722116FCB1A8BC2EB4B3DD77_il2cpp_TypeInfo_var, L_12, L_13);
+		G_B6_0 = 1;
+	}
+
+IL_004c:
+	{
+		V_4 = (bool)G_B6_0;
+		bool L_14 = V_4;
 		if (!L_14)
 		{
-			goto IL_0053;
+			goto IL_0054;
+		}
+	}
+	{
+		// return;
+		goto IL_006e;
+	}
+
+IL_0054:
+	{
+		// if (m_VRR.SetRefreshRateByIndex(rateIndex))
+		RuntimeObject* L_15 = __this->get_m_VRR_13();
+		int32_t L_16 = V_2;
+		NullCheck(L_15);
+		bool L_17;
+		L_17 = InterfaceFuncInvoker1< bool, int32_t >::Invoke(2 /* System.Boolean UnityEngine.AdaptivePerformance.Samsung.Android.IVariableRefreshRate::SetRefreshRateByIndex(System.Int32) */, IVariableRefreshRate_tDE89F043B8996572722116FCB1A8BC2EB4B3DD77_il2cpp_TypeInfo_var, L_15, L_16);
+		V_5 = L_17;
+		bool L_18 = V_5;
+		if (!L_18)
+		{
+			goto IL_006d;
 		}
 	}
 	{
 		// m_CurrentRefreshRateIndex = rateIndex;
-		int32_t L_15 = V_0;
-		__this->set_m_CurrentRefreshRateIndex_14(L_15);
+		int32_t L_19 = V_2;
+		__this->set_m_CurrentRefreshRateIndex_14(L_19);
 	}
 
-IL_0053:
+IL_006d:
+	{
+	}
+
+IL_006e:
 	{
 		// }
 		return;
@@ -1606,94 +1670,120 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdaptiveVariableRefreshRate_OnLevelDecre
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IVariableRefreshRate_tDE89F043B8996572722116FCB1A8BC2EB4B3DD77_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	int32_t V_0 = 0;
-	int32_t V_1 = 0;
+	bool V_0 = false;
+	bool V_1 = false;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	bool V_4 = false;
+	bool V_5 = false;
+	int32_t G_B6_0 = 0;
 	{
 		// if (m_VRR == null)
 		RuntimeObject* L_0 = __this->get_m_VRR_13();
-		if (L_0)
+		V_0 = (bool)((((RuntimeObject*)(RuntimeObject*)L_0) == ((RuntimeObject*)(RuntimeObject *)NULL))? 1 : 0);
+		bool L_1 = V_0;
+		if (!L_1)
 		{
-			goto IL_0009;
+			goto IL_0010;
 		}
 	}
 	{
 		// return;
-		return;
+		goto IL_007c;
 	}
 
-IL_0009:
+IL_0010:
 	{
 		// if (m_CurrentRefreshRateIndex < m_VRR.SupportedRefreshRates.Length - 1)
-		int32_t L_1 = __this->get_m_CurrentRefreshRateIndex_14();
-		RuntimeObject* L_2 = __this->get_m_VRR_13();
-		NullCheck(L_2);
-		Int32U5BU5D_t70F1BDC14B1786481B176D6139A5E3B87DC54C32* L_3;
-		L_3 = InterfaceFuncInvoker0< Int32U5BU5D_t70F1BDC14B1786481B176D6139A5E3B87DC54C32* >::Invoke(0 /* System.Int32[] UnityEngine.AdaptivePerformance.Samsung.Android.IVariableRefreshRate::get_SupportedRefreshRates() */, IVariableRefreshRate_tDE89F043B8996572722116FCB1A8BC2EB4B3DD77_il2cpp_TypeInfo_var, L_2);
+		int32_t L_2 = __this->get_m_CurrentRefreshRateIndex_14();
+		RuntimeObject* L_3 = __this->get_m_VRR_13();
 		NullCheck(L_3);
-		if ((((int32_t)L_1) >= ((int32_t)((int32_t)il2cpp_codegen_subtract((int32_t)((int32_t)((int32_t)(((RuntimeArray*)L_3)->max_length))), (int32_t)1)))))
+		Int32U5BU5D_t70F1BDC14B1786481B176D6139A5E3B87DC54C32* L_4;
+		L_4 = InterfaceFuncInvoker0< Int32U5BU5D_t70F1BDC14B1786481B176D6139A5E3B87DC54C32* >::Invoke(0 /* System.Int32[] UnityEngine.AdaptivePerformance.Samsung.Android.IVariableRefreshRate::get_SupportedRefreshRates() */, IVariableRefreshRate_tDE89F043B8996572722116FCB1A8BC2EB4B3DD77_il2cpp_TypeInfo_var, L_3);
+		NullCheck(L_4);
+		V_1 = (bool)((((int32_t)L_2) < ((int32_t)((int32_t)il2cpp_codegen_subtract((int32_t)((int32_t)((int32_t)(((RuntimeArray*)L_4)->max_length))), (int32_t)1))))? 1 : 0);
+		bool L_5 = V_1;
+		if (!L_5)
 		{
-			goto IL_0061;
+			goto IL_007c;
 		}
 	}
 	{
 		// var rateIndex = m_CurrentRefreshRateIndex + 1;
-		int32_t L_4 = __this->get_m_CurrentRefreshRateIndex_14();
-		V_0 = ((int32_t)il2cpp_codegen_add((int32_t)L_4, (int32_t)1));
+		int32_t L_6 = __this->get_m_CurrentRefreshRateIndex_14();
+		V_2 = ((int32_t)il2cpp_codegen_add((int32_t)L_6, (int32_t)1));
 		// var fps = m_VRR.SupportedRefreshRates[rateIndex];
-		RuntimeObject* L_5 = __this->get_m_VRR_13();
-		NullCheck(L_5);
-		Int32U5BU5D_t70F1BDC14B1786481B176D6139A5E3B87DC54C32* L_6;
-		L_6 = InterfaceFuncInvoker0< Int32U5BU5D_t70F1BDC14B1786481B176D6139A5E3B87DC54C32* >::Invoke(0 /* System.Int32[] UnityEngine.AdaptivePerformance.Samsung.Android.IVariableRefreshRate::get_SupportedRefreshRates() */, IVariableRefreshRate_tDE89F043B8996572722116FCB1A8BC2EB4B3DD77_il2cpp_TypeInfo_var, L_5);
-		int32_t L_7 = V_0;
-		NullCheck(L_6);
-		int32_t L_8 = L_7;
-		int32_t L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
-		V_1 = L_9;
+		RuntimeObject* L_7 = __this->get_m_VRR_13();
+		NullCheck(L_7);
+		Int32U5BU5D_t70F1BDC14B1786481B176D6139A5E3B87DC54C32* L_8;
+		L_8 = InterfaceFuncInvoker0< Int32U5BU5D_t70F1BDC14B1786481B176D6139A5E3B87DC54C32* >::Invoke(0 /* System.Int32[] UnityEngine.AdaptivePerformance.Samsung.Android.IVariableRefreshRate::get_SupportedRefreshRates() */, IVariableRefreshRate_tDE89F043B8996572722116FCB1A8BC2EB4B3DD77_il2cpp_TypeInfo_var, L_7);
+		int32_t L_9 = V_2;
+		NullCheck(L_8);
+		int32_t L_10 = L_9;
+		int32_t L_11 = (L_8)->GetAt(static_cast<il2cpp_array_size_t>(L_10));
+		V_3 = L_11;
 		// if (fps < MinBound || fps > MaxBound)
-		int32_t L_10 = V_1;
-		float L_11;
-		L_11 = VirtFuncInvoker0< float >::Invoke(16 /* System.Single UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::get_MinBound() */, __this);
-		if ((((float)((float)((float)L_10))) < ((float)L_11)))
-		{
-			goto IL_004b;
-		}
-	}
-	{
-		int32_t L_12 = V_1;
+		int32_t L_12 = V_3;
 		float L_13;
-		L_13 = VirtFuncInvoker0< float >::Invoke(18 /* System.Single UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::get_MaxBound() */, __this);
-		if ((!(((float)((float)((float)L_12))) > ((float)L_13))))
+		L_13 = VirtFuncInvoker0< float >::Invoke(16 /* System.Single UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::get_MinBound() */, __this);
+		if ((((float)((float)((float)L_12))) < ((float)L_13)))
 		{
-			goto IL_004c;
+			goto IL_0059;
 		}
 	}
-
-IL_004b:
 	{
-		// return;
-		return;
+		int32_t L_14 = V_3;
+		float L_15;
+		L_15 = VirtFuncInvoker0< float >::Invoke(18 /* System.Single UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::get_MaxBound() */, __this);
+		G_B6_0 = ((((float)((float)((float)L_14))) > ((float)L_15))? 1 : 0);
+		goto IL_005a;
 	}
 
-IL_004c:
+IL_0059:
 	{
-		// if (m_VRR.SetRefreshRateByIndex(rateIndex))
-		RuntimeObject* L_14 = __this->get_m_VRR_13();
-		int32_t L_15 = V_0;
-		NullCheck(L_14);
-		bool L_16;
-		L_16 = InterfaceFuncInvoker1< bool, int32_t >::Invoke(2 /* System.Boolean UnityEngine.AdaptivePerformance.Samsung.Android.IVariableRefreshRate::SetRefreshRateByIndex(System.Int32) */, IVariableRefreshRate_tDE89F043B8996572722116FCB1A8BC2EB4B3DD77_il2cpp_TypeInfo_var, L_14, L_15);
+		G_B6_0 = 1;
+	}
+
+IL_005a:
+	{
+		V_4 = (bool)G_B6_0;
+		bool L_16 = V_4;
 		if (!L_16)
 		{
-			goto IL_0061;
+			goto IL_0062;
+		}
+	}
+	{
+		// return;
+		goto IL_007c;
+	}
+
+IL_0062:
+	{
+		// if (m_VRR.SetRefreshRateByIndex(rateIndex))
+		RuntimeObject* L_17 = __this->get_m_VRR_13();
+		int32_t L_18 = V_2;
+		NullCheck(L_17);
+		bool L_19;
+		L_19 = InterfaceFuncInvoker1< bool, int32_t >::Invoke(2 /* System.Boolean UnityEngine.AdaptivePerformance.Samsung.Android.IVariableRefreshRate::SetRefreshRateByIndex(System.Int32) */, IVariableRefreshRate_tDE89F043B8996572722116FCB1A8BC2EB4B3DD77_il2cpp_TypeInfo_var, L_17, L_18);
+		V_5 = L_19;
+		bool L_20 = V_5;
+		if (!L_20)
+		{
+			goto IL_007b;
 		}
 	}
 	{
 		// m_CurrentRefreshRateIndex = rateIndex;
-		int32_t L_17 = V_0;
-		__this->set_m_CurrentRefreshRateIndex_14(L_17);
+		int32_t L_21 = V_2;
+		__this->set_m_CurrentRefreshRateIndex_14(L_21);
 	}
 
-IL_0061:
+IL_007b:
+	{
+	}
+
+IL_007c:
 	{
 		// }
 		return;
@@ -1703,6 +1793,8 @@ IL_0061:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdaptiveVariableRefreshRate__ctor_m1BDED88613C327F54A57CA29B1B7589066F3B405 (AdaptiveVariableRefreshRate_t191947991F52574C0BF26A6156720B6757C1D818 * __this, const RuntimeMethod* method)
 {
 	{
+		// bool m_AdaptiveVRREnabled = false;
+		__this->set_m_AdaptiveVRREnabled_12((bool)0);
 		AdaptiveFramerate__ctor_m694304B14B58592958A80FB83E43A309ABF8D77A(__this, /*hidden argument*/NULL);
 		return;
 	}
@@ -1726,9 +1818,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdaptiveVariableRefreshRate__ctor_m1BDED
 // UnityEngine.ISubsystem UnityEngine.AdaptivePerformance.Samsung.Android.SamsungAndroidProviderLoader::GetDefaultSubsystem()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SamsungAndroidProviderLoader_GetDefaultSubsystem_m21CE0BA6637633939066D49CCB735113F91A0076 (SamsungAndroidProviderLoader_tF4EF35A26133E653D4A7D8EDD8AA52F555C471C2 * __this, const RuntimeMethod* method)
 {
+	RuntimeObject* V_0 = NULL;
 	{
 		// return null;
-		return (RuntimeObject*)NULL;
+		V_0 = (RuntimeObject*)NULL;
+		goto IL_0005;
+	}
+
+IL_0005:
+	{
+		// }
+		RuntimeObject* L_0 = V_0;
+		return L_0;
 	}
 }
 // UnityEngine.AdaptivePerformance.IAdaptivePerformanceSettings UnityEngine.AdaptivePerformance.Samsung.Android.SamsungAndroidProviderLoader::GetSettings()
@@ -1740,44 +1841,89 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IAdaptivePerformanceSettings_tA1BEAD4827B883C
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SamsungAndroidProviderSettings_tBEEAB62061DF28F7475E9F0D4DBDFE1B6897434A_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	IAdaptivePerformanceSettings_tA1BEAD4827B883C1A94BADD21AC4582054DAA6DF * V_0 = NULL;
 	{
 		// return SamsungAndroidProviderSettings.GetSettings();
 		IL2CPP_RUNTIME_CLASS_INIT(SamsungAndroidProviderSettings_tBEEAB62061DF28F7475E9F0D4DBDFE1B6897434A_il2cpp_TypeInfo_var);
 		SamsungAndroidProviderSettings_tBEEAB62061DF28F7475E9F0D4DBDFE1B6897434A * L_0;
-		L_0 = SamsungAndroidProviderSettings_GetSettings_m5F3D48F7276BAC793B6E1B0174B71E8010BC5EDA_inline(/*hidden argument*/NULL);
-		return L_0;
+		L_0 = SamsungAndroidProviderSettings_GetSettings_m5F3D48F7276BAC793B6E1B0174B71E8010BC5EDA(/*hidden argument*/NULL);
+		V_0 = L_0;
+		goto IL_0009;
+	}
+
+IL_0009:
+	{
+		// }
+		IAdaptivePerformanceSettings_tA1BEAD4827B883C1A94BADD21AC4582054DAA6DF * L_1 = V_0;
+		return L_1;
 	}
 }
 // System.Boolean UnityEngine.AdaptivePerformance.Samsung.Android.SamsungAndroidProviderLoader::Initialize()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SamsungAndroidProviderLoader_Initialize_mD8B7358FD468F612096722DDD533A3870C918271 (SamsungAndroidProviderLoader_tF4EF35A26133E653D4A7D8EDD8AA52F555C471C2 * __this, const RuntimeMethod* method)
 {
+	bool V_0 = false;
 	{
 		// return false;
-		return (bool)0;
+		V_0 = (bool)0;
+		goto IL_0005;
+	}
+
+IL_0005:
+	{
+		// }
+		bool L_0 = V_0;
+		return L_0;
 	}
 }
 // System.Boolean UnityEngine.AdaptivePerformance.Samsung.Android.SamsungAndroidProviderLoader::Start()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SamsungAndroidProviderLoader_Start_m4A8C3409675027A2204351FB90DE2572D0AFFBCC (SamsungAndroidProviderLoader_tF4EF35A26133E653D4A7D8EDD8AA52F555C471C2 * __this, const RuntimeMethod* method)
 {
+	bool V_0 = false;
 	{
 		// return false;
-		return (bool)0;
+		V_0 = (bool)0;
+		goto IL_0005;
+	}
+
+IL_0005:
+	{
+		// }
+		bool L_0 = V_0;
+		return L_0;
 	}
 }
 // System.Boolean UnityEngine.AdaptivePerformance.Samsung.Android.SamsungAndroidProviderLoader::Stop()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SamsungAndroidProviderLoader_Stop_mB5FB11A342D68015336C6673E75BF98FCB9AE883 (SamsungAndroidProviderLoader_tF4EF35A26133E653D4A7D8EDD8AA52F555C471C2 * __this, const RuntimeMethod* method)
 {
+	bool V_0 = false;
 	{
 		// return false;
-		return (bool)0;
+		V_0 = (bool)0;
+		goto IL_0005;
+	}
+
+IL_0005:
+	{
+		// }
+		bool L_0 = V_0;
+		return L_0;
 	}
 }
 // System.Boolean UnityEngine.AdaptivePerformance.Samsung.Android.SamsungAndroidProviderLoader::Deinitialize()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SamsungAndroidProviderLoader_Deinitialize_m41518761704AB1B66B9D209DFA76BBD9C071CACC (SamsungAndroidProviderLoader_tF4EF35A26133E653D4A7D8EDD8AA52F555C471C2 * __this, const RuntimeMethod* method)
 {
+	bool V_0 = false;
 	{
 		// return false;
-		return (bool)0;
+		V_0 = (bool)0;
+		goto IL_0005;
+	}
+
+IL_0005:
+	{
+		// }
+		bool L_0 = V_0;
+		return L_0;
 	}
 }
 // System.Void UnityEngine.AdaptivePerformance.Samsung.Android.SamsungAndroidProviderLoader::.ctor()
@@ -1819,10 +1965,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SamsungAndroidProviderLoader__cctor_m679
 // System.Boolean UnityEngine.AdaptivePerformance.Samsung.Android.SamsungAndroidProviderSettings::get_samsungProviderLogging()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SamsungAndroidProviderSettings_get_samsungProviderLogging_m71DA5B62D909EA7009C760C09856D986751522F4 (SamsungAndroidProviderSettings_tBEEAB62061DF28F7475E9F0D4DBDFE1B6897434A * __this, const RuntimeMethod* method)
 {
+	bool V_0 = false;
 	{
 		// get { return m_SamsungProviderLogging; }
 		bool L_0 = __this->get_m_SamsungProviderLogging_12();
-		return L_0;
+		V_0 = L_0;
+		goto IL_000a;
+	}
+
+IL_000a:
+	{
+		// get { return m_SamsungProviderLogging; }
+		bool L_1 = V_0;
+		return L_1;
 	}
 }
 // System.Void UnityEngine.AdaptivePerformance.Samsung.Android.SamsungAndroidProviderSettings::set_samsungProviderLogging(System.Boolean)
@@ -1839,10 +1994,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SamsungAndroidProviderSettings_set_samsu
 // System.Boolean UnityEngine.AdaptivePerformance.Samsung.Android.SamsungAndroidProviderSettings::get_highSpeedVRR()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SamsungAndroidProviderSettings_get_highSpeedVRR_mA9BB44B728682221720176AFAF52FB5EF9DC39EB (SamsungAndroidProviderSettings_tBEEAB62061DF28F7475E9F0D4DBDFE1B6897434A * __this, const RuntimeMethod* method)
 {
+	bool V_0 = false;
 	{
 		// get { return m_HighSpeedVRR; }
 		bool L_0 = __this->get_m_HighSpeedVRR_13();
-		return L_0;
+		V_0 = L_0;
+		goto IL_000a;
+	}
+
+IL_000a:
+	{
+		// get { return m_HighSpeedVRR; }
+		bool L_1 = V_0;
+		return L_1;
 	}
 }
 // System.Void UnityEngine.AdaptivePerformance.Samsung.Android.SamsungAndroidProviderSettings::set_highSpeedVRR(System.Boolean)
@@ -1859,10 +2023,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SamsungAndroidProviderSettings_set_highS
 // System.Boolean UnityEngine.AdaptivePerformance.Samsung.Android.SamsungAndroidProviderSettings::get_automaticVRR()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SamsungAndroidProviderSettings_get_automaticVRR_m4221B3258B342205B45B533671E17B29B81A6686 (SamsungAndroidProviderSettings_tBEEAB62061DF28F7475E9F0D4DBDFE1B6897434A * __this, const RuntimeMethod* method)
 {
+	bool V_0 = false;
 	{
 		// get { return m_AutomaticVRR; }
 		bool L_0 = __this->get_m_AutomaticVRR_14();
-		return L_0;
+		V_0 = L_0;
+		goto IL_000a;
+	}
+
+IL_000a:
+	{
+		// get { return m_AutomaticVRR; }
+		bool L_1 = V_0;
+		return L_1;
 	}
 }
 // System.Void UnityEngine.AdaptivePerformance.Samsung.Android.SamsungAndroidProviderSettings::set_automaticVRR(System.Boolean)
@@ -1902,18 +2075,36 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SamsungAndroidProviderSettings_tBEEAB62061DF2
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SamsungAndroidProviderSettings_tBEEAB62061DF28F7475E9F0D4DBDFE1B6897434A_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	SamsungAndroidProviderSettings_tBEEAB62061DF28F7475E9F0D4DBDFE1B6897434A * V_0 = NULL;
+	SamsungAndroidProviderSettings_tBEEAB62061DF28F7475E9F0D4DBDFE1B6897434A * V_1 = NULL;
 	{
+		// SamsungAndroidProviderSettings settings = null;
+		V_0 = (SamsungAndroidProviderSettings_tBEEAB62061DF28F7475E9F0D4DBDFE1B6897434A *)NULL;
 		// settings = s_RuntimeInstance;
 		IL2CPP_RUNTIME_CLASS_INIT(SamsungAndroidProviderSettings_tBEEAB62061DF28F7475E9F0D4DBDFE1B6897434A_il2cpp_TypeInfo_var);
 		SamsungAndroidProviderSettings_tBEEAB62061DF28F7475E9F0D4DBDFE1B6897434A * L_0 = ((SamsungAndroidProviderSettings_tBEEAB62061DF28F7475E9F0D4DBDFE1B6897434A_StaticFields*)il2cpp_codegen_static_fields_for(SamsungAndroidProviderSettings_tBEEAB62061DF28F7475E9F0D4DBDFE1B6897434A_il2cpp_TypeInfo_var))->get_s_RuntimeInstance_15();
+		V_0 = L_0;
 		// return settings;
-		return L_0;
+		SamsungAndroidProviderSettings_tBEEAB62061DF28F7475E9F0D4DBDFE1B6897434A * L_1 = V_0;
+		V_1 = L_1;
+		goto IL_000d;
+	}
+
+IL_000d:
+	{
+		// }
+		SamsungAndroidProviderSettings_tBEEAB62061DF28F7475E9F0D4DBDFE1B6897434A * L_2 = V_1;
+		return L_2;
 	}
 }
 // System.Void UnityEngine.AdaptivePerformance.Samsung.Android.SamsungAndroidProviderSettings::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SamsungAndroidProviderSettings__ctor_m4FDF5371E2CD6413668E22189FED1652EDCCDB4E (SamsungAndroidProviderSettings_tBEEAB62061DF28F7475E9F0D4DBDFE1B6897434A * __this, const RuntimeMethod* method)
 {
 	{
+		// bool m_SamsungProviderLogging = false;
+		__this->set_m_SamsungProviderLogging_12((bool)0);
+		// bool m_HighSpeedVRR = false;
+		__this->set_m_HighSpeedVRR_13((bool)0);
 		// bool m_AutomaticVRR = true;
 		__this->set_m_AutomaticVRR_14((bool)1);
 		IAdaptivePerformanceSettings__ctor_m54D83D51CB50D235F0F7F8AAB4D0CCFD57D8B96B(__this, /*hidden argument*/NULL);
@@ -1923,7 +2114,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SamsungAndroidProviderSettings__ctor_m4F
 // System.Void UnityEngine.AdaptivePerformance.Samsung.Android.SamsungAndroidProviderSettings::.cctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SamsungAndroidProviderSettings__cctor_m8B37F5F9DA633683D534287F61B77D054A09D170 (const RuntimeMethod* method)
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SamsungAndroidProviderSettings_tBEEAB62061DF28F7475E9F0D4DBDFE1B6897434A_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// public static SamsungAndroidProviderSettings s_RuntimeInstance = null;
+		((SamsungAndroidProviderSettings_tBEEAB62061DF28F7475E9F0D4DBDFE1B6897434A_StaticFields*)il2cpp_codegen_static_fields_for(SamsungAndroidProviderSettings_tBEEAB62061DF28F7475E9F0D4DBDFE1B6897434A_il2cpp_TypeInfo_var))->set_s_RuntimeInstance_15((SamsungAndroidProviderSettings_tBEEAB62061DF28F7475E9F0D4DBDFE1B6897434A *)NULL);
 		return;
 	}
 }
@@ -2087,22 +2286,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* VariableRefreshRat
 	{
 		// static public IVariableRefreshRate Instance { get; set; }
 		RuntimeObject* L_0 = ((VariableRefreshRate_t57603D16D53370D4A4A0485DA7D22C0D9980C9BD_StaticFields*)il2cpp_codegen_static_fields_for(VariableRefreshRate_t57603D16D53370D4A4A0485DA7D22C0D9980C9BD_il2cpp_TypeInfo_var))->get_U3CInstanceU3Ek__BackingField_0();
-		return L_0;
-	}
-}
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR SamsungAndroidProviderSettings_tBEEAB62061DF28F7475E9F0D4DBDFE1B6897434A * SamsungAndroidProviderSettings_GetSettings_m5F3D48F7276BAC793B6E1B0174B71E8010BC5EDA_inline (const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SamsungAndroidProviderSettings_tBEEAB62061DF28F7475E9F0D4DBDFE1B6897434A_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// settings = s_RuntimeInstance;
-		IL2CPP_RUNTIME_CLASS_INIT(SamsungAndroidProviderSettings_tBEEAB62061DF28F7475E9F0D4DBDFE1B6897434A_il2cpp_TypeInfo_var);
-		SamsungAndroidProviderSettings_tBEEAB62061DF28F7475E9F0D4DBDFE1B6897434A * L_0 = ((SamsungAndroidProviderSettings_tBEEAB62061DF28F7475E9F0D4DBDFE1B6897434A_StaticFields*)il2cpp_codegen_static_fields_for(SamsungAndroidProviderSettings_tBEEAB62061DF28F7475E9F0D4DBDFE1B6897434A_il2cpp_TypeInfo_var))->get_s_RuntimeInstance_15();
-		// return settings;
 		return L_0;
 	}
 }

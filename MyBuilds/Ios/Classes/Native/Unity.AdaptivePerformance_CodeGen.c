@@ -158,765 +158,810 @@ extern void U3CInvokeEndOfFrameU3Ed__94_System_Collections_Generic_IEnumeratorU3
 extern void U3CInvokeEndOfFrameU3Ed__94_System_Collections_IEnumerator_Reset_mF58DA7FB25D372AD3C37F46CAFC4AB493053DCE1 (void);
 // 0x00000049 System.Object UnityEngine.AdaptivePerformance.AdaptivePerformanceManager/<InvokeEndOfFrame>d__94::System.Collections.IEnumerator.get_Current()
 extern void U3CInvokeEndOfFrameU3Ed__94_System_Collections_IEnumerator_get_Current_m7EFBE856825399E756C2D56923E9398E39F673AC (void);
-// 0x0000004A System.Single UnityEngine.AdaptivePerformance.AutoPerformanceLevelController::get_TargetFrameTime()
+// 0x0000004A System.Void UnityEngine.AdaptivePerformance.APLog::Debug(System.String,System.Object[])
+extern void APLog_Debug_m74E7A1FA7CBAD0584F3032A4F36695D8D5F7EDC5 (void);
+// 0x0000004B System.Void UnityEngine.AdaptivePerformance.APLog::.cctor()
+extern void APLog__cctor_m1D5AFDF1407DCE63310FE1ECE56FCD1FA2E8C48E (void);
+// 0x0000004C System.Single UnityEngine.AdaptivePerformance.AutoPerformanceLevelController::get_TargetFrameTime()
 extern void AutoPerformanceLevelController_get_TargetFrameTime_m12B9B13965948BE6FF0D51F086D8185C8FF12269 (void);
-// 0x0000004B System.Void UnityEngine.AdaptivePerformance.AutoPerformanceLevelController::set_TargetFrameTime(System.Single)
+// 0x0000004D System.Void UnityEngine.AdaptivePerformance.AutoPerformanceLevelController::set_TargetFrameTime(System.Single)
 extern void AutoPerformanceLevelController_set_TargetFrameTime_m46EF367E4CA3E6A889661BBBC3FEFD95D91D9432 (void);
-// 0x0000004C System.Single UnityEngine.AdaptivePerformance.AutoPerformanceLevelController::get_AllowedCpuActiveTimeRatio()
+// 0x0000004E System.Single UnityEngine.AdaptivePerformance.AutoPerformanceLevelController::get_AllowedCpuActiveTimeRatio()
 extern void AutoPerformanceLevelController_get_AllowedCpuActiveTimeRatio_mBD97379A9F0C60091D24B0183D2E40D12BEC69F2 (void);
-// 0x0000004D System.Void UnityEngine.AdaptivePerformance.AutoPerformanceLevelController::set_AllowedCpuActiveTimeRatio(System.Single)
+// 0x0000004F System.Void UnityEngine.AdaptivePerformance.AutoPerformanceLevelController::set_AllowedCpuActiveTimeRatio(System.Single)
 extern void AutoPerformanceLevelController_set_AllowedCpuActiveTimeRatio_mD6C0C67CFC7147376DBB343DF84D1658096881BF (void);
-// 0x0000004E System.Single UnityEngine.AdaptivePerformance.AutoPerformanceLevelController::get_AllowedGpuActiveTimeRatio()
+// 0x00000050 System.Single UnityEngine.AdaptivePerformance.AutoPerformanceLevelController::get_AllowedGpuActiveTimeRatio()
 extern void AutoPerformanceLevelController_get_AllowedGpuActiveTimeRatio_m1E4753D14E23EEB58FCD92DFE940B2FC5F9B6AFC (void);
-// 0x0000004F System.Void UnityEngine.AdaptivePerformance.AutoPerformanceLevelController::set_AllowedGpuActiveTimeRatio(System.Single)
+// 0x00000051 System.Void UnityEngine.AdaptivePerformance.AutoPerformanceLevelController::set_AllowedGpuActiveTimeRatio(System.Single)
 extern void AutoPerformanceLevelController_set_AllowedGpuActiveTimeRatio_m72A3C2102C16CA01E77917CF909B2CCA6F373331 (void);
-// 0x00000050 System.Single UnityEngine.AdaptivePerformance.AutoPerformanceLevelController::get_GpuLevelBounceAvoidanceThreshold()
+// 0x00000052 System.Single UnityEngine.AdaptivePerformance.AutoPerformanceLevelController::get_GpuLevelBounceAvoidanceThreshold()
 extern void AutoPerformanceLevelController_get_GpuLevelBounceAvoidanceThreshold_mE8B1121502A71B0163C697A11145A1063DFB1704 (void);
-// 0x00000051 System.Void UnityEngine.AdaptivePerformance.AutoPerformanceLevelController::set_GpuLevelBounceAvoidanceThreshold(System.Single)
+// 0x00000053 System.Void UnityEngine.AdaptivePerformance.AutoPerformanceLevelController::set_GpuLevelBounceAvoidanceThreshold(System.Single)
 extern void AutoPerformanceLevelController_set_GpuLevelBounceAvoidanceThreshold_m746E886A64D62689EED32475B2536C96D3F6DAA8 (void);
-// 0x00000052 System.Single UnityEngine.AdaptivePerformance.AutoPerformanceLevelController::get_CpuLevelBounceAvoidanceThreshold()
+// 0x00000054 System.Single UnityEngine.AdaptivePerformance.AutoPerformanceLevelController::get_CpuLevelBounceAvoidanceThreshold()
 extern void AutoPerformanceLevelController_get_CpuLevelBounceAvoidanceThreshold_m12A55ACD759077A4F0E64F5F290780EEB2066016 (void);
-// 0x00000053 System.Void UnityEngine.AdaptivePerformance.AutoPerformanceLevelController::set_CpuLevelBounceAvoidanceThreshold(System.Single)
+// 0x00000055 System.Void UnityEngine.AdaptivePerformance.AutoPerformanceLevelController::set_CpuLevelBounceAvoidanceThreshold(System.Single)
 extern void AutoPerformanceLevelController_set_CpuLevelBounceAvoidanceThreshold_m8539DAB22CCA08DECC0A20EC5B3236108BD5FE7A (void);
-// 0x00000054 System.Single UnityEngine.AdaptivePerformance.AutoPerformanceLevelController::get_UpdateInterval()
+// 0x00000056 System.Single UnityEngine.AdaptivePerformance.AutoPerformanceLevelController::get_UpdateInterval()
 extern void AutoPerformanceLevelController_get_UpdateInterval_m73DD7368A177B2D2EBD808EB79DB99701E70DF26 (void);
-// 0x00000055 System.Void UnityEngine.AdaptivePerformance.AutoPerformanceLevelController::set_UpdateInterval(System.Single)
+// 0x00000057 System.Void UnityEngine.AdaptivePerformance.AutoPerformanceLevelController::set_UpdateInterval(System.Single)
 extern void AutoPerformanceLevelController_set_UpdateInterval_mC65EC94E429A5327ECAC87B09AD254904C33A495 (void);
-// 0x00000056 System.Single UnityEngine.AdaptivePerformance.AutoPerformanceLevelController::get_MinTargetFrameRateHitTime()
+// 0x00000058 System.Single UnityEngine.AdaptivePerformance.AutoPerformanceLevelController::get_MinTargetFrameRateHitTime()
 extern void AutoPerformanceLevelController_get_MinTargetFrameRateHitTime_mF9C52F458883B2B013E3743CBCB698B01D7A7800 (void);
-// 0x00000057 System.Void UnityEngine.AdaptivePerformance.AutoPerformanceLevelController::set_MinTargetFrameRateHitTime(System.Single)
+// 0x00000059 System.Void UnityEngine.AdaptivePerformance.AutoPerformanceLevelController::set_MinTargetFrameRateHitTime(System.Single)
 extern void AutoPerformanceLevelController_set_MinTargetFrameRateHitTime_mEB4CDD99385FE3A3BD933F234A54DFEFCBD1ACA7 (void);
-// 0x00000058 System.Single UnityEngine.AdaptivePerformance.AutoPerformanceLevelController::get_MaxTemperatureLevel()
+// 0x0000005A System.Single UnityEngine.AdaptivePerformance.AutoPerformanceLevelController::get_MaxTemperatureLevel()
 extern void AutoPerformanceLevelController_get_MaxTemperatureLevel_m80A7C72474321FF595A4E3C3AF684A7C7C82BB9B (void);
-// 0x00000059 System.Void UnityEngine.AdaptivePerformance.AutoPerformanceLevelController::set_MaxTemperatureLevel(System.Single)
+// 0x0000005B System.Void UnityEngine.AdaptivePerformance.AutoPerformanceLevelController::set_MaxTemperatureLevel(System.Single)
 extern void AutoPerformanceLevelController_set_MaxTemperatureLevel_m36A82F45310481D04011AE7A0D9013951190A9F9 (void);
-// 0x0000005A System.Void UnityEngine.AdaptivePerformance.AutoPerformanceLevelController::.ctor(UnityEngine.AdaptivePerformance.IDevicePerformanceControl,UnityEngine.AdaptivePerformance.IPerformanceStatus,UnityEngine.AdaptivePerformance.IThermalStatus)
+// 0x0000005C System.Void UnityEngine.AdaptivePerformance.AutoPerformanceLevelController::.ctor(UnityEngine.AdaptivePerformance.IDevicePerformanceControl,UnityEngine.AdaptivePerformance.IPerformanceStatus,UnityEngine.AdaptivePerformance.IThermalStatus)
 extern void AutoPerformanceLevelController__ctor_mB5644EE7033339F2BC1BFA8284766FC7987C365A (void);
-// 0x0000005B System.Boolean UnityEngine.AdaptivePerformance.AutoPerformanceLevelController::get_Enabled()
+// 0x0000005D System.Boolean UnityEngine.AdaptivePerformance.AutoPerformanceLevelController::get_Enabled()
 extern void AutoPerformanceLevelController_get_Enabled_mDC4CDDEC28B5876E41CAC06D60D098FADEED7C14 (void);
-// 0x0000005C System.Void UnityEngine.AdaptivePerformance.AutoPerformanceLevelController::set_Enabled(System.Boolean)
+// 0x0000005E System.Void UnityEngine.AdaptivePerformance.AutoPerformanceLevelController::set_Enabled(System.Boolean)
 extern void AutoPerformanceLevelController_set_Enabled_m74E7353BAB9DC4C4773F27A53812AFA748A37F6B (void);
-// 0x0000005D System.Void UnityEngine.AdaptivePerformance.AutoPerformanceLevelController::Update()
+// 0x0000005F System.Void UnityEngine.AdaptivePerformance.AutoPerformanceLevelController::Update()
 extern void AutoPerformanceLevelController_Update_m28FA5334BA5AFECD3AB19827B1CC4099D65EC9AC (void);
-// 0x0000005E System.Void UnityEngine.AdaptivePerformance.AutoPerformanceLevelController::Override(System.Int32,System.Int32)
+// 0x00000060 System.Void UnityEngine.AdaptivePerformance.AutoPerformanceLevelController::Override(System.Int32,System.Int32)
 extern void AutoPerformanceLevelController_Override_m788407DE086C0DC488A44C32E5273E1AB5FDD38C (void);
-// 0x0000005F System.Void UnityEngine.AdaptivePerformance.AutoPerformanceLevelController::UpdateImpl(System.Single)
+// 0x00000061 System.Void UnityEngine.AdaptivePerformance.AutoPerformanceLevelController::UpdateImpl(System.Single)
 extern void AutoPerformanceLevelController_UpdateImpl_m961DD74D5546A371D58E7DF99BC343F460EA1DC3 (void);
-// 0x00000060 System.Void UnityEngine.AdaptivePerformance.AutoPerformanceLevelController::OnBottleneckChange(UnityEngine.AdaptivePerformance.PerformanceBottleneckChangeEventArgs)
+// 0x00000062 System.Void UnityEngine.AdaptivePerformance.AutoPerformanceLevelController::OnBottleneckChange(UnityEngine.AdaptivePerformance.PerformanceBottleneckChangeEventArgs)
 extern void AutoPerformanceLevelController_OnBottleneckChange_mDE224B3DFBA9FBA1F596A69DFBCEDF1FE5630938 (void);
-// 0x00000061 System.Void UnityEngine.AdaptivePerformance.AutoPerformanceLevelController::RaiseGpuLevel(System.Single)
+// 0x00000063 System.Void UnityEngine.AdaptivePerformance.AutoPerformanceLevelController::RaiseGpuLevel(System.Single)
 extern void AutoPerformanceLevelController_RaiseGpuLevel_mCAFD1919DE0BE174D3EA6986960914260C74F0E0 (void);
-// 0x00000062 System.Void UnityEngine.AdaptivePerformance.AutoPerformanceLevelController::RaiseCpuLevel(System.Single)
+// 0x00000064 System.Void UnityEngine.AdaptivePerformance.AutoPerformanceLevelController::RaiseCpuLevel(System.Single)
 extern void AutoPerformanceLevelController_RaiseCpuLevel_mDA3EB6FE6ACE63BFF5B12E03ACB33D8F28B96298 (void);
-// 0x00000063 System.Void UnityEngine.AdaptivePerformance.AutoPerformanceLevelController::LowerCpuLevel(System.Single)
+// 0x00000065 System.Void UnityEngine.AdaptivePerformance.AutoPerformanceLevelController::LowerCpuLevel(System.Single)
 extern void AutoPerformanceLevelController_LowerCpuLevel_m498DF077702F95AA5953F28C114E2C3D2273D498 (void);
-// 0x00000064 System.Void UnityEngine.AdaptivePerformance.AutoPerformanceLevelController::LowerGpuLevel(System.Single)
+// 0x00000066 System.Void UnityEngine.AdaptivePerformance.AutoPerformanceLevelController::LowerGpuLevel(System.Single)
 extern void AutoPerformanceLevelController_LowerGpuLevel_m7AC13CF28A6D5F4350C85B9DA62A91E8EC113670 (void);
-// 0x00000065 System.Boolean UnityEngine.AdaptivePerformance.AutoPerformanceLevelController::AllowLowerCpuLevel(System.Single)
+// 0x00000067 System.Boolean UnityEngine.AdaptivePerformance.AutoPerformanceLevelController::AllowLowerCpuLevel(System.Single)
 extern void AutoPerformanceLevelController_AllowLowerCpuLevel_m7C8CACBF2EC8DCEE052C9D81F08E592CDE4E08BD (void);
-// 0x00000066 System.Boolean UnityEngine.AdaptivePerformance.AutoPerformanceLevelController::AllowLowerGpuLevel(System.Single)
+// 0x00000068 System.Boolean UnityEngine.AdaptivePerformance.AutoPerformanceLevelController::AllowLowerGpuLevel(System.Single)
 extern void AutoPerformanceLevelController_AllowLowerGpuLevel_mC0B0B8B7EE8FD1B5A2BD6C4621875542DA729A5F (void);
-// 0x00000067 System.Boolean UnityEngine.AdaptivePerformance.AutoPerformanceLevelController::AllowRaiseLevels()
+// 0x00000069 System.Boolean UnityEngine.AdaptivePerformance.AutoPerformanceLevelController::AllowRaiseLevels()
 extern void AutoPerformanceLevelController_AllowRaiseLevels_m25D21F0933EDB8072AC99953FBC08B8B6A97161D (void);
-// 0x00000068 System.Boolean UnityEngine.AdaptivePerformance.AutoPerformanceLevelController::AllowRaiseCpuLevel()
+// 0x0000006A System.Boolean UnityEngine.AdaptivePerformance.AutoPerformanceLevelController::AllowRaiseCpuLevel()
 extern void AutoPerformanceLevelController_AllowRaiseCpuLevel_mECC8D0BC6A70ACFB5475C19F4402EEFD592289CA (void);
-// 0x00000069 System.Boolean UnityEngine.AdaptivePerformance.AutoPerformanceLevelController::AllowRaiseGpuLevel()
+// 0x0000006B System.Boolean UnityEngine.AdaptivePerformance.AutoPerformanceLevelController::AllowRaiseGpuLevel()
 extern void AutoPerformanceLevelController_AllowRaiseGpuLevel_m0228072524BEE19B7FB497632B2C0538D851756E (void);
-// 0x0000006A System.Void UnityEngine.AdaptivePerformance.AutoPerformanceLevelController::<.ctor>b__43_0(UnityEngine.AdaptivePerformance.PerformanceBottleneckChangeEventArgs)
+// 0x0000006C System.Void UnityEngine.AdaptivePerformance.AutoPerformanceLevelController::<.ctor>b__43_0(UnityEngine.AdaptivePerformance.PerformanceBottleneckChangeEventArgs)
 extern void AutoPerformanceLevelController_U3C_ctorU3Eb__43_0_m3264975014886B6F7DF2E0D01CF09D7C23E4C6B8 (void);
-// 0x0000006B System.Void UnityEngine.AdaptivePerformance.RenderThreadCpuTime::.ctor()
+// 0x0000006D System.Void UnityEngine.AdaptivePerformance.RenderThreadCpuTime::.ctor()
 extern void RenderThreadCpuTime__ctor_m2D265790774F37828DAEC225D4DB31D0D305D7A9 (void);
-// 0x0000006C System.Void UnityEngine.AdaptivePerformance.RenderThreadCpuTime::Reset()
+// 0x0000006E System.Void UnityEngine.AdaptivePerformance.RenderThreadCpuTime::Reset()
 extern void RenderThreadCpuTime_Reset_m21161DE62A5443AAF88F972E678004D079FD6F2C (void);
-// 0x0000006D System.Void UnityEngine.AdaptivePerformance.RenderThreadCpuTime::Measure()
+// 0x0000006F System.Void UnityEngine.AdaptivePerformance.RenderThreadCpuTime::Measure()
 extern void RenderThreadCpuTime_Measure_m2CC7DD1C61D3141E3A827C40E45DAB8CC70E377A (void);
-// 0x0000006E System.Single UnityEngine.AdaptivePerformance.RenderThreadCpuTime::GetLatestResult()
+// 0x00000070 System.Single UnityEngine.AdaptivePerformance.RenderThreadCpuTime::GetLatestResult()
 extern void RenderThreadCpuTime_GetLatestResult_mF1F6AB9E9A73A4BDB16E352ADD4F3BB64F255BBD (void);
-// 0x0000006F System.Single UnityEngine.AdaptivePerformance.MainThreadCpuTime::GetLatestResult()
+// 0x00000071 System.Single UnityEngine.AdaptivePerformance.MainThreadCpuTime::GetLatestResult()
 extern void MainThreadCpuTime_GetLatestResult_mC77923F7B37F3384D08850799405A67BA87EE167 (void);
-// 0x00000070 System.Void UnityEngine.AdaptivePerformance.MainThreadCpuTime::Measure()
+// 0x00000072 System.Void UnityEngine.AdaptivePerformance.MainThreadCpuTime::Measure()
 extern void MainThreadCpuTime_Measure_m035A34D33D722FAFE597DF97BD3573C2B98072AA (void);
-// 0x00000071 System.Void UnityEngine.AdaptivePerformance.MainThreadCpuTime::.ctor()
+// 0x00000073 System.Void UnityEngine.AdaptivePerformance.MainThreadCpuTime::.ctor()
 extern void MainThreadCpuTime__ctor_mD158B597CBF03DFCE00F4567C52B509C95C736B5 (void);
-// 0x00000072 System.Single UnityEngine.AdaptivePerformance.CpuTimeProvider::get_CpuFrameTime()
+// 0x00000074 System.Single UnityEngine.AdaptivePerformance.CpuTimeProvider::get_CpuFrameTime()
 extern void CpuTimeProvider_get_CpuFrameTime_m447FA894B5A4D103C9F3C973EC9ECEA26AFAD938 (void);
-// 0x00000073 System.Void UnityEngine.AdaptivePerformance.CpuTimeProvider::.ctor()
+// 0x00000075 System.Void UnityEngine.AdaptivePerformance.CpuTimeProvider::.ctor()
 extern void CpuTimeProvider__ctor_m41382E26CD45C1D8CE5DB1348D7364BA73B67716 (void);
-// 0x00000074 System.Void UnityEngine.AdaptivePerformance.CpuTimeProvider::Reset()
+// 0x00000076 System.Void UnityEngine.AdaptivePerformance.CpuTimeProvider::Reset()
 extern void CpuTimeProvider_Reset_m14A046DD4DC62054356C97F29411CDB459AC133A (void);
-// 0x00000075 System.Void UnityEngine.AdaptivePerformance.CpuTimeProvider::LateUpdate()
+// 0x00000077 System.Void UnityEngine.AdaptivePerformance.CpuTimeProvider::LateUpdate()
 extern void CpuTimeProvider_LateUpdate_m53BF76FA5C9CF3E12CE5B2A2249BE45CC93D603B (void);
-// 0x00000076 System.Void UnityEngine.AdaptivePerformance.CpuTimeProvider::EndOfFrame()
+// 0x00000078 System.Void UnityEngine.AdaptivePerformance.CpuTimeProvider::EndOfFrame()
 extern void CpuTimeProvider_EndOfFrame_mD6BB303CEA63D0D32DE8A9E3EEF7915653467811 (void);
-// 0x00000077 System.Void UnityEngine.AdaptivePerformance.DevicePerformanceControlImpl::.ctor(UnityEngine.AdaptivePerformance.Provider.IDevicePerformanceLevelControl)
+// 0x00000079 System.Void UnityEngine.AdaptivePerformance.DevicePerformanceControlImpl::.ctor(UnityEngine.AdaptivePerformance.Provider.IDevicePerformanceLevelControl)
 extern void DevicePerformanceControlImpl__ctor_m850FE2EA9F8053EE1DF76C02795E06EB42663B9F (void);
-// 0x00000078 System.Boolean UnityEngine.AdaptivePerformance.DevicePerformanceControlImpl::Update(UnityEngine.AdaptivePerformance.PerformanceLevelChangeEventArgs&)
+// 0x0000007A System.Boolean UnityEngine.AdaptivePerformance.DevicePerformanceControlImpl::Update(UnityEngine.AdaptivePerformance.PerformanceLevelChangeEventArgs&)
 extern void DevicePerformanceControlImpl_Update_m5DAB02DDF278234B26C76D6C0CE0DE1F5FD37D75 (void);
-// 0x00000079 System.Int32 UnityEngine.AdaptivePerformance.DevicePerformanceControlImpl::ComputeDelta(System.Int32,System.Int32)
+// 0x0000007B System.Int32 UnityEngine.AdaptivePerformance.DevicePerformanceControlImpl::ComputeDelta(System.Int32,System.Int32)
 extern void DevicePerformanceControlImpl_ComputeDelta_m12F5C848C21C3E0EDF750B99451F2710C87A00E4 (void);
-// 0x0000007A UnityEngine.AdaptivePerformance.PerformanceControlMode UnityEngine.AdaptivePerformance.DevicePerformanceControlImpl::get_PerformanceControlMode()
+// 0x0000007C UnityEngine.AdaptivePerformance.PerformanceControlMode UnityEngine.AdaptivePerformance.DevicePerformanceControlImpl::get_PerformanceControlMode()
 extern void DevicePerformanceControlImpl_get_PerformanceControlMode_m13940D42D8191DF9154160A874B52F9460DA93FA (void);
-// 0x0000007B System.Void UnityEngine.AdaptivePerformance.DevicePerformanceControlImpl::set_PerformanceControlMode(UnityEngine.AdaptivePerformance.PerformanceControlMode)
+// 0x0000007D System.Void UnityEngine.AdaptivePerformance.DevicePerformanceControlImpl::set_PerformanceControlMode(UnityEngine.AdaptivePerformance.PerformanceControlMode)
 extern void DevicePerformanceControlImpl_set_PerformanceControlMode_m590BB9AA80A9A9999530E505A02C4064DAB2573E (void);
-// 0x0000007C System.Int32 UnityEngine.AdaptivePerformance.DevicePerformanceControlImpl::get_MaxCpuPerformanceLevel()
+// 0x0000007E System.Int32 UnityEngine.AdaptivePerformance.DevicePerformanceControlImpl::get_MaxCpuPerformanceLevel()
 extern void DevicePerformanceControlImpl_get_MaxCpuPerformanceLevel_m70CB409A04238C071DF26CE4BDDDC53BF32F8328 (void);
-// 0x0000007D System.Int32 UnityEngine.AdaptivePerformance.DevicePerformanceControlImpl::get_MaxGpuPerformanceLevel()
+// 0x0000007F System.Int32 UnityEngine.AdaptivePerformance.DevicePerformanceControlImpl::get_MaxGpuPerformanceLevel()
 extern void DevicePerformanceControlImpl_get_MaxGpuPerformanceLevel_m72F0F6C71777E23F57789FD21450F4379D9ABC0B (void);
-// 0x0000007E System.Int32 UnityEngine.AdaptivePerformance.DevicePerformanceControlImpl::get_CpuLevel()
+// 0x00000080 System.Int32 UnityEngine.AdaptivePerformance.DevicePerformanceControlImpl::get_CpuLevel()
 extern void DevicePerformanceControlImpl_get_CpuLevel_m8768E48CC3FECE024F5ED1CF29BED81427127224 (void);
-// 0x0000007F System.Void UnityEngine.AdaptivePerformance.DevicePerformanceControlImpl::set_CpuLevel(System.Int32)
+// 0x00000081 System.Void UnityEngine.AdaptivePerformance.DevicePerformanceControlImpl::set_CpuLevel(System.Int32)
 extern void DevicePerformanceControlImpl_set_CpuLevel_mF3B056C0E130EECDF86B6382604120B00988D540 (void);
-// 0x00000080 System.Int32 UnityEngine.AdaptivePerformance.DevicePerformanceControlImpl::get_GpuLevel()
+// 0x00000082 System.Int32 UnityEngine.AdaptivePerformance.DevicePerformanceControlImpl::get_GpuLevel()
 extern void DevicePerformanceControlImpl_get_GpuLevel_mFF5FB10ACA43E09B49656432B6D6DECC0E3D7A9D (void);
-// 0x00000081 System.Void UnityEngine.AdaptivePerformance.DevicePerformanceControlImpl::set_GpuLevel(System.Int32)
+// 0x00000083 System.Void UnityEngine.AdaptivePerformance.DevicePerformanceControlImpl::set_GpuLevel(System.Int32)
 extern void DevicePerformanceControlImpl_set_GpuLevel_m6CD125B90753BB05FD25AFFE96F2D9D24ABEF8F3 (void);
-// 0x00000082 System.Int32 UnityEngine.AdaptivePerformance.DevicePerformanceControlImpl::get_CurrentCpuLevel()
+// 0x00000084 System.Int32 UnityEngine.AdaptivePerformance.DevicePerformanceControlImpl::get_CurrentCpuLevel()
 extern void DevicePerformanceControlImpl_get_CurrentCpuLevel_mD4458C1013032F5C565BEA27730A5915A6700356 (void);
-// 0x00000083 System.Void UnityEngine.AdaptivePerformance.DevicePerformanceControlImpl::set_CurrentCpuLevel(System.Int32)
+// 0x00000085 System.Void UnityEngine.AdaptivePerformance.DevicePerformanceControlImpl::set_CurrentCpuLevel(System.Int32)
 extern void DevicePerformanceControlImpl_set_CurrentCpuLevel_mAAF138071DE0F06A7CE88C596B5AB5E83D2A6890 (void);
-// 0x00000084 System.Int32 UnityEngine.AdaptivePerformance.DevicePerformanceControlImpl::get_CurrentGpuLevel()
+// 0x00000086 System.Int32 UnityEngine.AdaptivePerformance.DevicePerformanceControlImpl::get_CurrentGpuLevel()
 extern void DevicePerformanceControlImpl_get_CurrentGpuLevel_m669EDA25D9B87C4073FC055713585C566F04230F (void);
-// 0x00000085 System.Void UnityEngine.AdaptivePerformance.DevicePerformanceControlImpl::set_CurrentGpuLevel(System.Int32)
+// 0x00000087 System.Void UnityEngine.AdaptivePerformance.DevicePerformanceControlImpl::set_CurrentGpuLevel(System.Int32)
 extern void DevicePerformanceControlImpl_set_CurrentGpuLevel_m6332686962ACC988C1C38E24BA3EFBED189BC046 (void);
-// 0x00000086 System.Boolean UnityEngine.AdaptivePerformance.DevicePerformanceControlImpl::get_CpuPerformanceBoost()
+// 0x00000088 System.Boolean UnityEngine.AdaptivePerformance.DevicePerformanceControlImpl::get_CpuPerformanceBoost()
 extern void DevicePerformanceControlImpl_get_CpuPerformanceBoost_m6C15A01D4416B48D50141532B08DB63A60D39FC9 (void);
-// 0x00000087 System.Void UnityEngine.AdaptivePerformance.DevicePerformanceControlImpl::set_CpuPerformanceBoost(System.Boolean)
+// 0x00000089 System.Void UnityEngine.AdaptivePerformance.DevicePerformanceControlImpl::set_CpuPerformanceBoost(System.Boolean)
 extern void DevicePerformanceControlImpl_set_CpuPerformanceBoost_mAB46648CE7FE08E48210B7FD8ABF04145CC3A8F5 (void);
-// 0x00000088 System.Boolean UnityEngine.AdaptivePerformance.DevicePerformanceControlImpl::get_GpuPerformanceBoost()
+// 0x0000008A System.Boolean UnityEngine.AdaptivePerformance.DevicePerformanceControlImpl::get_GpuPerformanceBoost()
 extern void DevicePerformanceControlImpl_get_GpuPerformanceBoost_m38ED3FDD7C626170706CF07A63638E1C1F70DF67 (void);
-// 0x00000089 System.Void UnityEngine.AdaptivePerformance.DevicePerformanceControlImpl::set_GpuPerformanceBoost(System.Boolean)
+// 0x0000008B System.Void UnityEngine.AdaptivePerformance.DevicePerformanceControlImpl::set_GpuPerformanceBoost(System.Boolean)
 extern void DevicePerformanceControlImpl_set_GpuPerformanceBoost_m1E7D62234FE283B0EC9C363CA068BD6B336D5C70 (void);
-// 0x0000008A System.Void UnityEngine.AdaptivePerformance.GpuTimeProvider::.ctor()
+// 0x0000008C System.Void UnityEngine.AdaptivePerformance.GpuTimeProvider::.ctor()
 extern void GpuTimeProvider__ctor_m709703E54B7C24423DA8165A15B15489424B23FF (void);
-// 0x0000008B System.Single UnityEngine.AdaptivePerformance.GpuTimeProvider::get_GpuFrameTime()
+// 0x0000008D System.Single UnityEngine.AdaptivePerformance.GpuTimeProvider::get_GpuFrameTime()
 extern void GpuTimeProvider_get_GpuFrameTime_m9ED99EA4D870D45273A5EA334D8454397A6A33D2 (void);
-// 0x0000008C System.Void UnityEngine.AdaptivePerformance.GpuTimeProvider::Measure()
+// 0x0000008E System.Void UnityEngine.AdaptivePerformance.GpuTimeProvider::Measure()
 extern void GpuTimeProvider_Measure_m6F7AAFEBA7BE77BC05222CF43A9F28FB8F169DCF (void);
-// 0x0000008D System.Void UnityEngine.AdaptivePerformance.RunningAverage::.ctor(System.Int32)
+// 0x0000008F System.Void UnityEngine.AdaptivePerformance.RunningAverage::.ctor(System.Int32)
 extern void RunningAverage__ctor_mF6034A45E456CBB0B11E77CAED9DBB9C24E4960E (void);
-// 0x0000008E System.Int32 UnityEngine.AdaptivePerformance.RunningAverage::GetNumValues()
+// 0x00000090 System.Int32 UnityEngine.AdaptivePerformance.RunningAverage::GetNumValues()
 extern void RunningAverage_GetNumValues_m6883BACAD4029BFD1F5AA7D49D43B7701740C4CE (void);
-// 0x0000008F System.Int32 UnityEngine.AdaptivePerformance.RunningAverage::GetSampleWindowSize()
+// 0x00000091 System.Int32 UnityEngine.AdaptivePerformance.RunningAverage::GetSampleWindowSize()
 extern void RunningAverage_GetSampleWindowSize_mA620962A8E4E6AD6AFAD312146E4A6FA9167BB1F (void);
-// 0x00000090 System.Single UnityEngine.AdaptivePerformance.RunningAverage::GetAverageOr(System.Single)
+// 0x00000092 System.Single UnityEngine.AdaptivePerformance.RunningAverage::GetAverageOr(System.Single)
 extern void RunningAverage_GetAverageOr_mBEBA7433BEC791B738176353A9C6A2502097FDC4 (void);
-// 0x00000091 System.Single UnityEngine.AdaptivePerformance.RunningAverage::GetMostRecentValueOr(System.Single)
+// 0x00000093 System.Single UnityEngine.AdaptivePerformance.RunningAverage::GetMostRecentValueOr(System.Single)
 extern void RunningAverage_GetMostRecentValueOr_mF752826C9B2B4861C9BB9509E65960DF1FA89B99 (void);
-// 0x00000092 System.Void UnityEngine.AdaptivePerformance.RunningAverage::AddValue(System.Single)
+// 0x00000094 System.Void UnityEngine.AdaptivePerformance.RunningAverage::AddValue(System.Single)
 extern void RunningAverage_AddValue_mA2B42928AB3B4699921B5A8038D537D9C22FEE42 (void);
-// 0x00000093 System.Void UnityEngine.AdaptivePerformance.RunningAverage::Reset()
+// 0x00000095 System.Void UnityEngine.AdaptivePerformance.RunningAverage::Reset()
 extern void RunningAverage_Reset_m67CC2F14D24F951BC435C66C2EB2AD9CE0F1A55C (void);
-// 0x00000094 System.Void UnityEngine.AdaptivePerformance.TemperatureTrend::PopOldestValue()
+// 0x00000096 System.Void UnityEngine.AdaptivePerformance.TemperatureTrend::PopOldestValue()
 extern void TemperatureTrend_PopOldestValue_mC43E04EB9EEB716F6CEDEF1BE176A1A57A6C44F4 (void);
-// 0x00000095 System.Void UnityEngine.AdaptivePerformance.TemperatureTrend::PushNewValue(System.Single,System.Single)
+// 0x00000097 System.Void UnityEngine.AdaptivePerformance.TemperatureTrend::PushNewValue(System.Single,System.Single)
 extern void TemperatureTrend_PushNewValue_mCC8C38E6DEEEA3124666DFB1AEF2EEA65A0FB172 (void);
-// 0x00000096 System.Void UnityEngine.AdaptivePerformance.TemperatureTrend::.ctor(System.Boolean)
+// 0x00000098 System.Void UnityEngine.AdaptivePerformance.TemperatureTrend::.ctor(System.Boolean)
 extern void TemperatureTrend__ctor_mF84E576A72F9028CC229943BD500887D419115FD (void);
-// 0x00000097 System.Void UnityEngine.AdaptivePerformance.TemperatureTrend::Reset()
+// 0x00000099 System.Void UnityEngine.AdaptivePerformance.TemperatureTrend::Reset()
 extern void TemperatureTrend_Reset_m207175569546FCA1D50A92D83E5BFF51F111D044 (void);
-// 0x00000098 System.Single UnityEngine.AdaptivePerformance.TemperatureTrend::get_ThermalTrend()
+// 0x0000009A System.Single UnityEngine.AdaptivePerformance.TemperatureTrend::get_ThermalTrend()
 extern void TemperatureTrend_get_ThermalTrend_m63FBE40DB0D8E479127CD39256CAD5B09C099BC9 (void);
-// 0x00000099 System.Void UnityEngine.AdaptivePerformance.TemperatureTrend::set_ThermalTrend(System.Single)
+// 0x0000009B System.Void UnityEngine.AdaptivePerformance.TemperatureTrend::set_ThermalTrend(System.Single)
 extern void TemperatureTrend_set_ThermalTrend_mBDDA27F1AB996B966BA6538A2E1BE6123D438A53 (void);
-// 0x0000009A System.Void UnityEngine.AdaptivePerformance.TemperatureTrend::UpdateTrend()
+// 0x0000009C System.Void UnityEngine.AdaptivePerformance.TemperatureTrend::UpdateTrend()
 extern void TemperatureTrend_UpdateTrend_mA13C60D858E6C07BE368AA95BEA7D64B5B8D6CBE (void);
-// 0x0000009B System.Void UnityEngine.AdaptivePerformance.TemperatureTrend::Update(System.Single,System.Single,System.Boolean,System.Single)
+// 0x0000009D System.Void UnityEngine.AdaptivePerformance.TemperatureTrend::Update(System.Single,System.Single,System.Boolean,System.Single)
 extern void TemperatureTrend_Update_m0B7887604E23C2A77560E3C5F8ECE685F19DF271 (void);
-// 0x0000009C UnityEngine.AdaptivePerformance.IThermalStatus UnityEngine.AdaptivePerformance.IAdaptivePerformance::get_ThermalStatus()
-// 0x0000009D UnityEngine.AdaptivePerformance.IPerformanceStatus UnityEngine.AdaptivePerformance.IAdaptivePerformance::get_PerformanceStatus()
-// 0x0000009E UnityEngine.AdaptivePerformance.AdaptivePerformanceIndexer UnityEngine.AdaptivePerformance.IAdaptivePerformance::get_Indexer()
-// 0x0000009F UnityEngine.AdaptivePerformance.IAdaptivePerformanceSettings UnityEngine.AdaptivePerformance.IAdaptivePerformance::get_Settings()
-// 0x000000A0 UnityEngine.AdaptivePerformance.IAdaptivePerformance UnityEngine.AdaptivePerformance.Holder::get_Instance()
+// 0x0000009E UnityEngine.AdaptivePerformance.IThermalStatus UnityEngine.AdaptivePerformance.IAdaptivePerformance::get_ThermalStatus()
+// 0x0000009F UnityEngine.AdaptivePerformance.IPerformanceStatus UnityEngine.AdaptivePerformance.IAdaptivePerformance::get_PerformanceStatus()
+// 0x000000A0 UnityEngine.AdaptivePerformance.AdaptivePerformanceIndexer UnityEngine.AdaptivePerformance.IAdaptivePerformance::get_Indexer()
+// 0x000000A1 UnityEngine.AdaptivePerformance.IAdaptivePerformanceSettings UnityEngine.AdaptivePerformance.IAdaptivePerformance::get_Settings()
+// 0x000000A2 UnityEngine.AdaptivePerformance.IAdaptivePerformance UnityEngine.AdaptivePerformance.Holder::get_Instance()
 extern void Holder_get_Instance_m4A8A1B32A5F0AD77133A9E3F3BA550C8278E7F35 (void);
-// 0x000000A1 System.Void UnityEngine.AdaptivePerformance.Holder::set_Instance(UnityEngine.AdaptivePerformance.IAdaptivePerformance)
+// 0x000000A3 System.Void UnityEngine.AdaptivePerformance.Holder::set_Instance(UnityEngine.AdaptivePerformance.IAdaptivePerformance)
 extern void Holder_set_Instance_mE4FF829BFF8D5477F81E2A453EB0A9FF5AF37B7E (void);
-// 0x000000A2 System.Int32 UnityEngine.AdaptivePerformance.IDevicePerformanceControl::get_MaxCpuPerformanceLevel()
-// 0x000000A3 System.Int32 UnityEngine.AdaptivePerformance.IDevicePerformanceControl::get_MaxGpuPerformanceLevel()
-// 0x000000A4 System.Int32 UnityEngine.AdaptivePerformance.IDevicePerformanceControl::get_CpuLevel()
-// 0x000000A5 System.Void UnityEngine.AdaptivePerformance.IDevicePerformanceControl::set_CpuLevel(System.Int32)
-// 0x000000A6 System.Int32 UnityEngine.AdaptivePerformance.IDevicePerformanceControl::get_GpuLevel()
-// 0x000000A7 System.Void UnityEngine.AdaptivePerformance.IDevicePerformanceControl::set_GpuLevel(System.Int32)
-// 0x000000A8 UnityEngine.AdaptivePerformance.PerformanceBottleneck UnityEngine.AdaptivePerformance.PerformanceBottleneckChangeEventArgs::get_PerformanceBottleneck()
+// 0x000000A4 System.Int32 UnityEngine.AdaptivePerformance.IDevicePerformanceControl::get_MaxCpuPerformanceLevel()
+// 0x000000A5 System.Int32 UnityEngine.AdaptivePerformance.IDevicePerformanceControl::get_MaxGpuPerformanceLevel()
+// 0x000000A6 System.Int32 UnityEngine.AdaptivePerformance.IDevicePerformanceControl::get_CpuLevel()
+// 0x000000A7 System.Void UnityEngine.AdaptivePerformance.IDevicePerformanceControl::set_CpuLevel(System.Int32)
+// 0x000000A8 System.Int32 UnityEngine.AdaptivePerformance.IDevicePerformanceControl::get_GpuLevel()
+// 0x000000A9 System.Void UnityEngine.AdaptivePerformance.IDevicePerformanceControl::set_GpuLevel(System.Int32)
+// 0x000000AA UnityEngine.AdaptivePerformance.PerformanceBottleneck UnityEngine.AdaptivePerformance.PerformanceBottleneckChangeEventArgs::get_PerformanceBottleneck()
 extern void PerformanceBottleneckChangeEventArgs_get_PerformanceBottleneck_mD1AB26C82C70D0182C2CF0C7A1ED7B5DDC4B45CE (void);
-// 0x000000A9 System.Void UnityEngine.AdaptivePerformance.PerformanceBottleneckChangeEventArgs::set_PerformanceBottleneck(UnityEngine.AdaptivePerformance.PerformanceBottleneck)
+// 0x000000AB System.Void UnityEngine.AdaptivePerformance.PerformanceBottleneckChangeEventArgs::set_PerformanceBottleneck(UnityEngine.AdaptivePerformance.PerformanceBottleneck)
 extern void PerformanceBottleneckChangeEventArgs_set_PerformanceBottleneck_m5A4DEC03EACF71B1DDB80E2C2867E1F71DF1564C (void);
-// 0x000000AA System.Void UnityEngine.AdaptivePerformance.PerformanceBottleneckChangeHandler::.ctor(System.Object,System.IntPtr)
+// 0x000000AC System.Void UnityEngine.AdaptivePerformance.PerformanceBottleneckChangeHandler::.ctor(System.Object,System.IntPtr)
 extern void PerformanceBottleneckChangeHandler__ctor_mE3C58D02E9816F5913C2B56E63784BC23185F419 (void);
-// 0x000000AB System.Void UnityEngine.AdaptivePerformance.PerformanceBottleneckChangeHandler::Invoke(UnityEngine.AdaptivePerformance.PerformanceBottleneckChangeEventArgs)
+// 0x000000AD System.Void UnityEngine.AdaptivePerformance.PerformanceBottleneckChangeHandler::Invoke(UnityEngine.AdaptivePerformance.PerformanceBottleneckChangeEventArgs)
 extern void PerformanceBottleneckChangeHandler_Invoke_mAAB4324087C174B6E0A7D5944A785853B3769F93 (void);
-// 0x000000AC System.IAsyncResult UnityEngine.AdaptivePerformance.PerformanceBottleneckChangeHandler::BeginInvoke(UnityEngine.AdaptivePerformance.PerformanceBottleneckChangeEventArgs,System.AsyncCallback,System.Object)
+// 0x000000AE System.IAsyncResult UnityEngine.AdaptivePerformance.PerformanceBottleneckChangeHandler::BeginInvoke(UnityEngine.AdaptivePerformance.PerformanceBottleneckChangeEventArgs,System.AsyncCallback,System.Object)
 extern void PerformanceBottleneckChangeHandler_BeginInvoke_mC9E7FAE4C3F7B14595F3BE71BB94A826825D3E2B (void);
-// 0x000000AD System.Void UnityEngine.AdaptivePerformance.PerformanceBottleneckChangeHandler::EndInvoke(System.IAsyncResult)
+// 0x000000AF System.Void UnityEngine.AdaptivePerformance.PerformanceBottleneckChangeHandler::EndInvoke(System.IAsyncResult)
 extern void PerformanceBottleneckChangeHandler_EndInvoke_m38E191A9673393CC18BEE295C3506E7B426DE508 (void);
-// 0x000000AE System.Void UnityEngine.AdaptivePerformance.PerformanceBoostChangeEventArgs::set_CpuBoost(System.Boolean)
+// 0x000000B0 System.Boolean UnityEngine.AdaptivePerformance.PerformanceBoostChangeEventArgs::get_CpuBoost()
+extern void PerformanceBoostChangeEventArgs_get_CpuBoost_mEC389F7680170FAD52C02A4B07A60EAC09287C6F (void);
+// 0x000000B1 System.Void UnityEngine.AdaptivePerformance.PerformanceBoostChangeEventArgs::set_CpuBoost(System.Boolean)
 extern void PerformanceBoostChangeEventArgs_set_CpuBoost_m94511A8D353784F83A6D04C0AEBDAB88CFCE99BE (void);
-// 0x000000AF System.Void UnityEngine.AdaptivePerformance.PerformanceBoostChangeEventArgs::set_GpuBoost(System.Boolean)
+// 0x000000B2 System.Boolean UnityEngine.AdaptivePerformance.PerformanceBoostChangeEventArgs::get_GpuBoost()
+extern void PerformanceBoostChangeEventArgs_get_GpuBoost_mFFAC0DB6D8260CF0EF54A569A9DD0F940CF679FA (void);
+// 0x000000B3 System.Void UnityEngine.AdaptivePerformance.PerformanceBoostChangeEventArgs::set_GpuBoost(System.Boolean)
 extern void PerformanceBoostChangeEventArgs_set_GpuBoost_mFF036188A7BF27CDCB0ED491390E17F24DB89133 (void);
-// 0x000000B0 System.Void UnityEngine.AdaptivePerformance.PerformanceBoostChangeHandler::.ctor(System.Object,System.IntPtr)
+// 0x000000B4 System.Void UnityEngine.AdaptivePerformance.PerformanceBoostChangeHandler::.ctor(System.Object,System.IntPtr)
 extern void PerformanceBoostChangeHandler__ctor_mFA5DC578D11418D3E0E1D7C8869DD4C171D3F1A5 (void);
-// 0x000000B1 System.Void UnityEngine.AdaptivePerformance.PerformanceBoostChangeHandler::Invoke(UnityEngine.AdaptivePerformance.PerformanceBoostChangeEventArgs)
+// 0x000000B5 System.Void UnityEngine.AdaptivePerformance.PerformanceBoostChangeHandler::Invoke(UnityEngine.AdaptivePerformance.PerformanceBoostChangeEventArgs)
 extern void PerformanceBoostChangeHandler_Invoke_m21D8CE2024C528D945CC2C2C310FF0AF6D334585 (void);
-// 0x000000B2 System.IAsyncResult UnityEngine.AdaptivePerformance.PerformanceBoostChangeHandler::BeginInvoke(UnityEngine.AdaptivePerformance.PerformanceBoostChangeEventArgs,System.AsyncCallback,System.Object)
+// 0x000000B6 System.IAsyncResult UnityEngine.AdaptivePerformance.PerformanceBoostChangeHandler::BeginInvoke(UnityEngine.AdaptivePerformance.PerformanceBoostChangeEventArgs,System.AsyncCallback,System.Object)
 extern void PerformanceBoostChangeHandler_BeginInvoke_m3506C5F8675AA8052F262574C6E396BC25C0D4F1 (void);
-// 0x000000B3 System.Void UnityEngine.AdaptivePerformance.PerformanceBoostChangeHandler::EndInvoke(System.IAsyncResult)
+// 0x000000B7 System.Void UnityEngine.AdaptivePerformance.PerformanceBoostChangeHandler::EndInvoke(System.IAsyncResult)
 extern void PerformanceBoostChangeHandler_EndInvoke_m62C539DE14786E4A9EE6D2B278BA6E2A74BD8248 (void);
-// 0x000000B4 System.Void UnityEngine.AdaptivePerformance.PerformanceLevelChangeEventArgs::set_CpuLevel(System.Int32)
+// 0x000000B8 System.Int32 UnityEngine.AdaptivePerformance.PerformanceLevelChangeEventArgs::get_CpuLevel()
+extern void PerformanceLevelChangeEventArgs_get_CpuLevel_m155DC274C8BD0ADCAE5C8574341EA2788FBDA277 (void);
+// 0x000000B9 System.Void UnityEngine.AdaptivePerformance.PerformanceLevelChangeEventArgs::set_CpuLevel(System.Int32)
 extern void PerformanceLevelChangeEventArgs_set_CpuLevel_m28B80C1E1A6FCAEEC6F79FB05AD9EF11616B5B28 (void);
-// 0x000000B5 System.Void UnityEngine.AdaptivePerformance.PerformanceLevelChangeEventArgs::set_CpuLevelDelta(System.Int32)
+// 0x000000BA System.Int32 UnityEngine.AdaptivePerformance.PerformanceLevelChangeEventArgs::get_CpuLevelDelta()
+extern void PerformanceLevelChangeEventArgs_get_CpuLevelDelta_m54B7E41B410E491C88FCF9FFFE658EC677B9B74D (void);
+// 0x000000BB System.Void UnityEngine.AdaptivePerformance.PerformanceLevelChangeEventArgs::set_CpuLevelDelta(System.Int32)
 extern void PerformanceLevelChangeEventArgs_set_CpuLevelDelta_m8898C8140A3C825929B84F7CB332F5BF1067A03D (void);
-// 0x000000B6 System.Void UnityEngine.AdaptivePerformance.PerformanceLevelChangeEventArgs::set_GpuLevel(System.Int32)
+// 0x000000BC System.Int32 UnityEngine.AdaptivePerformance.PerformanceLevelChangeEventArgs::get_GpuLevel()
+extern void PerformanceLevelChangeEventArgs_get_GpuLevel_m87CBA5D2BC0AF3CDA470098F7B78079160A9BCD0 (void);
+// 0x000000BD System.Void UnityEngine.AdaptivePerformance.PerformanceLevelChangeEventArgs::set_GpuLevel(System.Int32)
 extern void PerformanceLevelChangeEventArgs_set_GpuLevel_mDFA4AC0545F4EB69D23569FE84EC94F4B4536A51 (void);
-// 0x000000B7 System.Void UnityEngine.AdaptivePerformance.PerformanceLevelChangeEventArgs::set_GpuLevelDelta(System.Int32)
+// 0x000000BE System.Int32 UnityEngine.AdaptivePerformance.PerformanceLevelChangeEventArgs::get_GpuLevelDelta()
+extern void PerformanceLevelChangeEventArgs_get_GpuLevelDelta_mBB7BC55D91607B2F6D3296C835B6F37315C04745 (void);
+// 0x000000BF System.Void UnityEngine.AdaptivePerformance.PerformanceLevelChangeEventArgs::set_GpuLevelDelta(System.Int32)
 extern void PerformanceLevelChangeEventArgs_set_GpuLevelDelta_mE5C7E05217B324420E1EB4A67444637FFFCCE362 (void);
-// 0x000000B8 System.Void UnityEngine.AdaptivePerformance.PerformanceLevelChangeEventArgs::set_PerformanceControlMode(UnityEngine.AdaptivePerformance.PerformanceControlMode)
+// 0x000000C0 UnityEngine.AdaptivePerformance.PerformanceControlMode UnityEngine.AdaptivePerformance.PerformanceLevelChangeEventArgs::get_PerformanceControlMode()
+extern void PerformanceLevelChangeEventArgs_get_PerformanceControlMode_m47112D8370FD75A92B6BB4E03F0DB290BE9486D6 (void);
+// 0x000000C1 System.Void UnityEngine.AdaptivePerformance.PerformanceLevelChangeEventArgs::set_PerformanceControlMode(UnityEngine.AdaptivePerformance.PerformanceControlMode)
 extern void PerformanceLevelChangeEventArgs_set_PerformanceControlMode_m5AF0BCCC0AB52611A53CE6FB3C394A3C07089443 (void);
-// 0x000000B9 System.Void UnityEngine.AdaptivePerformance.PerformanceLevelChangeEventArgs::set_ManualOverride(System.Boolean)
+// 0x000000C2 System.Boolean UnityEngine.AdaptivePerformance.PerformanceLevelChangeEventArgs::get_ManualOverride()
+extern void PerformanceLevelChangeEventArgs_get_ManualOverride_m6502A166BC0B97D5B7E25C7C548178897E0490AE (void);
+// 0x000000C3 System.Void UnityEngine.AdaptivePerformance.PerformanceLevelChangeEventArgs::set_ManualOverride(System.Boolean)
 extern void PerformanceLevelChangeEventArgs_set_ManualOverride_mF6B8977AFEA8DF53C9EF51B57971929641D1CF4F (void);
-// 0x000000BA System.Void UnityEngine.AdaptivePerformance.PerformanceLevelChangeHandler::.ctor(System.Object,System.IntPtr)
+// 0x000000C4 System.Void UnityEngine.AdaptivePerformance.PerformanceLevelChangeHandler::.ctor(System.Object,System.IntPtr)
 extern void PerformanceLevelChangeHandler__ctor_m00521100984326E53895E9B7D2508068651FCCFA (void);
-// 0x000000BB System.Void UnityEngine.AdaptivePerformance.PerformanceLevelChangeHandler::Invoke(UnityEngine.AdaptivePerformance.PerformanceLevelChangeEventArgs)
+// 0x000000C5 System.Void UnityEngine.AdaptivePerformance.PerformanceLevelChangeHandler::Invoke(UnityEngine.AdaptivePerformance.PerformanceLevelChangeEventArgs)
 extern void PerformanceLevelChangeHandler_Invoke_m4BD170964B2075C38964518C871C258490E04613 (void);
-// 0x000000BC System.IAsyncResult UnityEngine.AdaptivePerformance.PerformanceLevelChangeHandler::BeginInvoke(UnityEngine.AdaptivePerformance.PerformanceLevelChangeEventArgs,System.AsyncCallback,System.Object)
+// 0x000000C6 System.IAsyncResult UnityEngine.AdaptivePerformance.PerformanceLevelChangeHandler::BeginInvoke(UnityEngine.AdaptivePerformance.PerformanceLevelChangeEventArgs,System.AsyncCallback,System.Object)
 extern void PerformanceLevelChangeHandler_BeginInvoke_m953B41A31BC8D5DCBDE6617276D0C95AA7C246A4 (void);
-// 0x000000BD System.Void UnityEngine.AdaptivePerformance.PerformanceLevelChangeHandler::EndInvoke(System.IAsyncResult)
+// 0x000000C7 System.Void UnityEngine.AdaptivePerformance.PerformanceLevelChangeHandler::EndInvoke(System.IAsyncResult)
 extern void PerformanceLevelChangeHandler_EndInvoke_mCD5B11B7C5F4406FE1B00626BD46CE9A5C0F6F7E (void);
-// 0x000000BE UnityEngine.AdaptivePerformance.PerformanceMetrics UnityEngine.AdaptivePerformance.IPerformanceStatus::get_PerformanceMetrics()
-// 0x000000BF UnityEngine.AdaptivePerformance.FrameTiming UnityEngine.AdaptivePerformance.IPerformanceStatus::get_FrameTiming()
-// 0x000000C0 System.Void UnityEngine.AdaptivePerformance.IPerformanceStatus::add_PerformanceBottleneckChangeEvent(UnityEngine.AdaptivePerformance.PerformanceBottleneckChangeHandler)
-// 0x000000C1 System.Void UnityEngine.AdaptivePerformance.IPerformanceStatus::remove_PerformanceBottleneckChangeEvent(UnityEngine.AdaptivePerformance.PerformanceBottleneckChangeHandler)
-// 0x000000C2 System.Void UnityEngine.AdaptivePerformance.PerformanceMetrics::set_CurrentCpuLevel(System.Int32)
+// 0x000000C8 UnityEngine.AdaptivePerformance.PerformanceMetrics UnityEngine.AdaptivePerformance.IPerformanceStatus::get_PerformanceMetrics()
+// 0x000000C9 UnityEngine.AdaptivePerformance.FrameTiming UnityEngine.AdaptivePerformance.IPerformanceStatus::get_FrameTiming()
+// 0x000000CA System.Void UnityEngine.AdaptivePerformance.IPerformanceStatus::add_PerformanceBottleneckChangeEvent(UnityEngine.AdaptivePerformance.PerformanceBottleneckChangeHandler)
+// 0x000000CB System.Void UnityEngine.AdaptivePerformance.IPerformanceStatus::remove_PerformanceBottleneckChangeEvent(UnityEngine.AdaptivePerformance.PerformanceBottleneckChangeHandler)
+// 0x000000CC System.Int32 UnityEngine.AdaptivePerformance.PerformanceMetrics::get_CurrentCpuLevel()
+extern void PerformanceMetrics_get_CurrentCpuLevel_m829A3999E835C45C2461C7B514961F090192EFC2 (void);
+// 0x000000CD System.Void UnityEngine.AdaptivePerformance.PerformanceMetrics::set_CurrentCpuLevel(System.Int32)
 extern void PerformanceMetrics_set_CurrentCpuLevel_m06746B05D95578D849B28BC372C554DE7C72C400 (void);
-// 0x000000C3 System.Void UnityEngine.AdaptivePerformance.PerformanceMetrics::set_CurrentGpuLevel(System.Int32)
+// 0x000000CE System.Int32 UnityEngine.AdaptivePerformance.PerformanceMetrics::get_CurrentGpuLevel()
+extern void PerformanceMetrics_get_CurrentGpuLevel_m65839136134F193FB6746F989DCA37F37F63824E (void);
+// 0x000000CF System.Void UnityEngine.AdaptivePerformance.PerformanceMetrics::set_CurrentGpuLevel(System.Int32)
 extern void PerformanceMetrics_set_CurrentGpuLevel_mC2C1A1CEAAB39352732AD35A5A869D51A445C526 (void);
-// 0x000000C4 UnityEngine.AdaptivePerformance.PerformanceBottleneck UnityEngine.AdaptivePerformance.PerformanceMetrics::get_PerformanceBottleneck()
+// 0x000000D0 UnityEngine.AdaptivePerformance.PerformanceBottleneck UnityEngine.AdaptivePerformance.PerformanceMetrics::get_PerformanceBottleneck()
 extern void PerformanceMetrics_get_PerformanceBottleneck_m684245ACCB85E2208080612548103AD86C5D8687 (void);
-// 0x000000C5 System.Void UnityEngine.AdaptivePerformance.PerformanceMetrics::set_PerformanceBottleneck(UnityEngine.AdaptivePerformance.PerformanceBottleneck)
+// 0x000000D1 System.Void UnityEngine.AdaptivePerformance.PerformanceMetrics::set_PerformanceBottleneck(UnityEngine.AdaptivePerformance.PerformanceBottleneck)
 extern void PerformanceMetrics_set_PerformanceBottleneck_m92D1EE0F36F3F7C0E429EFAA6979029D55BB2C91 (void);
-// 0x000000C6 System.Void UnityEngine.AdaptivePerformance.PerformanceMetrics::set_CpuPerformanceBoost(System.Boolean)
+// 0x000000D2 System.Boolean UnityEngine.AdaptivePerformance.PerformanceMetrics::get_CpuPerformanceBoost()
+extern void PerformanceMetrics_get_CpuPerformanceBoost_m31784454481D1D55F4B0BB2EF2D3F7B4E55991DC (void);
+// 0x000000D3 System.Void UnityEngine.AdaptivePerformance.PerformanceMetrics::set_CpuPerformanceBoost(System.Boolean)
 extern void PerformanceMetrics_set_CpuPerformanceBoost_m00774DF1FD682908BCEFFE5B24E62C715B6F70B0 (void);
-// 0x000000C7 System.Void UnityEngine.AdaptivePerformance.PerformanceMetrics::set_GpuPerformanceBoost(System.Boolean)
+// 0x000000D4 System.Boolean UnityEngine.AdaptivePerformance.PerformanceMetrics::get_GpuPerformanceBoost()
+extern void PerformanceMetrics_get_GpuPerformanceBoost_m8F5B83393F660CBDFA60F2ADC5D89AE228FC72C1 (void);
+// 0x000000D5 System.Void UnityEngine.AdaptivePerformance.PerformanceMetrics::set_GpuPerformanceBoost(System.Boolean)
 extern void PerformanceMetrics_set_GpuPerformanceBoost_m5D2ECA38D27DE6741564BC1F4C16F3E251CA7233 (void);
-// 0x000000C8 System.Void UnityEngine.AdaptivePerformance.PerformanceMetrics::set_ClusterInfo(UnityEngine.AdaptivePerformance.ClusterInfo)
+// 0x000000D6 UnityEngine.AdaptivePerformance.ClusterInfo UnityEngine.AdaptivePerformance.PerformanceMetrics::get_ClusterInfo()
+extern void PerformanceMetrics_get_ClusterInfo_m8361DE4D206DF1BDFDBF9482594B4769BD11BCCF (void);
+// 0x000000D7 System.Void UnityEngine.AdaptivePerformance.PerformanceMetrics::set_ClusterInfo(UnityEngine.AdaptivePerformance.ClusterInfo)
 extern void PerformanceMetrics_set_ClusterInfo_m6786C804DE21C9B82B1E34F54C3242E3151C704F (void);
-// 0x000000C9 System.Void UnityEngine.AdaptivePerformance.FrameTiming::set_CurrentFrameTime(System.Single)
+// 0x000000D8 System.Single UnityEngine.AdaptivePerformance.FrameTiming::get_CurrentFrameTime()
+extern void FrameTiming_get_CurrentFrameTime_m5F9473AEC625B58DA49964A77EC9960E09D0ED55 (void);
+// 0x000000D9 System.Void UnityEngine.AdaptivePerformance.FrameTiming::set_CurrentFrameTime(System.Single)
 extern void FrameTiming_set_CurrentFrameTime_mF83E3D1F129A8535EA9A09874773CD29AAABEB07 (void);
-// 0x000000CA System.Single UnityEngine.AdaptivePerformance.FrameTiming::get_AverageFrameTime()
+// 0x000000DA System.Single UnityEngine.AdaptivePerformance.FrameTiming::get_AverageFrameTime()
 extern void FrameTiming_get_AverageFrameTime_mE9C2FB8B2D70C27007B34DECC5BE57AF98FE8DA1 (void);
-// 0x000000CB System.Void UnityEngine.AdaptivePerformance.FrameTiming::set_AverageFrameTime(System.Single)
+// 0x000000DB System.Void UnityEngine.AdaptivePerformance.FrameTiming::set_AverageFrameTime(System.Single)
 extern void FrameTiming_set_AverageFrameTime_m4565877FB48803C97D84A85AD994842E7B7EEA50 (void);
-// 0x000000CC System.Void UnityEngine.AdaptivePerformance.FrameTiming::set_CurrentGpuFrameTime(System.Single)
+// 0x000000DC System.Single UnityEngine.AdaptivePerformance.FrameTiming::get_CurrentGpuFrameTime()
+extern void FrameTiming_get_CurrentGpuFrameTime_m6BB1F7D5699003F7DFAF19D02A7E8745760B0091 (void);
+// 0x000000DD System.Void UnityEngine.AdaptivePerformance.FrameTiming::set_CurrentGpuFrameTime(System.Single)
 extern void FrameTiming_set_CurrentGpuFrameTime_mE69D6985D92989E8EBEDF5C4001B00A0078AB274 (void);
-// 0x000000CD System.Single UnityEngine.AdaptivePerformance.FrameTiming::get_AverageGpuFrameTime()
+// 0x000000DE System.Single UnityEngine.AdaptivePerformance.FrameTiming::get_AverageGpuFrameTime()
 extern void FrameTiming_get_AverageGpuFrameTime_mCCC3EEA87004D355AFDC18988F5F7A5797F6701C (void);
-// 0x000000CE System.Void UnityEngine.AdaptivePerformance.FrameTiming::set_AverageGpuFrameTime(System.Single)
+// 0x000000DF System.Void UnityEngine.AdaptivePerformance.FrameTiming::set_AverageGpuFrameTime(System.Single)
 extern void FrameTiming_set_AverageGpuFrameTime_mC8B9FE4D1E97439472836FD7D8A14AE73811D01F (void);
-// 0x000000CF System.Void UnityEngine.AdaptivePerformance.FrameTiming::set_CurrentCpuFrameTime(System.Single)
+// 0x000000E0 System.Single UnityEngine.AdaptivePerformance.FrameTiming::get_CurrentCpuFrameTime()
+extern void FrameTiming_get_CurrentCpuFrameTime_m61A1501DF65D22211904FD9C2C667F077F800C21 (void);
+// 0x000000E1 System.Void UnityEngine.AdaptivePerformance.FrameTiming::set_CurrentCpuFrameTime(System.Single)
 extern void FrameTiming_set_CurrentCpuFrameTime_mDF303FB0ACFE4F8FE9BBC5292F164233FAB9224B (void);
-// 0x000000D0 System.Single UnityEngine.AdaptivePerformance.FrameTiming::get_AverageCpuFrameTime()
+// 0x000000E2 System.Single UnityEngine.AdaptivePerformance.FrameTiming::get_AverageCpuFrameTime()
 extern void FrameTiming_get_AverageCpuFrameTime_mDD2F1027955DDB4FEFFF8578E8BC53D5987C2340 (void);
-// 0x000000D1 System.Void UnityEngine.AdaptivePerformance.FrameTiming::set_AverageCpuFrameTime(System.Single)
+// 0x000000E3 System.Void UnityEngine.AdaptivePerformance.FrameTiming::set_AverageCpuFrameTime(System.Single)
 extern void FrameTiming_set_AverageCpuFrameTime_m12FCB6A29A6FAF1F34280F529C3A5356E438A8AB (void);
-// 0x000000D2 System.Void UnityEngine.AdaptivePerformance.ThermalEventHandler::.ctor(System.Object,System.IntPtr)
+// 0x000000E4 System.Int32 UnityEngine.AdaptivePerformance.ClusterInfo::get_BigCore()
+extern void ClusterInfo_get_BigCore_mC578E461150BE2D7ACCD02CC3A7C443079350637 (void);
+// 0x000000E5 System.Int32 UnityEngine.AdaptivePerformance.ClusterInfo::get_MediumCore()
+extern void ClusterInfo_get_MediumCore_m7AD9FD9E18E157844907D612F62A2F2AA748E51F (void);
+// 0x000000E6 System.Int32 UnityEngine.AdaptivePerformance.ClusterInfo::get_LittleCore()
+extern void ClusterInfo_get_LittleCore_m0596C1C110B788FCA49CCE40D5EB6E9391A6B1B4 (void);
+// 0x000000E7 System.Void UnityEngine.AdaptivePerformance.ThermalEventHandler::.ctor(System.Object,System.IntPtr)
 extern void ThermalEventHandler__ctor_m4F920575069A36E37729FD6AEE890BA78E2CF878 (void);
-// 0x000000D3 System.Void UnityEngine.AdaptivePerformance.ThermalEventHandler::Invoke(UnityEngine.AdaptivePerformance.ThermalMetrics)
+// 0x000000E8 System.Void UnityEngine.AdaptivePerformance.ThermalEventHandler::Invoke(UnityEngine.AdaptivePerformance.ThermalMetrics)
 extern void ThermalEventHandler_Invoke_mD4607B64AD67C04FB29087F544BD554C9C8C5865 (void);
-// 0x000000D4 System.IAsyncResult UnityEngine.AdaptivePerformance.ThermalEventHandler::BeginInvoke(UnityEngine.AdaptivePerformance.ThermalMetrics,System.AsyncCallback,System.Object)
+// 0x000000E9 System.IAsyncResult UnityEngine.AdaptivePerformance.ThermalEventHandler::BeginInvoke(UnityEngine.AdaptivePerformance.ThermalMetrics,System.AsyncCallback,System.Object)
 extern void ThermalEventHandler_BeginInvoke_m4B4A2B5978846F904AFD3770FA98C80A46707C89 (void);
-// 0x000000D5 System.Void UnityEngine.AdaptivePerformance.ThermalEventHandler::EndInvoke(System.IAsyncResult)
+// 0x000000EA System.Void UnityEngine.AdaptivePerformance.ThermalEventHandler::EndInvoke(System.IAsyncResult)
 extern void ThermalEventHandler_EndInvoke_m6E6B92B2BE30D32F8B3CF1035395A49CAB29AD24 (void);
-// 0x000000D6 UnityEngine.AdaptivePerformance.WarningLevel UnityEngine.AdaptivePerformance.ThermalMetrics::get_WarningLevel()
+// 0x000000EB UnityEngine.AdaptivePerformance.WarningLevel UnityEngine.AdaptivePerformance.ThermalMetrics::get_WarningLevel()
 extern void ThermalMetrics_get_WarningLevel_m68EC629D478D65BF94ECE5D6FDDF9AA5CF290135 (void);
-// 0x000000D7 System.Void UnityEngine.AdaptivePerformance.ThermalMetrics::set_WarningLevel(UnityEngine.AdaptivePerformance.WarningLevel)
+// 0x000000EC System.Void UnityEngine.AdaptivePerformance.ThermalMetrics::set_WarningLevel(UnityEngine.AdaptivePerformance.WarningLevel)
 extern void ThermalMetrics_set_WarningLevel_m709F235CA450A6DDC03776C9E51A3C1FB86BC18F (void);
-// 0x000000D8 System.Single UnityEngine.AdaptivePerformance.ThermalMetrics::get_TemperatureLevel()
+// 0x000000ED System.Single UnityEngine.AdaptivePerformance.ThermalMetrics::get_TemperatureLevel()
 extern void ThermalMetrics_get_TemperatureLevel_mFC9136EED605AAF12F09912431D4DC07F5D1D319 (void);
-// 0x000000D9 System.Void UnityEngine.AdaptivePerformance.ThermalMetrics::set_TemperatureLevel(System.Single)
+// 0x000000EE System.Void UnityEngine.AdaptivePerformance.ThermalMetrics::set_TemperatureLevel(System.Single)
 extern void ThermalMetrics_set_TemperatureLevel_m7E328F20588F9EF37C885E833E160B4EC928FEC4 (void);
-// 0x000000DA System.Single UnityEngine.AdaptivePerformance.ThermalMetrics::get_TemperatureTrend()
+// 0x000000EF System.Single UnityEngine.AdaptivePerformance.ThermalMetrics::get_TemperatureTrend()
 extern void ThermalMetrics_get_TemperatureTrend_m21C18A6F91B893B74306A57CFAE6CF75677FCE92 (void);
-// 0x000000DB System.Void UnityEngine.AdaptivePerformance.ThermalMetrics::set_TemperatureTrend(System.Single)
+// 0x000000F0 System.Void UnityEngine.AdaptivePerformance.ThermalMetrics::set_TemperatureTrend(System.Single)
 extern void ThermalMetrics_set_TemperatureTrend_m8B9E6B7EAB2DD442A94A641DE2A4EDC6E82CB5A9 (void);
-// 0x000000DC UnityEngine.AdaptivePerformance.ThermalMetrics UnityEngine.AdaptivePerformance.IThermalStatus::get_ThermalMetrics()
-// 0x000000DD System.Void UnityEngine.AdaptivePerformance.ThermalStateTracker::.ctor()
+// 0x000000F1 UnityEngine.AdaptivePerformance.ThermalMetrics UnityEngine.AdaptivePerformance.IThermalStatus::get_ThermalMetrics()
+// 0x000000F2 System.Void UnityEngine.AdaptivePerformance.ThermalStateTracker::.ctor()
 extern void ThermalStateTracker__ctor_mFD5C21FDE995127A5ECE149B073D8249C5EC2E6A (void);
-// 0x000000DE UnityEngine.AdaptivePerformance.StateAction UnityEngine.AdaptivePerformance.ThermalStateTracker::Update()
+// 0x000000F3 UnityEngine.AdaptivePerformance.StateAction UnityEngine.AdaptivePerformance.ThermalStateTracker::Update()
 extern void ThermalStateTracker_Update_m913DC7BF94060BC42C413900B8179F3661B6E68D (void);
-// 0x000000DF System.Single UnityEngine.AdaptivePerformance.PerformanceStateTracker::get_Trend()
+// 0x000000F4 System.Single UnityEngine.AdaptivePerformance.PerformanceStateTracker::get_Trend()
 extern void PerformanceStateTracker_get_Trend_m17F8AE9E5AE42EFBC0DAC61F0A43054F52C7C5B8 (void);
-// 0x000000E0 System.Void UnityEngine.AdaptivePerformance.PerformanceStateTracker::set_Trend(System.Single)
+// 0x000000F5 System.Void UnityEngine.AdaptivePerformance.PerformanceStateTracker::set_Trend(System.Single)
 extern void PerformanceStateTracker_set_Trend_m8AA6B9A0E446C2CCD6CEC55191646330B8EFDD77 (void);
-// 0x000000E1 System.Void UnityEngine.AdaptivePerformance.PerformanceStateTracker::.ctor(System.Int32)
+// 0x000000F6 System.Void UnityEngine.AdaptivePerformance.PerformanceStateTracker::.ctor(System.Int32)
 extern void PerformanceStateTracker__ctor_m8232217281DBFFC7A4E2DAB29CC358BEB45C7307 (void);
-// 0x000000E2 UnityEngine.AdaptivePerformance.StateAction UnityEngine.AdaptivePerformance.PerformanceStateTracker::Update()
+// 0x000000F7 UnityEngine.AdaptivePerformance.StateAction UnityEngine.AdaptivePerformance.PerformanceStateTracker::Update()
 extern void PerformanceStateTracker_Update_mEE692BA548FD2E834F67F4F8283A4BAD52D56483 (void);
-// 0x000000E3 System.Boolean UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerEfficiencyTracker::get_IsRunning()
+// 0x000000F8 System.Boolean UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerEfficiencyTracker::get_IsRunning()
 extern void AdaptivePerformanceScalerEfficiencyTracker_get_IsRunning_m647C8B9415F4EA256F9B40D68CABB1B99F2A31E8 (void);
-// 0x000000E4 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerEfficiencyTracker::Start(UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler,System.Boolean)
+// 0x000000F9 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerEfficiencyTracker::Start(UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler,System.Boolean)
 extern void AdaptivePerformanceScalerEfficiencyTracker_Start_m3494EB6E5949688D98B125DE3E7FFFEC637FCA8E (void);
-// 0x000000E5 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerEfficiencyTracker::Stop()
+// 0x000000FA System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerEfficiencyTracker::Stop()
 extern void AdaptivePerformanceScalerEfficiencyTracker_Stop_m3FB389C89250CDF7DCD6EAD6103D82083C88AB91 (void);
-// 0x000000E6 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerEfficiencyTracker::.ctor()
+// 0x000000FB System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerEfficiencyTracker::.ctor()
 extern void AdaptivePerformanceScalerEfficiencyTracker__ctor_m32D5119A300D3B167914335D3D2C7DBB96E2F0FE (void);
-// 0x000000E7 System.Single UnityEngine.AdaptivePerformance.AdaptivePerformanceIndexer::get_TimeUntilNextAction()
+// 0x000000FC System.Single UnityEngine.AdaptivePerformance.AdaptivePerformanceIndexer::get_TimeUntilNextAction()
 extern void AdaptivePerformanceIndexer_get_TimeUntilNextAction_m7E78DA2CA0D5AF599F3AEE40BCB19C4F44A826E7 (void);
-// 0x000000E8 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceIndexer::set_TimeUntilNextAction(System.Single)
+// 0x000000FD System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceIndexer::set_TimeUntilNextAction(System.Single)
 extern void AdaptivePerformanceIndexer_set_TimeUntilNextAction_m3ACC20C45EAC8F4A2E775991FAD386B67FD8C8CC (void);
-// 0x000000E9 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceIndexer::set_ThermalAction(UnityEngine.AdaptivePerformance.StateAction)
+// 0x000000FE System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceIndexer::set_ThermalAction(UnityEngine.AdaptivePerformance.StateAction)
 extern void AdaptivePerformanceIndexer_set_ThermalAction_mE00D105442FCCFAEC62697A9CFAD67045A23255D (void);
-// 0x000000EA UnityEngine.AdaptivePerformance.StateAction UnityEngine.AdaptivePerformance.AdaptivePerformanceIndexer::get_PerformanceAction()
+// 0x000000FF UnityEngine.AdaptivePerformance.StateAction UnityEngine.AdaptivePerformance.AdaptivePerformanceIndexer::get_PerformanceAction()
 extern void AdaptivePerformanceIndexer_get_PerformanceAction_m3C64B614E1F66CF5F0CCFA0A206AE450A6E91373 (void);
-// 0x000000EB System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceIndexer::set_PerformanceAction(UnityEngine.AdaptivePerformance.StateAction)
+// 0x00000100 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceIndexer::set_PerformanceAction(UnityEngine.AdaptivePerformance.StateAction)
 extern void AdaptivePerformanceIndexer_set_PerformanceAction_mD0CFF7F66F17812728BEED4703B037CD36B029D9 (void);
-// 0x000000EC System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceIndexer::GetAppliedScalers(System.Collections.Generic.List`1<UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler>&)
+// 0x00000101 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceIndexer::GetAppliedScalers(System.Collections.Generic.List`1<UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler>&)
 extern void AdaptivePerformanceIndexer_GetAppliedScalers_m1011F22EC734BB38C8819135DEC8E42B29E2C4DD (void);
-// 0x000000ED System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceIndexer::GetUnappliedScalers(System.Collections.Generic.List`1<UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler>&)
+// 0x00000102 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceIndexer::GetUnappliedScalers(System.Collections.Generic.List`1<UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler>&)
 extern void AdaptivePerformanceIndexer_GetUnappliedScalers_mE8FA3921CAC408842587BA5EFD90D5C9790BA71B (void);
-// 0x000000EE System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceIndexer::GetDisabledScalers(System.Collections.Generic.List`1<UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler>&)
+// 0x00000103 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceIndexer::GetDisabledScalers(System.Collections.Generic.List`1<UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler>&)
 extern void AdaptivePerformanceIndexer_GetDisabledScalers_m6FEDBD377DFC0EE3EBD88E4C8F5D5C7FD0C1290C (void);
-// 0x000000EF System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceIndexer::UnapplyAllScalers()
+// 0x00000104 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceIndexer::UnapplyAllScalers()
 extern void AdaptivePerformanceIndexer_UnapplyAllScalers_mC208AED24EDDA8B04255CFC8CEB240210DDA51BB (void);
-// 0x000000F0 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceIndexer::UpdateOverrideLevel(UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler)
+// 0x00000105 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceIndexer::UpdateOverrideLevel(UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler)
 extern void AdaptivePerformanceIndexer_UpdateOverrideLevel_m51F6F38BC37E8AC606BE26D27EE94484A8F7E469 (void);
-// 0x000000F1 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceIndexer::AddScaler(UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler)
+// 0x00000106 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceIndexer::AddScaler(UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler)
 extern void AdaptivePerformanceIndexer_AddScaler_m29E73A2C101BC4E0CDF7F3428516D9DBFC418E00 (void);
-// 0x000000F2 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceIndexer::RemoveScaler(UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler)
+// 0x00000107 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceIndexer::RemoveScaler(UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler)
 extern void AdaptivePerformanceIndexer_RemoveScaler_m2B8D2D6CF93E9E1B9619BD439AEA59AA21E0A36B (void);
-// 0x000000F3 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceIndexer::.ctor(UnityEngine.AdaptivePerformance.IAdaptivePerformanceSettings&)
+// 0x00000108 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceIndexer::.ctor(UnityEngine.AdaptivePerformance.IAdaptivePerformanceSettings&)
 extern void AdaptivePerformanceIndexer__ctor_m92D37BFF61B6EE8BF79FDB14C6838599A4990BEE (void);
-// 0x000000F4 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceIndexer::Update()
+// 0x00000109 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceIndexer::Update()
 extern void AdaptivePerformanceIndexer_Update_m568887FF2767132A6E9AB900277459FE01EAF93E (void);
-// 0x000000F5 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceIndexer::DeactivateDisabledScalers()
+// 0x0000010A System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceIndexer::DeactivateDisabledScalers()
 extern void AdaptivePerformanceIndexer_DeactivateDisabledScalers_m74C0394B2B25C84A8C2A74800D47BC5424F8D571 (void);
-// 0x000000F6 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceIndexer::ActivateEnabledScalers()
+// 0x0000010B System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceIndexer::ActivateEnabledScalers()
 extern void AdaptivePerformanceIndexer_ActivateEnabledScalers_m1E5CB1BC2A06EB7D56440F262341951532D2BB37 (void);
-// 0x000000F7 System.Boolean UnityEngine.AdaptivePerformance.AdaptivePerformanceIndexer::ApplyLowestCostScaler()
+// 0x0000010C System.Boolean UnityEngine.AdaptivePerformance.AdaptivePerformanceIndexer::ApplyLowestCostScaler()
 extern void AdaptivePerformanceIndexer_ApplyLowestCostScaler_m5AAF11036E54EDF51BE37E1E5B81DDD9C2C12120 (void);
-// 0x000000F8 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceIndexer::ApplyScaler(UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler)
+// 0x0000010D System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceIndexer::ApplyScaler(UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler)
 extern void AdaptivePerformanceIndexer_ApplyScaler_m79C2EDBE3EAA1ED41A28D5F4197C051A9E58F7CF (void);
-// 0x000000F9 System.Boolean UnityEngine.AdaptivePerformance.AdaptivePerformanceIndexer::UnapplyHighestCostScaler()
+// 0x0000010E System.Boolean UnityEngine.AdaptivePerformance.AdaptivePerformanceIndexer::UnapplyHighestCostScaler()
 extern void AdaptivePerformanceIndexer_UnapplyHighestCostScaler_mA7F3885722DBD23B1DFE943D80AF09912FDF64C2 (void);
-// 0x000000FA System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceIndexer::UnapplyScaler(UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler)
+// 0x0000010F System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceIndexer::UnapplyScaler(UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler)
 extern void AdaptivePerformanceIndexer_UnapplyScaler_mEE79A22ABC79E64314FB44C69393AC038F16613A (void);
-// 0x000000FB System.Single UnityEngine.AdaptivePerformance.AdaptivePerformanceRenderSettings::get_MainLightShadowmapResolutionMultiplier()
+// 0x00000110 System.Single UnityEngine.AdaptivePerformance.AdaptivePerformanceRenderSettings::get_MainLightShadowmapResolutionMultiplier()
 extern void AdaptivePerformanceRenderSettings_get_MainLightShadowmapResolutionMultiplier_mC534C1A34AEA726621C5325E5F62F8F38309AF6B (void);
-// 0x000000FC System.Int32 UnityEngine.AdaptivePerformance.AdaptivePerformanceRenderSettings::get_MainLightShadowCascadesCountBias()
+// 0x00000111 System.Int32 UnityEngine.AdaptivePerformance.AdaptivePerformanceRenderSettings::get_MainLightShadowCascadesCountBias()
 extern void AdaptivePerformanceRenderSettings_get_MainLightShadowCascadesCountBias_mA76AA9D35B91737C858821377BAB2DC32046F6CC (void);
-// 0x000000FD System.Int32 UnityEngine.AdaptivePerformance.AdaptivePerformanceRenderSettings::get_ShadowQualityBias()
+// 0x00000112 System.Int32 UnityEngine.AdaptivePerformance.AdaptivePerformanceRenderSettings::get_ShadowQualityBias()
 extern void AdaptivePerformanceRenderSettings_get_ShadowQualityBias_mAB5C3F595906878DA9666147974AB2FF46CFEF66 (void);
-// 0x000000FE System.Single UnityEngine.AdaptivePerformance.AdaptivePerformanceRenderSettings::get_LutBias()
+// 0x00000113 System.Single UnityEngine.AdaptivePerformance.AdaptivePerformanceRenderSettings::get_LutBias()
 extern void AdaptivePerformanceRenderSettings_get_LutBias_m179B53308DCCE62B8143A4FC26D4F89D19AAD812 (void);
-// 0x000000FF System.Single UnityEngine.AdaptivePerformance.AdaptivePerformanceRenderSettings::get_MaxShadowDistanceMultiplier()
+// 0x00000114 System.Single UnityEngine.AdaptivePerformance.AdaptivePerformanceRenderSettings::get_MaxShadowDistanceMultiplier()
 extern void AdaptivePerformanceRenderSettings_get_MaxShadowDistanceMultiplier_m93857E7231C8BE9E85CD7BE17B60B12A051C4FE3 (void);
-// 0x00000100 System.Single UnityEngine.AdaptivePerformance.AdaptivePerformanceRenderSettings::get_RenderScaleMultiplier()
+// 0x00000115 System.Single UnityEngine.AdaptivePerformance.AdaptivePerformanceRenderSettings::get_RenderScaleMultiplier()
 extern void AdaptivePerformanceRenderSettings_get_RenderScaleMultiplier_m09EBC2034E07AF2014575778F280AE78D50ACD39 (void);
-// 0x00000101 System.Int32 UnityEngine.AdaptivePerformance.AdaptivePerformanceRenderSettings::get_AntiAliasingQualityBias()
+// 0x00000116 System.Int32 UnityEngine.AdaptivePerformance.AdaptivePerformanceRenderSettings::get_AntiAliasingQualityBias()
 extern void AdaptivePerformanceRenderSettings_get_AntiAliasingQualityBias_m4774C857D59483D780C3B9B36F85739C4909E547 (void);
-// 0x00000102 System.Boolean UnityEngine.AdaptivePerformance.AdaptivePerformanceRenderSettings::get_SkipDynamicBatching()
+// 0x00000117 System.Boolean UnityEngine.AdaptivePerformance.AdaptivePerformanceRenderSettings::get_SkipDynamicBatching()
 extern void AdaptivePerformanceRenderSettings_get_SkipDynamicBatching_m4C4264DF00B90F965CC1287621FEC7A3BFCD89F8 (void);
-// 0x00000103 System.Boolean UnityEngine.AdaptivePerformance.AdaptivePerformanceRenderSettings::get_SkipFrontToBackSorting()
+// 0x00000118 System.Boolean UnityEngine.AdaptivePerformance.AdaptivePerformanceRenderSettings::get_SkipFrontToBackSorting()
 extern void AdaptivePerformanceRenderSettings_get_SkipFrontToBackSorting_m69FFAF98235E7C6757454484DFDC03C5FB8EE5AE (void);
-// 0x00000104 System.Boolean UnityEngine.AdaptivePerformance.AdaptivePerformanceRenderSettings::get_SkipTransparentObjects()
+// 0x00000119 System.Boolean UnityEngine.AdaptivePerformance.AdaptivePerformanceRenderSettings::get_SkipTransparentObjects()
 extern void AdaptivePerformanceRenderSettings_get_SkipTransparentObjects_m380EFDB8C646655F84C70CCD657E83A70FFA8B36 (void);
-// 0x00000105 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceRenderSettings::.cctor()
+// 0x0000011A System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceRenderSettings::.cctor()
 extern void AdaptivePerformanceRenderSettings__cctor_m2660981556F5A33F55509EE601B27FE10A805B2A (void);
-// 0x00000106 System.String UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::get_Name()
+// 0x0000011B System.String UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::get_Name()
 extern void AdaptivePerformanceScaler_get_Name_mA644240351CD497192079FB4A1C0726CAAAAB595 (void);
-// 0x00000107 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::set_Name(System.String)
+// 0x0000011C System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::set_Name(System.String)
 extern void AdaptivePerformanceScaler_set_Name_mB1E81B4E918744FBFEA8ED15916629CDE747597F (void);
-// 0x00000108 System.Boolean UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::get_Enabled()
+// 0x0000011D System.Boolean UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::get_Enabled()
 extern void AdaptivePerformanceScaler_get_Enabled_mC342A7DAB3C83C020E36D960589D43848800C411 (void);
-// 0x00000109 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::set_Enabled(System.Boolean)
+// 0x0000011E System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::set_Enabled(System.Boolean)
 extern void AdaptivePerformanceScaler_set_Enabled_m5AAFF31644C5DC8D9389AAC335EA85AB5101198B (void);
-// 0x0000010A System.Single UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::get_Scale()
+// 0x0000011F System.Single UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::get_Scale()
 extern void AdaptivePerformanceScaler_get_Scale_m36510D655218A50626B8AD668D552B6CC8F5C2D4 (void);
-// 0x0000010B System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::set_Scale(System.Single)
+// 0x00000120 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::set_Scale(System.Single)
 extern void AdaptivePerformanceScaler_set_Scale_mB738E4C026081DF20BC1C036999B72E62E162DF1 (void);
-// 0x0000010C UnityEngine.AdaptivePerformance.ScalerVisualImpact UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::get_VisualImpact()
+// 0x00000121 UnityEngine.AdaptivePerformance.ScalerVisualImpact UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::get_VisualImpact()
 extern void AdaptivePerformanceScaler_get_VisualImpact_m11B601784C08065FDB3523EC18F2145A3C7D3EC1 (void);
-// 0x0000010D System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::set_VisualImpact(UnityEngine.AdaptivePerformance.ScalerVisualImpact)
+// 0x00000122 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::set_VisualImpact(UnityEngine.AdaptivePerformance.ScalerVisualImpact)
 extern void AdaptivePerformanceScaler_set_VisualImpact_mDC7A0CBB87C505A169F8171938CDEAB0F4263556 (void);
-// 0x0000010E UnityEngine.AdaptivePerformance.ScalerTarget UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::get_Target()
+// 0x00000123 UnityEngine.AdaptivePerformance.ScalerTarget UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::get_Target()
 extern void AdaptivePerformanceScaler_get_Target_mE6C20641945470C304C136E7F0C4C25034B97221 (void);
-// 0x0000010F System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::set_Target(UnityEngine.AdaptivePerformance.ScalerTarget)
+// 0x00000124 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::set_Target(UnityEngine.AdaptivePerformance.ScalerTarget)
 extern void AdaptivePerformanceScaler_set_Target_mEC153F9F72654354C0DA6E9B7178EF946F64F71E (void);
-// 0x00000110 System.Int32 UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::get_MaxLevel()
+// 0x00000125 System.Int32 UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::get_MaxLevel()
 extern void AdaptivePerformanceScaler_get_MaxLevel_m1082744FAC092C6C50390992235B0FAE5AC3D7F2 (void);
-// 0x00000111 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::set_MaxLevel(System.Int32)
+// 0x00000126 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::set_MaxLevel(System.Int32)
 extern void AdaptivePerformanceScaler_set_MaxLevel_mACCD2254479B353D875A3E12291D176C1B5D1374 (void);
-// 0x00000112 System.Single UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::get_MinBound()
+// 0x00000127 System.Single UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::get_MinBound()
 extern void AdaptivePerformanceScaler_get_MinBound_m270581EFC5CCFC013208B1214C05EAFA30588888 (void);
-// 0x00000113 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::set_MinBound(System.Single)
+// 0x00000128 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::set_MinBound(System.Single)
 extern void AdaptivePerformanceScaler_set_MinBound_m129C0FD3F9C9C8C375C22E42515064CFE34DAE66 (void);
-// 0x00000114 System.Single UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::get_MaxBound()
+// 0x00000129 System.Single UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::get_MaxBound()
 extern void AdaptivePerformanceScaler_get_MaxBound_mF9EC99FDDC6C065DE4798A978534F90BE281F49A (void);
-// 0x00000115 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::set_MaxBound(System.Single)
+// 0x0000012A System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::set_MaxBound(System.Single)
 extern void AdaptivePerformanceScaler_set_MaxBound_m4212C055985899CDF9F741142580F73AA2A68D23 (void);
-// 0x00000116 System.Int32 UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::get_CurrentLevel()
+// 0x0000012B System.Int32 UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::get_CurrentLevel()
 extern void AdaptivePerformanceScaler_get_CurrentLevel_m5CFADE10BD6094AC37A36AE3DBC13DCCC6B32C6D (void);
-// 0x00000117 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::set_CurrentLevel(System.Int32)
+// 0x0000012C System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::set_CurrentLevel(System.Int32)
 extern void AdaptivePerformanceScaler_set_CurrentLevel_m49A49E2276BFE421E090BC5C904DF79BA2AC8356 (void);
-// 0x00000118 System.Boolean UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::get_IsMaxLevel()
+// 0x0000012D System.Boolean UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::get_IsMaxLevel()
 extern void AdaptivePerformanceScaler_get_IsMaxLevel_m0D048C1EF154EF88A8F4E393CF875C2A4ABC80B2 (void);
-// 0x00000119 System.Boolean UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::get_NotLeveled()
+// 0x0000012E System.Boolean UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::get_NotLeveled()
 extern void AdaptivePerformanceScaler_get_NotLeveled_m47BB593E903C6CF722709568AF74AF112CCD4244 (void);
-// 0x0000011A System.Int32 UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::get_GpuImpact()
+// 0x0000012F System.Int32 UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::get_GpuImpact()
 extern void AdaptivePerformanceScaler_get_GpuImpact_m29135C6D462944C4664227D1B2A4DD0CA0C4F198 (void);
-// 0x0000011B System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::set_GpuImpact(System.Int32)
+// 0x00000130 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::set_GpuImpact(System.Int32)
 extern void AdaptivePerformanceScaler_set_GpuImpact_mCF875A7A0C60FDDBA1E5AF4C6538133BFB31A12D (void);
-// 0x0000011C System.Int32 UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::get_CpuImpact()
+// 0x00000131 System.Int32 UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::get_CpuImpact()
 extern void AdaptivePerformanceScaler_get_CpuImpact_m3030737F4809317F5C3384030980528B66FBBCFA (void);
-// 0x0000011D System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::set_CpuImpact(System.Int32)
+// 0x00000132 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::set_CpuImpact(System.Int32)
 extern void AdaptivePerformanceScaler_set_CpuImpact_m3EDDF3EAEC66F36795BF1497BC5F0742374A6435 (void);
-// 0x0000011E System.Int32 UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::get_OverrideLevel()
+// 0x00000133 System.Int32 UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::get_OverrideLevel()
 extern void AdaptivePerformanceScaler_get_OverrideLevel_m897A23775C7DF98A7B58C7A8CC8AF0954CCC4B8F (void);
-// 0x0000011F System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::set_OverrideLevel(System.Int32)
+// 0x00000134 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::set_OverrideLevel(System.Int32)
 extern void AdaptivePerformanceScaler_set_OverrideLevel_m277F5A9E70F738FB98A23CB0CC5BFE9DC1648470 (void);
-// 0x00000120 System.Int32 UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::CalculateCost()
+// 0x00000135 System.Int32 UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::CalculateCost()
 extern void AdaptivePerformanceScaler_CalculateCost_m7A07D736044261EB69EE377D6CB68C1647E3DBD3 (void);
-// 0x00000121 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::Awake()
+// 0x00000136 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::Awake()
 extern void AdaptivePerformanceScaler_Awake_m7010270390F937AF9C30E947A8135F97ACDF2441 (void);
-// 0x00000122 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::OnEnable()
+// 0x00000137 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::OnEnable()
 extern void AdaptivePerformanceScaler_OnEnable_m7CA881CB7067761BE7CF7BEEDDF0C7AACDF602E4 (void);
-// 0x00000123 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::OnDisable()
+// 0x00000138 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::OnDisable()
 extern void AdaptivePerformanceScaler_OnDisable_m105AF6946B4B4E449629AEBD370C13A09775CF57 (void);
-// 0x00000124 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::IncreaseLevel()
+// 0x00000139 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::IncreaseLevel()
 extern void AdaptivePerformanceScaler_IncreaseLevel_m27777D4D1392FDF8DF47750CF9E6C7C0C2C37B3B (void);
-// 0x00000125 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::DecreaseLevel()
+// 0x0000013A System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::DecreaseLevel()
 extern void AdaptivePerformanceScaler_DecreaseLevel_mCE2C48289DFC89D028772BD576D84E31C958F147 (void);
-// 0x00000126 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::Activate()
+// 0x0000013B System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::Activate()
 extern void AdaptivePerformanceScaler_Activate_m378B4FE8E34994A93E761E91454EB61382B92DD5 (void);
-// 0x00000127 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::Deactivate()
+// 0x0000013C System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::Deactivate()
 extern void AdaptivePerformanceScaler_Deactivate_mDCA1D896A82BF682F6B1DF796A7F6D03E2991808 (void);
-// 0x00000128 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::ApplyDefaultSetting(UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase)
+// 0x0000013D System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::ApplyDefaultSetting(UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase)
 extern void AdaptivePerformanceScaler_ApplyDefaultSetting_mF26B17C5B2D4F4179AEB1CD96A6FFB01FA601C57 (void);
-// 0x00000129 System.Boolean UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::ScaleChanged()
+// 0x0000013E System.Boolean UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::ScaleChanged()
 extern void AdaptivePerformanceScaler_ScaleChanged_m4E7898220A6E42674AA7D449AC362DE27AAF6526 (void);
-// 0x0000012A System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::OnLevelIncrease()
+// 0x0000013F System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::OnLevelIncrease()
 extern void AdaptivePerformanceScaler_OnLevelIncrease_m0B43868F3AD3FC9FA85985327C56B98028DDDBEA (void);
-// 0x0000012B System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::OnLevelDecrease()
+// 0x00000140 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::OnLevelDecrease()
 extern void AdaptivePerformanceScaler_OnLevelDecrease_mE8FE18E15326DC1E3EB3BC3B4F8DA64EC3507D9F (void);
-// 0x0000012C System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::OnLevel()
+// 0x00000141 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::OnLevel()
 extern void AdaptivePerformanceScaler_OnLevel_m5A38DA5B5161501C3B4FC65652A19FA033BEC466 (void);
-// 0x0000012D System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::OnEnabled()
+// 0x00000142 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::OnEnabled()
 extern void AdaptivePerformanceScaler_OnEnabled_mFF4F170B8E21ED7D0EE7F02323A2183F2B6D70AE (void);
-// 0x0000012E System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::OnDisabled()
+// 0x00000143 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::OnDisabled()
 extern void AdaptivePerformanceScaler_OnDisabled_m979BBD8FB315339632DC5C3938302FABE5973B09 (void);
-// 0x0000012F System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::.ctor()
+// 0x00000144 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::.ctor()
 extern void AdaptivePerformanceScaler__ctor_m41EEC23A70B939478FF05B217F954A2BD6B72441 (void);
-// 0x00000130 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceConfigurationDataAttribute::set_displayName(System.String)
+// 0x00000145 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceConfigurationDataAttribute::set_displayName(System.String)
 extern void AdaptivePerformanceConfigurationDataAttribute_set_displayName_m4F3C286C602139B2911EAD195C140358B094CF6F (void);
-// 0x00000131 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceConfigurationDataAttribute::set_buildSettingsKey(System.String)
+// 0x00000146 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceConfigurationDataAttribute::set_buildSettingsKey(System.String)
 extern void AdaptivePerformanceConfigurationDataAttribute_set_buildSettingsKey_m06093AC1FDB5E802A74B23121BEA363DA1ABB2C3 (void);
-// 0x00000132 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceConfigurationDataAttribute::.ctor(System.String,System.String)
+// 0x00000147 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceConfigurationDataAttribute::.ctor(System.String,System.String)
 extern void AdaptivePerformanceConfigurationDataAttribute__ctor_mF7F425EE14CC5F0B91707B21B983D853DF679259 (void);
-// 0x00000133 UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings UnityEngine.AdaptivePerformance.AdaptivePerformanceGeneralSettings::get_Manager()
+// 0x00000148 UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings UnityEngine.AdaptivePerformance.AdaptivePerformanceGeneralSettings::get_Manager()
 extern void AdaptivePerformanceGeneralSettings_get_Manager_mB02F48D291F077709644917091EF238EE5372BFA (void);
-// 0x00000134 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceGeneralSettings::set_Manager(UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings)
+// 0x00000149 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceGeneralSettings::set_Manager(UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings)
 extern void AdaptivePerformanceGeneralSettings_set_Manager_m168C0040F9C1FFACC63483B95F101FAD83B16FA4 (void);
-// 0x00000135 UnityEngine.AdaptivePerformance.AdaptivePerformanceGeneralSettings UnityEngine.AdaptivePerformance.AdaptivePerformanceGeneralSettings::get_Instance()
+// 0x0000014A UnityEngine.AdaptivePerformance.AdaptivePerformanceGeneralSettings UnityEngine.AdaptivePerformance.AdaptivePerformanceGeneralSettings::get_Instance()
 extern void AdaptivePerformanceGeneralSettings_get_Instance_mB03231D59BB8BAB94A1AB4D714A31EABDCAB07FE (void);
-// 0x00000136 UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings UnityEngine.AdaptivePerformance.AdaptivePerformanceGeneralSettings::get_AssignedSettings()
+// 0x0000014B UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings UnityEngine.AdaptivePerformance.AdaptivePerformanceGeneralSettings::get_AssignedSettings()
 extern void AdaptivePerformanceGeneralSettings_get_AssignedSettings_mD1F80609ACF7FC912DFEE8E1E498BD01275A8912 (void);
-// 0x00000137 System.Boolean UnityEngine.AdaptivePerformance.AdaptivePerformanceGeneralSettings::get_InitManagerOnStart()
+// 0x0000014C System.Boolean UnityEngine.AdaptivePerformance.AdaptivePerformanceGeneralSettings::get_InitManagerOnStart()
 extern void AdaptivePerformanceGeneralSettings_get_InitManagerOnStart_mAE3CBB5179CB4DE29AA3D821871705BE916AB9CC (void);
-// 0x00000138 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceGeneralSettings::Awake()
+// 0x0000014D System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceGeneralSettings::Awake()
 extern void AdaptivePerformanceGeneralSettings_Awake_m50DCD976B9F0205E76D99843A28B6F8BAA21586F (void);
-// 0x00000139 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceGeneralSettings::Quit()
+// 0x0000014E System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceGeneralSettings::Quit()
 extern void AdaptivePerformanceGeneralSettings_Quit_m22457260D1AD3533173E39C8ED791C096E68F826 (void);
-// 0x0000013A System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceGeneralSettings::Start()
+// 0x0000014F System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceGeneralSettings::Start()
 extern void AdaptivePerformanceGeneralSettings_Start_mB1FEFAB307C06835BCDC5399F115C7802F66AA09 (void);
-// 0x0000013B System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceGeneralSettings::OnDestroy()
+// 0x00000150 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceGeneralSettings::OnDestroy()
 extern void AdaptivePerformanceGeneralSettings_OnDestroy_m281022BE673704186F520F7308A2CB04CBA67CFF (void);
-// 0x0000013C System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceGeneralSettings::AttemptInitializeAdaptivePerformanceOnLoad()
+// 0x00000151 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceGeneralSettings::AttemptInitializeAdaptivePerformanceOnLoad()
 extern void AdaptivePerformanceGeneralSettings_AttemptInitializeAdaptivePerformanceOnLoad_m4618372A7AF91F527EFC40558894FC01F6B72E61 (void);
-// 0x0000013D System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceGeneralSettings::AttemptStartAdaptivePerformanceOnBeforeSplashScreen()
+// 0x00000152 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceGeneralSettings::AttemptStartAdaptivePerformanceOnBeforeSplashScreen()
 extern void AdaptivePerformanceGeneralSettings_AttemptStartAdaptivePerformanceOnBeforeSplashScreen_m6039532EDB5A2CF9DE4489ACA857EC264B50B25B (void);
-// 0x0000013E System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceGeneralSettings::InitAdaptivePerformance()
+// 0x00000153 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceGeneralSettings::InitAdaptivePerformance()
 extern void AdaptivePerformanceGeneralSettings_InitAdaptivePerformance_mA716590452FC37DD75DEA06044B130BCF2B39B76 (void);
-// 0x0000013F System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceGeneralSettings::StartAdaptivePerformance()
+// 0x00000154 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceGeneralSettings::StartAdaptivePerformance()
 extern void AdaptivePerformanceGeneralSettings_StartAdaptivePerformance_m7FED02BF177698BC040CAC4D52A86DD911D3AE9F (void);
-// 0x00000140 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceGeneralSettings::StopAdaptivePerformance()
+// 0x00000155 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceGeneralSettings::StopAdaptivePerformance()
 extern void AdaptivePerformanceGeneralSettings_StopAdaptivePerformance_m62C8B7FC4C6C7EFDB7727EDCBD5201629F1A1BCF (void);
-// 0x00000141 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceGeneralSettings::DeInitAdaptivePerformance()
+// 0x00000156 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceGeneralSettings::DeInitAdaptivePerformance()
 extern void AdaptivePerformanceGeneralSettings_DeInitAdaptivePerformance_mD0DDD93DCF4D140905B085AC5007A5EC3CB1DD64 (void);
-// 0x00000142 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceGeneralSettings::.ctor()
+// 0x00000157 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceGeneralSettings::.ctor()
 extern void AdaptivePerformanceGeneralSettings__ctor_m020E26DD53C777D02EF3DF0942D2E93995F7C347 (void);
-// 0x00000143 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceGeneralSettings::.cctor()
+// 0x00000158 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceGeneralSettings::.cctor()
 extern void AdaptivePerformanceGeneralSettings__cctor_m98C723F11E89E657A12306BAFFDC5A5F25E70882 (void);
-// 0x00000144 System.Boolean UnityEngine.AdaptivePerformance.AdaptivePerformanceLoader::Initialize()
+// 0x00000159 System.Boolean UnityEngine.AdaptivePerformance.AdaptivePerformanceLoader::Initialize()
 extern void AdaptivePerformanceLoader_Initialize_m52DFC2B2829FBFCAACF62AB26E8037541919C022 (void);
-// 0x00000145 System.Boolean UnityEngine.AdaptivePerformance.AdaptivePerformanceLoader::Start()
+// 0x0000015A System.Boolean UnityEngine.AdaptivePerformance.AdaptivePerformanceLoader::Start()
 extern void AdaptivePerformanceLoader_Start_mB73AE7B34CC1B8E397002A4BC0DC13660D926A88 (void);
-// 0x00000146 System.Boolean UnityEngine.AdaptivePerformance.AdaptivePerformanceLoader::Stop()
+// 0x0000015B System.Boolean UnityEngine.AdaptivePerformance.AdaptivePerformanceLoader::Stop()
 extern void AdaptivePerformanceLoader_Stop_mBD380CB8ADE64B788C02D779A44AA94B648429CF (void);
-// 0x00000147 System.Boolean UnityEngine.AdaptivePerformance.AdaptivePerformanceLoader::Deinitialize()
+// 0x0000015C System.Boolean UnityEngine.AdaptivePerformance.AdaptivePerformanceLoader::Deinitialize()
 extern void AdaptivePerformanceLoader_Deinitialize_mA9EFB6D2A23B8CFDA0D7A30866775A1D9A4C0CC5 (void);
-// 0x00000148 T UnityEngine.AdaptivePerformance.AdaptivePerformanceLoader::GetLoadedSubsystem()
-// 0x00000149 UnityEngine.ISubsystem UnityEngine.AdaptivePerformance.AdaptivePerformanceLoader::GetDefaultSubsystem()
-// 0x0000014A UnityEngine.AdaptivePerformance.IAdaptivePerformanceSettings UnityEngine.AdaptivePerformance.AdaptivePerformanceLoader::GetSettings()
-// 0x0000014B System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceLoader::.ctor()
+// 0x0000015D T UnityEngine.AdaptivePerformance.AdaptivePerformanceLoader::GetLoadedSubsystem()
+// 0x0000015E UnityEngine.ISubsystem UnityEngine.AdaptivePerformance.AdaptivePerformanceLoader::GetDefaultSubsystem()
+// 0x0000015F UnityEngine.AdaptivePerformance.IAdaptivePerformanceSettings UnityEngine.AdaptivePerformance.AdaptivePerformanceLoader::GetSettings()
+// 0x00000160 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceLoader::.ctor()
 extern void AdaptivePerformanceLoader__ctor_m9B0C5E513D4AE826C922B3875AFFD9C1FFDACF45 (void);
-// 0x0000014C T UnityEngine.AdaptivePerformance.AdaptivePerformanceLoaderHelper::GetLoadedSubsystem()
-// 0x0000014D System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceLoaderHelper::StartSubsystem()
-// 0x0000014E System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceLoaderHelper::StopSubsystem()
-// 0x0000014F System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceLoaderHelper::DestroySubsystem()
-// 0x00000150 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceLoaderHelper::CreateSubsystem(System.Collections.Generic.List`1<TDescriptor>,System.String)
-// 0x00000151 System.Boolean UnityEngine.AdaptivePerformance.AdaptivePerformanceLoaderHelper::Deinitialize()
+// 0x00000161 T UnityEngine.AdaptivePerformance.AdaptivePerformanceLoaderHelper::GetLoadedSubsystem()
+// 0x00000162 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceLoaderHelper::StartSubsystem()
+// 0x00000163 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceLoaderHelper::StopSubsystem()
+// 0x00000164 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceLoaderHelper::DestroySubsystem()
+// 0x00000165 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceLoaderHelper::CreateSubsystem(System.Collections.Generic.List`1<TDescriptor>,System.String)
+// 0x00000166 System.Boolean UnityEngine.AdaptivePerformance.AdaptivePerformanceLoaderHelper::Deinitialize()
 extern void AdaptivePerformanceLoaderHelper_Deinitialize_m572DE73DF252A3AE75F653FE01FC5A38B6DDA2F5 (void);
-// 0x00000152 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceLoaderHelper::.ctor()
+// 0x00000167 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceLoaderHelper::.ctor()
 extern void AdaptivePerformanceLoaderHelper__ctor_mE84DD1B4F467A7999870517C658B85B4C5109EB2 (void);
-// 0x00000153 System.Boolean UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings::get_automaticLoading()
+// 0x00000168 System.Boolean UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings::get_automaticLoading()
 extern void AdaptivePerformanceManagerSettings_get_automaticLoading_mF793D5FA543A68A61AE84989B7CCE8B54A384DB7 (void);
-// 0x00000154 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings::set_automaticLoading(System.Boolean)
+// 0x00000169 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings::set_automaticLoading(System.Boolean)
 extern void AdaptivePerformanceManagerSettings_set_automaticLoading_m78A856A6C6981AFF7F8A181AA9EDB226BC279084 (void);
-// 0x00000155 System.Boolean UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings::get_automaticRunning()
+// 0x0000016A System.Boolean UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings::get_automaticRunning()
 extern void AdaptivePerformanceManagerSettings_get_automaticRunning_m5DED87ECD59574CB7F296F9AC06A62B49ADE1D97 (void);
-// 0x00000156 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings::set_automaticRunning(System.Boolean)
+// 0x0000016B System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings::set_automaticRunning(System.Boolean)
 extern void AdaptivePerformanceManagerSettings_set_automaticRunning_m0984422C2CDE1540CF074F77AEB91D33CDCAD34C (void);
-// 0x00000157 System.Collections.Generic.List`1<UnityEngine.AdaptivePerformance.AdaptivePerformanceLoader> UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings::get_loaders()
+// 0x0000016C System.Collections.Generic.List`1<UnityEngine.AdaptivePerformance.AdaptivePerformanceLoader> UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings::get_loaders()
 extern void AdaptivePerformanceManagerSettings_get_loaders_m94671B9C724BB6BC88A5F97BE73EE0CEEF0F9062 (void);
-// 0x00000158 System.Boolean UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings::get_isInitializationComplete()
+// 0x0000016D System.Boolean UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings::get_isInitializationComplete()
 extern void AdaptivePerformanceManagerSettings_get_isInitializationComplete_mA92EC9E9BC3AA5529884DEC08F39AE7391B4E3F5 (void);
-// 0x00000159 UnityEngine.AdaptivePerformance.AdaptivePerformanceLoader UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings::get_activeLoader()
+// 0x0000016E UnityEngine.AdaptivePerformance.AdaptivePerformanceLoader UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings::get_activeLoader()
 extern void AdaptivePerformanceManagerSettings_get_activeLoader_mAF59D47202AF0F1B8499613F88E9FA3AB908C1ED (void);
-// 0x0000015A System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings::set_activeLoader(UnityEngine.AdaptivePerformance.AdaptivePerformanceLoader)
+// 0x0000016F System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings::set_activeLoader(UnityEngine.AdaptivePerformance.AdaptivePerformanceLoader)
 extern void AdaptivePerformanceManagerSettings_set_activeLoader_m6424DF4A22766551D76C1AF37D10102A43EB26D1 (void);
-// 0x0000015B T UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings::ActiveLoaderAs()
-// 0x0000015C System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings::InitializeLoaderSync()
+// 0x00000170 T UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings::ActiveLoaderAs()
+// 0x00000171 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings::InitializeLoaderSync()
 extern void AdaptivePerformanceManagerSettings_InitializeLoaderSync_mE587C8D08F750D227C5B4E4A8F9A4598C26B6F24 (void);
-// 0x0000015D System.Collections.IEnumerator UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings::InitializeLoader()
+// 0x00000172 System.Collections.IEnumerator UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings::InitializeLoader()
 extern void AdaptivePerformanceManagerSettings_InitializeLoader_mDB56D2B2F832CFE466EC4CDE9365015B19997EB5 (void);
-// 0x0000015E System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings::StartSubsystems()
+// 0x00000173 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings::StartSubsystems()
 extern void AdaptivePerformanceManagerSettings_StartSubsystems_m392BD586FDFD36B2471862DC358FBEB1B4B3758A (void);
-// 0x0000015F System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings::StopSubsystems()
+// 0x00000174 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings::StopSubsystems()
 extern void AdaptivePerformanceManagerSettings_StopSubsystems_m71B38C8EF2F01D53C5DD9A9216B712A8A1C12E3C (void);
-// 0x00000160 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings::DeinitializeLoader()
+// 0x00000175 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings::DeinitializeLoader()
 extern void AdaptivePerformanceManagerSettings_DeinitializeLoader_m106A19D0EE1D6E1D1040DE6167079167AAE24B8A (void);
-// 0x00000161 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings::Start()
+// 0x00000176 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings::Start()
 extern void AdaptivePerformanceManagerSettings_Start_mB600273E9D0FA5ED4BB4451D5F3BFAEE67D06F14 (void);
-// 0x00000162 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings::OnDisable()
+// 0x00000177 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings::OnDisable()
 extern void AdaptivePerformanceManagerSettings_OnDisable_m95931521107CACA359B4AFCEDAA4312B27DE7EA6 (void);
-// 0x00000163 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings::OnDestroy()
+// 0x00000178 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings::OnDestroy()
 extern void AdaptivePerformanceManagerSettings_OnDestroy_m5FB35007EF8EB29E001BBBE35E2B4AFA51AB449F (void);
-// 0x00000164 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings::.ctor()
+// 0x00000179 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings::.ctor()
 extern void AdaptivePerformanceManagerSettings__ctor_mF1A51EF2CE5F55141C15FC48914FF15B230B80A0 (void);
-// 0x00000165 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings::.cctor()
+// 0x0000017A System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings::.cctor()
 extern void AdaptivePerformanceManagerSettings__cctor_m5B0050C80AB3807D73DB27508E99706180407AE9 (void);
-// 0x00000166 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings/<InitializeLoader>d__20::.ctor(System.Int32)
+// 0x0000017B System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings/<InitializeLoader>d__20::.ctor(System.Int32)
 extern void U3CInitializeLoaderU3Ed__20__ctor_m99AEE3D9CD5D5D7765D0D812D1E3E7BD9719E752 (void);
-// 0x00000167 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings/<InitializeLoader>d__20::System.IDisposable.Dispose()
+// 0x0000017C System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings/<InitializeLoader>d__20::System.IDisposable.Dispose()
 extern void U3CInitializeLoaderU3Ed__20_System_IDisposable_Dispose_mA251702F87B090352F64F454C7C363E279600BDF (void);
-// 0x00000168 System.Boolean UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings/<InitializeLoader>d__20::MoveNext()
+// 0x0000017D System.Boolean UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings/<InitializeLoader>d__20::MoveNext()
 extern void U3CInitializeLoaderU3Ed__20_MoveNext_m019D030DF5C24F6A6332D838623DACE488AD1B69 (void);
-// 0x00000169 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings/<InitializeLoader>d__20::<>m__Finally1()
+// 0x0000017E System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings/<InitializeLoader>d__20::<>m__Finally1()
 extern void U3CInitializeLoaderU3Ed__20_U3CU3Em__Finally1_m7AB1E5D6814F78633555FDEA1889BB391164EF62 (void);
-// 0x0000016A System.Object UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings/<InitializeLoader>d__20::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x0000017F System.Object UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings/<InitializeLoader>d__20::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CInitializeLoaderU3Ed__20_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mAEE38B52D23E5F5A147502F1E1DFE9B2C8493C77 (void);
-// 0x0000016B System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings/<InitializeLoader>d__20::System.Collections.IEnumerator.Reset()
+// 0x00000180 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings/<InitializeLoader>d__20::System.Collections.IEnumerator.Reset()
 extern void U3CInitializeLoaderU3Ed__20_System_Collections_IEnumerator_Reset_m6AAA6CA5A2F999499C459729B7B54FE3975F96F5 (void);
-// 0x0000016C System.Object UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings/<InitializeLoader>d__20::System.Collections.IEnumerator.get_Current()
+// 0x00000181 System.Object UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings/<InitializeLoader>d__20::System.Collections.IEnumerator.get_Current()
 extern void U3CInitializeLoaderU3Ed__20_System_Collections_IEnumerator_get_Current_m7B13FB5EBC36BAB41A2ECE2FEBC281716F6CA4F1 (void);
-// 0x0000016D System.Boolean UnityEngine.AdaptivePerformance.AdaptivePerformanceIndexerSettings::get_active()
+// 0x00000182 System.Boolean UnityEngine.AdaptivePerformance.AdaptivePerformanceIndexerSettings::get_active()
 extern void AdaptivePerformanceIndexerSettings_get_active_mB468560A4683B253580953C0D5153BD411ACF493 (void);
-// 0x0000016E System.Single UnityEngine.AdaptivePerformance.AdaptivePerformanceIndexerSettings::get_thermalActionDelay()
+// 0x00000183 System.Single UnityEngine.AdaptivePerformance.AdaptivePerformanceIndexerSettings::get_thermalActionDelay()
 extern void AdaptivePerformanceIndexerSettings_get_thermalActionDelay_m282A611F5F6706280814DE91A3E7DEB9EA9F7AD1 (void);
-// 0x0000016F System.Single UnityEngine.AdaptivePerformance.AdaptivePerformanceIndexerSettings::get_performanceActionDelay()
+// 0x00000184 System.Single UnityEngine.AdaptivePerformance.AdaptivePerformanceIndexerSettings::get_performanceActionDelay()
 extern void AdaptivePerformanceIndexerSettings_get_performanceActionDelay_mC880AFA98DF95DB5E34FAEBE62063B48BE4348E7 (void);
-// 0x00000170 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceIndexerSettings::.ctor()
+// 0x00000185 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceIndexerSettings::.ctor()
 extern void AdaptivePerformanceIndexerSettings__ctor_mAC6A076CA7527878B82F66B481045CD1B184A033 (void);
-// 0x00000171 System.String UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerProfile::get_Name()
+// 0x00000186 System.String UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerProfile::get_Name()
 extern void AdaptivePerformanceScalerProfile_get_Name_mFA1184ADA6503CE60527309197B07E3DB182F20D (void);
-// 0x00000172 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerProfile::.ctor()
+// 0x00000187 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerProfile::.ctor()
 extern void AdaptivePerformanceScalerProfile__ctor_mEBEA6434823B187131431B1746043D2A8190021A (void);
-// 0x00000173 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::ApplySettings(UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings)
+// 0x00000188 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::ApplySettings(UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings)
 extern void AdaptivePerformanceScalerSettings_ApplySettings_m47274AC204D346DE5DF4D43BA196DD70A06BE983 (void);
-// 0x00000174 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::ApplySettingsBase(UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase,UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase)
+// 0x00000189 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::ApplySettingsBase(UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase,UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase)
 extern void AdaptivePerformanceScalerSettings_ApplySettingsBase_mE8FF18A4E1E32B9C9B0D64AB9D413289092541FD (void);
-// 0x00000175 UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::get_AdaptiveFramerate()
+// 0x0000018A UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::get_AdaptiveFramerate()
 extern void AdaptivePerformanceScalerSettings_get_AdaptiveFramerate_m3D7C380E1CC1FD3642856B852CFF69E0875F4C3C (void);
-// 0x00000176 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::set_AdaptiveFramerate(UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase)
+// 0x0000018B System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::set_AdaptiveFramerate(UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase)
 extern void AdaptivePerformanceScalerSettings_set_AdaptiveFramerate_mA0CF417200C11732B05977DCAB65E470DC17FE8D (void);
-// 0x00000177 UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::get_AdaptiveResolution()
+// 0x0000018C UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::get_AdaptiveResolution()
 extern void AdaptivePerformanceScalerSettings_get_AdaptiveResolution_mFB99425108F282C4AD4435DAB6FAD3706F41A486 (void);
-// 0x00000178 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::set_AdaptiveResolution(UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase)
+// 0x0000018D System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::set_AdaptiveResolution(UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase)
 extern void AdaptivePerformanceScalerSettings_set_AdaptiveResolution_m22F686B5A04B6FA3AAB700C42D4061BCE67607BD (void);
-// 0x00000179 UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::get_AdaptiveBatching()
+// 0x0000018E UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::get_AdaptiveBatching()
 extern void AdaptivePerformanceScalerSettings_get_AdaptiveBatching_m3F7FEBD02D6C34906685B3D942819CBC17394F0B (void);
-// 0x0000017A System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::set_AdaptiveBatching(UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase)
+// 0x0000018F System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::set_AdaptiveBatching(UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase)
 extern void AdaptivePerformanceScalerSettings_set_AdaptiveBatching_m323E843FA0AD1CF627089C770308BC63393A37FB (void);
-// 0x0000017B UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::get_AdaptiveLOD()
+// 0x00000190 UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::get_AdaptiveLOD()
 extern void AdaptivePerformanceScalerSettings_get_AdaptiveLOD_mABD1BCE0ABBE88640D2FCC3C769BB229CF0F0FEB (void);
-// 0x0000017C System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::set_AdaptiveLOD(UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase)
+// 0x00000191 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::set_AdaptiveLOD(UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase)
 extern void AdaptivePerformanceScalerSettings_set_AdaptiveLOD_m17288325FDD1A5DF4879175DAF78D6740F641DE3 (void);
-// 0x0000017D UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::get_AdaptiveLut()
+// 0x00000192 UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::get_AdaptiveLut()
 extern void AdaptivePerformanceScalerSettings_get_AdaptiveLut_m4FE9B0DD32FF13F72CD1E55649708213FC6C6AA7 (void);
-// 0x0000017E System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::set_AdaptiveLut(UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase)
+// 0x00000193 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::set_AdaptiveLut(UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase)
 extern void AdaptivePerformanceScalerSettings_set_AdaptiveLut_m1C8DEC0F6975279398CB75A58A6C49903087D1D9 (void);
-// 0x0000017F UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::get_AdaptiveMSAA()
+// 0x00000194 UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::get_AdaptiveMSAA()
 extern void AdaptivePerformanceScalerSettings_get_AdaptiveMSAA_mB65C5126FDCA3BB61DF602ADB1AC4E2AEF8CBADD (void);
-// 0x00000180 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::set_AdaptiveMSAA(UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase)
+// 0x00000195 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::set_AdaptiveMSAA(UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase)
 extern void AdaptivePerformanceScalerSettings_set_AdaptiveMSAA_m47057A5BB3610DCCD407DD2F95621755FDEB4A17 (void);
-// 0x00000181 UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::get_AdaptiveShadowCascades()
+// 0x00000196 UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::get_AdaptiveShadowCascades()
 extern void AdaptivePerformanceScalerSettings_get_AdaptiveShadowCascades_m53427DE43AC64E30B6771893E67481DC00571AB3 (void);
-// 0x00000182 UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::get_AdaptiveShadowCascade()
+// 0x00000197 UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::get_AdaptiveShadowCascade()
 extern void AdaptivePerformanceScalerSettings_get_AdaptiveShadowCascade_mDF4969CF85C4DAB9C04A23718C62B0D104050963 (void);
-// 0x00000183 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::set_AdaptiveShadowCascade(UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase)
+// 0x00000198 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::set_AdaptiveShadowCascade(UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase)
 extern void AdaptivePerformanceScalerSettings_set_AdaptiveShadowCascade_m9E88067E5BBE08E9728DE82300D7C7693DADE8EF (void);
-// 0x00000184 UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::get_AdaptiveShadowDistance()
+// 0x00000199 UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::get_AdaptiveShadowDistance()
 extern void AdaptivePerformanceScalerSettings_get_AdaptiveShadowDistance_m796EE35BEB074E2A7ADDE74FD54DF815BE44591B (void);
-// 0x00000185 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::set_AdaptiveShadowDistance(UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase)
+// 0x0000019A System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::set_AdaptiveShadowDistance(UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase)
 extern void AdaptivePerformanceScalerSettings_set_AdaptiveShadowDistance_mA730F55CE73636680704F2AA4CAD804D9D08FF9B (void);
-// 0x00000186 UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::get_AdaptiveShadowmapResolution()
+// 0x0000019B UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::get_AdaptiveShadowmapResolution()
 extern void AdaptivePerformanceScalerSettings_get_AdaptiveShadowmapResolution_m2082973EAD82C0B8FAB358F04EC41699F57D8858 (void);
-// 0x00000187 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::set_AdaptiveShadowmapResolution(UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase)
+// 0x0000019C System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::set_AdaptiveShadowmapResolution(UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase)
 extern void AdaptivePerformanceScalerSettings_set_AdaptiveShadowmapResolution_m112FB31DCA2963589BA1650427A280D8D84D1FF4 (void);
-// 0x00000188 UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::get_AdaptiveShadowQuality()
+// 0x0000019D UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::get_AdaptiveShadowQuality()
 extern void AdaptivePerformanceScalerSettings_get_AdaptiveShadowQuality_m5C8BC0EF42C968EC6EDC04F24DA335478B36F712 (void);
-// 0x00000189 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::set_AdaptiveShadowQuality(UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase)
+// 0x0000019E System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::set_AdaptiveShadowQuality(UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase)
 extern void AdaptivePerformanceScalerSettings_set_AdaptiveShadowQuality_m3388FF2B8048ED3EE2016E551AD14E6E688FC90C (void);
-// 0x0000018A UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::get_AdaptiveSorting()
+// 0x0000019F UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::get_AdaptiveSorting()
 extern void AdaptivePerformanceScalerSettings_get_AdaptiveSorting_m0566BBD18AE91D68C9F15D70ED0668D4A6C61A22 (void);
-// 0x0000018B System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::set_AdaptiveSorting(UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase)
+// 0x000001A0 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::set_AdaptiveSorting(UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase)
 extern void AdaptivePerformanceScalerSettings_set_AdaptiveSorting_m5237920E5684B0F180193332F7367534719E9683 (void);
-// 0x0000018C UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::get_AdaptiveTransparency()
+// 0x000001A1 UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::get_AdaptiveTransparency()
 extern void AdaptivePerformanceScalerSettings_get_AdaptiveTransparency_m4E952144DBB578444D6EF5E950082810C79F6AEE (void);
-// 0x0000018D System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::set_AdaptiveTransparency(UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase)
+// 0x000001A2 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::set_AdaptiveTransparency(UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase)
 extern void AdaptivePerformanceScalerSettings_set_AdaptiveTransparency_m719175178FAB1B0DBB444FE1580BE696B5E6821A (void);
-// 0x0000018E UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::get_AdaptiveViewDistance()
+// 0x000001A3 UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::get_AdaptiveViewDistance()
 extern void AdaptivePerformanceScalerSettings_get_AdaptiveViewDistance_mFBB6E4146B6DA63EE6DA876FEAB7C1882E594EE8 (void);
-// 0x0000018F System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::set_AdaptiveViewDistance(UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase)
+// 0x000001A4 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::set_AdaptiveViewDistance(UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase)
 extern void AdaptivePerformanceScalerSettings_set_AdaptiveViewDistance_m46BF36B1E7E4217EC36608D0F0AA3C9D0B4C0AFB (void);
-// 0x00000190 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::.ctor()
+// 0x000001A5 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings::.ctor()
 extern void AdaptivePerformanceScalerSettings__ctor_m80015AC93D21A8B5B5D6E9E265A1420B016B9775 (void);
-// 0x00000191 System.String UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase::get_name()
+// 0x000001A6 System.String UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase::get_name()
 extern void AdaptivePerformanceScalerSettingsBase_get_name_m25C2955060887488135B47DEE4BFCC4E6D648217 (void);
-// 0x00000192 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase::set_name(System.String)
+// 0x000001A7 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase::set_name(System.String)
 extern void AdaptivePerformanceScalerSettingsBase_set_name_m4B12996D4AAEADB2364789B7FA038F33B8C60162 (void);
-// 0x00000193 System.Boolean UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase::get_enabled()
+// 0x000001A8 System.Boolean UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase::get_enabled()
 extern void AdaptivePerformanceScalerSettingsBase_get_enabled_mFB8E50EDDC59FBC69910C3556A6FBD4D1058E17A (void);
-// 0x00000194 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase::set_enabled(System.Boolean)
+// 0x000001A9 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase::set_enabled(System.Boolean)
 extern void AdaptivePerformanceScalerSettingsBase_set_enabled_m7285A6EAC24A0A614B6B9AD4C5849FD27743D6F2 (void);
-// 0x00000195 System.Single UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase::get_scale()
+// 0x000001AA System.Single UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase::get_scale()
 extern void AdaptivePerformanceScalerSettingsBase_get_scale_mACFF4EDDEC05EC8B34F2CE6C370F56C015078B7A (void);
-// 0x00000196 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase::set_scale(System.Single)
+// 0x000001AB System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase::set_scale(System.Single)
 extern void AdaptivePerformanceScalerSettingsBase_set_scale_m1874BA0295ABC291C7C358341D3F6B030CF13889 (void);
-// 0x00000197 UnityEngine.AdaptivePerformance.ScalerVisualImpact UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase::get_visualImpact()
+// 0x000001AC UnityEngine.AdaptivePerformance.ScalerVisualImpact UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase::get_visualImpact()
 extern void AdaptivePerformanceScalerSettingsBase_get_visualImpact_mD6035D16E1FF6F1A075494371F5772FB448CD54B (void);
-// 0x00000198 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase::set_visualImpact(UnityEngine.AdaptivePerformance.ScalerVisualImpact)
+// 0x000001AD System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase::set_visualImpact(UnityEngine.AdaptivePerformance.ScalerVisualImpact)
 extern void AdaptivePerformanceScalerSettingsBase_set_visualImpact_m99FFBC181DD1C43B54E2E86A694539148A397CA9 (void);
-// 0x00000199 UnityEngine.AdaptivePerformance.ScalerTarget UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase::get_target()
+// 0x000001AE UnityEngine.AdaptivePerformance.ScalerTarget UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase::get_target()
 extern void AdaptivePerformanceScalerSettingsBase_get_target_m94A37F659F5D2FCF61D596A086B2817493DC6F01 (void);
-// 0x0000019A System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase::set_target(UnityEngine.AdaptivePerformance.ScalerTarget)
+// 0x000001AF System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase::set_target(UnityEngine.AdaptivePerformance.ScalerTarget)
 extern void AdaptivePerformanceScalerSettingsBase_set_target_mB88183E1265DA9014E100DDF9491069CEE6AE648 (void);
-// 0x0000019B System.Int32 UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase::get_maxLevel()
+// 0x000001B0 System.Int32 UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase::get_maxLevel()
 extern void AdaptivePerformanceScalerSettingsBase_get_maxLevel_mC391BCA06D31E589A3375C0C0358BE5370A4E78B (void);
-// 0x0000019C System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase::set_maxLevel(System.Int32)
+// 0x000001B1 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase::set_maxLevel(System.Int32)
 extern void AdaptivePerformanceScalerSettingsBase_set_maxLevel_m8611240E1010C17CD38B71CEBAE440C1B2233E40 (void);
-// 0x0000019D System.Single UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase::get_minBound()
+// 0x000001B2 System.Single UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase::get_minBound()
 extern void AdaptivePerformanceScalerSettingsBase_get_minBound_m52AA40EB1C4706803C32771B588ABDA538B153EB (void);
-// 0x0000019E System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase::set_minBound(System.Single)
+// 0x000001B3 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase::set_minBound(System.Single)
 extern void AdaptivePerformanceScalerSettingsBase_set_minBound_m21776F92FF93BBD349C38809D66528584D0C78F3 (void);
-// 0x0000019F System.Single UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase::get_maxBound()
+// 0x000001B4 System.Single UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase::get_maxBound()
 extern void AdaptivePerformanceScalerSettingsBase_get_maxBound_mFF0BDEB50CD90C1EAFE595B511347F9898E95D10 (void);
-// 0x000001A0 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase::set_maxBound(System.Single)
+// 0x000001B5 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase::set_maxBound(System.Single)
 extern void AdaptivePerformanceScalerSettingsBase_set_maxBound_mA8C7515ABCED1472263A6F7104BE6D46B53645BE (void);
-// 0x000001A1 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase::.ctor()
+// 0x000001B6 System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase::.ctor()
 extern void AdaptivePerformanceScalerSettingsBase__ctor_m2C63E07B1463B172B69EADCF79755E797FF60A36 (void);
-// 0x000001A2 System.Boolean UnityEngine.AdaptivePerformance.IAdaptivePerformanceSettings::get_logging()
+// 0x000001B7 System.Boolean UnityEngine.AdaptivePerformance.IAdaptivePerformanceSettings::get_logging()
 extern void IAdaptivePerformanceSettings_get_logging_m06E0DA87F207C6BAE0ADA77D9D6E870F38DAF849 (void);
-// 0x000001A3 System.Void UnityEngine.AdaptivePerformance.IAdaptivePerformanceSettings::set_logging(System.Boolean)
+// 0x000001B8 System.Void UnityEngine.AdaptivePerformance.IAdaptivePerformanceSettings::set_logging(System.Boolean)
 extern void IAdaptivePerformanceSettings_set_logging_mB20DFCC4EB016BC2301A7486CD6FB253340036ED (void);
-// 0x000001A4 System.Boolean UnityEngine.AdaptivePerformance.IAdaptivePerformanceSettings::get_automaticPerformanceMode()
+// 0x000001B9 System.Boolean UnityEngine.AdaptivePerformance.IAdaptivePerformanceSettings::get_automaticPerformanceMode()
 extern void IAdaptivePerformanceSettings_get_automaticPerformanceMode_m1C251911C4E946872DBC23540E27051E4CBBD4BF (void);
-// 0x000001A5 System.Void UnityEngine.AdaptivePerformance.IAdaptivePerformanceSettings::set_automaticPerformanceMode(System.Boolean)
+// 0x000001BA System.Void UnityEngine.AdaptivePerformance.IAdaptivePerformanceSettings::set_automaticPerformanceMode(System.Boolean)
 extern void IAdaptivePerformanceSettings_set_automaticPerformanceMode_m00EFE8CD14E2829A38E272E591AA14361C6164DB (void);
-// 0x000001A6 System.Int32 UnityEngine.AdaptivePerformance.IAdaptivePerformanceSettings::get_statsLoggingFrequencyInFrames()
+// 0x000001BB System.Int32 UnityEngine.AdaptivePerformance.IAdaptivePerformanceSettings::get_statsLoggingFrequencyInFrames()
 extern void IAdaptivePerformanceSettings_get_statsLoggingFrequencyInFrames_m875DAB27BA2C866F649860BE3E68774EBC9BDC22 (void);
-// 0x000001A7 System.Void UnityEngine.AdaptivePerformance.IAdaptivePerformanceSettings::set_statsLoggingFrequencyInFrames(System.Int32)
+// 0x000001BC System.Void UnityEngine.AdaptivePerformance.IAdaptivePerformanceSettings::set_statsLoggingFrequencyInFrames(System.Int32)
 extern void IAdaptivePerformanceSettings_set_statsLoggingFrequencyInFrames_m7465F1CC9BF18381FFCA93724434BD09FE99A501 (void);
-// 0x000001A8 UnityEngine.AdaptivePerformance.AdaptivePerformanceIndexerSettings UnityEngine.AdaptivePerformance.IAdaptivePerformanceSettings::get_indexerSettings()
+// 0x000001BD UnityEngine.AdaptivePerformance.AdaptivePerformanceIndexerSettings UnityEngine.AdaptivePerformance.IAdaptivePerformanceSettings::get_indexerSettings()
 extern void IAdaptivePerformanceSettings_get_indexerSettings_m350E89758788B97983FBC7CEFFED6179D0A7688D (void);
-// 0x000001A9 System.Void UnityEngine.AdaptivePerformance.IAdaptivePerformanceSettings::set_indexerSettings(UnityEngine.AdaptivePerformance.AdaptivePerformanceIndexerSettings)
+// 0x000001BE System.Void UnityEngine.AdaptivePerformance.IAdaptivePerformanceSettings::set_indexerSettings(UnityEngine.AdaptivePerformance.AdaptivePerformanceIndexerSettings)
 extern void IAdaptivePerformanceSettings_set_indexerSettings_mE213C270685464A15282594A92F058A9E4850FF2 (void);
-// 0x000001AA UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings UnityEngine.AdaptivePerformance.IAdaptivePerformanceSettings::get_scalerSettings()
+// 0x000001BF UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings UnityEngine.AdaptivePerformance.IAdaptivePerformanceSettings::get_scalerSettings()
 extern void IAdaptivePerformanceSettings_get_scalerSettings_m85945D0D66C76F94B47FC7A4CA773A762C111579 (void);
-// 0x000001AB System.Void UnityEngine.AdaptivePerformance.IAdaptivePerformanceSettings::set_scalerSettings(UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings)
+// 0x000001C0 System.Void UnityEngine.AdaptivePerformance.IAdaptivePerformanceSettings::set_scalerSettings(UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings)
 extern void IAdaptivePerformanceSettings_set_scalerSettings_m5716C9B16BFE6AD58A14E4E4AAFB758904E48253 (void);
-// 0x000001AC System.Void UnityEngine.AdaptivePerformance.IAdaptivePerformanceSettings::LoadScalerProfile(System.String)
+// 0x000001C1 System.Void UnityEngine.AdaptivePerformance.IAdaptivePerformanceSettings::LoadScalerProfile(System.String)
 extern void IAdaptivePerformanceSettings_LoadScalerProfile_mED567BAAC48F6D19A42CC9780347B370DFEEE6E9 (void);
-// 0x000001AD System.Boolean UnityEngine.AdaptivePerformance.IAdaptivePerformanceSettings::ApplyScalerProfileToAllScalers()
+// 0x000001C2 System.Boolean UnityEngine.AdaptivePerformance.IAdaptivePerformanceSettings::ApplyScalerProfileToAllScalers()
 extern void IAdaptivePerformanceSettings_ApplyScalerProfileToAllScalers_mA3A1A992C500F44AE90AF3F571AE09E951EC479C (void);
-// 0x000001AE System.String[] UnityEngine.AdaptivePerformance.IAdaptivePerformanceSettings::GetAvailableScalerProfiles()
+// 0x000001C3 System.String[] UnityEngine.AdaptivePerformance.IAdaptivePerformanceSettings::GetAvailableScalerProfiles()
 extern void IAdaptivePerformanceSettings_GetAvailableScalerProfiles_mEE8C174726B75C4D5620233E2E296EF5CAF6E288 (void);
-// 0x000001AF System.Int32 UnityEngine.AdaptivePerformance.IAdaptivePerformanceSettings::get_defaultScalerProfilerIndex()
+// 0x000001C4 System.Int32 UnityEngine.AdaptivePerformance.IAdaptivePerformanceSettings::get_defaultScalerProfilerIndex()
 extern void IAdaptivePerformanceSettings_get_defaultScalerProfilerIndex_mCCADAEE5BA344871284BDBCF8703CBD1340E9C5F (void);
-// 0x000001B0 System.Void UnityEngine.AdaptivePerformance.IAdaptivePerformanceSettings::set_defaultScalerProfilerIndex(System.Int32)
+// 0x000001C5 System.Void UnityEngine.AdaptivePerformance.IAdaptivePerformanceSettings::set_defaultScalerProfilerIndex(System.Int32)
 extern void IAdaptivePerformanceSettings_set_defaultScalerProfilerIndex_m9A796090500136354DDC6F3B4F3636823F9F839A (void);
-// 0x000001B1 System.Void UnityEngine.AdaptivePerformance.IAdaptivePerformanceSettings::OnEnable()
+// 0x000001C6 System.Void UnityEngine.AdaptivePerformance.IAdaptivePerformanceSettings::OnEnable()
 extern void IAdaptivePerformanceSettings_OnEnable_mF0DA2FAAFA606098CE53DC0B1D599FC96E89E8F1 (void);
-// 0x000001B2 System.Void UnityEngine.AdaptivePerformance.IAdaptivePerformanceSettings::.ctor()
+// 0x000001C7 System.Void UnityEngine.AdaptivePerformance.IAdaptivePerformanceSettings::.ctor()
 extern void IAdaptivePerformanceSettings__ctor_m54D83D51CB50D235F0F7F8AAB4D0CCFD57D8B96B (void);
-// 0x000001B3 System.Void UnityEngine.AdaptivePerformance.IAdaptivePerformanceSettings/<>c__DisplayClass21_0::.ctor()
+// 0x000001C8 System.Void UnityEngine.AdaptivePerformance.IAdaptivePerformanceSettings/<>c__DisplayClass21_0::.ctor()
 extern void U3CU3Ec__DisplayClass21_0__ctor_m30F0E7BF3D22E9914E69A8EEB92401CFDE0641FB (void);
-// 0x000001B4 System.Boolean UnityEngine.AdaptivePerformance.IAdaptivePerformanceSettings/<>c__DisplayClass21_0::<ApplyScalerProfileToAllScalers>b__0(UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler)
+// 0x000001C9 System.Boolean UnityEngine.AdaptivePerformance.IAdaptivePerformanceSettings/<>c__DisplayClass21_0::<ApplyScalerProfileToAllScalers>b__0(UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler)
 extern void U3CU3Ec__DisplayClass21_0_U3CApplyScalerProfileToAllScalersU3Eb__0_mBFC2B810B206215B3E0EE1D4EBCDC6BF6529C3B4 (void);
-// 0x000001B5 System.Void UnityEngine.AdaptivePerformance.AdaptiveFramerate::Awake()
+// 0x000001CA System.Void UnityEngine.AdaptivePerformance.AdaptiveFramerate::Awake()
 extern void AdaptiveFramerate_Awake_m2901D3518B13C9D60696D9A2287A7B673148E2BE (void);
-// 0x000001B6 System.Void UnityEngine.AdaptivePerformance.AdaptiveFramerate::OnDisabled()
+// 0x000001CB System.Void UnityEngine.AdaptivePerformance.AdaptiveFramerate::OnDisabled()
 extern void AdaptiveFramerate_OnDisabled_m82036310F44027467DF42B4F9DD60A0832C0A954 (void);
-// 0x000001B7 System.Void UnityEngine.AdaptivePerformance.AdaptiveFramerate::OnEnabled()
+// 0x000001CC System.Void UnityEngine.AdaptivePerformance.AdaptiveFramerate::OnEnabled()
 extern void AdaptiveFramerate_OnEnabled_m4AD7A50ACB2E0AE57290E09F5198D9CA6AD2235E (void);
-// 0x000001B8 System.Void UnityEngine.AdaptivePerformance.AdaptiveFramerate::OnLevelIncrease()
+// 0x000001CD System.Void UnityEngine.AdaptivePerformance.AdaptiveFramerate::OnLevelIncrease()
 extern void AdaptiveFramerate_OnLevelIncrease_m136BBB80E8C6D197F2C9B0770F55D00C12F3CA9F (void);
-// 0x000001B9 System.Void UnityEngine.AdaptivePerformance.AdaptiveFramerate::OnLevelDecrease()
+// 0x000001CE System.Void UnityEngine.AdaptivePerformance.AdaptiveFramerate::OnLevelDecrease()
 extern void AdaptiveFramerate_OnLevelDecrease_mE8CDF867E4ABF431E770ADA54FD799A9826E5A74 (void);
-// 0x000001BA System.Void UnityEngine.AdaptivePerformance.AdaptiveFramerate::.ctor()
+// 0x000001CF System.Void UnityEngine.AdaptivePerformance.AdaptiveFramerate::.ctor()
 extern void AdaptiveFramerate__ctor_m694304B14B58592958A80FB83E43A309ABF8D77A (void);
-// 0x000001BB UnityEngine.AdaptivePerformance.Provider.Feature UnityEngine.AdaptivePerformance.Provider.PerformanceDataRecord::get_ChangeFlags()
+// 0x000001D0 UnityEngine.AdaptivePerformance.Provider.Feature UnityEngine.AdaptivePerformance.Provider.PerformanceDataRecord::get_ChangeFlags()
 extern void PerformanceDataRecord_get_ChangeFlags_mC5F321C8B1FE45A2B8006EF6BAC115A98951D986 (void);
-// 0x000001BC System.Single UnityEngine.AdaptivePerformance.Provider.PerformanceDataRecord::get_TemperatureLevel()
+// 0x000001D1 System.Single UnityEngine.AdaptivePerformance.Provider.PerformanceDataRecord::get_TemperatureLevel()
 extern void PerformanceDataRecord_get_TemperatureLevel_mB9A05C00B09B1EA3B1CD7CD9E648989E3AFFF438 (void);
-// 0x000001BD System.Single UnityEngine.AdaptivePerformance.Provider.PerformanceDataRecord::get_TemperatureTrend()
+// 0x000001D2 System.Single UnityEngine.AdaptivePerformance.Provider.PerformanceDataRecord::get_TemperatureTrend()
 extern void PerformanceDataRecord_get_TemperatureTrend_mBDB0A679AF4F8271D341667DF22094A74D3EA8CE (void);
-// 0x000001BE UnityEngine.AdaptivePerformance.WarningLevel UnityEngine.AdaptivePerformance.Provider.PerformanceDataRecord::get_WarningLevel()
+// 0x000001D3 UnityEngine.AdaptivePerformance.WarningLevel UnityEngine.AdaptivePerformance.Provider.PerformanceDataRecord::get_WarningLevel()
 extern void PerformanceDataRecord_get_WarningLevel_mE7AFD9D27DD0C18ABA71A845B9E5099E5838F28C (void);
-// 0x000001BF System.Int32 UnityEngine.AdaptivePerformance.Provider.PerformanceDataRecord::get_CpuPerformanceLevel()
+// 0x000001D4 System.Int32 UnityEngine.AdaptivePerformance.Provider.PerformanceDataRecord::get_CpuPerformanceLevel()
 extern void PerformanceDataRecord_get_CpuPerformanceLevel_m5347895DB794F91B4CE64C6E3795A51FD2B85E0D (void);
-// 0x000001C0 System.Int32 UnityEngine.AdaptivePerformance.Provider.PerformanceDataRecord::get_GpuPerformanceLevel()
+// 0x000001D5 System.Int32 UnityEngine.AdaptivePerformance.Provider.PerformanceDataRecord::get_GpuPerformanceLevel()
 extern void PerformanceDataRecord_get_GpuPerformanceLevel_mA7D3F637ABB320066197C9615F85F828F59DB874 (void);
-// 0x000001C1 System.Boolean UnityEngine.AdaptivePerformance.Provider.PerformanceDataRecord::get_PerformanceLevelControlAvailable()
+// 0x000001D6 System.Boolean UnityEngine.AdaptivePerformance.Provider.PerformanceDataRecord::get_PerformanceLevelControlAvailable()
 extern void PerformanceDataRecord_get_PerformanceLevelControlAvailable_mAD15C1D940FE14D3F6025144225107F0BA2C45F9 (void);
-// 0x000001C2 System.Single UnityEngine.AdaptivePerformance.Provider.PerformanceDataRecord::get_CpuFrameTime()
+// 0x000001D7 System.Single UnityEngine.AdaptivePerformance.Provider.PerformanceDataRecord::get_CpuFrameTime()
 extern void PerformanceDataRecord_get_CpuFrameTime_m2D3D7C6A6756076D080B27439635390A8C84D99D (void);
-// 0x000001C3 System.Single UnityEngine.AdaptivePerformance.Provider.PerformanceDataRecord::get_GpuFrameTime()
+// 0x000001D8 System.Single UnityEngine.AdaptivePerformance.Provider.PerformanceDataRecord::get_GpuFrameTime()
 extern void PerformanceDataRecord_get_GpuFrameTime_mF3A550FE63E4139D908790FE7FC1D1A7FD2C1ED7 (void);
-// 0x000001C4 System.Single UnityEngine.AdaptivePerformance.Provider.PerformanceDataRecord::get_OverallFrameTime()
+// 0x000001D9 System.Single UnityEngine.AdaptivePerformance.Provider.PerformanceDataRecord::get_OverallFrameTime()
 extern void PerformanceDataRecord_get_OverallFrameTime_m793DACA24E5A4C0C1ACF7279DAB7EBEAC391F703 (void);
-// 0x000001C5 System.Boolean UnityEngine.AdaptivePerformance.Provider.PerformanceDataRecord::get_CpuPerformanceBoost()
+// 0x000001DA System.Boolean UnityEngine.AdaptivePerformance.Provider.PerformanceDataRecord::get_CpuPerformanceBoost()
 extern void PerformanceDataRecord_get_CpuPerformanceBoost_m037F215F770192DD6AFFB30034CDDECD36B4EE86 (void);
-// 0x000001C6 System.Boolean UnityEngine.AdaptivePerformance.Provider.PerformanceDataRecord::get_GpuPerformanceBoost()
+// 0x000001DB System.Boolean UnityEngine.AdaptivePerformance.Provider.PerformanceDataRecord::get_GpuPerformanceBoost()
 extern void PerformanceDataRecord_get_GpuPerformanceBoost_m98336EF2118879D66EDE58CDE92072019FE88A60 (void);
-// 0x000001C7 UnityEngine.AdaptivePerformance.ClusterInfo UnityEngine.AdaptivePerformance.Provider.PerformanceDataRecord::get_ClusterInfo()
+// 0x000001DC UnityEngine.AdaptivePerformance.ClusterInfo UnityEngine.AdaptivePerformance.Provider.PerformanceDataRecord::get_ClusterInfo()
 extern void PerformanceDataRecord_get_ClusterInfo_m9DE402408519DECE356D7C6B5BC96412732E3944 (void);
-// 0x000001C8 System.Void UnityEngine.AdaptivePerformance.Provider.IApplicationLifecycle::ApplicationPause()
-// 0x000001C9 System.Void UnityEngine.AdaptivePerformance.Provider.IApplicationLifecycle::ApplicationResume()
-// 0x000001CA System.Int32 UnityEngine.AdaptivePerformance.Provider.IDevicePerformanceLevelControl::get_MaxCpuPerformanceLevel()
-// 0x000001CB System.Int32 UnityEngine.AdaptivePerformance.Provider.IDevicePerformanceLevelControl::get_MaxGpuPerformanceLevel()
-// 0x000001CC System.Boolean UnityEngine.AdaptivePerformance.Provider.IDevicePerformanceLevelControl::SetPerformanceLevel(System.Int32&,System.Int32&)
-// 0x000001CD System.Boolean UnityEngine.AdaptivePerformance.Provider.IDevicePerformanceLevelControl::EnableCpuBoost()
-// 0x000001CE System.Boolean UnityEngine.AdaptivePerformance.Provider.IDevicePerformanceLevelControl::EnableGpuBoost()
-// 0x000001CF System.Void UnityEngine.AdaptivePerformance.Provider.AdaptivePerformanceSubsystem::.ctor()
+// 0x000001DD System.Void UnityEngine.AdaptivePerformance.Provider.IApplicationLifecycle::ApplicationPause()
+// 0x000001DE System.Void UnityEngine.AdaptivePerformance.Provider.IApplicationLifecycle::ApplicationResume()
+// 0x000001DF System.Int32 UnityEngine.AdaptivePerformance.Provider.IDevicePerformanceLevelControl::get_MaxCpuPerformanceLevel()
+// 0x000001E0 System.Int32 UnityEngine.AdaptivePerformance.Provider.IDevicePerformanceLevelControl::get_MaxGpuPerformanceLevel()
+// 0x000001E1 System.Boolean UnityEngine.AdaptivePerformance.Provider.IDevicePerformanceLevelControl::SetPerformanceLevel(System.Int32&,System.Int32&)
+// 0x000001E2 System.Boolean UnityEngine.AdaptivePerformance.Provider.IDevicePerformanceLevelControl::EnableCpuBoost()
+// 0x000001E3 System.Boolean UnityEngine.AdaptivePerformance.Provider.IDevicePerformanceLevelControl::EnableGpuBoost()
+// 0x000001E4 System.Void UnityEngine.AdaptivePerformance.Provider.AdaptivePerformanceSubsystem::.ctor()
 extern void AdaptivePerformanceSubsystem__ctor_m35BB6CDFA707F6520550EB9EDF3171DCC0046751 (void);
-// 0x000001D0 UnityEngine.AdaptivePerformance.Provider.Feature UnityEngine.AdaptivePerformance.Provider.AdaptivePerformanceSubsystem::get_Capabilities()
+// 0x000001E5 UnityEngine.AdaptivePerformance.Provider.Feature UnityEngine.AdaptivePerformance.Provider.AdaptivePerformanceSubsystem::get_Capabilities()
 extern void AdaptivePerformanceSubsystem_get_Capabilities_m1CAC02F7EEAE1085F5C92DD35F71D0A753699AB9 (void);
-// 0x000001D1 UnityEngine.AdaptivePerformance.Provider.PerformanceDataRecord UnityEngine.AdaptivePerformance.Provider.AdaptivePerformanceSubsystem::Update()
-// 0x000001D2 UnityEngine.AdaptivePerformance.Provider.IApplicationLifecycle UnityEngine.AdaptivePerformance.Provider.AdaptivePerformanceSubsystem::get_ApplicationLifecycle()
-// 0x000001D3 UnityEngine.AdaptivePerformance.Provider.IDevicePerformanceLevelControl UnityEngine.AdaptivePerformance.Provider.AdaptivePerformanceSubsystem::get_PerformanceLevelControl()
-// 0x000001D4 System.Boolean UnityEngine.AdaptivePerformance.Provider.AdaptivePerformanceSubsystemBase::get_initialized()
+// 0x000001E6 UnityEngine.AdaptivePerformance.Provider.PerformanceDataRecord UnityEngine.AdaptivePerformance.Provider.AdaptivePerformanceSubsystem::Update()
+// 0x000001E7 UnityEngine.AdaptivePerformance.Provider.IApplicationLifecycle UnityEngine.AdaptivePerformance.Provider.AdaptivePerformanceSubsystem::get_ApplicationLifecycle()
+// 0x000001E8 UnityEngine.AdaptivePerformance.Provider.IDevicePerformanceLevelControl UnityEngine.AdaptivePerformance.Provider.AdaptivePerformanceSubsystem::get_PerformanceLevelControl()
+// 0x000001E9 System.Version UnityEngine.AdaptivePerformance.Provider.AdaptivePerformanceSubsystem::get_Version()
+// 0x000001EA System.String UnityEngine.AdaptivePerformance.Provider.AdaptivePerformanceSubsystem::get_Stats()
+extern void AdaptivePerformanceSubsystem_get_Stats_m9117FB86E780E118384EE4D4E660A0045D040D14 (void);
+// 0x000001EB System.Boolean UnityEngine.AdaptivePerformance.Provider.AdaptivePerformanceSubsystemBase::get_initialized()
 extern void AdaptivePerformanceSubsystemBase_get_initialized_mDE838BDEAF9C32DFAEBFAE92ABED9629EF6C04E8 (void);
-// 0x000001D5 System.Void UnityEngine.AdaptivePerformance.Provider.AdaptivePerformanceSubsystemBase::.ctor()
+// 0x000001EC System.Void UnityEngine.AdaptivePerformance.Provider.AdaptivePerformanceSubsystemBase::.ctor()
 extern void AdaptivePerformanceSubsystemBase__ctor_m26A8F180A465F00D3769B519BF3F0800ED5995FF (void);
-static Il2CppMethodPointer s_methodPointers[469] = 
+static Il2CppMethodPointer s_methodPointers[492] = 
 {
 	EmbeddedAttribute__ctor_m7B87ADC07C9854C43B52C09BA037364A635EDA5B,
 	IsReadOnlyAttribute__ctor_m2B8B7AA0F3C92526091F8033761C181EE613520C,
@@ -991,6 +1036,8 @@ static Il2CppMethodPointer s_methodPointers[469] =
 	U3CInvokeEndOfFrameU3Ed__94_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m620A1B65BC752436D958A80B782D04573F776B22,
 	U3CInvokeEndOfFrameU3Ed__94_System_Collections_IEnumerator_Reset_mF58DA7FB25D372AD3C37F46CAFC4AB493053DCE1,
 	U3CInvokeEndOfFrameU3Ed__94_System_Collections_IEnumerator_get_Current_m7EFBE856825399E756C2D56923E9398E39F673AC,
+	APLog_Debug_m74E7A1FA7CBAD0584F3032A4F36695D8D5F7EDC5,
+	APLog__cctor_m1D5AFDF1407DCE63310FE1ECE56FCD1FA2E8C48E,
 	AutoPerformanceLevelController_get_TargetFrameTime_m12B9B13965948BE6FF0D51F086D8185C8FF12269,
 	AutoPerformanceLevelController_set_TargetFrameTime_m46EF367E4CA3E6A889661BBBC3FEFD95D91D9432,
 	AutoPerformanceLevelController_get_AllowedCpuActiveTimeRatio_mBD97379A9F0C60091D24B0183D2E40D12BEC69F2,
@@ -1091,17 +1138,25 @@ static Il2CppMethodPointer s_methodPointers[469] =
 	PerformanceBottleneckChangeHandler_Invoke_mAAB4324087C174B6E0A7D5944A785853B3769F93,
 	PerformanceBottleneckChangeHandler_BeginInvoke_mC9E7FAE4C3F7B14595F3BE71BB94A826825D3E2B,
 	PerformanceBottleneckChangeHandler_EndInvoke_m38E191A9673393CC18BEE295C3506E7B426DE508,
+	PerformanceBoostChangeEventArgs_get_CpuBoost_mEC389F7680170FAD52C02A4B07A60EAC09287C6F,
 	PerformanceBoostChangeEventArgs_set_CpuBoost_m94511A8D353784F83A6D04C0AEBDAB88CFCE99BE,
+	PerformanceBoostChangeEventArgs_get_GpuBoost_mFFAC0DB6D8260CF0EF54A569A9DD0F940CF679FA,
 	PerformanceBoostChangeEventArgs_set_GpuBoost_mFF036188A7BF27CDCB0ED491390E17F24DB89133,
 	PerformanceBoostChangeHandler__ctor_mFA5DC578D11418D3E0E1D7C8869DD4C171D3F1A5,
 	PerformanceBoostChangeHandler_Invoke_m21D8CE2024C528D945CC2C2C310FF0AF6D334585,
 	PerformanceBoostChangeHandler_BeginInvoke_m3506C5F8675AA8052F262574C6E396BC25C0D4F1,
 	PerformanceBoostChangeHandler_EndInvoke_m62C539DE14786E4A9EE6D2B278BA6E2A74BD8248,
+	PerformanceLevelChangeEventArgs_get_CpuLevel_m155DC274C8BD0ADCAE5C8574341EA2788FBDA277,
 	PerformanceLevelChangeEventArgs_set_CpuLevel_m28B80C1E1A6FCAEEC6F79FB05AD9EF11616B5B28,
+	PerformanceLevelChangeEventArgs_get_CpuLevelDelta_m54B7E41B410E491C88FCF9FFFE658EC677B9B74D,
 	PerformanceLevelChangeEventArgs_set_CpuLevelDelta_m8898C8140A3C825929B84F7CB332F5BF1067A03D,
+	PerformanceLevelChangeEventArgs_get_GpuLevel_m87CBA5D2BC0AF3CDA470098F7B78079160A9BCD0,
 	PerformanceLevelChangeEventArgs_set_GpuLevel_mDFA4AC0545F4EB69D23569FE84EC94F4B4536A51,
+	PerformanceLevelChangeEventArgs_get_GpuLevelDelta_mBB7BC55D91607B2F6D3296C835B6F37315C04745,
 	PerformanceLevelChangeEventArgs_set_GpuLevelDelta_mE5C7E05217B324420E1EB4A67444637FFFCCE362,
+	PerformanceLevelChangeEventArgs_get_PerformanceControlMode_m47112D8370FD75A92B6BB4E03F0DB290BE9486D6,
 	PerformanceLevelChangeEventArgs_set_PerformanceControlMode_m5AF0BCCC0AB52611A53CE6FB3C394A3C07089443,
+	PerformanceLevelChangeEventArgs_get_ManualOverride_m6502A166BC0B97D5B7E25C7C548178897E0490AE,
 	PerformanceLevelChangeEventArgs_set_ManualOverride_mF6B8977AFEA8DF53C9EF51B57971929641D1CF4F,
 	PerformanceLevelChangeHandler__ctor_m00521100984326E53895E9B7D2508068651FCCFA,
 	PerformanceLevelChangeHandler_Invoke_m4BD170964B2075C38964518C871C258490E04613,
@@ -1111,22 +1166,33 @@ static Il2CppMethodPointer s_methodPointers[469] =
 	NULL,
 	NULL,
 	NULL,
+	PerformanceMetrics_get_CurrentCpuLevel_m829A3999E835C45C2461C7B514961F090192EFC2,
 	PerformanceMetrics_set_CurrentCpuLevel_m06746B05D95578D849B28BC372C554DE7C72C400,
+	PerformanceMetrics_get_CurrentGpuLevel_m65839136134F193FB6746F989DCA37F37F63824E,
 	PerformanceMetrics_set_CurrentGpuLevel_mC2C1A1CEAAB39352732AD35A5A869D51A445C526,
 	PerformanceMetrics_get_PerformanceBottleneck_m684245ACCB85E2208080612548103AD86C5D8687,
 	PerformanceMetrics_set_PerformanceBottleneck_m92D1EE0F36F3F7C0E429EFAA6979029D55BB2C91,
+	PerformanceMetrics_get_CpuPerformanceBoost_m31784454481D1D55F4B0BB2EF2D3F7B4E55991DC,
 	PerformanceMetrics_set_CpuPerformanceBoost_m00774DF1FD682908BCEFFE5B24E62C715B6F70B0,
+	PerformanceMetrics_get_GpuPerformanceBoost_m8F5B83393F660CBDFA60F2ADC5D89AE228FC72C1,
 	PerformanceMetrics_set_GpuPerformanceBoost_m5D2ECA38D27DE6741564BC1F4C16F3E251CA7233,
+	PerformanceMetrics_get_ClusterInfo_m8361DE4D206DF1BDFDBF9482594B4769BD11BCCF,
 	PerformanceMetrics_set_ClusterInfo_m6786C804DE21C9B82B1E34F54C3242E3151C704F,
+	FrameTiming_get_CurrentFrameTime_m5F9473AEC625B58DA49964A77EC9960E09D0ED55,
 	FrameTiming_set_CurrentFrameTime_mF83E3D1F129A8535EA9A09874773CD29AAABEB07,
 	FrameTiming_get_AverageFrameTime_mE9C2FB8B2D70C27007B34DECC5BE57AF98FE8DA1,
 	FrameTiming_set_AverageFrameTime_m4565877FB48803C97D84A85AD994842E7B7EEA50,
+	FrameTiming_get_CurrentGpuFrameTime_m6BB1F7D5699003F7DFAF19D02A7E8745760B0091,
 	FrameTiming_set_CurrentGpuFrameTime_mE69D6985D92989E8EBEDF5C4001B00A0078AB274,
 	FrameTiming_get_AverageGpuFrameTime_mCCC3EEA87004D355AFDC18988F5F7A5797F6701C,
 	FrameTiming_set_AverageGpuFrameTime_mC8B9FE4D1E97439472836FD7D8A14AE73811D01F,
+	FrameTiming_get_CurrentCpuFrameTime_m61A1501DF65D22211904FD9C2C667F077F800C21,
 	FrameTiming_set_CurrentCpuFrameTime_mDF303FB0ACFE4F8FE9BBC5292F164233FAB9224B,
 	FrameTiming_get_AverageCpuFrameTime_mDD2F1027955DDB4FEFFF8578E8BC53D5987C2340,
 	FrameTiming_set_AverageCpuFrameTime_m12FCB6A29A6FAF1F34280F529C3A5356E438A8AB,
+	ClusterInfo_get_BigCore_mC578E461150BE2D7ACCD02CC3A7C443079350637,
+	ClusterInfo_get_MediumCore_m7AD9FD9E18E157844907D612F62A2F2AA748E51F,
+	ClusterInfo_get_LittleCore_m0596C1C110B788FCA49CCE40D5EB6E9391A6B1B4,
 	ThermalEventHandler__ctor_m4F920575069A36E37729FD6AEE890BA78E2CF878,
 	ThermalEventHandler_Invoke_mD4607B64AD67C04FB29087F544BD554C9C8C5865,
 	ThermalEventHandler_BeginInvoke_m4B4A2B5978846F904AFD3770FA98C80A46707C89,
@@ -1385,35 +1451,56 @@ static Il2CppMethodPointer s_methodPointers[469] =
 	NULL,
 	NULL,
 	NULL,
+	NULL,
+	AdaptivePerformanceSubsystem_get_Stats_m9117FB86E780E118384EE4D4E660A0045D040D14,
 	AdaptivePerformanceSubsystemBase_get_initialized_mDE838BDEAF9C32DFAEBFAE92ABED9629EF6C04E8,
 	AdaptivePerformanceSubsystemBase__ctor_m26A8F180A465F00D3769B519BF3F0800ED5995FF,
 };
 extern void PerformanceBottleneckChangeEventArgs_get_PerformanceBottleneck_mD1AB26C82C70D0182C2CF0C7A1ED7B5DDC4B45CE_AdjustorThunk (void);
 extern void PerformanceBottleneckChangeEventArgs_set_PerformanceBottleneck_m5A4DEC03EACF71B1DDB80E2C2867E1F71DF1564C_AdjustorThunk (void);
+extern void PerformanceBoostChangeEventArgs_get_CpuBoost_mEC389F7680170FAD52C02A4B07A60EAC09287C6F_AdjustorThunk (void);
 extern void PerformanceBoostChangeEventArgs_set_CpuBoost_m94511A8D353784F83A6D04C0AEBDAB88CFCE99BE_AdjustorThunk (void);
+extern void PerformanceBoostChangeEventArgs_get_GpuBoost_mFFAC0DB6D8260CF0EF54A569A9DD0F940CF679FA_AdjustorThunk (void);
 extern void PerformanceBoostChangeEventArgs_set_GpuBoost_mFF036188A7BF27CDCB0ED491390E17F24DB89133_AdjustorThunk (void);
+extern void PerformanceLevelChangeEventArgs_get_CpuLevel_m155DC274C8BD0ADCAE5C8574341EA2788FBDA277_AdjustorThunk (void);
 extern void PerformanceLevelChangeEventArgs_set_CpuLevel_m28B80C1E1A6FCAEEC6F79FB05AD9EF11616B5B28_AdjustorThunk (void);
+extern void PerformanceLevelChangeEventArgs_get_CpuLevelDelta_m54B7E41B410E491C88FCF9FFFE658EC677B9B74D_AdjustorThunk (void);
 extern void PerformanceLevelChangeEventArgs_set_CpuLevelDelta_m8898C8140A3C825929B84F7CB332F5BF1067A03D_AdjustorThunk (void);
+extern void PerformanceLevelChangeEventArgs_get_GpuLevel_m87CBA5D2BC0AF3CDA470098F7B78079160A9BCD0_AdjustorThunk (void);
 extern void PerformanceLevelChangeEventArgs_set_GpuLevel_mDFA4AC0545F4EB69D23569FE84EC94F4B4536A51_AdjustorThunk (void);
+extern void PerformanceLevelChangeEventArgs_get_GpuLevelDelta_mBB7BC55D91607B2F6D3296C835B6F37315C04745_AdjustorThunk (void);
 extern void PerformanceLevelChangeEventArgs_set_GpuLevelDelta_mE5C7E05217B324420E1EB4A67444637FFFCCE362_AdjustorThunk (void);
+extern void PerformanceLevelChangeEventArgs_get_PerformanceControlMode_m47112D8370FD75A92B6BB4E03F0DB290BE9486D6_AdjustorThunk (void);
 extern void PerformanceLevelChangeEventArgs_set_PerformanceControlMode_m5AF0BCCC0AB52611A53CE6FB3C394A3C07089443_AdjustorThunk (void);
+extern void PerformanceLevelChangeEventArgs_get_ManualOverride_m6502A166BC0B97D5B7E25C7C548178897E0490AE_AdjustorThunk (void);
 extern void PerformanceLevelChangeEventArgs_set_ManualOverride_mF6B8977AFEA8DF53C9EF51B57971929641D1CF4F_AdjustorThunk (void);
+extern void PerformanceMetrics_get_CurrentCpuLevel_m829A3999E835C45C2461C7B514961F090192EFC2_AdjustorThunk (void);
 extern void PerformanceMetrics_set_CurrentCpuLevel_m06746B05D95578D849B28BC372C554DE7C72C400_AdjustorThunk (void);
+extern void PerformanceMetrics_get_CurrentGpuLevel_m65839136134F193FB6746F989DCA37F37F63824E_AdjustorThunk (void);
 extern void PerformanceMetrics_set_CurrentGpuLevel_mC2C1A1CEAAB39352732AD35A5A869D51A445C526_AdjustorThunk (void);
 extern void PerformanceMetrics_get_PerformanceBottleneck_m684245ACCB85E2208080612548103AD86C5D8687_AdjustorThunk (void);
 extern void PerformanceMetrics_set_PerformanceBottleneck_m92D1EE0F36F3F7C0E429EFAA6979029D55BB2C91_AdjustorThunk (void);
+extern void PerformanceMetrics_get_CpuPerformanceBoost_m31784454481D1D55F4B0BB2EF2D3F7B4E55991DC_AdjustorThunk (void);
 extern void PerformanceMetrics_set_CpuPerformanceBoost_m00774DF1FD682908BCEFFE5B24E62C715B6F70B0_AdjustorThunk (void);
+extern void PerformanceMetrics_get_GpuPerformanceBoost_m8F5B83393F660CBDFA60F2ADC5D89AE228FC72C1_AdjustorThunk (void);
 extern void PerformanceMetrics_set_GpuPerformanceBoost_m5D2ECA38D27DE6741564BC1F4C16F3E251CA7233_AdjustorThunk (void);
+extern void PerformanceMetrics_get_ClusterInfo_m8361DE4D206DF1BDFDBF9482594B4769BD11BCCF_AdjustorThunk (void);
 extern void PerformanceMetrics_set_ClusterInfo_m6786C804DE21C9B82B1E34F54C3242E3151C704F_AdjustorThunk (void);
+extern void FrameTiming_get_CurrentFrameTime_m5F9473AEC625B58DA49964A77EC9960E09D0ED55_AdjustorThunk (void);
 extern void FrameTiming_set_CurrentFrameTime_mF83E3D1F129A8535EA9A09874773CD29AAABEB07_AdjustorThunk (void);
 extern void FrameTiming_get_AverageFrameTime_mE9C2FB8B2D70C27007B34DECC5BE57AF98FE8DA1_AdjustorThunk (void);
 extern void FrameTiming_set_AverageFrameTime_m4565877FB48803C97D84A85AD994842E7B7EEA50_AdjustorThunk (void);
+extern void FrameTiming_get_CurrentGpuFrameTime_m6BB1F7D5699003F7DFAF19D02A7E8745760B0091_AdjustorThunk (void);
 extern void FrameTiming_set_CurrentGpuFrameTime_mE69D6985D92989E8EBEDF5C4001B00A0078AB274_AdjustorThunk (void);
 extern void FrameTiming_get_AverageGpuFrameTime_mCCC3EEA87004D355AFDC18988F5F7A5797F6701C_AdjustorThunk (void);
 extern void FrameTiming_set_AverageGpuFrameTime_mC8B9FE4D1E97439472836FD7D8A14AE73811D01F_AdjustorThunk (void);
+extern void FrameTiming_get_CurrentCpuFrameTime_m61A1501DF65D22211904FD9C2C667F077F800C21_AdjustorThunk (void);
 extern void FrameTiming_set_CurrentCpuFrameTime_mDF303FB0ACFE4F8FE9BBC5292F164233FAB9224B_AdjustorThunk (void);
 extern void FrameTiming_get_AverageCpuFrameTime_mDD2F1027955DDB4FEFFF8578E8BC53D5987C2340_AdjustorThunk (void);
 extern void FrameTiming_set_AverageCpuFrameTime_m12FCB6A29A6FAF1F34280F529C3A5356E438A8AB_AdjustorThunk (void);
+extern void ClusterInfo_get_BigCore_mC578E461150BE2D7ACCD02CC3A7C443079350637_AdjustorThunk (void);
+extern void ClusterInfo_get_MediumCore_m7AD9FD9E18E157844907D612F62A2F2AA748E51F_AdjustorThunk (void);
+extern void ClusterInfo_get_LittleCore_m0596C1C110B788FCA49CCE40D5EB6E9391A6B1B4_AdjustorThunk (void);
 extern void ThermalMetrics_get_WarningLevel_m68EC629D478D65BF94ECE5D6FDDF9AA5CF290135_AdjustorThunk (void);
 extern void ThermalMetrics_set_WarningLevel_m709F235CA450A6DDC03776C9E51A3C1FB86BC18F_AdjustorThunk (void);
 extern void ThermalMetrics_get_TemperatureLevel_mFC9136EED605AAF12F09912431D4DC07F5D1D319_AdjustorThunk (void);
@@ -1433,553 +1520,595 @@ extern void PerformanceDataRecord_get_OverallFrameTime_m793DACA24E5A4C0C1ACF7279
 extern void PerformanceDataRecord_get_CpuPerformanceBoost_m037F215F770192DD6AFFB30034CDDECD36B4EE86_AdjustorThunk (void);
 extern void PerformanceDataRecord_get_GpuPerformanceBoost_m98336EF2118879D66EDE58CDE92072019FE88A60_AdjustorThunk (void);
 extern void PerformanceDataRecord_get_ClusterInfo_m9DE402408519DECE356D7C6B5BC96412732E3944_AdjustorThunk (void);
-static Il2CppTokenAdjustorThunkPair s_adjustorThunks[45] = 
+static Il2CppTokenAdjustorThunkPair s_adjustorThunks[64] = 
 {
-	{ 0x060000A8, PerformanceBottleneckChangeEventArgs_get_PerformanceBottleneck_mD1AB26C82C70D0182C2CF0C7A1ED7B5DDC4B45CE_AdjustorThunk },
-	{ 0x060000A9, PerformanceBottleneckChangeEventArgs_set_PerformanceBottleneck_m5A4DEC03EACF71B1DDB80E2C2867E1F71DF1564C_AdjustorThunk },
-	{ 0x060000AE, PerformanceBoostChangeEventArgs_set_CpuBoost_m94511A8D353784F83A6D04C0AEBDAB88CFCE99BE_AdjustorThunk },
-	{ 0x060000AF, PerformanceBoostChangeEventArgs_set_GpuBoost_mFF036188A7BF27CDCB0ED491390E17F24DB89133_AdjustorThunk },
-	{ 0x060000B4, PerformanceLevelChangeEventArgs_set_CpuLevel_m28B80C1E1A6FCAEEC6F79FB05AD9EF11616B5B28_AdjustorThunk },
-	{ 0x060000B5, PerformanceLevelChangeEventArgs_set_CpuLevelDelta_m8898C8140A3C825929B84F7CB332F5BF1067A03D_AdjustorThunk },
-	{ 0x060000B6, PerformanceLevelChangeEventArgs_set_GpuLevel_mDFA4AC0545F4EB69D23569FE84EC94F4B4536A51_AdjustorThunk },
-	{ 0x060000B7, PerformanceLevelChangeEventArgs_set_GpuLevelDelta_mE5C7E05217B324420E1EB4A67444637FFFCCE362_AdjustorThunk },
-	{ 0x060000B8, PerformanceLevelChangeEventArgs_set_PerformanceControlMode_m5AF0BCCC0AB52611A53CE6FB3C394A3C07089443_AdjustorThunk },
-	{ 0x060000B9, PerformanceLevelChangeEventArgs_set_ManualOverride_mF6B8977AFEA8DF53C9EF51B57971929641D1CF4F_AdjustorThunk },
-	{ 0x060000C2, PerformanceMetrics_set_CurrentCpuLevel_m06746B05D95578D849B28BC372C554DE7C72C400_AdjustorThunk },
-	{ 0x060000C3, PerformanceMetrics_set_CurrentGpuLevel_mC2C1A1CEAAB39352732AD35A5A869D51A445C526_AdjustorThunk },
-	{ 0x060000C4, PerformanceMetrics_get_PerformanceBottleneck_m684245ACCB85E2208080612548103AD86C5D8687_AdjustorThunk },
-	{ 0x060000C5, PerformanceMetrics_set_PerformanceBottleneck_m92D1EE0F36F3F7C0E429EFAA6979029D55BB2C91_AdjustorThunk },
-	{ 0x060000C6, PerformanceMetrics_set_CpuPerformanceBoost_m00774DF1FD682908BCEFFE5B24E62C715B6F70B0_AdjustorThunk },
-	{ 0x060000C7, PerformanceMetrics_set_GpuPerformanceBoost_m5D2ECA38D27DE6741564BC1F4C16F3E251CA7233_AdjustorThunk },
-	{ 0x060000C8, PerformanceMetrics_set_ClusterInfo_m6786C804DE21C9B82B1E34F54C3242E3151C704F_AdjustorThunk },
-	{ 0x060000C9, FrameTiming_set_CurrentFrameTime_mF83E3D1F129A8535EA9A09874773CD29AAABEB07_AdjustorThunk },
-	{ 0x060000CA, FrameTiming_get_AverageFrameTime_mE9C2FB8B2D70C27007B34DECC5BE57AF98FE8DA1_AdjustorThunk },
-	{ 0x060000CB, FrameTiming_set_AverageFrameTime_m4565877FB48803C97D84A85AD994842E7B7EEA50_AdjustorThunk },
-	{ 0x060000CC, FrameTiming_set_CurrentGpuFrameTime_mE69D6985D92989E8EBEDF5C4001B00A0078AB274_AdjustorThunk },
-	{ 0x060000CD, FrameTiming_get_AverageGpuFrameTime_mCCC3EEA87004D355AFDC18988F5F7A5797F6701C_AdjustorThunk },
-	{ 0x060000CE, FrameTiming_set_AverageGpuFrameTime_mC8B9FE4D1E97439472836FD7D8A14AE73811D01F_AdjustorThunk },
-	{ 0x060000CF, FrameTiming_set_CurrentCpuFrameTime_mDF303FB0ACFE4F8FE9BBC5292F164233FAB9224B_AdjustorThunk },
-	{ 0x060000D0, FrameTiming_get_AverageCpuFrameTime_mDD2F1027955DDB4FEFFF8578E8BC53D5987C2340_AdjustorThunk },
-	{ 0x060000D1, FrameTiming_set_AverageCpuFrameTime_m12FCB6A29A6FAF1F34280F529C3A5356E438A8AB_AdjustorThunk },
-	{ 0x060000D6, ThermalMetrics_get_WarningLevel_m68EC629D478D65BF94ECE5D6FDDF9AA5CF290135_AdjustorThunk },
-	{ 0x060000D7, ThermalMetrics_set_WarningLevel_m709F235CA450A6DDC03776C9E51A3C1FB86BC18F_AdjustorThunk },
-	{ 0x060000D8, ThermalMetrics_get_TemperatureLevel_mFC9136EED605AAF12F09912431D4DC07F5D1D319_AdjustorThunk },
-	{ 0x060000D9, ThermalMetrics_set_TemperatureLevel_m7E328F20588F9EF37C885E833E160B4EC928FEC4_AdjustorThunk },
-	{ 0x060000DA, ThermalMetrics_get_TemperatureTrend_m21C18A6F91B893B74306A57CFAE6CF75677FCE92_AdjustorThunk },
-	{ 0x060000DB, ThermalMetrics_set_TemperatureTrend_m8B9E6B7EAB2DD442A94A641DE2A4EDC6E82CB5A9_AdjustorThunk },
-	{ 0x060001BB, PerformanceDataRecord_get_ChangeFlags_mC5F321C8B1FE45A2B8006EF6BAC115A98951D986_AdjustorThunk },
-	{ 0x060001BC, PerformanceDataRecord_get_TemperatureLevel_mB9A05C00B09B1EA3B1CD7CD9E648989E3AFFF438_AdjustorThunk },
-	{ 0x060001BD, PerformanceDataRecord_get_TemperatureTrend_mBDB0A679AF4F8271D341667DF22094A74D3EA8CE_AdjustorThunk },
-	{ 0x060001BE, PerformanceDataRecord_get_WarningLevel_mE7AFD9D27DD0C18ABA71A845B9E5099E5838F28C_AdjustorThunk },
-	{ 0x060001BF, PerformanceDataRecord_get_CpuPerformanceLevel_m5347895DB794F91B4CE64C6E3795A51FD2B85E0D_AdjustorThunk },
-	{ 0x060001C0, PerformanceDataRecord_get_GpuPerformanceLevel_mA7D3F637ABB320066197C9615F85F828F59DB874_AdjustorThunk },
-	{ 0x060001C1, PerformanceDataRecord_get_PerformanceLevelControlAvailable_mAD15C1D940FE14D3F6025144225107F0BA2C45F9_AdjustorThunk },
-	{ 0x060001C2, PerformanceDataRecord_get_CpuFrameTime_m2D3D7C6A6756076D080B27439635390A8C84D99D_AdjustorThunk },
-	{ 0x060001C3, PerformanceDataRecord_get_GpuFrameTime_mF3A550FE63E4139D908790FE7FC1D1A7FD2C1ED7_AdjustorThunk },
-	{ 0x060001C4, PerformanceDataRecord_get_OverallFrameTime_m793DACA24E5A4C0C1ACF7279DAB7EBEAC391F703_AdjustorThunk },
-	{ 0x060001C5, PerformanceDataRecord_get_CpuPerformanceBoost_m037F215F770192DD6AFFB30034CDDECD36B4EE86_AdjustorThunk },
-	{ 0x060001C6, PerformanceDataRecord_get_GpuPerformanceBoost_m98336EF2118879D66EDE58CDE92072019FE88A60_AdjustorThunk },
-	{ 0x060001C7, PerformanceDataRecord_get_ClusterInfo_m9DE402408519DECE356D7C6B5BC96412732E3944_AdjustorThunk },
+	{ 0x060000AA, PerformanceBottleneckChangeEventArgs_get_PerformanceBottleneck_mD1AB26C82C70D0182C2CF0C7A1ED7B5DDC4B45CE_AdjustorThunk },
+	{ 0x060000AB, PerformanceBottleneckChangeEventArgs_set_PerformanceBottleneck_m5A4DEC03EACF71B1DDB80E2C2867E1F71DF1564C_AdjustorThunk },
+	{ 0x060000B0, PerformanceBoostChangeEventArgs_get_CpuBoost_mEC389F7680170FAD52C02A4B07A60EAC09287C6F_AdjustorThunk },
+	{ 0x060000B1, PerformanceBoostChangeEventArgs_set_CpuBoost_m94511A8D353784F83A6D04C0AEBDAB88CFCE99BE_AdjustorThunk },
+	{ 0x060000B2, PerformanceBoostChangeEventArgs_get_GpuBoost_mFFAC0DB6D8260CF0EF54A569A9DD0F940CF679FA_AdjustorThunk },
+	{ 0x060000B3, PerformanceBoostChangeEventArgs_set_GpuBoost_mFF036188A7BF27CDCB0ED491390E17F24DB89133_AdjustorThunk },
+	{ 0x060000B8, PerformanceLevelChangeEventArgs_get_CpuLevel_m155DC274C8BD0ADCAE5C8574341EA2788FBDA277_AdjustorThunk },
+	{ 0x060000B9, PerformanceLevelChangeEventArgs_set_CpuLevel_m28B80C1E1A6FCAEEC6F79FB05AD9EF11616B5B28_AdjustorThunk },
+	{ 0x060000BA, PerformanceLevelChangeEventArgs_get_CpuLevelDelta_m54B7E41B410E491C88FCF9FFFE658EC677B9B74D_AdjustorThunk },
+	{ 0x060000BB, PerformanceLevelChangeEventArgs_set_CpuLevelDelta_m8898C8140A3C825929B84F7CB332F5BF1067A03D_AdjustorThunk },
+	{ 0x060000BC, PerformanceLevelChangeEventArgs_get_GpuLevel_m87CBA5D2BC0AF3CDA470098F7B78079160A9BCD0_AdjustorThunk },
+	{ 0x060000BD, PerformanceLevelChangeEventArgs_set_GpuLevel_mDFA4AC0545F4EB69D23569FE84EC94F4B4536A51_AdjustorThunk },
+	{ 0x060000BE, PerformanceLevelChangeEventArgs_get_GpuLevelDelta_mBB7BC55D91607B2F6D3296C835B6F37315C04745_AdjustorThunk },
+	{ 0x060000BF, PerformanceLevelChangeEventArgs_set_GpuLevelDelta_mE5C7E05217B324420E1EB4A67444637FFFCCE362_AdjustorThunk },
+	{ 0x060000C0, PerformanceLevelChangeEventArgs_get_PerformanceControlMode_m47112D8370FD75A92B6BB4E03F0DB290BE9486D6_AdjustorThunk },
+	{ 0x060000C1, PerformanceLevelChangeEventArgs_set_PerformanceControlMode_m5AF0BCCC0AB52611A53CE6FB3C394A3C07089443_AdjustorThunk },
+	{ 0x060000C2, PerformanceLevelChangeEventArgs_get_ManualOverride_m6502A166BC0B97D5B7E25C7C548178897E0490AE_AdjustorThunk },
+	{ 0x060000C3, PerformanceLevelChangeEventArgs_set_ManualOverride_mF6B8977AFEA8DF53C9EF51B57971929641D1CF4F_AdjustorThunk },
+	{ 0x060000CC, PerformanceMetrics_get_CurrentCpuLevel_m829A3999E835C45C2461C7B514961F090192EFC2_AdjustorThunk },
+	{ 0x060000CD, PerformanceMetrics_set_CurrentCpuLevel_m06746B05D95578D849B28BC372C554DE7C72C400_AdjustorThunk },
+	{ 0x060000CE, PerformanceMetrics_get_CurrentGpuLevel_m65839136134F193FB6746F989DCA37F37F63824E_AdjustorThunk },
+	{ 0x060000CF, PerformanceMetrics_set_CurrentGpuLevel_mC2C1A1CEAAB39352732AD35A5A869D51A445C526_AdjustorThunk },
+	{ 0x060000D0, PerformanceMetrics_get_PerformanceBottleneck_m684245ACCB85E2208080612548103AD86C5D8687_AdjustorThunk },
+	{ 0x060000D1, PerformanceMetrics_set_PerformanceBottleneck_m92D1EE0F36F3F7C0E429EFAA6979029D55BB2C91_AdjustorThunk },
+	{ 0x060000D2, PerformanceMetrics_get_CpuPerformanceBoost_m31784454481D1D55F4B0BB2EF2D3F7B4E55991DC_AdjustorThunk },
+	{ 0x060000D3, PerformanceMetrics_set_CpuPerformanceBoost_m00774DF1FD682908BCEFFE5B24E62C715B6F70B0_AdjustorThunk },
+	{ 0x060000D4, PerformanceMetrics_get_GpuPerformanceBoost_m8F5B83393F660CBDFA60F2ADC5D89AE228FC72C1_AdjustorThunk },
+	{ 0x060000D5, PerformanceMetrics_set_GpuPerformanceBoost_m5D2ECA38D27DE6741564BC1F4C16F3E251CA7233_AdjustorThunk },
+	{ 0x060000D6, PerformanceMetrics_get_ClusterInfo_m8361DE4D206DF1BDFDBF9482594B4769BD11BCCF_AdjustorThunk },
+	{ 0x060000D7, PerformanceMetrics_set_ClusterInfo_m6786C804DE21C9B82B1E34F54C3242E3151C704F_AdjustorThunk },
+	{ 0x060000D8, FrameTiming_get_CurrentFrameTime_m5F9473AEC625B58DA49964A77EC9960E09D0ED55_AdjustorThunk },
+	{ 0x060000D9, FrameTiming_set_CurrentFrameTime_mF83E3D1F129A8535EA9A09874773CD29AAABEB07_AdjustorThunk },
+	{ 0x060000DA, FrameTiming_get_AverageFrameTime_mE9C2FB8B2D70C27007B34DECC5BE57AF98FE8DA1_AdjustorThunk },
+	{ 0x060000DB, FrameTiming_set_AverageFrameTime_m4565877FB48803C97D84A85AD994842E7B7EEA50_AdjustorThunk },
+	{ 0x060000DC, FrameTiming_get_CurrentGpuFrameTime_m6BB1F7D5699003F7DFAF19D02A7E8745760B0091_AdjustorThunk },
+	{ 0x060000DD, FrameTiming_set_CurrentGpuFrameTime_mE69D6985D92989E8EBEDF5C4001B00A0078AB274_AdjustorThunk },
+	{ 0x060000DE, FrameTiming_get_AverageGpuFrameTime_mCCC3EEA87004D355AFDC18988F5F7A5797F6701C_AdjustorThunk },
+	{ 0x060000DF, FrameTiming_set_AverageGpuFrameTime_mC8B9FE4D1E97439472836FD7D8A14AE73811D01F_AdjustorThunk },
+	{ 0x060000E0, FrameTiming_get_CurrentCpuFrameTime_m61A1501DF65D22211904FD9C2C667F077F800C21_AdjustorThunk },
+	{ 0x060000E1, FrameTiming_set_CurrentCpuFrameTime_mDF303FB0ACFE4F8FE9BBC5292F164233FAB9224B_AdjustorThunk },
+	{ 0x060000E2, FrameTiming_get_AverageCpuFrameTime_mDD2F1027955DDB4FEFFF8578E8BC53D5987C2340_AdjustorThunk },
+	{ 0x060000E3, FrameTiming_set_AverageCpuFrameTime_m12FCB6A29A6FAF1F34280F529C3A5356E438A8AB_AdjustorThunk },
+	{ 0x060000E4, ClusterInfo_get_BigCore_mC578E461150BE2D7ACCD02CC3A7C443079350637_AdjustorThunk },
+	{ 0x060000E5, ClusterInfo_get_MediumCore_m7AD9FD9E18E157844907D612F62A2F2AA748E51F_AdjustorThunk },
+	{ 0x060000E6, ClusterInfo_get_LittleCore_m0596C1C110B788FCA49CCE40D5EB6E9391A6B1B4_AdjustorThunk },
+	{ 0x060000EB, ThermalMetrics_get_WarningLevel_m68EC629D478D65BF94ECE5D6FDDF9AA5CF290135_AdjustorThunk },
+	{ 0x060000EC, ThermalMetrics_set_WarningLevel_m709F235CA450A6DDC03776C9E51A3C1FB86BC18F_AdjustorThunk },
+	{ 0x060000ED, ThermalMetrics_get_TemperatureLevel_mFC9136EED605AAF12F09912431D4DC07F5D1D319_AdjustorThunk },
+	{ 0x060000EE, ThermalMetrics_set_TemperatureLevel_m7E328F20588F9EF37C885E833E160B4EC928FEC4_AdjustorThunk },
+	{ 0x060000EF, ThermalMetrics_get_TemperatureTrend_m21C18A6F91B893B74306A57CFAE6CF75677FCE92_AdjustorThunk },
+	{ 0x060000F0, ThermalMetrics_set_TemperatureTrend_m8B9E6B7EAB2DD442A94A641DE2A4EDC6E82CB5A9_AdjustorThunk },
+	{ 0x060001D0, PerformanceDataRecord_get_ChangeFlags_mC5F321C8B1FE45A2B8006EF6BAC115A98951D986_AdjustorThunk },
+	{ 0x060001D1, PerformanceDataRecord_get_TemperatureLevel_mB9A05C00B09B1EA3B1CD7CD9E648989E3AFFF438_AdjustorThunk },
+	{ 0x060001D2, PerformanceDataRecord_get_TemperatureTrend_mBDB0A679AF4F8271D341667DF22094A74D3EA8CE_AdjustorThunk },
+	{ 0x060001D3, PerformanceDataRecord_get_WarningLevel_mE7AFD9D27DD0C18ABA71A845B9E5099E5838F28C_AdjustorThunk },
+	{ 0x060001D4, PerformanceDataRecord_get_CpuPerformanceLevel_m5347895DB794F91B4CE64C6E3795A51FD2B85E0D_AdjustorThunk },
+	{ 0x060001D5, PerformanceDataRecord_get_GpuPerformanceLevel_mA7D3F637ABB320066197C9615F85F828F59DB874_AdjustorThunk },
+	{ 0x060001D6, PerformanceDataRecord_get_PerformanceLevelControlAvailable_mAD15C1D940FE14D3F6025144225107F0BA2C45F9_AdjustorThunk },
+	{ 0x060001D7, PerformanceDataRecord_get_CpuFrameTime_m2D3D7C6A6756076D080B27439635390A8C84D99D_AdjustorThunk },
+	{ 0x060001D8, PerformanceDataRecord_get_GpuFrameTime_mF3A550FE63E4139D908790FE7FC1D1A7FD2C1ED7_AdjustorThunk },
+	{ 0x060001D9, PerformanceDataRecord_get_OverallFrameTime_m793DACA24E5A4C0C1ACF7279DAB7EBEAC391F703_AdjustorThunk },
+	{ 0x060001DA, PerformanceDataRecord_get_CpuPerformanceBoost_m037F215F770192DD6AFFB30034CDDECD36B4EE86_AdjustorThunk },
+	{ 0x060001DB, PerformanceDataRecord_get_GpuPerformanceBoost_m98336EF2118879D66EDE58CDE92072019FE88A60_AdjustorThunk },
+	{ 0x060001DC, PerformanceDataRecord_get_ClusterInfo_m9DE402408519DECE356D7C6B5BC96412732E3944_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[469] = 
+static const int32_t s_InvokerIndices[492] = 
 {
-	4625,
-	4625,
-	4942,
-	5784,
-	4625,
-	4625,
-	4625,
-	7103,
-	3684,
-	3684,
-	3684,
-	3684,
-	3684,
-	3684,
-	3684,
-	3684,
-	4602,
-	4525,
-	4463,
-	4563,
-	3722,
-	4496,
-	3662,
-	4563,
-	4496,
-	4496,
-	4563,
-	3722,
-	4496,
-	4496,
-	3662,
-	4496,
-	3662,
-	4563,
-	3722,
-	4563,
-	3722,
-	4520,
-	4520,
-	4520,
-	4520,
-	4520,
-	3684,
-	4520,
-	3684,
-	3092,
-	4625,
-	3761,
-	3690,
-	3689,
-	6828,
-	3691,
-	2095,
-	4520,
-	4625,
-	4625,
-	1711,
-	4625,
-	7088,
-	7090,
-	4625,
-	3722,
-	4625,
-	3761,
-	3690,
-	3691,
-	3689,
-	3662,
-	4625,
-	4563,
-	4520,
-	4625,
-	4520,
-	4573,
-	3731,
-	4573,
-	3731,
-	4573,
-	3731,
-	4573,
-	3731,
-	4573,
-	3731,
-	4573,
-	3731,
-	4573,
-	3731,
-	4573,
-	3731,
-	1189,
-	4563,
-	3722,
-	4625,
-	1869,
-	3731,
-	3690,
-	3731,
-	3731,
-	3731,
-	3731,
-	3165,
-	3165,
-	4563,
-	4563,
-	4563,
-	3690,
-	4625,
-	4625,
-	4625,
-	4573,
-	4573,
-	4625,
-	4625,
-	4573,
-	4625,
-	4625,
-	4625,
-	4625,
-	3684,
-	3010,
-	1318,
-	4496,
-	3662,
-	4496,
-	4496,
-	4496,
-	3662,
-	4496,
-	3662,
-	4496,
-	3662,
-	4496,
-	3662,
-	4563,
-	3722,
-	4563,
-	3722,
-	4625,
-	4573,
-	4625,
-	3662,
-	4496,
-	4496,
-	3336,
-	3336,
-	3731,
-	4625,
-	4625,
-	2131,
-	3722,
-	4625,
-	4573,
-	3731,
-	4625,
-	827,
-	4520,
-	4520,
-	4520,
-	4520,
-	7065,
-	6959,
-	4496,
-	4496,
-	4496,
-	3662,
-	4496,
-	3662,
-	4496,
-	3662,
-	2084,
-	3690,
-	930,
-	3684,
-	3722,
-	3722,
-	2084,
-	3689,
-	929,
-	3684,
-	3662,
-	3662,
-	3662,
-	3662,
-	3662,
-	3722,
-	2084,
-	3691,
-	931,
-	3684,
-	4525,
-	4463,
-	3684,
-	3684,
-	3662,
-	3662,
-	4496,
-	3662,
-	3722,
-	3722,
-	3595,
-	3731,
-	4573,
-	3731,
-	3731,
-	4573,
-	3731,
-	3731,
-	4573,
-	3731,
-	2084,
-	3761,
-	953,
-	3684,
-	4496,
-	3662,
-	4573,
-	3731,
-	4573,
-	3731,
-	4602,
-	4625,
-	4496,
-	4573,
-	3731,
-	3662,
-	4496,
-	4563,
-	2094,
-	4625,
-	4625,
-	4573,
-	3731,
-	3662,
-	4496,
-	3662,
-	3586,
-	3586,
-	3586,
-	4625,
-	3684,
-	3684,
-	3684,
-	3586,
-	4625,
-	4625,
-	4625,
-	4563,
-	3684,
-	4563,
-	3684,
-	7090,
-	7057,
-	7057,
-	7090,
-	7090,
-	7090,
-	7057,
-	7088,
-	7088,
-	7088,
-	7103,
-	4520,
-	3684,
-	4563,
-	3722,
-	4573,
-	3731,
-	4496,
-	3662,
-	4496,
-	3662,
-	4496,
-	3662,
-	4573,
-	3731,
-	4573,
-	3731,
-	4496,
-	3662,
-	4563,
-	4563,
-	4496,
-	3662,
-	4496,
-	3662,
-	4496,
-	3662,
-	4496,
-	4625,
-	4625,
-	4625,
-	4625,
-	4625,
-	4625,
-	4625,
-	3684,
-	4563,
-	4625,
-	4625,
-	4625,
-	4625,
-	4625,
-	4625,
-	3684,
-	3684,
-	2089,
-	4520,
-	3684,
-	7065,
-	4520,
-	4563,
-	4625,
-	7103,
-	4625,
-	4625,
-	7103,
-	7103,
-	4625,
-	4625,
-	4625,
-	4625,
-	4625,
-	7103,
-	4563,
-	4563,
-	4563,
-	4563,
-	-1,
-	4520,
-	4520,
-	4625,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	4563,
-	4625,
-	4563,
-	3722,
-	4563,
-	3722,
-	4520,
-	4563,
-	4520,
-	3684,
-	-1,
-	4625,
-	4520,
-	4625,
-	4625,
-	4625,
-	4625,
-	4625,
-	4625,
-	4625,
-	7103,
-	3662,
-	4625,
-	4563,
-	4625,
-	4520,
-	4625,
-	4520,
-	4563,
-	4573,
-	4573,
-	4625,
-	4520,
-	4625,
-	3684,
-	2089,
-	4520,
-	3684,
-	4520,
-	3684,
-	4520,
-	3684,
-	4520,
-	3684,
-	4520,
-	3684,
-	4520,
-	3684,
-	4520,
-	4520,
-	3684,
-	4520,
-	3684,
-	4520,
-	3684,
-	4520,
-	3684,
-	4520,
-	3684,
-	4520,
-	3684,
-	4520,
-	3684,
-	4625,
-	4520,
-	3684,
-	4563,
-	3722,
-	4573,
-	3731,
-	4496,
-	3662,
-	4496,
-	3662,
-	4496,
-	3662,
-	4573,
-	3731,
-	4573,
-	3731,
-	4625,
-	4563,
-	3722,
-	4563,
-	3722,
-	4496,
-	3662,
-	4520,
-	3684,
-	4520,
-	3684,
-	3684,
-	4563,
-	4520,
-	4496,
-	3662,
-	4625,
-	4625,
-	4625,
-	3119,
-	4625,
-	4625,
-	4625,
-	4625,
-	4625,
-	4625,
-	4496,
-	4573,
-	4573,
-	4496,
-	4496,
-	4496,
-	4563,
-	4573,
-	4573,
-	4573,
-	4563,
-	4563,
-	4431,
-	4625,
-	4625,
-	4496,
-	4496,
-	1531,
-	4563,
-	4563,
-	4625,
-	4496,
+	4653,
+	4653,
+	4976,
+	5823,
+	4653,
+	4653,
+	4653,
+	7159,
+	3701,
+	3701,
+	3701,
+	3701,
+	3701,
+	3701,
+	3701,
+	3701,
+	4630,
+	4553,
+	4491,
+	4591,
+	3739,
 	4524,
-	4520,
-	4520,
-	4563,
-	4625,
+	3679,
+	4591,
+	4524,
+	4524,
+	4591,
+	3739,
+	4524,
+	4524,
+	3679,
+	4524,
+	3679,
+	4591,
+	3739,
+	4591,
+	3739,
+	4548,
+	4548,
+	4548,
+	4548,
+	4548,
+	3701,
+	4548,
+	3701,
+	3107,
+	4653,
+	3779,
+	3707,
+	3706,
+	6883,
+	3708,
+	2107,
+	4548,
+	4653,
+	4653,
+	1719,
+	4653,
+	7144,
+	7146,
+	4653,
+	3739,
+	4653,
+	3779,
+	3707,
+	3708,
+	3706,
+	3679,
+	4653,
+	4591,
+	4548,
+	4653,
+	4548,
+	6561,
+	7159,
+	4601,
+	3748,
+	4601,
+	3748,
+	4601,
+	3748,
+	4601,
+	3748,
+	4601,
+	3748,
+	4601,
+	3748,
+	4601,
+	3748,
+	4601,
+	3748,
+	1193,
+	4591,
+	3739,
+	4653,
+	1879,
+	3748,
+	3707,
+	3748,
+	3748,
+	3748,
+	3748,
+	3180,
+	3180,
+	4591,
+	4591,
+	4591,
+	3707,
+	4653,
+	4653,
+	4653,
+	4601,
+	4601,
+	4653,
+	4653,
+	4601,
+	4653,
+	4653,
+	4653,
+	4653,
+	3701,
+	3025,
+	1322,
+	4524,
+	3679,
+	4524,
+	4524,
+	4524,
+	3679,
+	4524,
+	3679,
+	4524,
+	3679,
+	4524,
+	3679,
+	4591,
+	3739,
+	4591,
+	3739,
+	4653,
+	4601,
+	4653,
+	3679,
+	4524,
+	4524,
+	3353,
+	3353,
+	3748,
+	4653,
+	4653,
+	2143,
+	3739,
+	4653,
+	4601,
+	3748,
+	4653,
+	829,
+	4548,
+	4548,
+	4548,
+	4548,
+	7121,
+	7015,
+	4524,
+	4524,
+	4524,
+	3679,
+	4524,
+	3679,
+	4524,
+	3679,
+	2096,
+	3707,
+	932,
+	3701,
+	4591,
+	3739,
+	4591,
+	3739,
+	2096,
+	3706,
+	931,
+	3701,
+	4524,
+	3679,
+	4524,
+	3679,
+	4524,
+	3679,
+	4524,
+	3679,
+	4524,
+	3679,
+	4591,
+	3739,
+	2096,
+	3708,
+	933,
+	3701,
+	4553,
+	4491,
+	3701,
+	3701,
+	4524,
+	3679,
+	4524,
+	3679,
+	4524,
+	3679,
+	4591,
+	3739,
+	4591,
+	3739,
+	4459,
+	3612,
+	4601,
+	3748,
+	4601,
+	3748,
+	4601,
+	3748,
+	4601,
+	3748,
+	4601,
+	3748,
+	4601,
+	3748,
+	4524,
+	4524,
+	4524,
+	2096,
+	3779,
+	955,
+	3701,
+	4524,
+	3679,
+	4601,
+	3748,
+	4601,
+	3748,
+	4630,
+	4653,
+	4524,
+	4601,
+	3748,
+	3679,
+	4524,
+	4591,
+	2106,
+	4653,
+	4653,
+	4601,
+	3748,
+	3679,
+	4524,
+	3679,
+	3603,
+	3603,
+	3603,
+	4653,
+	3701,
+	3701,
+	3701,
+	3603,
+	4653,
+	4653,
+	4653,
+	4591,
+	3701,
+	4591,
+	3701,
+	7146,
+	7113,
+	7113,
+	7146,
+	7146,
+	7146,
+	7113,
+	7144,
+	7144,
+	7144,
+	7159,
+	4548,
+	3701,
+	4591,
+	3739,
+	4601,
+	3748,
+	4524,
+	3679,
+	4524,
+	3679,
+	4524,
+	3679,
+	4601,
+	3748,
+	4601,
+	3748,
+	4524,
+	3679,
+	4591,
+	4591,
+	4524,
+	3679,
+	4524,
+	3679,
+	4524,
+	3679,
+	4524,
+	4653,
+	4653,
+	4653,
+	4653,
+	4653,
+	4653,
+	4653,
+	3701,
+	4591,
+	4653,
+	4653,
+	4653,
+	4653,
+	4653,
+	4653,
+	3701,
+	3701,
+	2101,
+	4548,
+	3701,
+	7121,
+	4548,
+	4591,
+	4653,
+	7159,
+	4653,
+	4653,
+	7159,
+	7159,
+	4653,
+	4653,
+	4653,
+	4653,
+	4653,
+	7159,
+	4591,
+	4591,
+	4591,
+	4591,
+	-1,
+	4548,
+	4548,
+	4653,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	4591,
+	4653,
+	4591,
+	3739,
+	4591,
+	3739,
+	4548,
+	4591,
+	4548,
+	3701,
+	-1,
+	4653,
+	4548,
+	4653,
+	4653,
+	4653,
+	4653,
+	4653,
+	4653,
+	4653,
+	7159,
+	3679,
+	4653,
+	4591,
+	4653,
+	4548,
+	4653,
+	4548,
+	4591,
+	4601,
+	4601,
+	4653,
+	4548,
+	4653,
+	3701,
+	2101,
+	4548,
+	3701,
+	4548,
+	3701,
+	4548,
+	3701,
+	4548,
+	3701,
+	4548,
+	3701,
+	4548,
+	3701,
+	4548,
+	4548,
+	3701,
+	4548,
+	3701,
+	4548,
+	3701,
+	4548,
+	3701,
+	4548,
+	3701,
+	4548,
+	3701,
+	4548,
+	3701,
+	4653,
+	4548,
+	3701,
+	4591,
+	3739,
+	4601,
+	3748,
+	4524,
+	3679,
+	4524,
+	3679,
+	4524,
+	3679,
+	4601,
+	3748,
+	4601,
+	3748,
+	4653,
+	4591,
+	3739,
+	4591,
+	3739,
+	4524,
+	3679,
+	4548,
+	3701,
+	4548,
+	3701,
+	3701,
+	4591,
+	4548,
+	4524,
+	3679,
+	4653,
+	4653,
+	4653,
+	3134,
+	4653,
+	4653,
+	4653,
+	4653,
+	4653,
+	4653,
+	4524,
+	4601,
+	4601,
+	4524,
+	4524,
+	4524,
+	4591,
+	4601,
+	4601,
+	4601,
+	4591,
+	4591,
+	4459,
+	4653,
+	4653,
+	4524,
+	4524,
+	1535,
+	4591,
+	4591,
+	4653,
+	4524,
+	4552,
+	4548,
+	4548,
+	4548,
+	4548,
+	4591,
+	4653,
 };
 static const Il2CppTokenRangePair s_rgctxIndices[6] = 
 {
-	{ 0x0600014C, { 0, 2 } },
-	{ 0x0600014D, { 2, 2 } },
-	{ 0x0600014E, { 4, 2 } },
-	{ 0x0600014F, { 6, 2 } },
-	{ 0x06000150, { 8, 8 } },
-	{ 0x0600015B, { 16, 1 } },
+	{ 0x06000161, { 0, 2 } },
+	{ 0x06000162, { 2, 2 } },
+	{ 0x06000163, { 4, 2 } },
+	{ 0x06000164, { 6, 2 } },
+	{ 0x06000165, { 8, 8 } },
+	{ 0x06000170, { 16, 1 } },
 };
 static const Il2CppRGCTXDefinition s_rgctxValues[17] = 
 {
 	{ (Il2CppRGCTXDataType)1, 5 },
 	{ (Il2CppRGCTXDataType)2, 5 },
-	{ (Il2CppRGCTXDataType)3, 30660 },
+	{ (Il2CppRGCTXDataType)3, 30844 },
 	{ (Il2CppRGCTXDataType)2, 3 },
-	{ (Il2CppRGCTXDataType)3, 30661 },
+	{ (Il2CppRGCTXDataType)3, 30845 },
 	{ (Il2CppRGCTXDataType)2, 4 },
-	{ (Il2CppRGCTXDataType)3, 30659 },
+	{ (Il2CppRGCTXDataType)3, 30843 },
 	{ (Il2CppRGCTXDataType)2, 2 },
-	{ (Il2CppRGCTXDataType)3, 36122 },
-	{ (Il2CppRGCTXDataType)3, 16088 },
-	{ (Il2CppRGCTXDataType)3, 16087 },
-	{ (Il2CppRGCTXDataType)3, 7609 },
-	{ (Il2CppRGCTXDataType)2, 473 },
-	{ (Il2CppRGCTXDataType)1, 873 },
-	{ (Il2CppRGCTXDataType)3, 7608 },
-	{ (Il2CppRGCTXDataType)2, 1866 },
+	{ (Il2CppRGCTXDataType)3, 36397 },
+	{ (Il2CppRGCTXDataType)3, 16182 },
+	{ (Il2CppRGCTXDataType)3, 16181 },
+	{ (Il2CppRGCTXDataType)3, 7658 },
+	{ (Il2CppRGCTXDataType)2, 486 },
+	{ (Il2CppRGCTXDataType)1, 901 },
+	{ (Il2CppRGCTXDataType)3, 7657 },
+	{ (Il2CppRGCTXDataType)2, 1910 },
 	{ (Il2CppRGCTXDataType)2, 6 },
 };
 extern const CustomAttributesCacheGenerator g_Unity_AdaptivePerformance_AttributeGenerators[];
@@ -1987,9 +2116,9 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Unity_AdaptivePerformance_CodeGenMod
 const Il2CppCodeGenModule g_Unity_AdaptivePerformance_CodeGenModule = 
 {
 	"Unity.AdaptivePerformance.dll",
-	469,
+	492,
 	s_methodPointers,
-	45,
+	64,
 	s_adjustorThunks,
 	s_InvokerIndices,
 	0,

@@ -191,84 +191,73 @@ extern void U3CSendU3Ec__AnonStorey4_U3CU3Em__0_m9BF30D676CF1F246C66DF8A7217F8FF
 extern void AppConfigExtensions__ctor_m04A8807DCFD232502FB1E0C74B4E29ABF16F091C (void);
 // 0x0000005B Firebase.Platform.IAppConfigExtensions Firebase.Platform.Default.AppConfigExtensions::get_Instance()
 extern void AppConfigExtensions_get_Instance_mDA35AED29CF495A2DCCF5FB7B65BBB534192E8AB (void);
-// 0x0000005C System.String Firebase.Platform.Default.AppConfigExtensions::GetDatabaseUrl(Firebase.Platform.IFirebaseAppPlatform)
-extern void AppConfigExtensions_GetDatabaseUrl_mF650AFB405A0934CBE4D481564FAE955126BAC45 (void);
-// 0x0000005D T Firebase.Platform.Default.AppConfigExtensions::GetState(Firebase.Platform.IFirebaseAppPlatform,System.Int32,System.Collections.Generic.Dictionary`2<System.Int32,System.Collections.Generic.Dictionary`2<System.String,T>>)
-// 0x0000005E System.Void Firebase.Platform.Default.AppConfigExtensions::.cctor()
+// 0x0000005C System.Void Firebase.Platform.Default.AppConfigExtensions::.cctor()
 extern void AppConfigExtensions__cctor_m9927D7EDEC092FBB74745A94434790D209057819 (void);
-// 0x0000005F System.Void Firebase.Platform.Default.SystemClock::.ctor()
+// 0x0000005D System.Void Firebase.Platform.Default.SystemClock::.ctor()
 extern void SystemClock__ctor_m99B061010072193DAF3F270722EEA129C960068A (void);
-// 0x00000060 System.Void Firebase.Platform.Default.SystemClock::.cctor()
+// 0x0000005E System.Void Firebase.Platform.Default.SystemClock::.cctor()
 extern void SystemClock__cctor_m95490CBBCD17DDC68771336873D160F866822F5F (void);
-// 0x00000061 System.Collections.Generic.List`1<System.Exception> Firebase.ExceptionAggregator::get_Exceptions()
+// 0x0000005F System.Collections.Generic.List`1<System.Exception> Firebase.ExceptionAggregator::get_Exceptions()
 extern void ExceptionAggregator_get_Exceptions_m421E855AAB77ED0458E6FCBBB9575F0072411DFE (void);
-// 0x00000062 System.Exception Firebase.ExceptionAggregator::GetAndClearPendingExceptions()
+// 0x00000060 System.Exception Firebase.ExceptionAggregator::GetAndClearPendingExceptions()
 extern void ExceptionAggregator_GetAndClearPendingExceptions_mE7FDFA220E3ACEB6D56D9884DEEF91540D2B8522 (void);
-// 0x00000063 System.Void Firebase.ExceptionAggregator::ThrowAndClearPendingExceptions()
+// 0x00000061 System.Void Firebase.ExceptionAggregator::ThrowAndClearPendingExceptions()
 extern void ExceptionAggregator_ThrowAndClearPendingExceptions_mC66983DEDF4880ACD5E96B5E9EBA38E00CC93B91 (void);
-// 0x00000064 System.Exception Firebase.ExceptionAggregator::LogException(System.Exception)
+// 0x00000062 System.Exception Firebase.ExceptionAggregator::LogException(System.Exception)
 extern void ExceptionAggregator_LogException_m68B2EB141A7DDD04EFEE794ED44FCB41673E19F2 (void);
-// 0x00000065 System.Void Firebase.ExceptionAggregator::Wrap(System.Action)
+// 0x00000063 System.Void Firebase.ExceptionAggregator::Wrap(System.Action)
 extern void ExceptionAggregator_Wrap_m24EBDCC97F8D88B56ADBD17EEF69F25CB3839415 (void);
-// 0x00000066 System.String Firebase.Platform.IAppConfigExtensions::GetDatabaseUrl(Firebase.Platform.IFirebaseAppPlatform)
-// 0x00000067 System.Void Firebase.Platform.DebugLogger::.ctor()
+// 0x00000064 System.Void Firebase.Platform.DebugLogger::.ctor()
 extern void DebugLogger__ctor_mD6357FC79350285A4D8372BC692899939F6D36C4 (void);
-// 0x00000068 Firebase.Platform.DebugLogger Firebase.Platform.DebugLogger::get_Instance()
+// 0x00000065 Firebase.Platform.DebugLogger Firebase.Platform.DebugLogger::get_Instance()
 extern void DebugLogger_get_Instance_m0E521CDD954F86EB61792F19F2362373EB10745E (void);
-// 0x00000069 System.Void Firebase.Platform.DebugLogger::.cctor()
+// 0x00000066 System.Void Firebase.Platform.DebugLogger::.cctor()
 extern void DebugLogger__cctor_mD2949D665716DF02D7FD7F4C1181AD6525066903 (void);
-// 0x0000006A System.Void Firebase.Platform.Services::.cctor()
+// 0x00000067 System.Void Firebase.Platform.Services::.cctor()
 extern void Services__cctor_m7D026055BA78EEC691B309AA1A6702D54C34F366 (void);
-// 0x0000006B Firebase.Platform.IAppConfigExtensions Firebase.Platform.Services::get_AppConfig()
-extern void Services_get_AppConfig_mAE84F30BF7A0A0D522CC280712623B53961FB98D (void);
-// 0x0000006C System.Void Firebase.Platform.Services::set_AppConfig(Firebase.Platform.IAppConfigExtensions)
+// 0x00000068 System.Void Firebase.Platform.Services::set_AppConfig(Firebase.Platform.IAppConfigExtensions)
 extern void Services_set_AppConfig_mE48F0E5E1FA561208AEBA714C1147ECD693AD402 (void);
-// 0x0000006D System.Void Firebase.Platform.Services::set_Clock(Firebase.Platform.IClockService)
+// 0x00000069 System.Void Firebase.Platform.Services::set_Clock(Firebase.Platform.IClockService)
 extern void Services_set_Clock_mBDFC2BAB8F8D2628AF8052A79796026E74DBA370 (void);
-// 0x0000006E System.Void Firebase.Platform.Services::set_Logging(Firebase.Platform.ILoggingService)
+// 0x0000006A System.Void Firebase.Platform.Services::set_Logging(Firebase.Platform.ILoggingService)
 extern void Services_set_Logging_m53140204CEF56D9BC71B5C5BA7BB9D6B3974FFD5 (void);
-// 0x0000006F System.Void Firebase.Dispatcher::.ctor()
+// 0x0000006B System.Void Firebase.Dispatcher::.ctor()
 extern void Dispatcher__ctor_mE99B93199AD38F0A53946F925713CC84099C35B3 (void);
-// 0x00000070 TResult Firebase.Dispatcher::Run(System.Func`1<TResult>)
-// 0x00000071 System.Threading.Tasks.Task`1<TResult> Firebase.Dispatcher::RunAsync(System.Func`1<TResult>)
-// 0x00000072 System.Threading.Tasks.Task`1<TResult> Firebase.Dispatcher::RunAsyncNow(System.Func`1<TResult>)
-// 0x00000073 System.Boolean Firebase.Dispatcher::ManagesThisThread()
+// 0x0000006C TResult Firebase.Dispatcher::Run(System.Func`1<TResult>)
+// 0x0000006D System.Threading.Tasks.Task`1<TResult> Firebase.Dispatcher::RunAsync(System.Func`1<TResult>)
+// 0x0000006E System.Threading.Tasks.Task`1<TResult> Firebase.Dispatcher::RunAsyncNow(System.Func`1<TResult>)
+// 0x0000006F System.Boolean Firebase.Dispatcher::ManagesThisThread()
 extern void Dispatcher_ManagesThisThread_mDD4799366D040E2A27D9501C6AE8D2C88AAE086A (void);
-// 0x00000074 System.Void Firebase.Dispatcher::PollJobs()
+// 0x00000070 System.Void Firebase.Dispatcher::PollJobs()
 extern void Dispatcher_PollJobs_m4DD47E8B63F33D975BC1A7D670A509F597F8E9E0 (void);
-// 0x00000075 System.Void Firebase.Dispatcher/CallbackStorage`1::.ctor()
-// 0x00000076 TResult Firebase.Dispatcher/CallbackStorage`1::get_Result()
-// 0x00000077 System.Void Firebase.Dispatcher/CallbackStorage`1::set_Result(TResult)
-// 0x00000078 System.Exception Firebase.Dispatcher/CallbackStorage`1::get_Exception()
-// 0x00000079 System.Void Firebase.Dispatcher/CallbackStorage`1::set_Exception(System.Exception)
-// 0x0000007A System.Void Firebase.Dispatcher/<Run>c__AnonStorey0`1::.ctor()
-// 0x0000007B System.Void Firebase.Dispatcher/<Run>c__AnonStorey0`1::<>m__0()
-// 0x0000007C System.Void Firebase.Dispatcher/<RunAsync>c__AnonStorey1`1::.ctor()
-// 0x0000007D System.Void Firebase.Dispatcher/<RunAsync>c__AnonStorey1`1::<>m__0()
-// 0x0000007E System.Void Firebase.Platform.IFirebaseAppUtils::TranslateDllNotFoundException(System.Action)
-// 0x0000007F System.Void Firebase.Platform.IFirebaseAppUtils::PollCallbacks()
-// 0x00000080 Firebase.Platform.IFirebaseAppPlatform Firebase.Platform.IFirebaseAppUtils::GetDefaultInstance()
-// 0x00000081 Firebase.Platform.PlatformLogLevel Firebase.Platform.IFirebaseAppUtils::GetLogLevel()
-// 0x00000082 System.Void Firebase.Platform.FirebaseAppUtilsStub::.ctor()
+// 0x00000071 System.Void Firebase.Dispatcher/CallbackStorage`1::.ctor()
+// 0x00000072 TResult Firebase.Dispatcher/CallbackStorage`1::get_Result()
+// 0x00000073 System.Void Firebase.Dispatcher/CallbackStorage`1::set_Result(TResult)
+// 0x00000074 System.Exception Firebase.Dispatcher/CallbackStorage`1::get_Exception()
+// 0x00000075 System.Void Firebase.Dispatcher/CallbackStorage`1::set_Exception(System.Exception)
+// 0x00000076 System.Void Firebase.Dispatcher/<Run>c__AnonStorey0`1::.ctor()
+// 0x00000077 System.Void Firebase.Dispatcher/<Run>c__AnonStorey0`1::<>m__0()
+// 0x00000078 System.Void Firebase.Dispatcher/<RunAsync>c__AnonStorey1`1::.ctor()
+// 0x00000079 System.Void Firebase.Dispatcher/<RunAsync>c__AnonStorey1`1::<>m__0()
+// 0x0000007A System.Void Firebase.Platform.IFirebaseAppUtils::TranslateDllNotFoundException(System.Action)
+// 0x0000007B System.Void Firebase.Platform.IFirebaseAppUtils::PollCallbacks()
+// 0x0000007C Firebase.Platform.PlatformLogLevel Firebase.Platform.IFirebaseAppUtils::GetLogLevel()
+// 0x0000007D System.Void Firebase.Platform.FirebaseAppUtilsStub::.ctor()
 extern void FirebaseAppUtilsStub__ctor_m3EC6F08162223655B3A0A2FA44BA7060AE3884AD (void);
-// 0x00000083 Firebase.Platform.FirebaseAppUtilsStub Firebase.Platform.FirebaseAppUtilsStub::get_Instance()
+// 0x0000007E Firebase.Platform.FirebaseAppUtilsStub Firebase.Platform.FirebaseAppUtilsStub::get_Instance()
 extern void FirebaseAppUtilsStub_get_Instance_m980CDC684E1C5AE80F1853386A98DD558AE76ABC (void);
-// 0x00000084 System.Void Firebase.Platform.FirebaseAppUtilsStub::TranslateDllNotFoundException(System.Action)
+// 0x0000007F System.Void Firebase.Platform.FirebaseAppUtilsStub::TranslateDllNotFoundException(System.Action)
 extern void FirebaseAppUtilsStub_TranslateDllNotFoundException_m05B83DDC2DB8B21CEFC55D0AA990CA16A9390C8E (void);
-// 0x00000085 System.Void Firebase.Platform.FirebaseAppUtilsStub::PollCallbacks()
+// 0x00000080 System.Void Firebase.Platform.FirebaseAppUtilsStub::PollCallbacks()
 extern void FirebaseAppUtilsStub_PollCallbacks_m13A423E04EC1F3EDFD0D7FE63F18E0D3036346E1 (void);
-// 0x00000086 Firebase.Platform.IFirebaseAppPlatform Firebase.Platform.FirebaseAppUtilsStub::GetDefaultInstance()
-extern void FirebaseAppUtilsStub_GetDefaultInstance_m46E3955DAE8A34CD584BC4E49EDBDE0983267DF4 (void);
-// 0x00000087 Firebase.Platform.PlatformLogLevel Firebase.Platform.FirebaseAppUtilsStub::GetLogLevel()
+// 0x00000081 Firebase.Platform.PlatformLogLevel Firebase.Platform.FirebaseAppUtilsStub::GetLogLevel()
 extern void FirebaseAppUtilsStub_GetLogLevel_m6082A2182D62F889C842C09F4B5A15074B8F4127 (void);
-// 0x00000088 System.Void Firebase.Platform.FirebaseAppUtilsStub::.cctor()
+// 0x00000082 System.Void Firebase.Platform.FirebaseAppUtilsStub::.cctor()
 extern void FirebaseAppUtilsStub__cctor_m5AD579715FDD6408AB8E44DC5F9856684B6B57B8 (void);
-// 0x00000089 System.String Firebase.Platform.IFirebaseAppPlatform::get_Name()
-// 0x0000008A System.Uri Firebase.Platform.IFirebaseAppPlatform::get_DatabaseUrl()
-// 0x0000008B System.Void Firebase.Platform.MainThreadProperty`1::.ctor(System.Func`1<T>)
-// 0x0000008C T Firebase.Platform.MainThreadProperty`1::get_Value()
-// 0x0000008D T Firebase.Platform.MainThreadProperty`1::<get_Value>m__0()
-static Il2CppMethodPointer s_methodPointers[141] = 
+// 0x00000083 System.Void Firebase.Platform.MainThreadProperty`1::.ctor(System.Func`1<T>)
+// 0x00000084 T Firebase.Platform.MainThreadProperty`1::get_Value()
+// 0x00000085 T Firebase.Platform.MainThreadProperty`1::<get_Value>m__0()
+static Il2CppMethodPointer s_methodPointers[133] = 
 {
 	FirebaseEditorDispatcher_get_EditorApplicationType_mD6FD666F69631C72E955CF09AD61929823D0B459,
 	FirebaseEditorDispatcher_get_EditorIsPlaying_m5D0E7984120FE00B82427E13FCF48085918AB1FD,
@@ -361,8 +350,6 @@ static Il2CppMethodPointer s_methodPointers[141] =
 	U3CSendU3Ec__AnonStorey4_U3CU3Em__0_m9BF30D676CF1F246C66DF8A7217F8FF10906C0AF,
 	AppConfigExtensions__ctor_m04A8807DCFD232502FB1E0C74B4E29ABF16F091C,
 	AppConfigExtensions_get_Instance_mDA35AED29CF495A2DCCF5FB7B65BBB534192E8AB,
-	AppConfigExtensions_GetDatabaseUrl_mF650AFB405A0934CBE4D481564FAE955126BAC45,
-	NULL,
 	AppConfigExtensions__cctor_m9927D7EDEC092FBB74745A94434790D209057819,
 	SystemClock__ctor_m99B061010072193DAF3F270722EEA129C960068A,
 	SystemClock__cctor_m95490CBBCD17DDC68771336873D160F866822F5F,
@@ -371,12 +358,10 @@ static Il2CppMethodPointer s_methodPointers[141] =
 	ExceptionAggregator_ThrowAndClearPendingExceptions_mC66983DEDF4880ACD5E96B5E9EBA38E00CC93B91,
 	ExceptionAggregator_LogException_m68B2EB141A7DDD04EFEE794ED44FCB41673E19F2,
 	ExceptionAggregator_Wrap_m24EBDCC97F8D88B56ADBD17EEF69F25CB3839415,
-	NULL,
 	DebugLogger__ctor_mD6357FC79350285A4D8372BC692899939F6D36C4,
 	DebugLogger_get_Instance_m0E521CDD954F86EB61792F19F2362373EB10745E,
 	DebugLogger__cctor_mD2949D665716DF02D7FD7F4C1181AD6525066903,
 	Services__cctor_m7D026055BA78EEC691B309AA1A6702D54C34F366,
-	Services_get_AppConfig_mAE84F30BF7A0A0D522CC280712623B53961FB98D,
 	Services_set_AppConfig_mE48F0E5E1FA561208AEBA714C1147ECD693AD402,
 	Services_set_Clock_mBDFC2BAB8F8D2628AF8052A79796026E74DBA370,
 	Services_set_Logging_m53140204CEF56D9BC71B5C5BA7BB9D6B3974FFD5,
@@ -398,138 +383,130 @@ static Il2CppMethodPointer s_methodPointers[141] =
 	NULL,
 	NULL,
 	NULL,
-	NULL,
 	FirebaseAppUtilsStub__ctor_m3EC6F08162223655B3A0A2FA44BA7060AE3884AD,
 	FirebaseAppUtilsStub_get_Instance_m980CDC684E1C5AE80F1853386A98DD558AE76ABC,
 	FirebaseAppUtilsStub_TranslateDllNotFoundException_m05B83DDC2DB8B21CEFC55D0AA990CA16A9390C8E,
 	FirebaseAppUtilsStub_PollCallbacks_m13A423E04EC1F3EDFD0D7FE63F18E0D3036346E1,
-	FirebaseAppUtilsStub_GetDefaultInstance_m46E3955DAE8A34CD584BC4E49EDBDE0983267DF4,
 	FirebaseAppUtilsStub_GetLogLevel_m6082A2182D62F889C842C09F4B5A15074B8F4127,
 	FirebaseAppUtilsStub__cctor_m5AD579715FDD6408AB8E44DC5F9856684B6B57B8,
 	NULL,
 	NULL,
 	NULL,
-	NULL,
-	NULL,
 };
-static const int32_t s_InvokerIndices[141] = 
+static const int32_t s_InvokerIndices[133] = 
 {
-	7065,
-	7088,
-	7088,
-	7103,
-	7103,
-	7103,
-	6964,
-	7103,
+	7121,
+	7144,
+	7144,
+	7159,
+	7159,
+	7159,
+	7020,
+	7159,
 	-1,
-	5217,
-	7103,
-	4625,
-	7065,
-	6959,
-	7057,
-	7065,
-	6959,
-	4563,
-	3722,
-	4625,
-	4625,
+	5251,
+	7159,
+	4653,
+	7121,
+	7015,
+	7113,
+	7121,
+	7015,
+	4591,
+	3739,
+	4653,
+	4653,
 	-1,
 	-1,
-	7065,
-	6959,
-	6959,
-	4625,
-	3722,
-	6959,
-	7088,
-	4625,
-	4625,
-	3722,
-	4625,
-	4625,
-	6885,
-	7088,
-	7088,
-	6445,
-	7103,
-	4625,
-	4520,
-	4625,
-	4625,
-	3722,
-	4625,
-	7088,
-	7088,
-	7065,
-	7090,
-	6967,
-	7065,
-	7065,
-	7065,
-	7065,
-	4625,
-	7065,
-	7103,
-	4625,
-	7065,
-	7103,
-	7103,
-	3684,
-	6959,
-	7103,
-	4520,
-	2089,
-	2089,
-	7103,
-	4625,
-	4520,
-	4520,
-	4625,
-	4563,
-	4520,
-	4520,
-	4625,
-	4625,
-	4625,
-	4563,
-	4520,
-	4520,
-	4625,
-	4625,
-	4625,
-	4625,
-	4625,
-	4625,
-	3684,
-	4625,
-	7065,
-	2779,
-	-1,
-	7103,
-	4625,
-	7103,
-	7065,
-	7065,
-	7103,
-	6832,
-	6959,
-	2779,
-	4625,
-	7065,
-	7103,
-	7103,
-	7065,
-	6959,
-	6959,
-	6959,
-	4625,
+	7121,
+	7015,
+	7015,
+	4653,
+	3739,
+	7015,
+	7144,
+	4653,
+	4653,
+	3739,
+	4653,
+	4653,
+	6940,
+	7144,
+	7144,
+	6498,
+	7159,
+	4653,
+	4548,
+	4653,
+	4653,
+	3739,
+	4653,
+	7144,
+	7144,
+	7121,
+	7146,
+	7023,
+	7121,
+	7121,
+	7121,
+	7121,
+	4653,
+	7121,
+	7159,
+	4653,
+	7121,
+	7159,
+	7159,
+	3701,
+	7015,
+	7159,
+	4548,
+	2101,
+	2101,
+	7159,
+	4653,
+	4548,
+	4548,
+	4653,
+	4591,
+	4548,
+	4548,
+	4653,
+	4653,
+	4653,
+	4591,
+	4548,
+	4548,
+	4653,
+	4653,
+	4653,
+	4653,
+	4653,
+	4653,
+	3701,
+	4653,
+	7121,
+	7159,
+	4653,
+	7159,
+	7121,
+	7121,
+	7159,
+	6887,
+	7015,
+	4653,
+	7121,
+	7159,
+	7159,
+	7015,
+	7015,
+	7015,
+	4653,
 	-1,
 	-1,
 	-1,
-	4563,
-	4625,
+	4591,
+	4653,
 	-1,
 	-1,
 	-1,
@@ -539,95 +516,85 @@ static const int32_t s_InvokerIndices[141] =
 	-1,
 	-1,
 	-1,
-	3684,
-	4625,
-	4520,
-	4496,
-	4625,
-	7065,
-	3684,
-	4625,
-	4520,
-	4496,
-	7103,
-	4520,
-	4520,
+	3701,
+	4653,
+	4524,
+	4653,
+	7121,
+	3701,
+	4653,
+	4524,
+	7159,
 	-1,
 	-1,
 	-1,
 };
-static const Il2CppTokenRangePair s_rgctxIndices[9] = 
+static const Il2CppTokenRangePair s_rgctxIndices[8] = 
 {
-	{ 0x0200001E, { 30, 3 } },
-	{ 0x0200001F, { 33, 3 } },
-	{ 0x02000024, { 36, 6 } },
+	{ 0x0200001E, { 25, 3 } },
+	{ 0x0200001F, { 28, 3 } },
+	{ 0x02000023, { 31, 6 } },
 	{ 0x06000016, { 0, 2 } },
 	{ 0x06000017, { 2, 2 } },
-	{ 0x0600005D, { 4, 5 } },
-	{ 0x06000070, { 9, 8 } },
-	{ 0x06000071, { 17, 7 } },
-	{ 0x06000072, { 24, 6 } },
+	{ 0x0600006C, { 4, 8 } },
+	{ 0x0600006D, { 12, 7 } },
+	{ 0x0600006E, { 19, 6 } },
 };
-static const Il2CppRGCTXDefinition s_rgctxValues[42] = 
+static const Il2CppRGCTXDefinition s_rgctxValues[37] = 
 {
-	{ (Il2CppRGCTXDataType)3, 35062 },
-	{ (Il2CppRGCTXDataType)3, 11074 },
-	{ (Il2CppRGCTXDataType)3, 35065 },
-	{ (Il2CppRGCTXDataType)3, 35069 },
-	{ (Il2CppRGCTXDataType)3, 3705 },
-	{ (Il2CppRGCTXDataType)2, 1700 },
-	{ (Il2CppRGCTXDataType)3, 4955 },
-	{ (Il2CppRGCTXDataType)3, 3706 },
-	{ (Il2CppRGCTXDataType)3, 4956 },
-	{ (Il2CppRGCTXDataType)2, 1091 },
+	{ (Il2CppRGCTXDataType)3, 35315 },
+	{ (Il2CppRGCTXDataType)3, 11139 },
+	{ (Il2CppRGCTXDataType)3, 35318 },
+	{ (Il2CppRGCTXDataType)3, 35322 },
+	{ (Il2CppRGCTXDataType)2, 1122 },
 	{ (Il2CppRGCTXDataType)3, 242 },
-	{ (Il2CppRGCTXDataType)3, 11073 },
-	{ (Il2CppRGCTXDataType)2, 1396 },
-	{ (Il2CppRGCTXDataType)3, 2431 },
+	{ (Il2CppRGCTXDataType)3, 11138 },
+	{ (Il2CppRGCTXDataType)2, 1442 },
+	{ (Il2CppRGCTXDataType)3, 2463 },
 	{ (Il2CppRGCTXDataType)3, 243 },
-	{ (Il2CppRGCTXDataType)3, 2432 },
-	{ (Il2CppRGCTXDataType)3, 2433 },
-	{ (Il2CppRGCTXDataType)2, 1092 },
+	{ (Il2CppRGCTXDataType)3, 2464 },
+	{ (Il2CppRGCTXDataType)3, 2465 },
+	{ (Il2CppRGCTXDataType)2, 1123 },
 	{ (Il2CppRGCTXDataType)3, 248 },
-	{ (Il2CppRGCTXDataType)3, 35068 },
-	{ (Il2CppRGCTXDataType)2, 4615 },
-	{ (Il2CppRGCTXDataType)3, 28255 },
+	{ (Il2CppRGCTXDataType)3, 35321 },
+	{ (Il2CppRGCTXDataType)2, 4713 },
+	{ (Il2CppRGCTXDataType)3, 28434 },
 	{ (Il2CppRGCTXDataType)3, 249 },
-	{ (Il2CppRGCTXDataType)3, 28256 },
-	{ (Il2CppRGCTXDataType)3, 11072 },
-	{ (Il2CppRGCTXDataType)3, 36151 },
-	{ (Il2CppRGCTXDataType)2, 4616 },
-	{ (Il2CppRGCTXDataType)3, 28257 },
-	{ (Il2CppRGCTXDataType)3, 28258 },
-	{ (Il2CppRGCTXDataType)3, 28259 },
-	{ (Il2CppRGCTXDataType)3, 11083 },
-	{ (Il2CppRGCTXDataType)3, 2435 },
-	{ (Il2CppRGCTXDataType)3, 2434 },
-	{ (Il2CppRGCTXDataType)3, 11084 },
-	{ (Il2CppRGCTXDataType)3, 28270 },
-	{ (Il2CppRGCTXDataType)3, 28269 },
-	{ (Il2CppRGCTXDataType)3, 21285 },
-	{ (Il2CppRGCTXDataType)2, 2139 },
-	{ (Il2CppRGCTXDataType)3, 11079 },
-	{ (Il2CppRGCTXDataType)3, 35311 },
-	{ (Il2CppRGCTXDataType)3, 28343 },
-	{ (Il2CppRGCTXDataType)3, 11080 },
+	{ (Il2CppRGCTXDataType)3, 28435 },
+	{ (Il2CppRGCTXDataType)3, 11137 },
+	{ (Il2CppRGCTXDataType)3, 36426 },
+	{ (Il2CppRGCTXDataType)2, 4714 },
+	{ (Il2CppRGCTXDataType)3, 28436 },
+	{ (Il2CppRGCTXDataType)3, 28437 },
+	{ (Il2CppRGCTXDataType)3, 28438 },
+	{ (Il2CppRGCTXDataType)3, 11148 },
+	{ (Il2CppRGCTXDataType)3, 2467 },
+	{ (Il2CppRGCTXDataType)3, 2466 },
+	{ (Il2CppRGCTXDataType)3, 11149 },
+	{ (Il2CppRGCTXDataType)3, 28449 },
+	{ (Il2CppRGCTXDataType)3, 28448 },
+	{ (Il2CppRGCTXDataType)3, 21382 },
+	{ (Il2CppRGCTXDataType)2, 2185 },
+	{ (Il2CppRGCTXDataType)3, 11144 },
+	{ (Il2CppRGCTXDataType)3, 35570 },
+	{ (Il2CppRGCTXDataType)3, 28517 },
+	{ (Il2CppRGCTXDataType)3, 11145 },
 };
 extern const CustomAttributesCacheGenerator g_Firebase_Platform_AttributeGenerators[];
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Firebase_Platform_CodeGenModule;
 const Il2CppCodeGenModule g_Firebase_Platform_CodeGenModule = 
 {
 	"Firebase.Platform.dll",
-	141,
+	133,
 	s_methodPointers,
 	0,
 	NULL,
 	s_InvokerIndices,
 	0,
 	NULL,
-	9,
+	8,
 	s_rgctxIndices,
-	42,
+	37,
 	s_rgctxValues,
 	NULL,
 	g_Firebase_Platform_AttributeGenerators,

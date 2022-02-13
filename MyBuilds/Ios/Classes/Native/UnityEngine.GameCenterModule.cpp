@@ -115,8 +115,6 @@ struct ILeaderboard_tC996640E43BF8EF5AA958F3BD43113D5A732B99B;
 struct ILocalUser_t835F1CCDE2ED60F6D514522949B6402B7D871F27;
 // UnityEngine.SocialPlatforms.IScore
 struct IScore_tE3BDDCDC8FB888BD6AF13EE00EF6AE225DDF2B3B;
-// UnityEngine.SocialPlatforms.ISocialPlatform
-struct ISocialPlatform_t1C068CBA4F0B5F2B2EBC76E64A1DEC7CBFBED92D;
 // UnityEngine.SocialPlatforms.IUserProfile
 struct IUserProfile_tBE239C94BA41C72261407718E0EA66072945F54C;
 // UnityEngine.SocialPlatforms.Impl.Leaderboard
@@ -143,7 +141,6 @@ IL2CPP_EXTERN_C RuntimeClass* AchievementDescription_t6C56CB1D0F1F374C45EC0F65D5
 IL2CPP_EXTERN_C RuntimeClass* AchievementU5BU5D_tCBFC160A3B2C7C045CB620E9C7234269217245F8_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Achievement_t43EB1469B011ADDEF59B6CB30044B878770D3565_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Action_2_t88E033566C44CCAAB72BD2C7604420B260FD3BF3_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* ActivePlatform_t827D4935C03048855D838445AD80543779EA6C08_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* GameCenterPlatform_t358F709563A6FC9DFBF500151EDAEC05EBBA6F72_il2cpp_TypeInfo_var;
@@ -392,32 +389,6 @@ public:
 	}
 };
 
-
-// UnityEngine.SocialPlatforms.ActivePlatform
-struct ActivePlatform_t827D4935C03048855D838445AD80543779EA6C08  : public RuntimeObject
-{
-public:
-
-public:
-};
-
-struct ActivePlatform_t827D4935C03048855D838445AD80543779EA6C08_StaticFields
-{
-public:
-	// UnityEngine.SocialPlatforms.ISocialPlatform UnityEngine.SocialPlatforms.ActivePlatform::_active
-	RuntimeObject* ____active_0;
-
-public:
-	inline static int32_t get_offset_of__active_0() { return static_cast<int32_t>(offsetof(ActivePlatform_t827D4935C03048855D838445AD80543779EA6C08_StaticFields, ____active_0)); }
-	inline RuntimeObject* get__active_0() const { return ____active_0; }
-	inline RuntimeObject** get_address_of__active_0() { return &____active_0; }
-	inline void set__active_0(RuntimeObject* value)
-	{
-		____active_0 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&____active_0), (void*)value);
-	}
-};
-
 struct Il2CppArrayBounds;
 
 // System.Array
@@ -512,15 +483,6 @@ public:
 		___m_GcBoards_6 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___m_GcBoards_6), (void*)value);
 	}
-};
-
-
-// UnityEngine.Social
-struct Social_t190E57B06E9148270A54C79CD20B0BDA297BE05F  : public RuntimeObject
-{
-public:
-
-public:
 };
 
 
@@ -2641,10 +2603,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AchievementDescription_get_points_mCB
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Int32_ToString_m340C0A14D16799421EFDF8A81C8A16FA76D48411 (int32_t* __this, const RuntimeMethod* method);
 // System.Boolean UnityEngine.SocialPlatforms.Impl.AchievementDescription::get_hidden()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AchievementDescription_get_hidden_m8FDE6EBDC27F05F8D04B53B4F044B5B06F2EDA0A (AchievementDescription_t6C56CB1D0F1F374C45EC0F65D5F1192C170B6506 * __this, const RuntimeMethod* method);
-// UnityEngine.SocialPlatforms.ISocialPlatform UnityEngine.SocialPlatforms.ActivePlatform::SelectSocialPlatform()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ActivePlatform_SelectSocialPlatform_mA92EB9D7D4AD4D2009750EDA6DEA17C304D4480E (const RuntimeMethod* method);
-// System.Void UnityEngine.SocialPlatforms.GameCenter.GameCenterPlatform::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameCenterPlatform__ctor_m12106EF272A85BC20F2CA464C0A92DF42CAB375A (GameCenterPlatform_t358F709563A6FC9DFBF500151EDAEC05EBBA6F72 * __this, const RuntimeMethod* method);
 // UnityEngine.SocialPlatforms.Impl.AchievementDescription UnityEngine.SocialPlatforms.GameCenter.GcAchievementDescriptionData::ToAchievementDescription()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AchievementDescription_t6C56CB1D0F1F374C45EC0F65D5F1192C170B6506 * GcAchievementDescriptionData_ToAchievementDescription_m9942E64237B72699916331A3EED62FC8E0DB8B86 (GcAchievementDescriptionData_tA9C8FD052A0FAD05F5C290DEC026DDF07E81AF9D * __this, const RuntimeMethod* method);
 // System.Void UnityEngine.Debug::Log(System.Object)
@@ -2868,8 +2826,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Leaderboard_get_userScope
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Leaderboard_get_timeScope_mE1F4CBEBE4B2E1E6BD245E3BE518680F13BBF276_inline (Leaderboard_tD587FC5E62BF8F6CC6AC0DF1ABB55D57A60CBE2D * __this, const RuntimeMethod* method);
 // System.Void UnityEngine.SocialPlatforms.Impl.UserProfile::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UserProfile__ctor_m65DBFCC8D74A39E029B7EEBF5B24A8790C3668AA (UserProfile_tDA4AC2655C2C32774702DDA257938A108AB4C537 * __this, const RuntimeMethod* method);
-// UnityEngine.SocialPlatforms.ISocialPlatform UnityEngine.SocialPlatforms.ActivePlatform::get_Instance()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ActivePlatform_get_Instance_m5FB1343B475512D548FE04A7C2BC3DCCAF694AA9 (const RuntimeMethod* method);
 // System.DateTime System.DateTime::get_Now()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  DateTime_get_Now_mCAC695993D6E2C57B900C83BEF3F8B18BC4EBC2C (const RuntimeMethod* method);
 // System.Void UnityEngine.SocialPlatforms.Impl.Score::set_leaderboardID(System.String)
@@ -2882,8 +2838,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int64_t Score_get_value_m750646ED
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Int64_ToString_m8AAA883F340993DCDF339C208F3416C3BA82589F (int64_t* __this, const RuntimeMethod* method);
 // System.String UnityEngine.SocialPlatforms.Impl.Score::get_leaderboardID()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* Score_get_leaderboardID_m079BDC75AED9D8C06DC36F78AC233171F023FB4F_inline (Score_tD70993CC66CCC9CDE0DAB2917533D8094F1E4119 * __this, const RuntimeMethod* method);
-// UnityEngine.SocialPlatforms.ISocialPlatform UnityEngine.Social::get_Active()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Social_get_Active_m74A08BB58636C0AC5934CAB46856765A271F842D (const RuntimeMethod* method);
 // System.String UnityEngine.SocialPlatforms.Impl.UserProfile::get_userName()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* UserProfile_get_userName_mB127337E5455C94299C39FB66C2965FF3421142E (UserProfile_tDA4AC2655C2C32774702DDA257938A108AB4C537 * __this, const RuntimeMethod* method);
 // System.Boolean UnityEngine.SocialPlatforms.Impl.UserProfile::get_isFriend()
@@ -3350,76 +3304,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AchievementDescription_get_points_mCB
 IL_000a:
 	{
 		int32_t L_1 = V_0;
-		return L_1;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// UnityEngine.SocialPlatforms.ISocialPlatform UnityEngine.SocialPlatforms.ActivePlatform::get_Instance()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ActivePlatform_get_Instance_m5FB1343B475512D548FE04A7C2BC3DCCAF694AA9 (const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ActivePlatform_t827D4935C03048855D838445AD80543779EA6C08_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	bool V_0 = false;
-	RuntimeObject* V_1 = NULL;
-	{
-		RuntimeObject* L_0 = ((ActivePlatform_t827D4935C03048855D838445AD80543779EA6C08_StaticFields*)il2cpp_codegen_static_fields_for(ActivePlatform_t827D4935C03048855D838445AD80543779EA6C08_il2cpp_TypeInfo_var))->get__active_0();
-		V_0 = (bool)((((RuntimeObject*)(RuntimeObject*)L_0) == ((RuntimeObject*)(RuntimeObject *)NULL))? 1 : 0);
-		bool L_1 = V_0;
-		if (!L_1)
-		{
-			goto IL_0017;
-		}
-	}
-	{
-		RuntimeObject* L_2;
-		L_2 = ActivePlatform_SelectSocialPlatform_mA92EB9D7D4AD4D2009750EDA6DEA17C304D4480E(/*hidden argument*/NULL);
-		((ActivePlatform_t827D4935C03048855D838445AD80543779EA6C08_StaticFields*)il2cpp_codegen_static_fields_for(ActivePlatform_t827D4935C03048855D838445AD80543779EA6C08_il2cpp_TypeInfo_var))->set__active_0(L_2);
-	}
-
-IL_0017:
-	{
-		RuntimeObject* L_3 = ((ActivePlatform_t827D4935C03048855D838445AD80543779EA6C08_StaticFields*)il2cpp_codegen_static_fields_for(ActivePlatform_t827D4935C03048855D838445AD80543779EA6C08_il2cpp_TypeInfo_var))->get__active_0();
-		V_1 = L_3;
-		goto IL_001f;
-	}
-
-IL_001f:
-	{
-		RuntimeObject* L_4 = V_1;
-		return L_4;
-	}
-}
-// UnityEngine.SocialPlatforms.ISocialPlatform UnityEngine.SocialPlatforms.ActivePlatform::SelectSocialPlatform()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ActivePlatform_SelectSocialPlatform_mA92EB9D7D4AD4D2009750EDA6DEA17C304D4480E (const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameCenterPlatform_t358F709563A6FC9DFBF500151EDAEC05EBBA6F72_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	RuntimeObject* V_0 = NULL;
-	{
-		GameCenterPlatform_t358F709563A6FC9DFBF500151EDAEC05EBBA6F72 * L_0 = (GameCenterPlatform_t358F709563A6FC9DFBF500151EDAEC05EBBA6F72 *)il2cpp_codegen_object_new(GameCenterPlatform_t358F709563A6FC9DFBF500151EDAEC05EBBA6F72_il2cpp_TypeInfo_var);
-		GameCenterPlatform__ctor_m12106EF272A85BC20F2CA464C0A92DF42CAB375A(L_0, /*hidden argument*/NULL);
-		V_0 = L_0;
-		goto IL_0009;
-	}
-
-IL_0009:
-	{
-		RuntimeObject* L_1 = V_0;
 		return L_1;
 	}
 }
@@ -4153,7 +4037,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameCenterPlatform_UnityEngine_SocialPla
 		U3CU3Ec__DisplayClass21_0_t640615F596448CA7D86AAC8EE3A104A2CE70A95A * L_4 = V_0;
 		Action_2_t88E033566C44CCAAB72BD2C7604420B260FD3BF3 * L_5 = (Action_2_t88E033566C44CCAAB72BD2C7604420B260FD3BF3 *)il2cpp_codegen_object_new(Action_2_t88E033566C44CCAAB72BD2C7604420B260FD3BF3_il2cpp_TypeInfo_var);
 		Action_2__ctor_m8A8E912B906E34CBFEA15B86B6D30502102DE1D8(L_5, L_4, (intptr_t)((intptr_t)U3CU3Ec__DisplayClass21_0_U3CUnityEngine_SocialPlatforms_ISocialPlatform_AuthenticateU3Eb__0_m4B82E8613D69236F6B072A688C556241D1CA9E5C_RuntimeMethod_var), /*hidden argument*/Action_2__ctor_m8A8E912B906E34CBFEA15B86B6D30502102DE1D8_RuntimeMethod_var);
-		InterfaceActionInvoker2< RuntimeObject*, Action_2_t88E033566C44CCAAB72BD2C7604420B260FD3BF3 * >::Invoke(2 /* System.Void UnityEngine.SocialPlatforms.ISocialPlatform::Authenticate(UnityEngine.SocialPlatforms.ILocalUser,System.Action`2<System.Boolean,System.String>) */, ISocialPlatform_t1C068CBA4F0B5F2B2EBC76E64A1DEC7CBFBED92D_il2cpp_TypeInfo_var, __this, L_3, L_5);
+		InterfaceActionInvoker2< RuntimeObject*, Action_2_t88E033566C44CCAAB72BD2C7604420B260FD3BF3 * >::Invoke(1 /* System.Void UnityEngine.SocialPlatforms.ISocialPlatform::Authenticate(UnityEngine.SocialPlatforms.ILocalUser,System.Action`2<System.Boolean,System.String>) */, ISocialPlatform_t1C068CBA4F0B5F2B2EBC76E64A1DEC7CBFBED92D_il2cpp_TypeInfo_var, __this, L_3, L_5);
 		return;
 	}
 }
@@ -4897,7 +4781,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GameCenterPlatform_VerifyAuthentication_
 		L_0 = GameCenterPlatform_get_localUser_m7E985071FAA0B7393A5B2A056917DF06B41BD0A4(__this, /*hidden argument*/NULL);
 		NullCheck(L_0);
 		bool L_1;
-		L_1 = InterfaceFuncInvoker0< bool >::Invoke(1 /* System.Boolean UnityEngine.SocialPlatforms.ILocalUser::get_authenticated() */, ILocalUser_t835F1CCDE2ED60F6D514522949B6402B7D871F27_il2cpp_TypeInfo_var, L_0);
+		L_1 = InterfaceFuncInvoker0< bool >::Invoke(0 /* System.Boolean UnityEngine.SocialPlatforms.ILocalUser::get_authenticated() */, ILocalUser_t835F1CCDE2ED60F6D514522949B6402B7D871F27_il2cpp_TypeInfo_var, L_0);
 		V_0 = (bool)((((int32_t)L_1) == ((int32_t)0))? 1 : 0);
 		bool L_2 = V_0;
 		if (!L_2)
@@ -6983,24 +6867,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalUser__ctor_mE1D89C27BD5A6DAE982610A
 		return;
 	}
 }
-// System.Void UnityEngine.SocialPlatforms.Impl.LocalUser::Authenticate(System.Action`1<System.Boolean>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalUser_Authenticate_mEFEECF74551BD9008DC67808F542CC962F474FE4 (LocalUser_t1719BEA57FDD71F6C7B280049E94071CD22D985D * __this, Action_1_tCE2D770918A65CAD277C08C4E8C05385EA267E83 * ___callback0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ISocialPlatform_t1C068CBA4F0B5F2B2EBC76E64A1DEC7CBFBED92D_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		RuntimeObject* L_0;
-		L_0 = ActivePlatform_get_Instance_m5FB1343B475512D548FE04A7C2BC3DCCAF694AA9(/*hidden argument*/NULL);
-		Action_1_tCE2D770918A65CAD277C08C4E8C05385EA267E83 * L_1 = ___callback0;
-		NullCheck(L_0);
-		InterfaceActionInvoker2< RuntimeObject*, Action_1_tCE2D770918A65CAD277C08C4E8C05385EA267E83 * >::Invoke(1 /* System.Void UnityEngine.SocialPlatforms.ISocialPlatform::Authenticate(UnityEngine.SocialPlatforms.ILocalUser,System.Action`1<System.Boolean>) */, ISocialPlatform_t1C068CBA4F0B5F2B2EBC76E64A1DEC7CBFBED92D_il2cpp_TypeInfo_var, L_0, __this, L_1);
-		return;
-	}
-}
 // System.Void UnityEngine.SocialPlatforms.Impl.LocalUser::SetFriends(UnityEngine.SocialPlatforms.IUserProfile[])
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalUser_SetFriends_m54CD46805170EDB993E87E0A9FA3BF82A910E489 (LocalUser_t1719BEA57FDD71F6C7B280049E94071CD22D985D * __this, IUserProfileU5BU5D_t4B36B0CF06DE6A00F5D6D0A015DC3E99B02FC65E* ___friends0, const RuntimeMethod* method)
 {
@@ -7234,57 +7100,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Score_set_value_mFECF5E9D1928EEAE7E46F49
 		int64_t L_0 = ___value0;
 		__this->set_U3CvalueU3Ek__BackingField_5(L_0);
 		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// UnityEngine.SocialPlatforms.ISocialPlatform UnityEngine.Social::get_Active()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Social_get_Active_m74A08BB58636C0AC5934CAB46856765A271F842D (const RuntimeMethod* method)
-{
-	RuntimeObject* V_0 = NULL;
-	{
-		RuntimeObject* L_0;
-		L_0 = ActivePlatform_get_Instance_m5FB1343B475512D548FE04A7C2BC3DCCAF694AA9(/*hidden argument*/NULL);
-		V_0 = L_0;
-		goto IL_0009;
-	}
-
-IL_0009:
-	{
-		RuntimeObject* L_1 = V_0;
-		return L_1;
-	}
-}
-// UnityEngine.SocialPlatforms.ILocalUser UnityEngine.Social::get_localUser()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Social_get_localUser_m3C570106A10EE66C0172C291AE2084829B64C468 (const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ISocialPlatform_t1C068CBA4F0B5F2B2EBC76E64A1DEC7CBFBED92D_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	RuntimeObject* V_0 = NULL;
-	{
-		RuntimeObject* L_0;
-		L_0 = Social_get_Active_m74A08BB58636C0AC5934CAB46856765A271F842D(/*hidden argument*/NULL);
-		NullCheck(L_0);
-		RuntimeObject* L_1;
-		L_1 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(0 /* UnityEngine.SocialPlatforms.ILocalUser UnityEngine.SocialPlatforms.ISocialPlatform::get_localUser() */, ISocialPlatform_t1C068CBA4F0B5F2B2EBC76E64A1DEC7CBFBED92D_il2cpp_TypeInfo_var, L_0);
-		V_0 = L_1;
-		goto IL_000e;
-	}
-
-IL_000e:
-	{
-		RuntimeObject* L_2 = V_0;
-		return L_2;
 	}
 }
 #ifdef __clang__

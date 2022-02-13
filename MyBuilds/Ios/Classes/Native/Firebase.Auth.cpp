@@ -250,8 +250,6 @@ struct Action_1_tD9663D9715FAA4E62035CFCF1AD4D094EE7872DC;
 struct Dictionary_2_tE1E5B6327FFA2C7AE34A69E0011815C914771C2F;
 // System.Collections.Generic.Dictionary`2<System.Int32,System.Threading.Tasks.Task>
 struct Dictionary_2_tB758E2A2593CD827EFC041BE1F1BB4B68DE1C3E8;
-// System.Collections.Generic.Dictionary`2<System.Int32,Firebase.Auth.Future_Credential/Action>
-struct Dictionary_2_t419F54AA54103E0BCDD35C2FBD557709213CFC1D;
 // System.Collections.Generic.Dictionary`2<System.Int32,Firebase.Auth.Future_User/Action>
 struct Dictionary_2_tA7425066635E9AF08B63A5CFF0BD9A8F1D0059D5;
 // System.Collections.Generic.Dictionary`2<System.IntPtr,Firebase.FirebaseApp>
@@ -270,8 +268,6 @@ struct Func_1_tE31066EBAC96C15B2B1A23B36A5EA7E028E19EAC;
 struct Func_1_tBCF42601FA307876E83080BE4204110820F8BF3B;
 // System.Func`2<System.Threading.Tasks.Task`1<Firebase.DependencyStatus>,System.Threading.Tasks.Task`1<Firebase.DependencyStatus>>
 struct Func_2_t6263458F4D5A237EA55DE064D01BBCEA453FE079;
-// System.Func`2<System.Threading.Tasks.Task`1<System.Threading.Tasks.Task>,System.Threading.Tasks.Task`1<Firebase.Auth.Credential>>
-struct Func_2_t3D1A96CFFFF97E8A9F0A05738A42CE2098E330AD;
 // System.Func`2<System.Threading.Tasks.Task`1<System.Threading.Tasks.Task>,System.Threading.Tasks.Task`1<Firebase.Auth.FirebaseUser>>
 struct Func_2_tB4F767378F8B2D53DDCA17BA1E615A32C916EDF6;
 // System.Func`2<System.Threading.Tasks.Task`1<System.Threading.Tasks.Task>,System.Threading.Tasks.Task`1<System.Object>>
@@ -282,8 +278,6 @@ struct Func_2_t0AF0BC5FCFF7606A4CFF83A68368661E19454A91;
 struct IEqualityComparer_1_t62010156673DE1460AB1D1CEBE5DCD48665E1A38;
 // System.Collections.Generic.IEqualityComparer`1<System.IntPtr>
 struct IEqualityComparer_1_t19B34EAD810249AF015A661D23DF1909EADEB101;
-// System.Collections.Generic.Dictionary`2/KeyCollection<System.Int32,Firebase.Auth.Future_Credential/Action>
-struct KeyCollection_t2810EA3B722F283CC2D7261E87D7AB2950D8FF09;
 // System.Collections.Generic.Dictionary`2/KeyCollection<System.Int32,Firebase.Auth.Future_User/Action>
 struct KeyCollection_t0F728BC785B2B6D4186B993C9F6DFC7D720904CF;
 // System.Collections.Generic.Dictionary`2/KeyCollection<System.IntPtr,Firebase.Auth.FirebaseAuth>
@@ -294,32 +288,22 @@ struct Predicate_1_t5C96B81B31A697B11C4C3767E3298773AF25DFEB;
 struct Predicate_1_tC0DBBC8498BD1EE6ABFFAA5628024105FA7D11BD;
 // System.Collections.ObjectModel.ReadOnlyCollection`1<System.Exception>
 struct ReadOnlyCollection_1_t06CAAF5787D8FDE0CB0F04082673EC9B212451BE;
-// System.Threading.Tasks.TaskCompletionSource`1<Firebase.Auth.Credential>
-struct TaskCompletionSource_1_t1FA7E7E9F6A5C7535B75D741629BEA5F9C53E04C;
 // System.Threading.Tasks.TaskCompletionSource`1<Firebase.Auth.FirebaseUser>
 struct TaskCompletionSource_1_t9AD06D96AD3E9E43A107EA79993A043F5E1F1D45;
 // System.Threading.Tasks.TaskCompletionSource`1<System.Object>
 struct TaskCompletionSource_1_t5B48A13B0469AA5A5797B645926E284436099903;
-// System.Threading.Tasks.TaskFactory`1<Firebase.Auth.Credential>
-struct TaskFactory_1_tF1F9F40705B8A67F2745140D317847E09E2C8753;
 // System.Threading.Tasks.TaskFactory`1<Firebase.Auth.FirebaseUser>
 struct TaskFactory_1_t9D8D5C3497974FC69996081A4931F540CED80622;
 // System.Threading.Tasks.TaskFactory`1<System.Object>
 struct TaskFactory_1_t16A95DD17BBA3D00F0A85C5077BB248421EF3A55;
-// System.Threading.Tasks.Task`1<Firebase.Auth.Credential>
-struct Task_1_tA5D31255279C17E13642632FB782BD1EB69C9E61;
 // System.Threading.Tasks.Task`1<Firebase.Auth.FirebaseUser>
 struct Task_1_tEBE900D333BFF17CF9FDB3BCE586131016083F35;
 // System.Threading.Tasks.Task`1<System.Object>
 struct Task_1_tC1805497876E88B78A2B0CB81C6409E0B381AC17;
-// System.Collections.Generic.Dictionary`2/ValueCollection<System.Int32,Firebase.Auth.Future_Credential/Action>
-struct ValueCollection_t552A99A89ADA16EE34CEE25DED4119739771D550;
 // System.Collections.Generic.Dictionary`2/ValueCollection<System.Int32,Firebase.Auth.Future_User/Action>
 struct ValueCollection_t504AA4241C0119C5512B0195F8782FA1FFC55238;
 // System.Collections.Generic.Dictionary`2/ValueCollection<System.IntPtr,Firebase.Auth.FirebaseAuth>
 struct ValueCollection_t7BA1537BAC10830FEB1F81BC12283E7199BCF4AC;
-// System.Collections.Generic.Dictionary`2/Entry<System.Int32,Firebase.Auth.Future_Credential/Action>[]
-struct EntryU5BU5D_t87C2282D1BEFDDB037ABE58491E3AA1CB9EC5191;
 // System.Collections.Generic.Dictionary`2/Entry<System.Int32,Firebase.Auth.Future_User/Action>[]
 struct EntryU5BU5D_tF9F57ECEADBAF3A5200A130F142F46ED8F59CA35;
 // System.Collections.Generic.Dictionary`2/Entry<System.IntPtr,Firebase.Auth.FirebaseAuth>[]
@@ -382,8 +366,6 @@ struct FirebaseException_t80812F0C7BA9277B701A891E7575AC4DAEE1DA47;
 struct FirebaseUser_tB4E7F9E5CECAD14A4F7E4170A134C5CDA028F308;
 // Firebase.FutureBase
 struct FutureBase_t8A0245B874D87A58E48E0C9F16C54FD8003534F4;
-// Firebase.Auth.Future_Credential
-struct Future_Credential_t5FA479EDD462AE57DD3A334DBE28455F0A01E930;
 // Firebase.Auth.Future_User
 struct Future_User_t16AC7F10973F7E51D2EF05FBC40262B1D74D7F77;
 // System.IAsyncResult
@@ -446,12 +428,6 @@ struct U3CGetAuthU3Ec__AnonStorey2_t4AFC638AB5C489506EB8728D36AE833E99F92544;
 struct U3CSignInWithCredentialAsyncU3Ec__AnonStorey7_t3F3C2BD2382149AF6E67F065C42229B31537FA53;
 // Firebase.Auth.FirebaseAuth/StateChangedDelegate
 struct StateChangedDelegate_t9405205DA8C8A4F84132EFA5413CA3D3A7DE2874;
-// Firebase.Auth.Future_Credential/<GetTask>c__AnonStorey0
-struct U3CGetTaskU3Ec__AnonStorey0_tFBF4F8BB84B2F850693D0C525F7559847E681FCC;
-// Firebase.Auth.Future_Credential/Action
-struct Action_t1483A426D0D48621C33618F22F52D063D6885B0C;
-// Firebase.Auth.Future_Credential/SWIG_CompletionDelegate
-struct SWIG_CompletionDelegate_tA58DD21EC61553A20F33CFB2ECC18B45B86C121A;
 // Firebase.Auth.Future_User/<GetTask>c__AnonStorey0
 struct U3CGetTaskU3Ec__AnonStorey0_tA92D581998A360FDE7770636AE7FFE8B04FD778C;
 // Firebase.Auth.Future_User/Action
@@ -469,7 +445,6 @@ struct SWIGStringDelegate_tB9D8E75ABD8CE9A83EF2FFFAEED70E1C3BD9EC87;
 
 IL2CPP_EXTERN_C RuntimeClass* Action_1_t2C0916E64B2422428D60DD8E23600EA6A5B906FF_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Action_1_t7126D3DC3275C39CFE5D20E759C1D8FAE10E777B_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* Action_t1483A426D0D48621C33618F22F52D063D6885B0C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Action_t93A1C2066DBE44D8980A3C69015371AD734414F6_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Action_tAF41423D285AE0862865348CF6CE51CD085ABBA6_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ApplicationException_t8D709C0445A040467C6A632AD7F742B25AB2A407_il2cpp_TypeInfo_var;
@@ -479,7 +454,6 @@ IL2CPP_EXTERN_C RuntimeClass* ArgumentOutOfRangeException_tFAF23713820951D4A09AB
 IL2CPP_EXTERN_C RuntimeClass* ArithmeticException_t8E5F44FABC7FAE0966CBA6DE9BFD545F2660ED47_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* AuthUtilPINVOKE_tD02963BE9050245F2940D293A81FB0F35F40C766_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Credential_t638B3D8394BA25DA9572C6A523AFBF7D18D88DAA_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* Dictionary_2_t419F54AA54103E0BCDD35C2FBD557709213CFC1D_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Dictionary_2_t5E59F29A72B498CFF7A1B01F26D5D96669B60FC5_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Dictionary_2_tA7425066635E9AF08B63A5CFF0BD9A8F1D0059D5_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* DivideByZeroException_tEAEB89F460AFC9F565DBB5CEDDF8BDF1888879E3_il2cpp_TypeInfo_var;
@@ -492,7 +466,6 @@ IL2CPP_EXTERN_C RuntimeClass* FirebaseApp_t3592A6306730FCDF285B555F3B4A83F56B9C0
 IL2CPP_EXTERN_C RuntimeClass* FirebaseAuth_t62F122053F219E848C71A38DBB8A818A6C8B8F7E_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* FirebaseException_t80812F0C7BA9277B701A891E7575AC4DAEE1DA47_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* FirebaseUser_tB4E7F9E5CECAD14A4F7E4170A134C5CDA028F308_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* Future_Credential_t5FA479EDD462AE57DD3A334DBE28455F0A01E930_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Future_User_t16AC7F10973F7E51D2EF05FBC40262B1D74D7F77_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* GC_tD6F0377620BF01385965FD29272CF088A4309C0D_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* IOException_t09E5C01DA4748C36D703728C4668C5CDF3882EBA_il2cpp_TypeInfo_var;
@@ -511,11 +484,9 @@ IL2CPP_EXTERN_C RuntimeClass* SWIGExceptionHelper_t99A361F53E33B8763A84F77257D3D
 IL2CPP_EXTERN_C RuntimeClass* SWIGPendingException_tC7F972369947667C801A4DC1A4CAED4121342D77_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* SWIGStringDelegate_tB9D8E75ABD8CE9A83EF2FFFAEED70E1C3BD9EC87_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* SWIGStringHelper_t0D287BE39B9CEB9E0E7C21EA27F446C0541A56E6_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* SWIG_CompletionDelegate_tA58DD21EC61553A20F33CFB2ECC18B45B86C121A_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* SWIG_CompletionDelegate_tCA18AC9F9C8E946ADB02BDAF936243286523DB64_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* StateChangedDelegate_t9405205DA8C8A4F84132EFA5413CA3D3A7DE2874_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* SystemException_tC551B4D6EE3772B5F32C71EE8C719F4B43ECCC62_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* TaskCompletionSource_1_t1FA7E7E9F6A5C7535B75D741629BEA5F9C53E04C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* TaskCompletionSource_1_t9AD06D96AD3E9E43A107EA79993A043F5E1F1D45_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Type_t_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CForwardStateChangeU3Ec__AnonStorey3_t22A0E4071E9D0F10160655206BB6A031D877A5FE_il2cpp_TypeInfo_var;
@@ -523,7 +494,6 @@ IL2CPP_EXTERN_C RuntimeClass* U3CForwardStateChangeU3Ec__AnonStorey4_t4FFF9695E6
 IL2CPP_EXTERN_C RuntimeClass* U3CGetAuthU3Ec__AnonStorey1_tA99D1048C5D603DD5D9603FA75E909847FDFB76E_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CGetAuthU3Ec__AnonStorey2_t4AFC638AB5C489506EB8728D36AE833E99F92544_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CGetTaskU3Ec__AnonStorey0_tA92D581998A360FDE7770636AE7FFE8B04FD778C_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* U3CGetTaskU3Ec__AnonStorey0_tFBF4F8BB84B2F850693D0C525F7559847E681FCC_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CSignInWithCredentialAsyncU3Ec__AnonStorey7_t3F3C2BD2382149AF6E67F065C42229B31537FA53_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C String_t* _stringLiteral0B47BC9031A69F662702621810EC706E2C081467;
 IL2CPP_EXTERN_C String_t* _stringLiteral32E8916355B734142247F16D33AC51F0ABA2C28F;
@@ -540,16 +510,12 @@ IL2CPP_EXTERN_C const RuntimeMethod* AuthUtil_DestroyAuthStateListener_m0C3E499B
 IL2CPP_EXTERN_C const RuntimeMethod* AuthUtil_DestroyIdTokenListener_m008D3961141C95DECFB2350CA70CC0B50DB0A291_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_Remove_m0840193BE0ABEDC84E3BB979D2BEE03CF97456F8_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_Remove_m29F81A30D44C065D3A462F2983052C6607441A4C_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_Remove_m685F7D7D1B024C13757EC7E356D2998F21EFC3F1_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_TryGetValue_m5910F487C8EEFA8F6267D5818136EB47ECB453A7_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_TryGetValue_mA02B36E0CDD7D8EE4648FEAE8D3D348D3FAA0E42_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_TryGetValue_mFE419F668DCB5EC7CC5BED449393F3D4AC313CD9_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2__ctor_m06CDDBDA1AC0864BA2572A681BD7AB878B48C21A_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2__ctor_m48DB73F27F5AF81DD9F36C2FD7E219F97A694F2E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2__ctor_m727FCB67BF3556C4094A58424B2FD35F63A39811_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_set_Item_m4515FF11838024E4B3C9468EDA963D9927C986BF_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_set_Item_mAD1403952E73C9A512E3FED3699D2528A7E3449D_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_set_Item_mE846A7E21FC653731AE0E31825DC0A1158320426_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* FirebaseAuth_GetAuthInternal_m2AB237F1A979D3C0C3F1A84D581FD957F81A00C7_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* FirebaseAuth_IdTokenChangedFunction_m38218A67328EB46653D919BFD7DC4E0036FD869B_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* FirebaseAuth_OnAppDisposed_m530E4DB96482484A96F3F8E66E8C5B389B22C489_RuntimeMethod_var;
@@ -562,17 +528,12 @@ IL2CPP_EXTERN_C const RuntimeMethod* FirebaseAuth_U3CStateChangedFunctionU3Em__0
 IL2CPP_EXTERN_C const RuntimeMethod* FirebaseAuth_get_CurrentUserInternal_mBA58FBDEB91829A2914114419E9542BB212B0AFD_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* FirebaseUser_get_DisplayName_m25C9AF8A96600117549550673DFE45836D034E73_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* FirebaseUser_get_UserId_mDD6E6DAD5F2771502952A0CB6A22858580549804_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Future_Credential_GetResult_mCDAED601C106D6542D31BC10DF131AA9CD3056E2_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Future_Credential_SWIG_CompletionDispatcher_m56C749B1C7B073BEDC879B7D7FA0C621B70CA892_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Future_Credential_SWIG_FreeCompletionData_m99DA8859BE6197CCB4BD6A1366BB5A45A2599EEC_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Future_Credential_SWIG_OnCompletion_m8691E7A9CDB8AE744FB2FA9B024C97E084C2B683_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Future_Credential_ThrowIfDisposed_mD906FF4F8E9E788A7D9674D4482202FB473CC5E4_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Future_User_GetResult_m46EBBA5BF8964568666992B0A95EEA7C2486B1CE_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Future_User_SWIG_CompletionDispatcher_mD8D1EADB4CBDDC51721F7FB23F4FDCF9EE953E6B_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Future_User_SWIG_FreeCompletionData_m324A3CBD6BFBE507D436FF91CFA302032224E677_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Future_User_SWIG_OnCompletion_m4111F339E20EAE9AFAD6DC44BEEE5D4BC7063DC5_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Future_User_ThrowIfDisposed_m2168E8CFC4966C7EF26002666C928E332790C9EB_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* GameCenterAuthProvider_GetCredentialAsync_m6F076821A0563B73A951276DD5D91AD64265F8C7_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* OAuthProvider_GetCredential_m865AABA10D1F602AAD7A09D77ED2B3E04DCA747F_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* SWIGExceptionHelper_SetPendingApplicationException_m7894CDADABA52FF4B5F3DD49140BC93BBC2161F2_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* SWIGExceptionHelper_SetPendingArgumentException_m49E8653E37E2903C5F40BAFE7BB85B8C19081F53_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* SWIGExceptionHelper_SetPendingArgumentNullException_mA6681287C0A8FB5184ADF59E8CBB5D2E766202A9_RuntimeMethod_var;
@@ -590,22 +551,16 @@ IL2CPP_EXTERN_C const RuntimeMethod* SWIGExceptionHelper_SetPendingSystemExcepti
 IL2CPP_EXTERN_C const RuntimeMethod* SWIGPendingException_Set_m6D6A880874BB8602E0129CB675F858F488FC50FC_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* SWIGStringHelper_CreateString_mC9CD7A5731D0F8E7ADAA4B6547B8560B750FFFFE_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* TaskCompletionSourceCompat_1_SetException_mB402D483EAE03D6877E12FB198708AE8F179D851_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TaskCompletionSource_1_SetCanceled_m35FD797B5A03C6E77D77F714C661BB02F347B55D_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* TaskCompletionSource_1_SetCanceled_mF50FC5E0CF45BD10F367C691450945E5DF6B0384_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* TaskCompletionSource_1_SetException_m8848F969F249B4A274A5672F5A7B467161CAB197_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TaskCompletionSource_1_SetException_mA41930B930DB272B1BBB3C62BFE417ABF1E0A06B_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* TaskCompletionSource_1_SetResult_m0D9CBC500CCA46CCC6612CC9F06136461679B7B8_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TaskCompletionSource_1_SetResult_m2EADA0CC565826127944A48BCF52A3ACB2A26752_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* TaskCompletionSource_1__ctor_m037FD125CDA6DC4D43F1FE2D6EC96ADDE638B035_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TaskCompletionSource_1__ctor_m212EF7B2BF0462FCE86FD5E1694DA4E016F82918_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* TaskCompletionSource_1_get_Task_m0126C04FBE0C61229AC59845CAB341A4135EF0E0_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TaskCompletionSource_1_get_Task_mDAC4EDB8AF94B6F464D259934D13D0A47A934807_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Task_1_ContinueWith_m8F6AA71D6F03EB18D013502073FED8C3877C4944_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Task_1_get_Result_m0E8072D9FA86249BB7F7B6FAF7284C70F9F325BC_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CForwardStateChangeU3Ec__AnonStorey4_U3CU3Em__0_m34E8B26C5A095806463D4AD294257B833C6E11C2_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CGetAuthU3Ec__AnonStorey2_U3CU3Em__0_mEE264E818D03CA2054E71BAF4DC174AFB712A2AC_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CGetTaskU3Ec__AnonStorey0_U3CU3Em__0_m2C77C784B9C46E6089FB566A566B141409EABADD_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3CGetTaskU3Ec__AnonStorey0_U3CU3Em__0_m7563AEFD1B8F421E246FD2624600EAC3591C2ECC_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CSignInWithCredentialAsyncU3Ec__AnonStorey7_U3CU3Em__0_mDCA3D8CBA2C2911BE87E560E333CC7D0051D228B_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeType* AuthUtilPINVOKE_tD02963BE9050245F2940D293A81FB0F35F40C766_0_0_0_var;
 struct Delegate_t_marshaled_com;
@@ -634,120 +589,6 @@ public:
 
 
 // System.Object
-
-
-// System.Collections.Generic.Dictionary`2<System.Int32,Firebase.Auth.Future_Credential/Action>
-struct Dictionary_2_t419F54AA54103E0BCDD35C2FBD557709213CFC1D  : public RuntimeObject
-{
-public:
-	// System.Int32[] System.Collections.Generic.Dictionary`2::buckets
-	Int32U5BU5D_t70F1BDC14B1786481B176D6139A5E3B87DC54C32* ___buckets_0;
-	// System.Collections.Generic.Dictionary`2/Entry<TKey,TValue>[] System.Collections.Generic.Dictionary`2::entries
-	EntryU5BU5D_t87C2282D1BEFDDB037ABE58491E3AA1CB9EC5191* ___entries_1;
-	// System.Int32 System.Collections.Generic.Dictionary`2::count
-	int32_t ___count_2;
-	// System.Int32 System.Collections.Generic.Dictionary`2::version
-	int32_t ___version_3;
-	// System.Int32 System.Collections.Generic.Dictionary`2::freeList
-	int32_t ___freeList_4;
-	// System.Int32 System.Collections.Generic.Dictionary`2::freeCount
-	int32_t ___freeCount_5;
-	// System.Collections.Generic.IEqualityComparer`1<TKey> System.Collections.Generic.Dictionary`2::comparer
-	RuntimeObject* ___comparer_6;
-	// System.Collections.Generic.Dictionary`2/KeyCollection<TKey,TValue> System.Collections.Generic.Dictionary`2::keys
-	KeyCollection_t2810EA3B722F283CC2D7261E87D7AB2950D8FF09 * ___keys_7;
-	// System.Collections.Generic.Dictionary`2/ValueCollection<TKey,TValue> System.Collections.Generic.Dictionary`2::values
-	ValueCollection_t552A99A89ADA16EE34CEE25DED4119739771D550 * ___values_8;
-	// System.Object System.Collections.Generic.Dictionary`2::_syncRoot
-	RuntimeObject * ____syncRoot_9;
-
-public:
-	inline static int32_t get_offset_of_buckets_0() { return static_cast<int32_t>(offsetof(Dictionary_2_t419F54AA54103E0BCDD35C2FBD557709213CFC1D, ___buckets_0)); }
-	inline Int32U5BU5D_t70F1BDC14B1786481B176D6139A5E3B87DC54C32* get_buckets_0() const { return ___buckets_0; }
-	inline Int32U5BU5D_t70F1BDC14B1786481B176D6139A5E3B87DC54C32** get_address_of_buckets_0() { return &___buckets_0; }
-	inline void set_buckets_0(Int32U5BU5D_t70F1BDC14B1786481B176D6139A5E3B87DC54C32* value)
-	{
-		___buckets_0 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___buckets_0), (void*)value);
-	}
-
-	inline static int32_t get_offset_of_entries_1() { return static_cast<int32_t>(offsetof(Dictionary_2_t419F54AA54103E0BCDD35C2FBD557709213CFC1D, ___entries_1)); }
-	inline EntryU5BU5D_t87C2282D1BEFDDB037ABE58491E3AA1CB9EC5191* get_entries_1() const { return ___entries_1; }
-	inline EntryU5BU5D_t87C2282D1BEFDDB037ABE58491E3AA1CB9EC5191** get_address_of_entries_1() { return &___entries_1; }
-	inline void set_entries_1(EntryU5BU5D_t87C2282D1BEFDDB037ABE58491E3AA1CB9EC5191* value)
-	{
-		___entries_1 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___entries_1), (void*)value);
-	}
-
-	inline static int32_t get_offset_of_count_2() { return static_cast<int32_t>(offsetof(Dictionary_2_t419F54AA54103E0BCDD35C2FBD557709213CFC1D, ___count_2)); }
-	inline int32_t get_count_2() const { return ___count_2; }
-	inline int32_t* get_address_of_count_2() { return &___count_2; }
-	inline void set_count_2(int32_t value)
-	{
-		___count_2 = value;
-	}
-
-	inline static int32_t get_offset_of_version_3() { return static_cast<int32_t>(offsetof(Dictionary_2_t419F54AA54103E0BCDD35C2FBD557709213CFC1D, ___version_3)); }
-	inline int32_t get_version_3() const { return ___version_3; }
-	inline int32_t* get_address_of_version_3() { return &___version_3; }
-	inline void set_version_3(int32_t value)
-	{
-		___version_3 = value;
-	}
-
-	inline static int32_t get_offset_of_freeList_4() { return static_cast<int32_t>(offsetof(Dictionary_2_t419F54AA54103E0BCDD35C2FBD557709213CFC1D, ___freeList_4)); }
-	inline int32_t get_freeList_4() const { return ___freeList_4; }
-	inline int32_t* get_address_of_freeList_4() { return &___freeList_4; }
-	inline void set_freeList_4(int32_t value)
-	{
-		___freeList_4 = value;
-	}
-
-	inline static int32_t get_offset_of_freeCount_5() { return static_cast<int32_t>(offsetof(Dictionary_2_t419F54AA54103E0BCDD35C2FBD557709213CFC1D, ___freeCount_5)); }
-	inline int32_t get_freeCount_5() const { return ___freeCount_5; }
-	inline int32_t* get_address_of_freeCount_5() { return &___freeCount_5; }
-	inline void set_freeCount_5(int32_t value)
-	{
-		___freeCount_5 = value;
-	}
-
-	inline static int32_t get_offset_of_comparer_6() { return static_cast<int32_t>(offsetof(Dictionary_2_t419F54AA54103E0BCDD35C2FBD557709213CFC1D, ___comparer_6)); }
-	inline RuntimeObject* get_comparer_6() const { return ___comparer_6; }
-	inline RuntimeObject** get_address_of_comparer_6() { return &___comparer_6; }
-	inline void set_comparer_6(RuntimeObject* value)
-	{
-		___comparer_6 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___comparer_6), (void*)value);
-	}
-
-	inline static int32_t get_offset_of_keys_7() { return static_cast<int32_t>(offsetof(Dictionary_2_t419F54AA54103E0BCDD35C2FBD557709213CFC1D, ___keys_7)); }
-	inline KeyCollection_t2810EA3B722F283CC2D7261E87D7AB2950D8FF09 * get_keys_7() const { return ___keys_7; }
-	inline KeyCollection_t2810EA3B722F283CC2D7261E87D7AB2950D8FF09 ** get_address_of_keys_7() { return &___keys_7; }
-	inline void set_keys_7(KeyCollection_t2810EA3B722F283CC2D7261E87D7AB2950D8FF09 * value)
-	{
-		___keys_7 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___keys_7), (void*)value);
-	}
-
-	inline static int32_t get_offset_of_values_8() { return static_cast<int32_t>(offsetof(Dictionary_2_t419F54AA54103E0BCDD35C2FBD557709213CFC1D, ___values_8)); }
-	inline ValueCollection_t552A99A89ADA16EE34CEE25DED4119739771D550 * get_values_8() const { return ___values_8; }
-	inline ValueCollection_t552A99A89ADA16EE34CEE25DED4119739771D550 ** get_address_of_values_8() { return &___values_8; }
-	inline void set_values_8(ValueCollection_t552A99A89ADA16EE34CEE25DED4119739771D550 * value)
-	{
-		___values_8 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___values_8), (void*)value);
-	}
-
-	inline static int32_t get_offset_of__syncRoot_9() { return static_cast<int32_t>(offsetof(Dictionary_2_t419F54AA54103E0BCDD35C2FBD557709213CFC1D, ____syncRoot_9)); }
-	inline RuntimeObject * get__syncRoot_9() const { return ____syncRoot_9; }
-	inline RuntimeObject ** get_address_of__syncRoot_9() { return &____syncRoot_9; }
-	inline void set__syncRoot_9(RuntimeObject * value)
-	{
-		____syncRoot_9 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&____syncRoot_9), (void*)value);
-	}
-};
 
 
 // System.Collections.Generic.Dictionary`2<System.Int32,Firebase.Auth.Future_User/Action>
@@ -978,25 +819,6 @@ public:
 };
 
 
-// System.Threading.Tasks.TaskCompletionSource`1<Firebase.Auth.Credential>
-struct TaskCompletionSource_1_t1FA7E7E9F6A5C7535B75D741629BEA5F9C53E04C  : public RuntimeObject
-{
-public:
-	// System.Threading.Tasks.Task`1<TResult> System.Threading.Tasks.TaskCompletionSource`1::m_task
-	Task_1_tA5D31255279C17E13642632FB782BD1EB69C9E61 * ___m_task_0;
-
-public:
-	inline static int32_t get_offset_of_m_task_0() { return static_cast<int32_t>(offsetof(TaskCompletionSource_1_t1FA7E7E9F6A5C7535B75D741629BEA5F9C53E04C, ___m_task_0)); }
-	inline Task_1_tA5D31255279C17E13642632FB782BD1EB69C9E61 * get_m_task_0() const { return ___m_task_0; }
-	inline Task_1_tA5D31255279C17E13642632FB782BD1EB69C9E61 ** get_address_of_m_task_0() { return &___m_task_0; }
-	inline void set_m_task_0(Task_1_tA5D31255279C17E13642632FB782BD1EB69C9E61 * value)
-	{
-		___m_task_0 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___m_task_0), (void*)value);
-	}
-};
-
-
 // System.Threading.Tasks.TaskCompletionSource`1<Firebase.Auth.FirebaseUser>
 struct TaskCompletionSource_1_t9AD06D96AD3E9E43A107EA79993A043F5E1F1D45  : public RuntimeObject
 {
@@ -1111,8 +933,8 @@ public:
 };
 
 
-// Firebase.Auth.GameCenterAuthProvider
-struct GameCenterAuthProvider_t975CD6C8B8E27EF5C2A71D0880E53A131D93F89F  : public RuntimeObject
+// System.Reflection.MemberInfo
+struct MemberInfo_t  : public RuntimeObject
 {
 public:
 
@@ -1120,8 +942,8 @@ public:
 };
 
 
-// System.Reflection.MemberInfo
-struct MemberInfo_t  : public RuntimeObject
+// Firebase.Auth.OAuthProvider
+struct OAuthProvider_tFE826A7A52F0F12078A5BEBBB96B4906637DC7E8  : public RuntimeObject
 {
 public:
 
@@ -1533,36 +1355,6 @@ public:
 	{
 		___U24this_1 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___U24this_1), (void*)value);
-	}
-};
-
-
-// Firebase.Auth.Future_Credential/<GetTask>c__AnonStorey0
-struct U3CGetTaskU3Ec__AnonStorey0_tFBF4F8BB84B2F850693D0C525F7559847E681FCC  : public RuntimeObject
-{
-public:
-	// Firebase.Auth.Future_Credential Firebase.Auth.Future_Credential/<GetTask>c__AnonStorey0::fu
-	Future_Credential_t5FA479EDD462AE57DD3A334DBE28455F0A01E930 * ___fu_0;
-	// System.Threading.Tasks.TaskCompletionSource`1<Firebase.Auth.Credential> Firebase.Auth.Future_Credential/<GetTask>c__AnonStorey0::tcs
-	TaskCompletionSource_1_t1FA7E7E9F6A5C7535B75D741629BEA5F9C53E04C * ___tcs_1;
-
-public:
-	inline static int32_t get_offset_of_fu_0() { return static_cast<int32_t>(offsetof(U3CGetTaskU3Ec__AnonStorey0_tFBF4F8BB84B2F850693D0C525F7559847E681FCC, ___fu_0)); }
-	inline Future_Credential_t5FA479EDD462AE57DD3A334DBE28455F0A01E930 * get_fu_0() const { return ___fu_0; }
-	inline Future_Credential_t5FA479EDD462AE57DD3A334DBE28455F0A01E930 ** get_address_of_fu_0() { return &___fu_0; }
-	inline void set_fu_0(Future_Credential_t5FA479EDD462AE57DD3A334DBE28455F0A01E930 * value)
-	{
-		___fu_0 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___fu_0), (void*)value);
-	}
-
-	inline static int32_t get_offset_of_tcs_1() { return static_cast<int32_t>(offsetof(U3CGetTaskU3Ec__AnonStorey0_tFBF4F8BB84B2F850693D0C525F7559847E681FCC, ___tcs_1)); }
-	inline TaskCompletionSource_1_t1FA7E7E9F6A5C7535B75D741629BEA5F9C53E04C * get_tcs_1() const { return ___tcs_1; }
-	inline TaskCompletionSource_1_t1FA7E7E9F6A5C7535B75D741629BEA5F9C53E04C ** get_address_of_tcs_1() { return &___tcs_1; }
-	inline void set_tcs_1(TaskCompletionSource_1_t1FA7E7E9F6A5C7535B75D741629BEA5F9C53E04C * value)
-	{
-		___tcs_1 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___tcs_1), (void*)value);
 	}
 };
 
@@ -2500,53 +2292,6 @@ public:
 };
 
 
-// System.Threading.Tasks.Task`1<Firebase.Auth.Credential>
-struct Task_1_tA5D31255279C17E13642632FB782BD1EB69C9E61  : public Task_t804B25CFE3FC13AAEE16C8FA3BF52513F2A8DB60
-{
-public:
-	// TResult System.Threading.Tasks.Task`1::m_result
-	Credential_t638B3D8394BA25DA9572C6A523AFBF7D18D88DAA * ___m_result_40;
-
-public:
-	inline static int32_t get_offset_of_m_result_40() { return static_cast<int32_t>(offsetof(Task_1_tA5D31255279C17E13642632FB782BD1EB69C9E61, ___m_result_40)); }
-	inline Credential_t638B3D8394BA25DA9572C6A523AFBF7D18D88DAA * get_m_result_40() const { return ___m_result_40; }
-	inline Credential_t638B3D8394BA25DA9572C6A523AFBF7D18D88DAA ** get_address_of_m_result_40() { return &___m_result_40; }
-	inline void set_m_result_40(Credential_t638B3D8394BA25DA9572C6A523AFBF7D18D88DAA * value)
-	{
-		___m_result_40 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___m_result_40), (void*)value);
-	}
-};
-
-struct Task_1_tA5D31255279C17E13642632FB782BD1EB69C9E61_StaticFields
-{
-public:
-	// System.Threading.Tasks.TaskFactory`1<TResult> System.Threading.Tasks.Task`1::s_Factory
-	TaskFactory_1_tF1F9F40705B8A67F2745140D317847E09E2C8753 * ___s_Factory_41;
-	// System.Func`2<System.Threading.Tasks.Task`1<System.Threading.Tasks.Task>,System.Threading.Tasks.Task`1<TResult>> System.Threading.Tasks.Task`1::TaskWhenAnyCast
-	Func_2_t3D1A96CFFFF97E8A9F0A05738A42CE2098E330AD * ___TaskWhenAnyCast_42;
-
-public:
-	inline static int32_t get_offset_of_s_Factory_41() { return static_cast<int32_t>(offsetof(Task_1_tA5D31255279C17E13642632FB782BD1EB69C9E61_StaticFields, ___s_Factory_41)); }
-	inline TaskFactory_1_tF1F9F40705B8A67F2745140D317847E09E2C8753 * get_s_Factory_41() const { return ___s_Factory_41; }
-	inline TaskFactory_1_tF1F9F40705B8A67F2745140D317847E09E2C8753 ** get_address_of_s_Factory_41() { return &___s_Factory_41; }
-	inline void set_s_Factory_41(TaskFactory_1_tF1F9F40705B8A67F2745140D317847E09E2C8753 * value)
-	{
-		___s_Factory_41 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___s_Factory_41), (void*)value);
-	}
-
-	inline static int32_t get_offset_of_TaskWhenAnyCast_42() { return static_cast<int32_t>(offsetof(Task_1_tA5D31255279C17E13642632FB782BD1EB69C9E61_StaticFields, ___TaskWhenAnyCast_42)); }
-	inline Func_2_t3D1A96CFFFF97E8A9F0A05738A42CE2098E330AD * get_TaskWhenAnyCast_42() const { return ___TaskWhenAnyCast_42; }
-	inline Func_2_t3D1A96CFFFF97E8A9F0A05738A42CE2098E330AD ** get_address_of_TaskWhenAnyCast_42() { return &___TaskWhenAnyCast_42; }
-	inline void set_TaskWhenAnyCast_42(Func_2_t3D1A96CFFFF97E8A9F0A05738A42CE2098E330AD * value)
-	{
-		___TaskWhenAnyCast_42 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___TaskWhenAnyCast_42), (void*)value);
-	}
-};
-
-
 // System.Threading.Tasks.Task`1<Firebase.Auth.FirebaseUser>
 struct Task_1_tEBE900D333BFF17CF9FDB3BCE586131016083F35  : public Task_t804B25CFE3FC13AAEE16C8FA3BF52513F2A8DB60
 {
@@ -3435,84 +3180,6 @@ public:
 };
 
 
-// Firebase.Auth.Future_Credential
-struct Future_Credential_t5FA479EDD462AE57DD3A334DBE28455F0A01E930  : public FutureBase_t8A0245B874D87A58E48E0C9F16C54FD8003534F4
-{
-public:
-	// System.Runtime.InteropServices.HandleRef Firebase.Auth.Future_Credential::swigCPtr
-	HandleRef_t1DB3576C2CC9E4AD072DF40863E6F352BE12BACF  ___swigCPtr_2;
-	// System.IntPtr Firebase.Auth.Future_Credential::callbackData
-	intptr_t ___callbackData_6;
-	// Firebase.Auth.Future_Credential/SWIG_CompletionDelegate Firebase.Auth.Future_Credential::SWIG_CompletionCB
-	SWIG_CompletionDelegate_tA58DD21EC61553A20F33CFB2ECC18B45B86C121A * ___SWIG_CompletionCB_7;
-
-public:
-	inline static int32_t get_offset_of_swigCPtr_2() { return static_cast<int32_t>(offsetof(Future_Credential_t5FA479EDD462AE57DD3A334DBE28455F0A01E930, ___swigCPtr_2)); }
-	inline HandleRef_t1DB3576C2CC9E4AD072DF40863E6F352BE12BACF  get_swigCPtr_2() const { return ___swigCPtr_2; }
-	inline HandleRef_t1DB3576C2CC9E4AD072DF40863E6F352BE12BACF * get_address_of_swigCPtr_2() { return &___swigCPtr_2; }
-	inline void set_swigCPtr_2(HandleRef_t1DB3576C2CC9E4AD072DF40863E6F352BE12BACF  value)
-	{
-		___swigCPtr_2 = value;
-		Il2CppCodeGenWriteBarrier((void**)&(((&___swigCPtr_2))->___m_wrapper_0), (void*)NULL);
-	}
-
-	inline static int32_t get_offset_of_callbackData_6() { return static_cast<int32_t>(offsetof(Future_Credential_t5FA479EDD462AE57DD3A334DBE28455F0A01E930, ___callbackData_6)); }
-	inline intptr_t get_callbackData_6() const { return ___callbackData_6; }
-	inline intptr_t* get_address_of_callbackData_6() { return &___callbackData_6; }
-	inline void set_callbackData_6(intptr_t value)
-	{
-		___callbackData_6 = value;
-	}
-
-	inline static int32_t get_offset_of_SWIG_CompletionCB_7() { return static_cast<int32_t>(offsetof(Future_Credential_t5FA479EDD462AE57DD3A334DBE28455F0A01E930, ___SWIG_CompletionCB_7)); }
-	inline SWIG_CompletionDelegate_tA58DD21EC61553A20F33CFB2ECC18B45B86C121A * get_SWIG_CompletionCB_7() const { return ___SWIG_CompletionCB_7; }
-	inline SWIG_CompletionDelegate_tA58DD21EC61553A20F33CFB2ECC18B45B86C121A ** get_address_of_SWIG_CompletionCB_7() { return &___SWIG_CompletionCB_7; }
-	inline void set_SWIG_CompletionCB_7(SWIG_CompletionDelegate_tA58DD21EC61553A20F33CFB2ECC18B45B86C121A * value)
-	{
-		___SWIG_CompletionCB_7 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___SWIG_CompletionCB_7), (void*)value);
-	}
-};
-
-struct Future_Credential_t5FA479EDD462AE57DD3A334DBE28455F0A01E930_StaticFields
-{
-public:
-	// System.Collections.Generic.Dictionary`2<System.Int32,Firebase.Auth.Future_Credential/Action> Firebase.Auth.Future_Credential::Callbacks
-	Dictionary_2_t419F54AA54103E0BCDD35C2FBD557709213CFC1D * ___Callbacks_3;
-	// System.Int32 Firebase.Auth.Future_Credential::CallbackIndex
-	int32_t ___CallbackIndex_4;
-	// System.Object Firebase.Auth.Future_Credential::CallbackLock
-	RuntimeObject * ___CallbackLock_5;
-
-public:
-	inline static int32_t get_offset_of_Callbacks_3() { return static_cast<int32_t>(offsetof(Future_Credential_t5FA479EDD462AE57DD3A334DBE28455F0A01E930_StaticFields, ___Callbacks_3)); }
-	inline Dictionary_2_t419F54AA54103E0BCDD35C2FBD557709213CFC1D * get_Callbacks_3() const { return ___Callbacks_3; }
-	inline Dictionary_2_t419F54AA54103E0BCDD35C2FBD557709213CFC1D ** get_address_of_Callbacks_3() { return &___Callbacks_3; }
-	inline void set_Callbacks_3(Dictionary_2_t419F54AA54103E0BCDD35C2FBD557709213CFC1D * value)
-	{
-		___Callbacks_3 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___Callbacks_3), (void*)value);
-	}
-
-	inline static int32_t get_offset_of_CallbackIndex_4() { return static_cast<int32_t>(offsetof(Future_Credential_t5FA479EDD462AE57DD3A334DBE28455F0A01E930_StaticFields, ___CallbackIndex_4)); }
-	inline int32_t get_CallbackIndex_4() const { return ___CallbackIndex_4; }
-	inline int32_t* get_address_of_CallbackIndex_4() { return &___CallbackIndex_4; }
-	inline void set_CallbackIndex_4(int32_t value)
-	{
-		___CallbackIndex_4 = value;
-	}
-
-	inline static int32_t get_offset_of_CallbackLock_5() { return static_cast<int32_t>(offsetof(Future_Credential_t5FA479EDD462AE57DD3A334DBE28455F0A01E930_StaticFields, ___CallbackLock_5)); }
-	inline RuntimeObject * get_CallbackLock_5() const { return ___CallbackLock_5; }
-	inline RuntimeObject ** get_address_of_CallbackLock_5() { return &___CallbackLock_5; }
-	inline void set_CallbackLock_5(RuntimeObject * value)
-	{
-		___CallbackLock_5 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___CallbackLock_5), (void*)value);
-	}
-};
-
-
 // Firebase.Auth.Future_User
 struct Future_User_t16AC7F10973F7E51D2EF05FBC40262B1D74D7F77  : public FutureBase_t8A0245B874D87A58E48E0C9F16C54FD8003534F4
 {
@@ -3657,24 +3324,6 @@ public:
 
 // Firebase.Auth.FirebaseAuth/StateChangedDelegate
 struct StateChangedDelegate_t9405205DA8C8A4F84132EFA5413CA3D3A7DE2874  : public MulticastDelegate_t
-{
-public:
-
-public:
-};
-
-
-// Firebase.Auth.Future_Credential/Action
-struct Action_t1483A426D0D48621C33618F22F52D063D6885B0C  : public MulticastDelegate_t
-{
-public:
-
-public:
-};
-
-
-// Firebase.Auth.Future_Credential/SWIG_CompletionDelegate
-struct SWIG_CompletionDelegate_tA58DD21EC61553A20F33CFB2ECC18B45B86C121A  : public MulticastDelegate_t
 {
 public:
 
@@ -4071,108 +3720,41 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_Firebase_Auth_delete_Fir
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthUtilPINVOKE_Firebase_Auth_FirebaseUser_DisplayName_get_m69F96F534B2BDBA0707AEBA11B682DC41D82BF7C (HandleRef_t1DB3576C2CC9E4AD072DF40863E6F352BE12BACF  ___jarg10, const RuntimeMethod* method);
 // System.String Firebase.Auth.AuthUtilPINVOKE::Firebase_Auth_FirebaseUser_UserId_get(System.Runtime.InteropServices.HandleRef)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthUtilPINVOKE_Firebase_Auth_FirebaseUser_UserId_get_m22DA51C28D557666F784589BEF0310D3892C3BFD (HandleRef_t1DB3576C2CC9E4AD072DF40863E6F352BE12BACF  ___jarg10, const RuntimeMethod* method);
-// System.Void Firebase.Auth.Future_Credential::SWIG_CompletionDispatcher(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Future_Credential_SWIG_CompletionDispatcher_m56C749B1C7B073BEDC879B7D7FA0C621B70CA892 (int32_t ___key0, const RuntimeMethod* method);
-// System.IntPtr Firebase.Auth.AuthUtilPINVOKE::Firebase_Auth_Future_Credential_SWIGUpcast(System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_Firebase_Auth_Future_Credential_SWIGUpcast_m6DB9340BC2FB0D5318E5C3C1ECF47D5270E98302 (intptr_t ___jarg10, const RuntimeMethod* method);
-// System.Void Firebase.FutureBase::.ctor(System.IntPtr,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureBase__ctor_m69C88EC69B422C5752B2E249303D92F649B8C8AC (FutureBase_t8A0245B874D87A58E48E0C9F16C54FD8003534F4 * __this, intptr_t ___cPtr0, bool ___cMemoryOwn1, const RuntimeMethod* method);
-// System.Void Firebase.FutureBase::Finalize()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureBase_Finalize_m02E7843DEC68FBDDCA2B009E905FE4657C2B04AC (FutureBase_t8A0245B874D87A58E48E0C9F16C54FD8003534F4 * __this, const RuntimeMethod* method);
-// System.Void Firebase.Auth.Future_Credential::SetCompletionData(System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Future_Credential_SetCompletionData_mB8584EB400EC0F15DFB5B4A8064B50E0792046B9 (Future_Credential_t5FA479EDD462AE57DD3A334DBE28455F0A01E930 * __this, intptr_t ___data0, const RuntimeMethod* method);
-// System.Void Firebase.Auth.AuthUtilPINVOKE::Firebase_Auth_delete_Future_Credential(System.Runtime.InteropServices.HandleRef)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_Firebase_Auth_delete_Future_Credential_m0E1578207C45F5A3425A509D508142CF2208DDAA (HandleRef_t1DB3576C2CC9E4AD072DF40863E6F352BE12BACF  ___jarg10, const RuntimeMethod* method);
-// System.Void Firebase.FutureBase::Dispose()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureBase_Dispose_m2C0FDC1F8EF2499A1E52D6CFEA94348388784BDB (FutureBase_t8A0245B874D87A58E48E0C9F16C54FD8003534F4 * __this, const RuntimeMethod* method);
-// System.Void Firebase.Auth.Future_Credential/<GetTask>c__AnonStorey0::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGetTaskU3Ec__AnonStorey0__ctor_m44966F4D650C56CFD3817AA1DA75DCF47D70B936 (U3CGetTaskU3Ec__AnonStorey0_tFBF4F8BB84B2F850693D0C525F7559847E681FCC * __this, const RuntimeMethod* method);
-// System.Void System.Threading.Tasks.TaskCompletionSource`1<Firebase.Auth.Credential>::.ctor()
-inline void TaskCompletionSource_1__ctor_m212EF7B2BF0462FCE86FD5E1694DA4E016F82918 (TaskCompletionSource_1_t1FA7E7E9F6A5C7535B75D741629BEA5F9C53E04C * __this, const RuntimeMethod* method)
-{
-	((  void (*) (TaskCompletionSource_1_t1FA7E7E9F6A5C7535B75D741629BEA5F9C53E04C *, const RuntimeMethod*))TaskCompletionSource_1__ctor_m93D38CA57B11BA7F5B3E7ED1E573E2F0249E44BB_gshared)(__this, method);
-}
-// System.Boolean Firebase.Auth.AuthUtilPINVOKE/SWIGPendingException::get_Pending()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SWIGPendingException_get_Pending_mEA5DEC6C9C60C4B0CA474DA6FF3ADE036EE878E0 (const RuntimeMethod* method);
-// System.Exception Firebase.Auth.AuthUtilPINVOKE/SWIGPendingException::Retrieve()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Exception_t * SWIGPendingException_Retrieve_m7ACBC759FB231880E1A40AF1A05803B5CDCF187D (const RuntimeMethod* method);
-// System.Void System.Threading.Tasks.TaskCompletionSource`1<Firebase.Auth.Credential>::SetException(System.Exception)
-inline void TaskCompletionSource_1_SetException_mA41930B930DB272B1BBB3C62BFE417ABF1E0A06B (TaskCompletionSource_1_t1FA7E7E9F6A5C7535B75D741629BEA5F9C53E04C * __this, Exception_t * ___exception0, const RuntimeMethod* method)
-{
-	((  void (*) (TaskCompletionSource_1_t1FA7E7E9F6A5C7535B75D741629BEA5F9C53E04C *, Exception_t *, const RuntimeMethod*))TaskCompletionSource_1_SetException_mDD594BEBBEE23B395C77001EE646A1E9F4C820BE_gshared)(__this, ___exception0, method);
-}
-// System.Threading.Tasks.Task`1<!0> System.Threading.Tasks.TaskCompletionSource`1<Firebase.Auth.Credential>::get_Task()
-inline Task_1_tA5D31255279C17E13642632FB782BD1EB69C9E61 * TaskCompletionSource_1_get_Task_mDAC4EDB8AF94B6F464D259934D13D0A47A934807_inline (TaskCompletionSource_1_t1FA7E7E9F6A5C7535B75D741629BEA5F9C53E04C * __this, const RuntimeMethod* method)
-{
-	return ((  Task_1_tA5D31255279C17E13642632FB782BD1EB69C9E61 * (*) (TaskCompletionSource_1_t1FA7E7E9F6A5C7535B75D741629BEA5F9C53E04C *, const RuntimeMethod*))TaskCompletionSource_1_get_Task_m7F788C2231343328FBBCFE9EDA916E748F699618_gshared_inline)(__this, method);
-}
-// Firebase.FutureStatus Firebase.FutureBase::status()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FutureBase_status_m478C1E6AF62FB15C218A7C422CF5DC8CA1486CAA (FutureBase_t8A0245B874D87A58E48E0C9F16C54FD8003534F4 * __this, const RuntimeMethod* method);
-// System.Void Firebase.FirebaseException::.ctor(System.Int32,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FirebaseException__ctor_mCB919E722DF4F366C4E0D9278716CBED5DD8907C (FirebaseException_t80812F0C7BA9277B701A891E7575AC4DAEE1DA47 * __this, int32_t ___errorCode0, String_t* ___message1, const RuntimeMethod* method);
-// System.Void Firebase.Auth.Future_Credential/Action::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action__ctor_m8383DD719437BC569C585641DEB740ECFF83C6AF (Action_t1483A426D0D48621C33618F22F52D063D6885B0C * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method);
-// System.Void Firebase.Auth.Future_Credential::SetOnCompletionCallback(Firebase.Auth.Future_Credential/Action)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Future_Credential_SetOnCompletionCallback_mE9BF825A5B81342C0EDD1C9ED20EC44005904087 (Future_Credential_t5FA479EDD462AE57DD3A334DBE28455F0A01E930 * __this, Action_t1483A426D0D48621C33618F22F52D063D6885B0C * ___userCompletionCallback0, const RuntimeMethod* method);
-// System.Void System.ArgumentNullException::.ctor(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArgumentNullException__ctor_m81AB157B93BFE2FBFDB08B88F84B444293042F97 (ArgumentNullException_tFB5C4621957BC53A7D1B4FDD5C38B4D6E15DB8FB * __this, String_t* ___paramName0, const RuntimeMethod* method);
-// System.Void Firebase.Auth.Future_Credential::ThrowIfDisposed()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Future_Credential_ThrowIfDisposed_mD906FF4F8E9E788A7D9674D4482202FB473CC5E4 (Future_Credential_t5FA479EDD462AE57DD3A334DBE28455F0A01E930 * __this, const RuntimeMethod* method);
-// System.Void Firebase.Auth.Future_Credential/SWIG_CompletionDelegate::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SWIG_CompletionDelegate__ctor_m41C5DE57B6B5F0B77204194132F5772D1EEC90BC (SWIG_CompletionDelegate_tA58DD21EC61553A20F33CFB2ECC18B45B86C121A * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method);
-// System.Void System.Collections.Generic.Dictionary`2<System.Int32,Firebase.Auth.Future_Credential/Action>::.ctor()
-inline void Dictionary_2__ctor_m06CDDBDA1AC0864BA2572A681BD7AB878B48C21A (Dictionary_2_t419F54AA54103E0BCDD35C2FBD557709213CFC1D * __this, const RuntimeMethod* method)
-{
-	((  void (*) (Dictionary_2_t419F54AA54103E0BCDD35C2FBD557709213CFC1D *, const RuntimeMethod*))Dictionary_2__ctor_mE7F9D51201F5A72BF4995CA0F3F0E866DB21E638_gshared)(__this, method);
-}
-// System.Void System.Collections.Generic.Dictionary`2<System.Int32,Firebase.Auth.Future_Credential/Action>::set_Item(!0,!1)
-inline void Dictionary_2_set_Item_mE846A7E21FC653731AE0E31825DC0A1158320426 (Dictionary_2_t419F54AA54103E0BCDD35C2FBD557709213CFC1D * __this, int32_t ___key0, Action_t1483A426D0D48621C33618F22F52D063D6885B0C * ___value1, const RuntimeMethod* method)
-{
-	((  void (*) (Dictionary_2_t419F54AA54103E0BCDD35C2FBD557709213CFC1D *, int32_t, Action_t1483A426D0D48621C33618F22F52D063D6885B0C *, const RuntimeMethod*))Dictionary_2_set_Item_m71867F9FFBB49DE962FD0036368A0F6E87F30C90_gshared)(__this, ___key0, ___value1, method);
-}
-// System.IntPtr Firebase.Auth.Future_Credential::SWIG_OnCompletion(Firebase.Auth.Future_Credential/SWIG_CompletionDelegate,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Future_Credential_SWIG_OnCompletion_m8691E7A9CDB8AE744FB2FA9B024C97E084C2B683 (Future_Credential_t5FA479EDD462AE57DD3A334DBE28455F0A01E930 * __this, SWIG_CompletionDelegate_tA58DD21EC61553A20F33CFB2ECC18B45B86C121A * ___cs_callback0, int32_t ___cs_key1, const RuntimeMethod* method);
-// System.Void Firebase.Auth.Future_Credential::SWIG_FreeCompletionData(System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Future_Credential_SWIG_FreeCompletionData_m99DA8859BE6197CCB4BD6A1366BB5A45A2599EEC (Future_Credential_t5FA479EDD462AE57DD3A334DBE28455F0A01E930 * __this, intptr_t ___data0, const RuntimeMethod* method);
-// System.Boolean System.Collections.Generic.Dictionary`2<System.Int32,Firebase.Auth.Future_Credential/Action>::TryGetValue(!0,!1&)
-inline bool Dictionary_2_TryGetValue_mA02B36E0CDD7D8EE4648FEAE8D3D348D3FAA0E42 (Dictionary_2_t419F54AA54103E0BCDD35C2FBD557709213CFC1D * __this, int32_t ___key0, Action_t1483A426D0D48621C33618F22F52D063D6885B0C ** ___value1, const RuntimeMethod* method)
-{
-	return ((  bool (*) (Dictionary_2_t419F54AA54103E0BCDD35C2FBD557709213CFC1D *, int32_t, Action_t1483A426D0D48621C33618F22F52D063D6885B0C **, const RuntimeMethod*))Dictionary_2_TryGetValue_m0A88BBB063127AFAD853506A433ACB07D7AAD67E_gshared)(__this, ___key0, ___value1, method);
-}
-// System.Boolean System.Collections.Generic.Dictionary`2<System.Int32,Firebase.Auth.Future_Credential/Action>::Remove(!0)
-inline bool Dictionary_2_Remove_m685F7D7D1B024C13757EC7E356D2998F21EFC3F1 (Dictionary_2_t419F54AA54103E0BCDD35C2FBD557709213CFC1D * __this, int32_t ___key0, const RuntimeMethod* method)
-{
-	return ((  bool (*) (Dictionary_2_t419F54AA54103E0BCDD35C2FBD557709213CFC1D *, int32_t, const RuntimeMethod*))Dictionary_2_Remove_mAC77908EC28C242ACC8C3C4CDEA945E73B95CFA4_gshared)(__this, ___key0, method);
-}
-// System.Void Firebase.Auth.Future_Credential/Action::Invoke()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_Invoke_m398BCA6CA04659EF4C78BB790552DD05B8ACD53E (Action_t1483A426D0D48621C33618F22F52D063D6885B0C * __this, const RuntimeMethod* method);
-// System.IntPtr Firebase.Auth.AuthUtilPINVOKE::Firebase_Auth_Future_Credential_SWIG_OnCompletion(System.Runtime.InteropServices.HandleRef,Firebase.Auth.Future_Credential/SWIG_CompletionDelegate,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_Firebase_Auth_Future_Credential_SWIG_OnCompletion_m4329275D2BDD8198E38D022E618C0DE2B14E8608 (HandleRef_t1DB3576C2CC9E4AD072DF40863E6F352BE12BACF  ___jarg10, SWIG_CompletionDelegate_tA58DD21EC61553A20F33CFB2ECC18B45B86C121A * ___jarg21, int32_t ___jarg32, const RuntimeMethod* method);
-// System.Void Firebase.Auth.AuthUtilPINVOKE::Firebase_Auth_Future_Credential_SWIG_FreeCompletionData(System.Runtime.InteropServices.HandleRef,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_Firebase_Auth_Future_Credential_SWIG_FreeCompletionData_m8F5D6890B318B38D5FBF1AE23E447BD82022654D (HandleRef_t1DB3576C2CC9E4AD072DF40863E6F352BE12BACF  ___jarg10, intptr_t ___jarg21, const RuntimeMethod* method);
-// System.IntPtr Firebase.Auth.AuthUtilPINVOKE::Firebase_Auth_Future_Credential_GetResult(System.Runtime.InteropServices.HandleRef)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_Firebase_Auth_Future_Credential_GetResult_m778A1CE150D6C167A4AAAF79CE547E53779E027C (HandleRef_t1DB3576C2CC9E4AD072DF40863E6F352BE12BACF  ___jarg10, const RuntimeMethod* method);
-// System.Void Firebase.Auth.Credential::.ctor(System.IntPtr,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Credential__ctor_m9CEF01CD39AB945133D9E158140F27471C9A97FB (Credential_t638B3D8394BA25DA9572C6A523AFBF7D18D88DAA * __this, intptr_t ___cPtr0, bool ___cMemoryOwn1, const RuntimeMethod* method);
 // System.Void Firebase.Auth.Future_User::SWIG_CompletionDispatcher(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Future_User_SWIG_CompletionDispatcher_mD8D1EADB4CBDDC51721F7FB23F4FDCF9EE953E6B (int32_t ___key0, const RuntimeMethod* method);
 // System.IntPtr Firebase.Auth.AuthUtilPINVOKE::Firebase_Auth_Future_User_SWIGUpcast(System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_Firebase_Auth_Future_User_SWIGUpcast_m832AC08DAA3DF39C0DA5D0A86959F565EEF9F83B (intptr_t ___jarg10, const RuntimeMethod* method);
+// System.Void Firebase.FutureBase::.ctor(System.IntPtr,System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureBase__ctor_m69C88EC69B422C5752B2E249303D92F649B8C8AC (FutureBase_t8A0245B874D87A58E48E0C9F16C54FD8003534F4 * __this, intptr_t ___cPtr0, bool ___cMemoryOwn1, const RuntimeMethod* method);
+// System.Void Firebase.FutureBase::Finalize()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureBase_Finalize_m02E7843DEC68FBDDCA2B009E905FE4657C2B04AC (FutureBase_t8A0245B874D87A58E48E0C9F16C54FD8003534F4 * __this, const RuntimeMethod* method);
 // System.Void Firebase.Auth.Future_User::SetCompletionData(System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Future_User_SetCompletionData_m0FEE06F68A9F7F09B71E8ED08567D6FF6FDB6B10 (Future_User_t16AC7F10973F7E51D2EF05FBC40262B1D74D7F77 * __this, intptr_t ___data0, const RuntimeMethod* method);
 // System.Void Firebase.Auth.AuthUtilPINVOKE::Firebase_Auth_delete_Future_User(System.Runtime.InteropServices.HandleRef)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_Firebase_Auth_delete_Future_User_m59E9CE86A2D459BE7EEA9BFE28CB1BF761498E2C (HandleRef_t1DB3576C2CC9E4AD072DF40863E6F352BE12BACF  ___jarg10, const RuntimeMethod* method);
+// System.Void Firebase.FutureBase::Dispose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureBase_Dispose_m2C0FDC1F8EF2499A1E52D6CFEA94348388784BDB (FutureBase_t8A0245B874D87A58E48E0C9F16C54FD8003534F4 * __this, const RuntimeMethod* method);
 // System.Void Firebase.Auth.Future_User/<GetTask>c__AnonStorey0::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGetTaskU3Ec__AnonStorey0__ctor_mF75D6318BC7088C17C4E97F07FA4A788F8253B69 (U3CGetTaskU3Ec__AnonStorey0_tA92D581998A360FDE7770636AE7FFE8B04FD778C * __this, const RuntimeMethod* method);
+// System.Boolean Firebase.Auth.AuthUtilPINVOKE/SWIGPendingException::get_Pending()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SWIGPendingException_get_Pending_mEA5DEC6C9C60C4B0CA474DA6FF3ADE036EE878E0 (const RuntimeMethod* method);
+// System.Exception Firebase.Auth.AuthUtilPINVOKE/SWIGPendingException::Retrieve()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Exception_t * SWIGPendingException_Retrieve_m7ACBC759FB231880E1A40AF1A05803B5CDCF187D (const RuntimeMethod* method);
 // System.Void System.Threading.Tasks.TaskCompletionSource`1<Firebase.Auth.FirebaseUser>::SetException(System.Exception)
 inline void TaskCompletionSource_1_SetException_m8848F969F249B4A274A5672F5A7B467161CAB197 (TaskCompletionSource_1_t9AD06D96AD3E9E43A107EA79993A043F5E1F1D45 * __this, Exception_t * ___exception0, const RuntimeMethod* method)
 {
 	((  void (*) (TaskCompletionSource_1_t9AD06D96AD3E9E43A107EA79993A043F5E1F1D45 *, Exception_t *, const RuntimeMethod*))TaskCompletionSource_1_SetException_mDD594BEBBEE23B395C77001EE646A1E9F4C820BE_gshared)(__this, ___exception0, method);
 }
+// Firebase.FutureStatus Firebase.FutureBase::status()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FutureBase_status_m478C1E6AF62FB15C218A7C422CF5DC8CA1486CAA (FutureBase_t8A0245B874D87A58E48E0C9F16C54FD8003534F4 * __this, const RuntimeMethod* method);
+// System.Void Firebase.FirebaseException::.ctor(System.Int32,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FirebaseException__ctor_mCB919E722DF4F366C4E0D9278716CBED5DD8907C (FirebaseException_t80812F0C7BA9277B701A891E7575AC4DAEE1DA47 * __this, int32_t ___errorCode0, String_t* ___message1, const RuntimeMethod* method);
 // System.Void Firebase.Auth.Future_User/Action::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action__ctor_mC21BA7E76FE4731785715A19E5C0414EB4808412 (Action_t93A1C2066DBE44D8980A3C69015371AD734414F6 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method);
 // System.Void Firebase.Auth.Future_User::SetOnCompletionCallback(Firebase.Auth.Future_User/Action)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Future_User_SetOnCompletionCallback_mFD29B355855F88AB8950691123466E52E3B993E2 (Future_User_t16AC7F10973F7E51D2EF05FBC40262B1D74D7F77 * __this, Action_t93A1C2066DBE44D8980A3C69015371AD734414F6 * ___userCompletionCallback0, const RuntimeMethod* method);
+// System.Void System.ArgumentNullException::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArgumentNullException__ctor_m81AB157B93BFE2FBFDB08B88F84B444293042F97 (ArgumentNullException_tFB5C4621957BC53A7D1B4FDD5C38B4D6E15DB8FB * __this, String_t* ___paramName0, const RuntimeMethod* method);
 // System.Void Firebase.Auth.Future_User::ThrowIfDisposed()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Future_User_ThrowIfDisposed_m2168E8CFC4966C7EF26002666C928E332790C9EB (Future_User_t16AC7F10973F7E51D2EF05FBC40262B1D74D7F77 * __this, const RuntimeMethod* method);
 // System.Void Firebase.Auth.Future_User/SWIG_CompletionDelegate::.ctor(System.Object,System.IntPtr)
@@ -4211,12 +3793,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_Firebase_Auth_Future_Use
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_Firebase_Auth_Future_User_GetResult_m0E792CC62C58947B0D0023E9D53876DFE5A3C410 (HandleRef_t1DB3576C2CC9E4AD072DF40863E6F352BE12BACF  ___jarg10, const RuntimeMethod* method);
 // System.Void Firebase.LogUtil::InitializeLogging()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LogUtil_InitializeLogging_m05046FDF1759F0A851931F7FCF743FAA24BDB434 (const RuntimeMethod* method);
-// System.IntPtr Firebase.Auth.AuthUtilPINVOKE::Firebase_Auth_GameCenterAuthProvider_GetCredential()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_Firebase_Auth_GameCenterAuthProvider_GetCredential_m80AD4693175060D6F7644F8CA973BFBED14D6344 (const RuntimeMethod* method);
-// System.Void Firebase.Auth.Future_Credential::.ctor(System.IntPtr,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Future_Credential__ctor_m95DD6C1B5A8A91042285901A0ACC9424ED5169DA (Future_Credential_t5FA479EDD462AE57DD3A334DBE28455F0A01E930 * __this, intptr_t ___cPtr0, bool ___cMemoryOwn1, const RuntimeMethod* method);
-// System.Threading.Tasks.Task`1<Firebase.Auth.Credential> Firebase.Auth.Future_Credential::GetTask(Firebase.Auth.Future_Credential)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_tA5D31255279C17E13642632FB782BD1EB69C9E61 * Future_Credential_GetTask_m23DE2B39D76B79FBA87BEF710F0E831E14C29E9D (Future_Credential_t5FA479EDD462AE57DD3A334DBE28455F0A01E930 * ___fu0, const RuntimeMethod* method);
+// System.IntPtr Firebase.Auth.AuthUtilPINVOKE::Firebase_Auth_OAuthProvider_GetCredential__SWIG_1(System.String,System.String,System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_Firebase_Auth_OAuthProvider_GetCredential__SWIG_1_m2B3ED881D5627A48AD8C3995CB1473B6043AADF4 (String_t* ___jarg10, String_t* ___jarg21, String_t* ___jarg32, String_t* ___jarg43, const RuntimeMethod* method);
+// System.Void Firebase.Auth.Credential::.ctor(System.IntPtr,System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Credential__ctor_m9CEF01CD39AB945133D9E158140F27471C9A97FB (Credential_t638B3D8394BA25DA9572C6A523AFBF7D18D88DAA * __this, intptr_t ___cPtr0, bool ___cMemoryOwn1, const RuntimeMethod* method);
 // System.Void Firebase.Auth.AuthUtilPINVOKE/SWIGExceptionHelper::SetPendingApplicationException(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SWIGExceptionHelper_SetPendingApplicationException_m7894CDADABA52FF4B5F3DD49140BC93BBC2161F2 (String_t* ___message0, const RuntimeMethod* method);
 // System.Void Firebase.Auth.AuthUtilPINVOKE/SWIGExceptionHelper::SetPendingArithmeticException(System.String)
@@ -4304,38 +3884,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FirebaseAuth_t62F122053F219E848C71A38DBB8A818
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InitializationException__ctor_mCE6B67DCF469CF7CC9CC8A5C6C2E6CAC73D6366F (InitializationException_tD2D5F83F3CF001820F246B633E36FDD6E0EDFD75 * __this, int32_t ___result0, const RuntimeMethod* method);
 // System.Void Firebase.Auth.FirebaseAuth::CompleteFirebaseUserTask(System.Threading.Tasks.Task`1<Firebase.Auth.FirebaseUser>,System.Threading.Tasks.TaskCompletionSource`1<Firebase.Auth.FirebaseUser>)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FirebaseAuth_CompleteFirebaseUserTask_mF044F11565B16ABD3C607809C2890D91637711D2 (FirebaseAuth_t62F122053F219E848C71A38DBB8A818A6C8B8F7E * __this, Task_1_tEBE900D333BFF17CF9FDB3BCE586131016083F35 * ___task0, TaskCompletionSource_1_t9AD06D96AD3E9E43A107EA79993A043F5E1F1D45 * ___taskCompletionSource1, const RuntimeMethod* method);
-// System.Void System.Threading.Tasks.TaskCompletionSource`1<Firebase.Auth.Credential>::SetCanceled()
-inline void TaskCompletionSource_1_SetCanceled_m35FD797B5A03C6E77D77F714C661BB02F347B55D (TaskCompletionSource_1_t1FA7E7E9F6A5C7535B75D741629BEA5F9C53E04C * __this, const RuntimeMethod* method)
-{
-	((  void (*) (TaskCompletionSource_1_t1FA7E7E9F6A5C7535B75D741629BEA5F9C53E04C *, const RuntimeMethod*))TaskCompletionSource_1_SetCanceled_m297148FA6868B7BC0B56FB1FD9C237C349AA57AA_gshared)(__this, method);
-}
 // System.Int32 Firebase.FutureBase::error()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FutureBase_error_mBA8200B272D3DB91D1EE78ECE0A10AAB84771C03 (FutureBase_t8A0245B874D87A58E48E0C9F16C54FD8003534F4 * __this, const RuntimeMethod* method);
 // System.String Firebase.FutureBase::error_message()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FutureBase_error_message_m6E9B30EF5EC5EE999B91077E60E3B96978DE4774 (FutureBase_t8A0245B874D87A58E48E0C9F16C54FD8003534F4 * __this, const RuntimeMethod* method);
-// Firebase.Auth.Credential Firebase.Auth.Future_Credential::GetResult()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Credential_t638B3D8394BA25DA9572C6A523AFBF7D18D88DAA * Future_Credential_GetResult_mCDAED601C106D6542D31BC10DF131AA9CD3056E2 (Future_Credential_t5FA479EDD462AE57DD3A334DBE28455F0A01E930 * __this, const RuntimeMethod* method);
-// System.Void System.Threading.Tasks.TaskCompletionSource`1<Firebase.Auth.Credential>::SetResult(!0)
-inline void TaskCompletionSource_1_SetResult_m2EADA0CC565826127944A48BCF52A3ACB2A26752 (TaskCompletionSource_1_t1FA7E7E9F6A5C7535B75D741629BEA5F9C53E04C * __this, Credential_t638B3D8394BA25DA9572C6A523AFBF7D18D88DAA * ___result0, const RuntimeMethod* method)
-{
-	((  void (*) (TaskCompletionSource_1_t1FA7E7E9F6A5C7535B75D741629BEA5F9C53E04C *, Credential_t638B3D8394BA25DA9572C6A523AFBF7D18D88DAA *, const RuntimeMethod*))TaskCompletionSource_1_SetResult_m114264415DE45978C357F9A2A7A2E87D84B54443_gshared)(__this, ___result0, method);
-}
+// Firebase.Auth.FirebaseUser Firebase.Auth.Future_User::GetResult()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FirebaseUser_tB4E7F9E5CECAD14A4F7E4170A134C5CDA028F308 * Future_User_GetResult_m46EBBA5BF8964568666992B0A95EEA7C2486B1CE (Future_User_t16AC7F10973F7E51D2EF05FBC40262B1D74D7F77 * __this, const RuntimeMethod* method);
 // System.String System.String::Format(System.String,System.Object)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_mB3D38E5238C3164DB4D7D29339D9E225A4496D17 (String_t* ___format0, RuntimeObject * ___arg01, const RuntimeMethod* method);
 // System.Void Firebase.LogUtil::LogMessage(Firebase.LogLevel,System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LogUtil_LogMessage_mC36C5CCA27AFA6A1773D0A993DAC4A0C609F6C8B (int32_t ___logLevel0, String_t* ___message1, const RuntimeMethod* method);
-// Firebase.Auth.FirebaseUser Firebase.Auth.Future_User::GetResult()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FirebaseUser_tB4E7F9E5CECAD14A4F7E4170A134C5CDA028F308 * Future_User_GetResult_m46EBBA5BF8964568666992B0A95EEA7C2486B1CE (Future_User_t16AC7F10973F7E51D2EF05FBC40262B1D74D7F77 * __this, const RuntimeMethod* method);
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_Future_User_SWIG_OnCompletion(void*, Il2CppMethodPointer, int32_t);
 IL2CPP_EXTERN_C void DEFAULT_CALL Firebase_Auth_Future_User_SWIG_FreeCompletionData(void*, intptr_t);
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_Future_User_GetResult(void*);
 IL2CPP_EXTERN_C void DEFAULT_CALL Firebase_Auth_delete_Future_User(void*);
-IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_Future_Credential_SWIG_OnCompletion(void*, Il2CppMethodPointer, int32_t);
-IL2CPP_EXTERN_C void DEFAULT_CALL Firebase_Auth_Future_Credential_SWIG_FreeCompletionData(void*, intptr_t);
-IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_Future_Credential_GetResult(void*);
-IL2CPP_EXTERN_C void DEFAULT_CALL Firebase_Auth_delete_Future_Credential(void*);
 IL2CPP_EXTERN_C void DEFAULT_CALL Firebase_Auth_delete_Credential(void*);
-IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_GameCenterAuthProvider_GetCredential();
+IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_OAuthProvider_GetCredential__SWIG_1(char*, char*, char*, char*);
 IL2CPP_EXTERN_C void DEFAULT_CALL Firebase_Auth_delete_FirebaseUser(void*);
 IL2CPP_EXTERN_C char* DEFAULT_CALL Firebase_Auth_FirebaseUser_DisplayName_get(void*);
 IL2CPP_EXTERN_C char* DEFAULT_CALL Firebase_Auth_FirebaseUser_UserId_get(void*);
@@ -4348,7 +3912,6 @@ IL2CPP_EXTERN_C void DEFAULT_CALL Firebase_Auth_DestroyAuthStateListener(void*, 
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_CreateIdTokenListener(void*, Il2CppMethodPointer);
 IL2CPP_EXTERN_C void DEFAULT_CALL Firebase_Auth_DestroyIdTokenListener(void*, intptr_t);
 IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_Future_User_SWIGUpcast(intptr_t);
-IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Firebase_Auth_Future_Credential_SWIGUpcast(intptr_t);
 IL2CPP_EXTERN_C void DEFAULT_CALL SWIGRegisterExceptionCallbacks_AuthUtil(Il2CppMethodPointer, Il2CppMethodPointer, Il2CppMethodPointer, Il2CppMethodPointer, Il2CppMethodPointer, Il2CppMethodPointer, Il2CppMethodPointer, Il2CppMethodPointer, Il2CppMethodPointer, Il2CppMethodPointer, Il2CppMethodPointer);
 IL2CPP_EXTERN_C void DEFAULT_CALL SWIGRegisterExceptionCallbacksArgument_AuthUtil(Il2CppMethodPointer, Il2CppMethodPointer, Il2CppMethodPointer);
 IL2CPP_EXTERN_C void DEFAULT_CALL SWIGRegisterStringCallback_AuthUtil(Il2CppMethodPointer);
@@ -4606,64 +4169,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_Firebase_Auth_delete_Fut
 	reinterpret_cast<PInvokeFunc>(Firebase_Auth_delete_Future_User)(____jarg10_marshaled);
 
 }
-// System.IntPtr Firebase.Auth.AuthUtilPINVOKE::Firebase_Auth_Future_Credential_SWIG_OnCompletion(System.Runtime.InteropServices.HandleRef,Firebase.Auth.Future_Credential/SWIG_CompletionDelegate,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_Firebase_Auth_Future_Credential_SWIG_OnCompletion_m4329275D2BDD8198E38D022E618C0DE2B14E8608 (HandleRef_t1DB3576C2CC9E4AD072DF40863E6F352BE12BACF  ___jarg10, SWIG_CompletionDelegate_tA58DD21EC61553A20F33CFB2ECC18B45B86C121A * ___jarg21, int32_t ___jarg32, const RuntimeMethod* method)
-{
-	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*, Il2CppMethodPointer, int32_t);
-
-	// Marshaling of parameter '___jarg10' to native representation
-	void* ____jarg10_marshaled = NULL;
-	____jarg10_marshaled = (void*)___jarg10.get_m_handle_1();
-
-	// Marshaling of parameter '___jarg21' to native representation
-	Il2CppMethodPointer ____jarg21_marshaled = NULL;
-	____jarg21_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(___jarg21));
-
-	// Native function invocation
-	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_Future_Credential_SWIG_OnCompletion)(____jarg10_marshaled, ____jarg21_marshaled, ___jarg32);
-
-	return returnValue;
-}
-// System.Void Firebase.Auth.AuthUtilPINVOKE::Firebase_Auth_Future_Credential_SWIG_FreeCompletionData(System.Runtime.InteropServices.HandleRef,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_Firebase_Auth_Future_Credential_SWIG_FreeCompletionData_m8F5D6890B318B38D5FBF1AE23E447BD82022654D (HandleRef_t1DB3576C2CC9E4AD072DF40863E6F352BE12BACF  ___jarg10, intptr_t ___jarg21, const RuntimeMethod* method)
-{
-	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, intptr_t);
-
-	// Marshaling of parameter '___jarg10' to native representation
-	void* ____jarg10_marshaled = NULL;
-	____jarg10_marshaled = (void*)___jarg10.get_m_handle_1();
-
-	// Native function invocation
-	reinterpret_cast<PInvokeFunc>(Firebase_Auth_Future_Credential_SWIG_FreeCompletionData)(____jarg10_marshaled, ___jarg21);
-
-}
-// System.IntPtr Firebase.Auth.AuthUtilPINVOKE::Firebase_Auth_Future_Credential_GetResult(System.Runtime.InteropServices.HandleRef)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_Firebase_Auth_Future_Credential_GetResult_m778A1CE150D6C167A4AAAF79CE547E53779E027C (HandleRef_t1DB3576C2CC9E4AD072DF40863E6F352BE12BACF  ___jarg10, const RuntimeMethod* method)
-{
-	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*);
-
-	// Marshaling of parameter '___jarg10' to native representation
-	void* ____jarg10_marshaled = NULL;
-	____jarg10_marshaled = (void*)___jarg10.get_m_handle_1();
-
-	// Native function invocation
-	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_Future_Credential_GetResult)(____jarg10_marshaled);
-
-	return returnValue;
-}
-// System.Void Firebase.Auth.AuthUtilPINVOKE::Firebase_Auth_delete_Future_Credential(System.Runtime.InteropServices.HandleRef)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_Firebase_Auth_delete_Future_Credential_m0E1578207C45F5A3425A509D508142CF2208DDAA (HandleRef_t1DB3576C2CC9E4AD072DF40863E6F352BE12BACF  ___jarg10, const RuntimeMethod* method)
-{
-	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
-
-	// Marshaling of parameter '___jarg10' to native representation
-	void* ____jarg10_marshaled = NULL;
-	____jarg10_marshaled = (void*)___jarg10.get_m_handle_1();
-
-	// Native function invocation
-	reinterpret_cast<PInvokeFunc>(Firebase_Auth_delete_Future_Credential)(____jarg10_marshaled);
-
-}
 // System.Void Firebase.Auth.AuthUtilPINVOKE::Firebase_Auth_delete_Credential(System.Runtime.InteropServices.HandleRef)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_Firebase_Auth_delete_Credential_mF4FCE21997D7F063B3A50CE6CEF94B3E8603BBB9 (HandleRef_t1DB3576C2CC9E4AD072DF40863E6F352BE12BACF  ___jarg10, const RuntimeMethod* method)
 {
@@ -4677,13 +4182,45 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthUtilPINVOKE_Firebase_Auth_delete_Cre
 	reinterpret_cast<PInvokeFunc>(Firebase_Auth_delete_Credential)(____jarg10_marshaled);
 
 }
-// System.IntPtr Firebase.Auth.AuthUtilPINVOKE::Firebase_Auth_GameCenterAuthProvider_GetCredential()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_Firebase_Auth_GameCenterAuthProvider_GetCredential_m80AD4693175060D6F7644F8CA973BFBED14D6344 (const RuntimeMethod* method)
+// System.IntPtr Firebase.Auth.AuthUtilPINVOKE::Firebase_Auth_OAuthProvider_GetCredential__SWIG_1(System.String,System.String,System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_Firebase_Auth_OAuthProvider_GetCredential__SWIG_1_m2B3ED881D5627A48AD8C3995CB1473B6043AADF4 (String_t* ___jarg10, String_t* ___jarg21, String_t* ___jarg32, String_t* ___jarg43, const RuntimeMethod* method)
 {
-	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) ();
+	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (char*, char*, char*, char*);
+
+	// Marshaling of parameter '___jarg10' to native representation
+	char* ____jarg10_marshaled = NULL;
+	____jarg10_marshaled = il2cpp_codegen_marshal_string(___jarg10);
+
+	// Marshaling of parameter '___jarg21' to native representation
+	char* ____jarg21_marshaled = NULL;
+	____jarg21_marshaled = il2cpp_codegen_marshal_string(___jarg21);
+
+	// Marshaling of parameter '___jarg32' to native representation
+	char* ____jarg32_marshaled = NULL;
+	____jarg32_marshaled = il2cpp_codegen_marshal_string(___jarg32);
+
+	// Marshaling of parameter '___jarg43' to native representation
+	char* ____jarg43_marshaled = NULL;
+	____jarg43_marshaled = il2cpp_codegen_marshal_string(___jarg43);
 
 	// Native function invocation
-	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_GameCenterAuthProvider_GetCredential)();
+	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_OAuthProvider_GetCredential__SWIG_1)(____jarg10_marshaled, ____jarg21_marshaled, ____jarg32_marshaled, ____jarg43_marshaled);
+
+	// Marshaling cleanup of parameter '___jarg10' native representation
+	il2cpp_codegen_marshal_free(____jarg10_marshaled);
+	____jarg10_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___jarg21' native representation
+	il2cpp_codegen_marshal_free(____jarg21_marshaled);
+	____jarg21_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___jarg32' native representation
+	il2cpp_codegen_marshal_free(____jarg32_marshaled);
+	____jarg32_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___jarg43' native representation
+	il2cpp_codegen_marshal_free(____jarg43_marshaled);
+	____jarg43_marshaled = NULL;
 
 	return returnValue;
 }
@@ -4872,16 +4409,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_Firebase_Auth_Future
 
 	// Native function invocation
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_Future_User_SWIGUpcast)(___jarg10);
-
-	return returnValue;
-}
-// System.IntPtr Firebase.Auth.AuthUtilPINVOKE::Firebase_Auth_Future_Credential_SWIGUpcast(System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AuthUtilPINVOKE_Firebase_Auth_Future_Credential_SWIGUpcast_m6DB9340BC2FB0D5318E5C3C1ECF47D5270E98302 (intptr_t ___jarg10, const RuntimeMethod* method)
-{
-	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
-
-	// Native function invocation
-	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(Firebase_Auth_Future_Credential_SWIGUpcast)(___jarg10);
 
 	return returnValue;
 }
@@ -6886,656 +6413,6 @@ IL_001c:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-extern "C" void DEFAULT_CALL ReversePInvokeWrapper_Future_Credential_SWIG_CompletionDispatcher_m56C749B1C7B073BEDC879B7D7FA0C621B70CA892(int32_t ___key0)
-{
-	il2cpp::vm::ScopedThreadAttacher _vmThreadHelper;
-
-	// Managed method invocation
-	Future_Credential_SWIG_CompletionDispatcher_m56C749B1C7B073BEDC879B7D7FA0C621B70CA892(___key0, NULL);
-
-}
-// System.Void Firebase.Auth.Future_Credential::.ctor(System.IntPtr,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Future_Credential__ctor_m95DD6C1B5A8A91042285901A0ACC9424ED5169DA (Future_Credential_t5FA479EDD462AE57DD3A334DBE28455F0A01E930 * __this, intptr_t ___cPtr0, bool ___cMemoryOwn1, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AuthUtilPINVOKE_tD02963BE9050245F2940D293A81FB0F35F40C766_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IntPtr_t_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		__this->set_callbackData_6((intptr_t)(0));
-		intptr_t L_0 = ___cPtr0;
-		IL2CPP_RUNTIME_CLASS_INIT(AuthUtilPINVOKE_tD02963BE9050245F2940D293A81FB0F35F40C766_il2cpp_TypeInfo_var);
-		intptr_t L_1;
-		L_1 = AuthUtilPINVOKE_Firebase_Auth_Future_Credential_SWIGUpcast_m6DB9340BC2FB0D5318E5C3C1ECF47D5270E98302((intptr_t)L_0, /*hidden argument*/NULL);
-		bool L_2 = ___cMemoryOwn1;
-		FutureBase__ctor_m69C88EC69B422C5752B2E249303D92F649B8C8AC(__this, (intptr_t)L_1, L_2, /*hidden argument*/NULL);
-		intptr_t L_3 = ___cPtr0;
-		HandleRef_t1DB3576C2CC9E4AD072DF40863E6F352BE12BACF  L_4;
-		memset((&L_4), 0, sizeof(L_4));
-		HandleRef__ctor_m32F577826A69BCA9CE2C57DA4E6A829B18A4C1A3((&L_4), __this, (intptr_t)L_3, /*hidden argument*/NULL);
-		__this->set_swigCPtr_2(L_4);
-		return;
-	}
-}
-// System.Void Firebase.Auth.Future_Credential::Finalize()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Future_Credential_Finalize_mEBE34AF78A28C62E7815903D58C82810B294E7DB (Future_Credential_t5FA479EDD462AE57DD3A334DBE28455F0A01E930 * __this, const RuntimeMethod* method)
-{
-	Exception_t * __last_unhandled_exception = 0;
-	il2cpp::utils::ExceptionSupportStack<int32_t, 1> __leave_targets;
-
-IL_0000:
-	try
-	{ // begin try (depth: 1)
-		VirtActionInvoker0::Invoke(5 /* System.Void Firebase.FutureBase::Dispose() */, __this);
-		IL2CPP_LEAVE(0x12, FINALLY_000b);
-	} // end try (depth: 1)
-	catch(Il2CppExceptionWrapper& e)
-	{
-		__last_unhandled_exception = (Exception_t *)e.ex;
-		goto FINALLY_000b;
-	}
-
-FINALLY_000b:
-	{ // begin finally (depth: 1)
-		FutureBase_Finalize_m02E7843DEC68FBDDCA2B009E905FE4657C2B04AC(__this, /*hidden argument*/NULL);
-		IL2CPP_END_FINALLY(11)
-	} // end finally (depth: 1)
-	IL2CPP_CLEANUP(11)
-	{
-		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
-		IL2CPP_JUMP_TBL(0x12, IL_0012)
-	}
-
-IL_0012:
-	{
-		return;
-	}
-}
-// System.Void Firebase.Auth.Future_Credential::Dispose()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Future_Credential_Dispose_m95D36F9502FC16F250ED583EF7366EDCC7CAF676 (Future_Credential_t5FA479EDD462AE57DD3A334DBE28455F0A01E930 * __this, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AuthUtilPINVOKE_tD02963BE9050245F2940D293A81FB0F35F40C766_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseApp_t3592A6306730FCDF285B555F3B4A83F56B9C093D_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GC_tD6F0377620BF01385965FD29272CF088A4309C0D_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IntPtr_t_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	RuntimeObject * V_0 = NULL;
-	Exception_t * __last_unhandled_exception = 0;
-	il2cpp::utils::ExceptionSupportStack<int32_t, 1> __leave_targets;
-	{
-		IL2CPP_RUNTIME_CLASS_INIT(FirebaseApp_t3592A6306730FCDF285B555F3B4A83F56B9C093D_il2cpp_TypeInfo_var);
-		RuntimeObject * L_0 = ((FirebaseApp_t3592A6306730FCDF285B555F3B4A83F56B9C093D_StaticFields*)il2cpp_codegen_static_fields_for(FirebaseApp_t3592A6306730FCDF285B555F3B4A83F56B9C093D_il2cpp_TypeInfo_var))->get_disposeLock_2();
-		V_0 = L_0;
-		RuntimeObject * L_1 = V_0;
-		Monitor_Enter_m3AEE1F76020B92B6C2742BCD05706DC5FD6F9CB2(L_1, /*hidden argument*/NULL);
-	}
-
-IL_000c:
-	try
-	{ // begin try (depth: 1)
-		{
-			HandleRef_t1DB3576C2CC9E4AD072DF40863E6F352BE12BACF * L_2 = __this->get_address_of_swigCPtr_2();
-			intptr_t L_3;
-			L_3 = HandleRef_get_Handle_m0768FA4E8D38B46978DB96DAEDCD4947E5256ED5_inline((HandleRef_t1DB3576C2CC9E4AD072DF40863E6F352BE12BACF *)L_2, /*hidden argument*/NULL);
-			bool L_4;
-			L_4 = IntPtr_op_Inequality_m212AF0E66AA81FEDC982B1C8A44ADDA24B995EB8((intptr_t)L_3, (intptr_t)(0), /*hidden argument*/NULL);
-			if (!L_4)
-			{
-				goto IL_005f;
-			}
-		}
-
-IL_0026:
-		{
-			Future_Credential_SetCompletionData_mB8584EB400EC0F15DFB5B4A8064B50E0792046B9(__this, (intptr_t)(0), /*hidden argument*/NULL);
-			bool L_5 = ((FutureBase_t8A0245B874D87A58E48E0C9F16C54FD8003534F4 *)__this)->get_swigCMemOwn_1();
-			if (!L_5)
-			{
-				goto IL_004e;
-			}
-		}
-
-IL_003c:
-		{
-			((FutureBase_t8A0245B874D87A58E48E0C9F16C54FD8003534F4 *)__this)->set_swigCMemOwn_1((bool)0);
-			HandleRef_t1DB3576C2CC9E4AD072DF40863E6F352BE12BACF  L_6 = __this->get_swigCPtr_2();
-			IL2CPP_RUNTIME_CLASS_INIT(AuthUtilPINVOKE_tD02963BE9050245F2940D293A81FB0F35F40C766_il2cpp_TypeInfo_var);
-			AuthUtilPINVOKE_Firebase_Auth_delete_Future_Credential_m0E1578207C45F5A3425A509D508142CF2208DDAA(L_6, /*hidden argument*/NULL);
-		}
-
-IL_004e:
-		{
-			HandleRef_t1DB3576C2CC9E4AD072DF40863E6F352BE12BACF  L_7;
-			memset((&L_7), 0, sizeof(L_7));
-			HandleRef__ctor_m32F577826A69BCA9CE2C57DA4E6A829B18A4C1A3((&L_7), NULL, (intptr_t)(0), /*hidden argument*/NULL);
-			__this->set_swigCPtr_2(L_7);
-		}
-
-IL_005f:
-		{
-			IL2CPP_RUNTIME_CLASS_INIT(GC_tD6F0377620BF01385965FD29272CF088A4309C0D_il2cpp_TypeInfo_var);
-			GC_SuppressFinalize_mEE880E988C6AF32AA2F67F2D62715281EAA41555(__this, /*hidden argument*/NULL);
-			FutureBase_Dispose_m2C0FDC1F8EF2499A1E52D6CFEA94348388784BDB(__this, /*hidden argument*/NULL);
-			IL2CPP_LEAVE(0x77, FINALLY_0070);
-		}
-	} // end try (depth: 1)
-	catch(Il2CppExceptionWrapper& e)
-	{
-		__last_unhandled_exception = (Exception_t *)e.ex;
-		goto FINALLY_0070;
-	}
-
-FINALLY_0070:
-	{ // begin finally (depth: 1)
-		RuntimeObject * L_8 = V_0;
-		Monitor_Exit_mA776B403DA88AC77CDEEF67AB9F0D0E77ABD254A(L_8, /*hidden argument*/NULL);
-		IL2CPP_END_FINALLY(112)
-	} // end finally (depth: 1)
-	IL2CPP_CLEANUP(112)
-	{
-		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
-		IL2CPP_JUMP_TBL(0x77, IL_0077)
-	}
-
-IL_0077:
-	{
-		return;
-	}
-}
-// System.Threading.Tasks.Task`1<Firebase.Auth.Credential> Firebase.Auth.Future_Credential::GetTask(Firebase.Auth.Future_Credential)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_tA5D31255279C17E13642632FB782BD1EB69C9E61 * Future_Credential_GetTask_m23DE2B39D76B79FBA87BEF710F0E831E14C29E9D (Future_Credential_t5FA479EDD462AE57DD3A334DBE28455F0A01E930 * ___fu0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_t1483A426D0D48621C33618F22F52D063D6885B0C_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseException_t80812F0C7BA9277B701A891E7575AC4DAEE1DA47_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskCompletionSource_1_SetException_mA41930B930DB272B1BBB3C62BFE417ABF1E0A06B_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskCompletionSource_1__ctor_m212EF7B2BF0462FCE86FD5E1694DA4E016F82918_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskCompletionSource_1_get_Task_mDAC4EDB8AF94B6F464D259934D13D0A47A934807_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskCompletionSource_1_t1FA7E7E9F6A5C7535B75D741629BEA5F9C53E04C_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CGetTaskU3Ec__AnonStorey0_U3CU3Em__0_m7563AEFD1B8F421E246FD2624600EAC3591C2ECC_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CGetTaskU3Ec__AnonStorey0_tFBF4F8BB84B2F850693D0C525F7559847E681FCC_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralBDC976839D65581464FE3F4DB84C2D27603F0F18);
-		s_Il2CppMethodInitialized = true;
-	}
-	U3CGetTaskU3Ec__AnonStorey0_tFBF4F8BB84B2F850693D0C525F7559847E681FCC * V_0 = NULL;
-	{
-		U3CGetTaskU3Ec__AnonStorey0_tFBF4F8BB84B2F850693D0C525F7559847E681FCC * L_0 = (U3CGetTaskU3Ec__AnonStorey0_tFBF4F8BB84B2F850693D0C525F7559847E681FCC *)il2cpp_codegen_object_new(U3CGetTaskU3Ec__AnonStorey0_tFBF4F8BB84B2F850693D0C525F7559847E681FCC_il2cpp_TypeInfo_var);
-		U3CGetTaskU3Ec__AnonStorey0__ctor_m44966F4D650C56CFD3817AA1DA75DCF47D70B936(L_0, /*hidden argument*/NULL);
-		V_0 = L_0;
-		U3CGetTaskU3Ec__AnonStorey0_tFBF4F8BB84B2F850693D0C525F7559847E681FCC * L_1 = V_0;
-		Future_Credential_t5FA479EDD462AE57DD3A334DBE28455F0A01E930 * L_2 = ___fu0;
-		NullCheck(L_1);
-		L_1->set_fu_0(L_2);
-		U3CGetTaskU3Ec__AnonStorey0_tFBF4F8BB84B2F850693D0C525F7559847E681FCC * L_3 = V_0;
-		TaskCompletionSource_1_t1FA7E7E9F6A5C7535B75D741629BEA5F9C53E04C * L_4 = (TaskCompletionSource_1_t1FA7E7E9F6A5C7535B75D741629BEA5F9C53E04C *)il2cpp_codegen_object_new(TaskCompletionSource_1_t1FA7E7E9F6A5C7535B75D741629BEA5F9C53E04C_il2cpp_TypeInfo_var);
-		TaskCompletionSource_1__ctor_m212EF7B2BF0462FCE86FD5E1694DA4E016F82918(L_4, /*hidden argument*/TaskCompletionSource_1__ctor_m212EF7B2BF0462FCE86FD5E1694DA4E016F82918_RuntimeMethod_var);
-		NullCheck(L_3);
-		L_3->set_tcs_1(L_4);
-		bool L_5;
-		L_5 = SWIGPendingException_get_Pending_mEA5DEC6C9C60C4B0CA474DA6FF3ADE036EE878E0(/*hidden argument*/NULL);
-		if (!L_5)
-		{
-			goto IL_003e;
-		}
-	}
-	{
-		U3CGetTaskU3Ec__AnonStorey0_tFBF4F8BB84B2F850693D0C525F7559847E681FCC * L_6 = V_0;
-		NullCheck(L_6);
-		TaskCompletionSource_1_t1FA7E7E9F6A5C7535B75D741629BEA5F9C53E04C * L_7 = L_6->get_tcs_1();
-		Exception_t * L_8;
-		L_8 = SWIGPendingException_Retrieve_m7ACBC759FB231880E1A40AF1A05803B5CDCF187D(/*hidden argument*/NULL);
-		NullCheck(L_7);
-		TaskCompletionSource_1_SetException_mA41930B930DB272B1BBB3C62BFE417ABF1E0A06B(L_7, L_8, /*hidden argument*/TaskCompletionSource_1_SetException_mA41930B930DB272B1BBB3C62BFE417ABF1E0A06B_RuntimeMethod_var);
-		U3CGetTaskU3Ec__AnonStorey0_tFBF4F8BB84B2F850693D0C525F7559847E681FCC * L_9 = V_0;
-		NullCheck(L_9);
-		TaskCompletionSource_1_t1FA7E7E9F6A5C7535B75D741629BEA5F9C53E04C * L_10 = L_9->get_tcs_1();
-		NullCheck(L_10);
-		Task_1_tA5D31255279C17E13642632FB782BD1EB69C9E61 * L_11;
-		L_11 = TaskCompletionSource_1_get_Task_mDAC4EDB8AF94B6F464D259934D13D0A47A934807_inline(L_10, /*hidden argument*/TaskCompletionSource_1_get_Task_mDAC4EDB8AF94B6F464D259934D13D0A47A934807_RuntimeMethod_var);
-		return L_11;
-	}
-
-IL_003e:
-	{
-		U3CGetTaskU3Ec__AnonStorey0_tFBF4F8BB84B2F850693D0C525F7559847E681FCC * L_12 = V_0;
-		NullCheck(L_12);
-		Future_Credential_t5FA479EDD462AE57DD3A334DBE28455F0A01E930 * L_13 = L_12->get_fu_0();
-		NullCheck(L_13);
-		int32_t L_14;
-		L_14 = FutureBase_status_m478C1E6AF62FB15C218A7C422CF5DC8CA1486CAA(L_13, /*hidden argument*/NULL);
-		if ((!(((uint32_t)L_14) == ((uint32_t)2))))
-		{
-			goto IL_0071;
-		}
-	}
-	{
-		U3CGetTaskU3Ec__AnonStorey0_tFBF4F8BB84B2F850693D0C525F7559847E681FCC * L_15 = V_0;
-		NullCheck(L_15);
-		TaskCompletionSource_1_t1FA7E7E9F6A5C7535B75D741629BEA5F9C53E04C * L_16 = L_15->get_tcs_1();
-		FirebaseException_t80812F0C7BA9277B701A891E7575AC4DAEE1DA47 * L_17 = (FirebaseException_t80812F0C7BA9277B701A891E7575AC4DAEE1DA47 *)il2cpp_codegen_object_new(FirebaseException_t80812F0C7BA9277B701A891E7575AC4DAEE1DA47_il2cpp_TypeInfo_var);
-		FirebaseException__ctor_mCB919E722DF4F366C4E0D9278716CBED5DD8907C(L_17, 0, _stringLiteralBDC976839D65581464FE3F4DB84C2D27603F0F18, /*hidden argument*/NULL);
-		NullCheck(L_16);
-		TaskCompletionSource_1_SetException_mA41930B930DB272B1BBB3C62BFE417ABF1E0A06B(L_16, L_17, /*hidden argument*/TaskCompletionSource_1_SetException_mA41930B930DB272B1BBB3C62BFE417ABF1E0A06B_RuntimeMethod_var);
-		U3CGetTaskU3Ec__AnonStorey0_tFBF4F8BB84B2F850693D0C525F7559847E681FCC * L_18 = V_0;
-		NullCheck(L_18);
-		TaskCompletionSource_1_t1FA7E7E9F6A5C7535B75D741629BEA5F9C53E04C * L_19 = L_18->get_tcs_1();
-		NullCheck(L_19);
-		Task_1_tA5D31255279C17E13642632FB782BD1EB69C9E61 * L_20;
-		L_20 = TaskCompletionSource_1_get_Task_mDAC4EDB8AF94B6F464D259934D13D0A47A934807_inline(L_19, /*hidden argument*/TaskCompletionSource_1_get_Task_mDAC4EDB8AF94B6F464D259934D13D0A47A934807_RuntimeMethod_var);
-		return L_20;
-	}
-
-IL_0071:
-	{
-		U3CGetTaskU3Ec__AnonStorey0_tFBF4F8BB84B2F850693D0C525F7559847E681FCC * L_21 = V_0;
-		NullCheck(L_21);
-		Future_Credential_t5FA479EDD462AE57DD3A334DBE28455F0A01E930 * L_22 = L_21->get_fu_0();
-		U3CGetTaskU3Ec__AnonStorey0_tFBF4F8BB84B2F850693D0C525F7559847E681FCC * L_23 = V_0;
-		Action_t1483A426D0D48621C33618F22F52D063D6885B0C * L_24 = (Action_t1483A426D0D48621C33618F22F52D063D6885B0C *)il2cpp_codegen_object_new(Action_t1483A426D0D48621C33618F22F52D063D6885B0C_il2cpp_TypeInfo_var);
-		Action__ctor_m8383DD719437BC569C585641DEB740ECFF83C6AF(L_24, L_23, (intptr_t)((intptr_t)U3CGetTaskU3Ec__AnonStorey0_U3CU3Em__0_m7563AEFD1B8F421E246FD2624600EAC3591C2ECC_RuntimeMethod_var), /*hidden argument*/NULL);
-		NullCheck(L_22);
-		Future_Credential_SetOnCompletionCallback_mE9BF825A5B81342C0EDD1C9ED20EC44005904087(L_22, L_24, /*hidden argument*/NULL);
-		U3CGetTaskU3Ec__AnonStorey0_tFBF4F8BB84B2F850693D0C525F7559847E681FCC * L_25 = V_0;
-		NullCheck(L_25);
-		TaskCompletionSource_1_t1FA7E7E9F6A5C7535B75D741629BEA5F9C53E04C * L_26 = L_25->get_tcs_1();
-		NullCheck(L_26);
-		Task_1_tA5D31255279C17E13642632FB782BD1EB69C9E61 * L_27;
-		L_27 = TaskCompletionSource_1_get_Task_mDAC4EDB8AF94B6F464D259934D13D0A47A934807_inline(L_26, /*hidden argument*/TaskCompletionSource_1_get_Task_mDAC4EDB8AF94B6F464D259934D13D0A47A934807_RuntimeMethod_var);
-		return L_27;
-	}
-}
-// System.Void Firebase.Auth.Future_Credential::ThrowIfDisposed()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Future_Credential_ThrowIfDisposed_mD906FF4F8E9E788A7D9674D4482202FB473CC5E4 (Future_Credential_t5FA479EDD462AE57DD3A334DBE28455F0A01E930 * __this, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IntPtr_t_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		HandleRef_t1DB3576C2CC9E4AD072DF40863E6F352BE12BACF * L_0 = __this->get_address_of_swigCPtr_2();
-		intptr_t L_1;
-		L_1 = HandleRef_get_Handle_m0768FA4E8D38B46978DB96DAEDCD4947E5256ED5_inline((HandleRef_t1DB3576C2CC9E4AD072DF40863E6F352BE12BACF *)L_0, /*hidden argument*/NULL);
-		bool L_2;
-		L_2 = IntPtr_op_Equality_mD94F3FE43A65684EFF984A7B95E70D2520C0AC73((intptr_t)L_1, (intptr_t)(0), /*hidden argument*/NULL);
-		if (!L_2)
-		{
-			goto IL_0025;
-		}
-	}
-	{
-		ArgumentNullException_tFB5C4621957BC53A7D1B4FDD5C38B4D6E15DB8FB * L_3 = (ArgumentNullException_tFB5C4621957BC53A7D1B4FDD5C38B4D6E15DB8FB *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentNullException_tFB5C4621957BC53A7D1B4FDD5C38B4D6E15DB8FB_il2cpp_TypeInfo_var)));
-		ArgumentNullException__ctor_m81AB157B93BFE2FBFDB08B88F84B444293042F97(L_3, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralE952D19344D880EF06EC8AACBF9B79603FCE8F3A)), /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Future_Credential_ThrowIfDisposed_mD906FF4F8E9E788A7D9674D4482202FB473CC5E4_RuntimeMethod_var)));
-	}
-
-IL_0025:
-	{
-		return;
-	}
-}
-// System.Void Firebase.Auth.Future_Credential::SetOnCompletionCallback(Firebase.Auth.Future_Credential/Action)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Future_Credential_SetOnCompletionCallback_mE9BF825A5B81342C0EDD1C9ED20EC44005904087 (Future_Credential_t5FA479EDD462AE57DD3A334DBE28455F0A01E930 * __this, Action_t1483A426D0D48621C33618F22F52D063D6885B0C * ___userCompletionCallback0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2__ctor_m06CDDBDA1AC0864BA2572A681BD7AB878B48C21A_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_set_Item_mE846A7E21FC653731AE0E31825DC0A1158320426_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_t419F54AA54103E0BCDD35C2FBD557709213CFC1D_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Future_Credential_SWIG_CompletionDispatcher_m56C749B1C7B073BEDC879B7D7FA0C621B70CA892_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Future_Credential_t5FA479EDD462AE57DD3A334DBE28455F0A01E930_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SWIG_CompletionDelegate_tA58DD21EC61553A20F33CFB2ECC18B45B86C121A_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	int32_t V_0 = 0;
-	RuntimeObject * V_1 = NULL;
-	Exception_t * __last_unhandled_exception = 0;
-	il2cpp::utils::ExceptionSupportStack<int32_t, 1> __leave_targets;
-	{
-		Future_Credential_ThrowIfDisposed_mD906FF4F8E9E788A7D9674D4482202FB473CC5E4(__this, /*hidden argument*/NULL);
-		SWIG_CompletionDelegate_tA58DD21EC61553A20F33CFB2ECC18B45B86C121A * L_0 = __this->get_SWIG_CompletionCB_7();
-		if (L_0)
-		{
-			goto IL_0023;
-		}
-	}
-	{
-		SWIG_CompletionDelegate_tA58DD21EC61553A20F33CFB2ECC18B45B86C121A * L_1 = (SWIG_CompletionDelegate_tA58DD21EC61553A20F33CFB2ECC18B45B86C121A *)il2cpp_codegen_object_new(SWIG_CompletionDelegate_tA58DD21EC61553A20F33CFB2ECC18B45B86C121A_il2cpp_TypeInfo_var);
-		SWIG_CompletionDelegate__ctor_m41C5DE57B6B5F0B77204194132F5772D1EEC90BC(L_1, NULL, (intptr_t)((intptr_t)Future_Credential_SWIG_CompletionDispatcher_m56C749B1C7B073BEDC879B7D7FA0C621B70CA892_RuntimeMethod_var), /*hidden argument*/NULL);
-		__this->set_SWIG_CompletionCB_7(L_1);
-	}
-
-IL_0023:
-	{
-		IL2CPP_RUNTIME_CLASS_INIT(Future_Credential_t5FA479EDD462AE57DD3A334DBE28455F0A01E930_il2cpp_TypeInfo_var);
-		RuntimeObject * L_2 = ((Future_Credential_t5FA479EDD462AE57DD3A334DBE28455F0A01E930_StaticFields*)il2cpp_codegen_static_fields_for(Future_Credential_t5FA479EDD462AE57DD3A334DBE28455F0A01E930_il2cpp_TypeInfo_var))->get_CallbackLock_5();
-		V_1 = L_2;
-		RuntimeObject * L_3 = V_1;
-		Monitor_Enter_m3AEE1F76020B92B6C2742BCD05706DC5FD6F9CB2(L_3, /*hidden argument*/NULL);
-	}
-
-IL_002f:
-	try
-	{ // begin try (depth: 1)
-		{
-			IL2CPP_RUNTIME_CLASS_INIT(Future_Credential_t5FA479EDD462AE57DD3A334DBE28455F0A01E930_il2cpp_TypeInfo_var);
-			Dictionary_2_t419F54AA54103E0BCDD35C2FBD557709213CFC1D * L_4 = ((Future_Credential_t5FA479EDD462AE57DD3A334DBE28455F0A01E930_StaticFields*)il2cpp_codegen_static_fields_for(Future_Credential_t5FA479EDD462AE57DD3A334DBE28455F0A01E930_il2cpp_TypeInfo_var))->get_Callbacks_3();
-			if (L_4)
-			{
-				goto IL_0043;
-			}
-		}
-
-IL_0039:
-		{
-			Dictionary_2_t419F54AA54103E0BCDD35C2FBD557709213CFC1D * L_5 = (Dictionary_2_t419F54AA54103E0BCDD35C2FBD557709213CFC1D *)il2cpp_codegen_object_new(Dictionary_2_t419F54AA54103E0BCDD35C2FBD557709213CFC1D_il2cpp_TypeInfo_var);
-			Dictionary_2__ctor_m06CDDBDA1AC0864BA2572A681BD7AB878B48C21A(L_5, /*hidden argument*/Dictionary_2__ctor_m06CDDBDA1AC0864BA2572A681BD7AB878B48C21A_RuntimeMethod_var);
-			IL2CPP_RUNTIME_CLASS_INIT(Future_Credential_t5FA479EDD462AE57DD3A334DBE28455F0A01E930_il2cpp_TypeInfo_var);
-			((Future_Credential_t5FA479EDD462AE57DD3A334DBE28455F0A01E930_StaticFields*)il2cpp_codegen_static_fields_for(Future_Credential_t5FA479EDD462AE57DD3A334DBE28455F0A01E930_il2cpp_TypeInfo_var))->set_Callbacks_3(L_5);
-		}
-
-IL_0043:
-		{
-			IL2CPP_RUNTIME_CLASS_INIT(Future_Credential_t5FA479EDD462AE57DD3A334DBE28455F0A01E930_il2cpp_TypeInfo_var);
-			int32_t L_6 = ((Future_Credential_t5FA479EDD462AE57DD3A334DBE28455F0A01E930_StaticFields*)il2cpp_codegen_static_fields_for(Future_Credential_t5FA479EDD462AE57DD3A334DBE28455F0A01E930_il2cpp_TypeInfo_var))->get_CallbackIndex_4();
-			int32_t L_7 = ((int32_t)il2cpp_codegen_add((int32_t)L_6, (int32_t)1));
-			((Future_Credential_t5FA479EDD462AE57DD3A334DBE28455F0A01E930_StaticFields*)il2cpp_codegen_static_fields_for(Future_Credential_t5FA479EDD462AE57DD3A334DBE28455F0A01E930_il2cpp_TypeInfo_var))->set_CallbackIndex_4(L_7);
-			V_0 = L_7;
-			Dictionary_2_t419F54AA54103E0BCDD35C2FBD557709213CFC1D * L_8 = ((Future_Credential_t5FA479EDD462AE57DD3A334DBE28455F0A01E930_StaticFields*)il2cpp_codegen_static_fields_for(Future_Credential_t5FA479EDD462AE57DD3A334DBE28455F0A01E930_il2cpp_TypeInfo_var))->get_Callbacks_3();
-			int32_t L_9 = V_0;
-			Action_t1483A426D0D48621C33618F22F52D063D6885B0C * L_10 = ___userCompletionCallback0;
-			NullCheck(L_8);
-			Dictionary_2_set_Item_mE846A7E21FC653731AE0E31825DC0A1158320426(L_8, L_9, L_10, /*hidden argument*/Dictionary_2_set_Item_mE846A7E21FC653731AE0E31825DC0A1158320426_RuntimeMethod_var);
-			IL2CPP_LEAVE(0x69, FINALLY_0062);
-		}
-	} // end try (depth: 1)
-	catch(Il2CppExceptionWrapper& e)
-	{
-		__last_unhandled_exception = (Exception_t *)e.ex;
-		goto FINALLY_0062;
-	}
-
-FINALLY_0062:
-	{ // begin finally (depth: 1)
-		RuntimeObject * L_11 = V_1;
-		Monitor_Exit_mA776B403DA88AC77CDEEF67AB9F0D0E77ABD254A(L_11, /*hidden argument*/NULL);
-		IL2CPP_END_FINALLY(98)
-	} // end finally (depth: 1)
-	IL2CPP_CLEANUP(98)
-	{
-		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
-		IL2CPP_JUMP_TBL(0x69, IL_0069)
-	}
-
-IL_0069:
-	{
-		SWIG_CompletionDelegate_tA58DD21EC61553A20F33CFB2ECC18B45B86C121A * L_12 = __this->get_SWIG_CompletionCB_7();
-		int32_t L_13 = V_0;
-		intptr_t L_14;
-		L_14 = Future_Credential_SWIG_OnCompletion_m8691E7A9CDB8AE744FB2FA9B024C97E084C2B683(__this, L_12, L_13, /*hidden argument*/NULL);
-		Future_Credential_SetCompletionData_mB8584EB400EC0F15DFB5B4A8064B50E0792046B9(__this, (intptr_t)L_14, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Void Firebase.Auth.Future_Credential::SetCompletionData(System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Future_Credential_SetCompletionData_mB8584EB400EC0F15DFB5B4A8064B50E0792046B9 (Future_Credential_t5FA479EDD462AE57DD3A334DBE28455F0A01E930 * __this, intptr_t ___data0, const RuntimeMethod* method)
-{
-	{
-		Future_Credential_ThrowIfDisposed_mD906FF4F8E9E788A7D9674D4482202FB473CC5E4(__this, /*hidden argument*/NULL);
-		intptr_t L_0 = __this->get_callbackData_6();
-		Future_Credential_SWIG_FreeCompletionData_m99DA8859BE6197CCB4BD6A1366BB5A45A2599EEC(__this, (intptr_t)L_0, /*hidden argument*/NULL);
-		intptr_t L_1 = ___data0;
-		__this->set_callbackData_6((intptr_t)L_1);
-		return;
-	}
-}
-// System.Void Firebase.Auth.Future_Credential::SWIG_CompletionDispatcher(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Future_Credential_SWIG_CompletionDispatcher_m56C749B1C7B073BEDC879B7D7FA0C621B70CA892 (int32_t ___key0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_Remove_m685F7D7D1B024C13757EC7E356D2998F21EFC3F1_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_TryGetValue_mA02B36E0CDD7D8EE4648FEAE8D3D348D3FAA0E42_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Future_Credential_t5FA479EDD462AE57DD3A334DBE28455F0A01E930_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	Action_t1483A426D0D48621C33618F22F52D063D6885B0C * V_0 = NULL;
-	RuntimeObject * V_1 = NULL;
-	Exception_t * __last_unhandled_exception = 0;
-	il2cpp::utils::ExceptionSupportStack<int32_t, 1> __leave_targets;
-	{
-		V_0 = (Action_t1483A426D0D48621C33618F22F52D063D6885B0C *)NULL;
-		IL2CPP_RUNTIME_CLASS_INIT(Future_Credential_t5FA479EDD462AE57DD3A334DBE28455F0A01E930_il2cpp_TypeInfo_var);
-		RuntimeObject * L_0 = ((Future_Credential_t5FA479EDD462AE57DD3A334DBE28455F0A01E930_StaticFields*)il2cpp_codegen_static_fields_for(Future_Credential_t5FA479EDD462AE57DD3A334DBE28455F0A01E930_il2cpp_TypeInfo_var))->get_CallbackLock_5();
-		V_1 = L_0;
-		RuntimeObject * L_1 = V_1;
-		Monitor_Enter_m3AEE1F76020B92B6C2742BCD05706DC5FD6F9CB2(L_1, /*hidden argument*/NULL);
-	}
-
-IL_000e:
-	try
-	{ // begin try (depth: 1)
-		{
-			IL2CPP_RUNTIME_CLASS_INIT(Future_Credential_t5FA479EDD462AE57DD3A334DBE28455F0A01E930_il2cpp_TypeInfo_var);
-			Dictionary_2_t419F54AA54103E0BCDD35C2FBD557709213CFC1D * L_2 = ((Future_Credential_t5FA479EDD462AE57DD3A334DBE28455F0A01E930_StaticFields*)il2cpp_codegen_static_fields_for(Future_Credential_t5FA479EDD462AE57DD3A334DBE28455F0A01E930_il2cpp_TypeInfo_var))->get_Callbacks_3();
-			if (!L_2)
-			{
-				goto IL_0036;
-			}
-		}
-
-IL_0018:
-		{
-			IL2CPP_RUNTIME_CLASS_INIT(Future_Credential_t5FA479EDD462AE57DD3A334DBE28455F0A01E930_il2cpp_TypeInfo_var);
-			Dictionary_2_t419F54AA54103E0BCDD35C2FBD557709213CFC1D * L_3 = ((Future_Credential_t5FA479EDD462AE57DD3A334DBE28455F0A01E930_StaticFields*)il2cpp_codegen_static_fields_for(Future_Credential_t5FA479EDD462AE57DD3A334DBE28455F0A01E930_il2cpp_TypeInfo_var))->get_Callbacks_3();
-			int32_t L_4 = ___key0;
-			NullCheck(L_3);
-			bool L_5;
-			L_5 = Dictionary_2_TryGetValue_mA02B36E0CDD7D8EE4648FEAE8D3D348D3FAA0E42(L_3, L_4, (Action_t1483A426D0D48621C33618F22F52D063D6885B0C **)(&V_0), /*hidden argument*/Dictionary_2_TryGetValue_mA02B36E0CDD7D8EE4648FEAE8D3D348D3FAA0E42_RuntimeMethod_var);
-			if (!L_5)
-			{
-				goto IL_0036;
-			}
-		}
-
-IL_002a:
-		{
-			IL2CPP_RUNTIME_CLASS_INIT(Future_Credential_t5FA479EDD462AE57DD3A334DBE28455F0A01E930_il2cpp_TypeInfo_var);
-			Dictionary_2_t419F54AA54103E0BCDD35C2FBD557709213CFC1D * L_6 = ((Future_Credential_t5FA479EDD462AE57DD3A334DBE28455F0A01E930_StaticFields*)il2cpp_codegen_static_fields_for(Future_Credential_t5FA479EDD462AE57DD3A334DBE28455F0A01E930_il2cpp_TypeInfo_var))->get_Callbacks_3();
-			int32_t L_7 = ___key0;
-			NullCheck(L_6);
-			bool L_8;
-			L_8 = Dictionary_2_Remove_m685F7D7D1B024C13757EC7E356D2998F21EFC3F1(L_6, L_7, /*hidden argument*/Dictionary_2_Remove_m685F7D7D1B024C13757EC7E356D2998F21EFC3F1_RuntimeMethod_var);
-		}
-
-IL_0036:
-		{
-			IL2CPP_LEAVE(0x42, FINALLY_003b);
-		}
-	} // end try (depth: 1)
-	catch(Il2CppExceptionWrapper& e)
-	{
-		__last_unhandled_exception = (Exception_t *)e.ex;
-		goto FINALLY_003b;
-	}
-
-FINALLY_003b:
-	{ // begin finally (depth: 1)
-		RuntimeObject * L_9 = V_1;
-		Monitor_Exit_mA776B403DA88AC77CDEEF67AB9F0D0E77ABD254A(L_9, /*hidden argument*/NULL);
-		IL2CPP_END_FINALLY(59)
-	} // end finally (depth: 1)
-	IL2CPP_CLEANUP(59)
-	{
-		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
-		IL2CPP_JUMP_TBL(0x42, IL_0042)
-	}
-
-IL_0042:
-	{
-		Action_t1483A426D0D48621C33618F22F52D063D6885B0C * L_10 = V_0;
-		if (!L_10)
-		{
-			goto IL_004e;
-		}
-	}
-	{
-		Action_t1483A426D0D48621C33618F22F52D063D6885B0C * L_11 = V_0;
-		NullCheck(L_11);
-		Action_Invoke_m398BCA6CA04659EF4C78BB790552DD05B8ACD53E(L_11, /*hidden argument*/NULL);
-	}
-
-IL_004e:
-	{
-		return;
-	}
-}
-// System.IntPtr Firebase.Auth.Future_Credential::SWIG_OnCompletion(Firebase.Auth.Future_Credential/SWIG_CompletionDelegate,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Future_Credential_SWIG_OnCompletion_m8691E7A9CDB8AE744FB2FA9B024C97E084C2B683 (Future_Credential_t5FA479EDD462AE57DD3A334DBE28455F0A01E930 * __this, SWIG_CompletionDelegate_tA58DD21EC61553A20F33CFB2ECC18B45B86C121A * ___cs_callback0, int32_t ___cs_key1, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AuthUtilPINVOKE_tD02963BE9050245F2940D293A81FB0F35F40C766_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	intptr_t V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	{
-		HandleRef_t1DB3576C2CC9E4AD072DF40863E6F352BE12BACF  L_0 = __this->get_swigCPtr_2();
-		SWIG_CompletionDelegate_tA58DD21EC61553A20F33CFB2ECC18B45B86C121A * L_1 = ___cs_callback0;
-		int32_t L_2 = ___cs_key1;
-		IL2CPP_RUNTIME_CLASS_INIT(AuthUtilPINVOKE_tD02963BE9050245F2940D293A81FB0F35F40C766_il2cpp_TypeInfo_var);
-		intptr_t L_3;
-		L_3 = AuthUtilPINVOKE_Firebase_Auth_Future_Credential_SWIG_OnCompletion_m4329275D2BDD8198E38D022E618C0DE2B14E8608(L_0, L_1, L_2, /*hidden argument*/NULL);
-		V_0 = (intptr_t)L_3;
-		bool L_4;
-		L_4 = SWIGPendingException_get_Pending_m57F7C179B5EFB37003896A5F25F4FBED7DA3D2AD(/*hidden argument*/NULL);
-		if (!L_4)
-		{
-			goto IL_001e;
-		}
-	}
-	{
-		Exception_t * L_5;
-		L_5 = SWIGPendingException_Retrieve_m62D9AC53AD2901040C0DF7F7800858C07617B6CD(/*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_5, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Future_Credential_SWIG_OnCompletion_m8691E7A9CDB8AE744FB2FA9B024C97E084C2B683_RuntimeMethod_var)));
-	}
-
-IL_001e:
-	{
-		intptr_t L_6 = V_0;
-		return (intptr_t)L_6;
-	}
-}
-// System.Void Firebase.Auth.Future_Credential::SWIG_FreeCompletionData(System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Future_Credential_SWIG_FreeCompletionData_m99DA8859BE6197CCB4BD6A1366BB5A45A2599EEC (Future_Credential_t5FA479EDD462AE57DD3A334DBE28455F0A01E930 * __this, intptr_t ___data0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AuthUtilPINVOKE_tD02963BE9050245F2940D293A81FB0F35F40C766_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		HandleRef_t1DB3576C2CC9E4AD072DF40863E6F352BE12BACF  L_0 = __this->get_swigCPtr_2();
-		intptr_t L_1 = ___data0;
-		IL2CPP_RUNTIME_CLASS_INIT(AuthUtilPINVOKE_tD02963BE9050245F2940D293A81FB0F35F40C766_il2cpp_TypeInfo_var);
-		AuthUtilPINVOKE_Firebase_Auth_Future_Credential_SWIG_FreeCompletionData_m8F5D6890B318B38D5FBF1AE23E447BD82022654D(L_0, (intptr_t)L_1, /*hidden argument*/NULL);
-		bool L_2;
-		L_2 = SWIGPendingException_get_Pending_m57F7C179B5EFB37003896A5F25F4FBED7DA3D2AD(/*hidden argument*/NULL);
-		if (!L_2)
-		{
-			goto IL_001c;
-		}
-	}
-	{
-		Exception_t * L_3;
-		L_3 = SWIGPendingException_Retrieve_m62D9AC53AD2901040C0DF7F7800858C07617B6CD(/*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Future_Credential_SWIG_FreeCompletionData_m99DA8859BE6197CCB4BD6A1366BB5A45A2599EEC_RuntimeMethod_var)));
-	}
-
-IL_001c:
-	{
-		return;
-	}
-}
-// Firebase.Auth.Credential Firebase.Auth.Future_Credential::GetResult()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Credential_t638B3D8394BA25DA9572C6A523AFBF7D18D88DAA * Future_Credential_GetResult_mCDAED601C106D6542D31BC10DF131AA9CD3056E2 (Future_Credential_t5FA479EDD462AE57DD3A334DBE28455F0A01E930 * __this, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AuthUtilPINVOKE_tD02963BE9050245F2940D293A81FB0F35F40C766_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Credential_t638B3D8394BA25DA9572C6A523AFBF7D18D88DAA_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	Credential_t638B3D8394BA25DA9572C6A523AFBF7D18D88DAA * V_0 = NULL;
-	{
-		HandleRef_t1DB3576C2CC9E4AD072DF40863E6F352BE12BACF  L_0 = __this->get_swigCPtr_2();
-		IL2CPP_RUNTIME_CLASS_INIT(AuthUtilPINVOKE_tD02963BE9050245F2940D293A81FB0F35F40C766_il2cpp_TypeInfo_var);
-		intptr_t L_1;
-		L_1 = AuthUtilPINVOKE_Firebase_Auth_Future_Credential_GetResult_m778A1CE150D6C167A4AAAF79CE547E53779E027C(L_0, /*hidden argument*/NULL);
-		Credential_t638B3D8394BA25DA9572C6A523AFBF7D18D88DAA * L_2 = (Credential_t638B3D8394BA25DA9572C6A523AFBF7D18D88DAA *)il2cpp_codegen_object_new(Credential_t638B3D8394BA25DA9572C6A523AFBF7D18D88DAA_il2cpp_TypeInfo_var);
-		Credential__ctor_m9CEF01CD39AB945133D9E158140F27471C9A97FB(L_2, (intptr_t)L_1, (bool)1, /*hidden argument*/NULL);
-		V_0 = L_2;
-		bool L_3;
-		L_3 = SWIGPendingException_get_Pending_m57F7C179B5EFB37003896A5F25F4FBED7DA3D2AD(/*hidden argument*/NULL);
-		if (!L_3)
-		{
-			goto IL_0022;
-		}
-	}
-	{
-		Exception_t * L_4;
-		L_4 = SWIGPendingException_Retrieve_m62D9AC53AD2901040C0DF7F7800858C07617B6CD(/*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_4, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Future_Credential_GetResult_mCDAED601C106D6542D31BC10DF131AA9CD3056E2_RuntimeMethod_var)));
-	}
-
-IL_0022:
-	{
-		Credential_t638B3D8394BA25DA9572C6A523AFBF7D18D88DAA * L_5 = V_0;
-		return L_5;
-	}
-}
-// System.Void Firebase.Auth.Future_Credential::.cctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Future_Credential__cctor_m8B38C64CD877484B3969931B0BCC4F641D40BF9E (const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Future_Credential_t5FA479EDD462AE57DD3A334DBE28455F0A01E930_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RuntimeObject_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		((Future_Credential_t5FA479EDD462AE57DD3A334DBE28455F0A01E930_StaticFields*)il2cpp_codegen_static_fields_for(Future_Credential_t5FA479EDD462AE57DD3A334DBE28455F0A01E930_il2cpp_TypeInfo_var))->set_CallbackIndex_4(0);
-		RuntimeObject * L_0 = (RuntimeObject *)il2cpp_codegen_object_new(RuntimeObject_il2cpp_TypeInfo_var);
-		Object__ctor_m88880E0413421D13FD95325EDCE231707CE1F405(L_0, /*hidden argument*/NULL);
-		((Future_Credential_t5FA479EDD462AE57DD3A334DBE28455F0A01E930_StaticFields*)il2cpp_codegen_static_fields_for(Future_Credential_t5FA479EDD462AE57DD3A334DBE28455F0A01E930_il2cpp_TypeInfo_var))->set_CallbackLock_5(L_0);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
 extern "C" void DEFAULT_CALL ReversePInvokeWrapper_Future_User_SWIG_CompletionDispatcher_mD8D1EADB4CBDDC51721F7FB23F4FDCF9EE953E6B(int32_t ___key0)
 {
 	il2cpp::vm::ScopedThreadAttacher _vmThreadHelper;
@@ -8212,8 +7089,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Future_User__cctor_m603CBDD19A393FB82713
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Void Firebase.Auth.GameCenterAuthProvider::.cctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameCenterAuthProvider__cctor_m7D6C1C2868D1AD02C6FF4C98F5B240E29DAE94A1 (const RuntimeMethod* method)
+// System.Void Firebase.Auth.OAuthProvider::.cctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OAuthProvider__cctor_m5D1BC8184477F4463C02E165A61B7213E9C6D7DC (const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -8227,45 +7104,45 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameCenterAuthProvider__cctor_m7D6C1C286
 		return;
 	}
 }
-// System.Threading.Tasks.Task`1<Firebase.Auth.Credential> Firebase.Auth.GameCenterAuthProvider::GetCredentialAsync()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_tA5D31255279C17E13642632FB782BD1EB69C9E61 * GameCenterAuthProvider_GetCredentialAsync_m6F076821A0563B73A951276DD5D91AD64265F8C7 (const RuntimeMethod* method)
+// Firebase.Auth.Credential Firebase.Auth.OAuthProvider::GetCredential(System.String,System.String,System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Credential_t638B3D8394BA25DA9572C6A523AFBF7D18D88DAA * OAuthProvider_GetCredential_m865AABA10D1F602AAD7A09D77ED2B3E04DCA747F (String_t* ___providerId0, String_t* ___idToken1, String_t* ___rawNonce2, String_t* ___accessToken3, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AuthUtilPINVOKE_tD02963BE9050245F2940D293A81FB0F35F40C766_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Future_Credential_t5FA479EDD462AE57DD3A334DBE28455F0A01E930_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Credential_t638B3D8394BA25DA9572C6A523AFBF7D18D88DAA_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	intptr_t V_0;
-	memset((&V_0), 0, sizeof(V_0));
+	Credential_t638B3D8394BA25DA9572C6A523AFBF7D18D88DAA * V_0 = NULL;
 	{
+		String_t* L_0 = ___providerId0;
+		String_t* L_1 = ___idToken1;
+		String_t* L_2 = ___rawNonce2;
+		String_t* L_3 = ___accessToken3;
 		IL2CPP_RUNTIME_CLASS_INIT(AuthUtilPINVOKE_tD02963BE9050245F2940D293A81FB0F35F40C766_il2cpp_TypeInfo_var);
-		intptr_t L_0;
-		L_0 = AuthUtilPINVOKE_Firebase_Auth_GameCenterAuthProvider_GetCredential_m80AD4693175060D6F7644F8CA973BFBED14D6344(/*hidden argument*/NULL);
-		V_0 = (intptr_t)L_0;
-		bool L_1;
-		L_1 = SWIGPendingException_get_Pending_m57F7C179B5EFB37003896A5F25F4FBED7DA3D2AD(/*hidden argument*/NULL);
-		if (!L_1)
+		intptr_t L_4;
+		L_4 = AuthUtilPINVOKE_Firebase_Auth_OAuthProvider_GetCredential__SWIG_1_m2B3ED881D5627A48AD8C3995CB1473B6043AADF4(L_0, L_1, L_2, L_3, /*hidden argument*/NULL);
+		Credential_t638B3D8394BA25DA9572C6A523AFBF7D18D88DAA * L_5 = (Credential_t638B3D8394BA25DA9572C6A523AFBF7D18D88DAA *)il2cpp_codegen_object_new(Credential_t638B3D8394BA25DA9572C6A523AFBF7D18D88DAA_il2cpp_TypeInfo_var);
+		Credential__ctor_m9CEF01CD39AB945133D9E158140F27471C9A97FB(L_5, (intptr_t)L_4, (bool)1, /*hidden argument*/NULL);
+		V_0 = L_5;
+		bool L_6;
+		L_6 = SWIGPendingException_get_Pending_m57F7C179B5EFB37003896A5F25F4FBED7DA3D2AD(/*hidden argument*/NULL);
+		if (!L_6)
 		{
-			goto IL_0016;
+			goto IL_0020;
 		}
 	}
 	{
-		Exception_t * L_2;
-		L_2 = SWIGPendingException_Retrieve_m62D9AC53AD2901040C0DF7F7800858C07617B6CD(/*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&GameCenterAuthProvider_GetCredentialAsync_m6F076821A0563B73A951276DD5D91AD64265F8C7_RuntimeMethod_var)));
+		Exception_t * L_7;
+		L_7 = SWIGPendingException_Retrieve_m62D9AC53AD2901040C0DF7F7800858C07617B6CD(/*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_7, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&OAuthProvider_GetCredential_m865AABA10D1F602AAD7A09D77ED2B3E04DCA747F_RuntimeMethod_var)));
 	}
 
-IL_0016:
+IL_0020:
 	{
-		intptr_t L_3 = V_0;
-		Future_Credential_t5FA479EDD462AE57DD3A334DBE28455F0A01E930 * L_4 = (Future_Credential_t5FA479EDD462AE57DD3A334DBE28455F0A01E930 *)il2cpp_codegen_object_new(Future_Credential_t5FA479EDD462AE57DD3A334DBE28455F0A01E930_il2cpp_TypeInfo_var);
-		Future_Credential__ctor_m95DD6C1B5A8A91042285901A0ACC9424ED5169DA(L_4, (intptr_t)L_3, (bool)1, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(Future_Credential_t5FA479EDD462AE57DD3A334DBE28455F0A01E930_il2cpp_TypeInfo_var);
-		Task_1_tA5D31255279C17E13642632FB782BD1EB69C9E61 * L_5;
-		L_5 = Future_Credential_GetTask_m23DE2B39D76B79FBA87BEF710F0E831E14C29E9D(L_4, /*hidden argument*/NULL);
-		return L_5;
+		Credential_t638B3D8394BA25DA9572C6A523AFBF7D18D88DAA * L_8 = V_0;
+		return L_8;
 	}
 }
 #ifdef __clang__
@@ -9467,357 +8344,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* StateChangedDelegate_BeginInvo
 }
 // System.Void Firebase.Auth.FirebaseAuth/StateChangedDelegate::EndInvoke(System.IAsyncResult)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StateChangedDelegate_EndInvoke_m54DC79C1198B849D8072B6B6320544024CAD62C4 (StateChangedDelegate_t9405205DA8C8A4F84132EFA5413CA3D3A7DE2874 * __this, RuntimeObject* ___result0, const RuntimeMethod* method)
-{
-	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Firebase.Auth.Future_Credential/<GetTask>c__AnonStorey0::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGetTaskU3Ec__AnonStorey0__ctor_m44966F4D650C56CFD3817AA1DA75DCF47D70B936 (U3CGetTaskU3Ec__AnonStorey0_tFBF4F8BB84B2F850693D0C525F7559847E681FCC * __this, const RuntimeMethod* method)
-{
-	{
-		Object__ctor_m88880E0413421D13FD95325EDCE231707CE1F405(__this, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Void Firebase.Auth.Future_Credential/<GetTask>c__AnonStorey0::<>m__0()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGetTaskU3Ec__AnonStorey0_U3CU3Em__0_m7563AEFD1B8F421E246FD2624600EAC3591C2ECC (U3CGetTaskU3Ec__AnonStorey0_tFBF4F8BB84B2F850693D0C525F7559847E681FCC * __this, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FirebaseException_t80812F0C7BA9277B701A891E7575AC4DAEE1DA47_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskCompletionSource_1_SetCanceled_m35FD797B5A03C6E77D77F714C661BB02F347B55D_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskCompletionSource_1_SetException_mA41930B930DB272B1BBB3C62BFE417ABF1E0A06B_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskCompletionSource_1_SetResult_m2EADA0CC565826127944A48BCF52A3ACB2A26752_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	int32_t V_0 = 0;
-	Exception_t * V_1 = NULL;
-	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
-	il2cpp::utils::ExceptionSupportStack<int32_t, 2> __leave_targets;
-
-IL_0000:
-	try
-	{ // begin try (depth: 1)
-		{
-			Future_Credential_t5FA479EDD462AE57DD3A334DBE28455F0A01E930 * L_0 = __this->get_fu_0();
-			NullCheck(L_0);
-			int32_t L_1;
-			L_1 = FutureBase_status_m478C1E6AF62FB15C218A7C422CF5DC8CA1486CAA(L_0, /*hidden argument*/NULL);
-			if ((!(((uint32_t)L_1) == ((uint32_t)2))))
-			{
-				goto IL_0021;
-			}
-		}
-
-IL_0011:
-		{
-			TaskCompletionSource_1_t1FA7E7E9F6A5C7535B75D741629BEA5F9C53E04C * L_2 = __this->get_tcs_1();
-			NullCheck(L_2);
-			TaskCompletionSource_1_SetCanceled_m35FD797B5A03C6E77D77F714C661BB02F347B55D(L_2, /*hidden argument*/TaskCompletionSource_1_SetCanceled_m35FD797B5A03C6E77D77F714C661BB02F347B55D_RuntimeMethod_var);
-			goto IL_006a;
-		}
-
-IL_0021:
-		{
-			Future_Credential_t5FA479EDD462AE57DD3A334DBE28455F0A01E930 * L_3 = __this->get_fu_0();
-			NullCheck(L_3);
-			int32_t L_4;
-			L_4 = FutureBase_error_mBA8200B272D3DB91D1EE78ECE0A10AAB84771C03(L_3, /*hidden argument*/NULL);
-			V_0 = L_4;
-			int32_t L_5 = V_0;
-			if (!L_5)
-			{
-				goto IL_0054;
-			}
-		}
-
-IL_0033:
-		{
-			TaskCompletionSource_1_t1FA7E7E9F6A5C7535B75D741629BEA5F9C53E04C * L_6 = __this->get_tcs_1();
-			int32_t L_7 = V_0;
-			Future_Credential_t5FA479EDD462AE57DD3A334DBE28455F0A01E930 * L_8 = __this->get_fu_0();
-			NullCheck(L_8);
-			String_t* L_9;
-			L_9 = FutureBase_error_message_m6E9B30EF5EC5EE999B91077E60E3B96978DE4774(L_8, /*hidden argument*/NULL);
-			FirebaseException_t80812F0C7BA9277B701A891E7575AC4DAEE1DA47 * L_10 = (FirebaseException_t80812F0C7BA9277B701A891E7575AC4DAEE1DA47 *)il2cpp_codegen_object_new(FirebaseException_t80812F0C7BA9277B701A891E7575AC4DAEE1DA47_il2cpp_TypeInfo_var);
-			FirebaseException__ctor_mCB919E722DF4F366C4E0D9278716CBED5DD8907C(L_10, L_7, L_9, /*hidden argument*/NULL);
-			NullCheck(L_6);
-			TaskCompletionSource_1_SetException_mA41930B930DB272B1BBB3C62BFE417ABF1E0A06B(L_6, L_10, /*hidden argument*/TaskCompletionSource_1_SetException_mA41930B930DB272B1BBB3C62BFE417ABF1E0A06B_RuntimeMethod_var);
-			goto IL_006a;
-		}
-
-IL_0054:
-		{
-			TaskCompletionSource_1_t1FA7E7E9F6A5C7535B75D741629BEA5F9C53E04C * L_11 = __this->get_tcs_1();
-			Future_Credential_t5FA479EDD462AE57DD3A334DBE28455F0A01E930 * L_12 = __this->get_fu_0();
-			NullCheck(L_12);
-			Credential_t638B3D8394BA25DA9572C6A523AFBF7D18D88DAA * L_13;
-			L_13 = Future_Credential_GetResult_mCDAED601C106D6542D31BC10DF131AA9CD3056E2(L_12, /*hidden argument*/NULL);
-			NullCheck(L_11);
-			TaskCompletionSource_1_SetResult_m2EADA0CC565826127944A48BCF52A3ACB2A26752(L_11, L_13, /*hidden argument*/TaskCompletionSource_1_SetResult_m2EADA0CC565826127944A48BCF52A3ACB2A26752_RuntimeMethod_var);
-		}
-
-IL_006a:
-		{
-			goto IL_0086;
-		}
-	} // end try (depth: 1)
-	catch(Il2CppExceptionWrapper& e)
-	{
-		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
-		{
-			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
-			goto CATCH_006f;
-		}
-		throw e;
-	}
-
-CATCH_006f:
-	{ // begin catch(System.Exception)
-		V_1 = ((Exception_t *)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t *));
-		Exception_t * L_14 = V_1;
-		String_t* L_15;
-		L_15 = String_Format_mB3D38E5238C3164DB4D7D29339D9E225A4496D17(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral32E8916355B734142247F16D33AC51F0ABA2C28F)), L_14, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&LogUtil_tFBAA493D07B1F33B56A3C4A8A0A3CF240AE40E90_il2cpp_TypeInfo_var)));
-		LogUtil_LogMessage_mC36C5CCA27AFA6A1773D0A993DAC4A0C609F6C8B(4, L_15, /*hidden argument*/NULL);
-		IL2CPP_POP_ACTIVE_EXCEPTION();
-		goto IL_0086;
-	} // end catch (depth: 1)
-
-IL_0086:
-	{
-		Future_Credential_t5FA479EDD462AE57DD3A334DBE28455F0A01E930 * L_16 = __this->get_fu_0();
-		NullCheck(L_16);
-		VirtActionInvoker0::Invoke(5 /* System.Void Firebase.FutureBase::Dispose() */, L_16);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_Action_t1483A426D0D48621C33618F22F52D063D6885B0C (Action_t1483A426D0D48621C33618F22F52D063D6885B0C * __this, const RuntimeMethod* method)
-{
-	typedef void (DEFAULT_CALL *PInvokeFunc)();
-	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(((RuntimeDelegate*)__this)->method->nativeFunction);
-
-	// Native function invocation
-	il2cppPInvokeFunc();
-
-}
-// System.Void Firebase.Auth.Future_Credential/Action::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action__ctor_m8383DD719437BC569C585641DEB740ECFF83C6AF (Action_t1483A426D0D48621C33618F22F52D063D6885B0C * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
-{
-	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
-	__this->set_method_3(___method1);
-	__this->set_m_target_2(___object0);
-}
-// System.Void Firebase.Auth.Future_Credential/Action::Invoke()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_Invoke_m398BCA6CA04659EF4C78BB790552DD05B8ACD53E (Action_t1483A426D0D48621C33618F22F52D063D6885B0C * __this, const RuntimeMethod* method)
-{
-	DelegateU5BU5D_t677D8FE08A5F99E8EE49150B73966CD6E9BF7DB8* delegateArrayToInvoke = __this->get_delegates_11();
-	Delegate_t** delegatesToInvoke;
-	il2cpp_array_size_t length;
-	if (delegateArrayToInvoke != NULL)
-	{
-		length = delegateArrayToInvoke->max_length;
-		delegatesToInvoke = reinterpret_cast<Delegate_t**>(delegateArrayToInvoke->GetAddressAtUnchecked(0));
-	}
-	else
-	{
-		length = 1;
-		delegatesToInvoke = reinterpret_cast<Delegate_t**>(&__this);
-	}
-
-	for (il2cpp_array_size_t i = 0; i < length; i++)
-	{
-		Delegate_t* currentDelegate = delegatesToInvoke[i];
-		Il2CppMethodPointer targetMethodPointer = currentDelegate->get_method_ptr_0();
-		RuntimeObject* targetThis = currentDelegate->get_m_target_2();
-		RuntimeMethod* targetMethod = (RuntimeMethod*)(currentDelegate->get_method_3());
-		if (!il2cpp_codegen_method_is_virtual(targetMethod))
-		{
-			il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found(targetMethod);
-		}
-		bool ___methodIsStatic = MethodIsStatic(targetMethod);
-		int ___parameterCount = il2cpp_codegen_method_parameter_count(targetMethod);
-		if (___methodIsStatic)
-		{
-			if (___parameterCount == 0)
-			{
-				// open
-				typedef void (*FunctionPointerType) (const RuntimeMethod*);
-				((FunctionPointerType)targetMethodPointer)(targetMethod);
-			}
-			else
-			{
-				// closed
-				typedef void (*FunctionPointerType) (void*, const RuntimeMethod*);
-				((FunctionPointerType)targetMethodPointer)(targetThis, targetMethod);
-			}
-		}
-		else
-		{
-			// closed
-			if (targetThis != NULL && il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
-			{
-				if (il2cpp_codegen_method_is_generic_instance(targetMethod))
-				{
-					if (il2cpp_codegen_method_is_interface_method(targetMethod))
-						GenericInterfaceActionInvoker0::Invoke(targetMethod, targetThis);
-					else
-						GenericVirtActionInvoker0::Invoke(targetMethod, targetThis);
-				}
-				else
-				{
-					if (il2cpp_codegen_method_is_interface_method(targetMethod))
-						InterfaceActionInvoker0::Invoke(il2cpp_codegen_method_get_slot(targetMethod), il2cpp_codegen_method_get_declaring_type(targetMethod), targetThis);
-					else
-						VirtActionInvoker0::Invoke(il2cpp_codegen_method_get_slot(targetMethod), targetThis);
-				}
-			}
-			else
-			{
-				typedef void (*FunctionPointerType) (void*, const RuntimeMethod*);
-				((FunctionPointerType)targetMethodPointer)(targetThis, targetMethod);
-			}
-		}
-	}
-}
-// System.IAsyncResult Firebase.Auth.Future_Credential/Action::BeginInvoke(System.AsyncCallback,System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Action_BeginInvoke_m19C2A7C68EED248DF4FCDF6FE38638077C26B064 (Action_t1483A426D0D48621C33618F22F52D063D6885B0C * __this, AsyncCallback_tA7921BEF974919C46FF8F9D9867C567B200BB0EA * ___callback0, RuntimeObject * ___object1, const RuntimeMethod* method)
-{
-	void *__d_args[1] = {0};
-	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback0, (RuntimeObject*)___object1);;
-}
-// System.Void Firebase.Auth.Future_Credential/Action::EndInvoke(System.IAsyncResult)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_EndInvoke_m93B468F5DAD5812F390064750B8B081627395FD1 (Action_t1483A426D0D48621C33618F22F52D063D6885B0C * __this, RuntimeObject* ___result0, const RuntimeMethod* method)
-{
-	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_SWIG_CompletionDelegate_tA58DD21EC61553A20F33CFB2ECC18B45B86C121A (SWIG_CompletionDelegate_tA58DD21EC61553A20F33CFB2ECC18B45B86C121A * __this, int32_t ___index0, const RuntimeMethod* method)
-{
-	typedef void (DEFAULT_CALL *PInvokeFunc)(int32_t);
-	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(((RuntimeDelegate*)__this)->method->nativeFunction);
-
-	// Native function invocation
-	il2cppPInvokeFunc(___index0);
-
-}
-// System.Void Firebase.Auth.Future_Credential/SWIG_CompletionDelegate::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SWIG_CompletionDelegate__ctor_m41C5DE57B6B5F0B77204194132F5772D1EEC90BC (SWIG_CompletionDelegate_tA58DD21EC61553A20F33CFB2ECC18B45B86C121A * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
-{
-	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
-	__this->set_method_3(___method1);
-	__this->set_m_target_2(___object0);
-}
-// System.Void Firebase.Auth.Future_Credential/SWIG_CompletionDelegate::Invoke(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SWIG_CompletionDelegate_Invoke_mB0C222FD01589588DD4AB6C85201FE253CE34F46 (SWIG_CompletionDelegate_tA58DD21EC61553A20F33CFB2ECC18B45B86C121A * __this, int32_t ___index0, const RuntimeMethod* method)
-{
-	DelegateU5BU5D_t677D8FE08A5F99E8EE49150B73966CD6E9BF7DB8* delegateArrayToInvoke = __this->get_delegates_11();
-	Delegate_t** delegatesToInvoke;
-	il2cpp_array_size_t length;
-	if (delegateArrayToInvoke != NULL)
-	{
-		length = delegateArrayToInvoke->max_length;
-		delegatesToInvoke = reinterpret_cast<Delegate_t**>(delegateArrayToInvoke->GetAddressAtUnchecked(0));
-	}
-	else
-	{
-		length = 1;
-		delegatesToInvoke = reinterpret_cast<Delegate_t**>(&__this);
-	}
-
-	for (il2cpp_array_size_t i = 0; i < length; i++)
-	{
-		Delegate_t* currentDelegate = delegatesToInvoke[i];
-		Il2CppMethodPointer targetMethodPointer = currentDelegate->get_method_ptr_0();
-		RuntimeObject* targetThis = currentDelegate->get_m_target_2();
-		RuntimeMethod* targetMethod = (RuntimeMethod*)(currentDelegate->get_method_3());
-		if (!il2cpp_codegen_method_is_virtual(targetMethod))
-		{
-			il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found(targetMethod);
-		}
-		bool ___methodIsStatic = MethodIsStatic(targetMethod);
-		int ___parameterCount = il2cpp_codegen_method_parameter_count(targetMethod);
-		if (___methodIsStatic)
-		{
-			if (___parameterCount == 1)
-			{
-				// open
-				typedef void (*FunctionPointerType) (int32_t, const RuntimeMethod*);
-				((FunctionPointerType)targetMethodPointer)(___index0, targetMethod);
-			}
-			else
-			{
-				// closed
-				typedef void (*FunctionPointerType) (void*, int32_t, const RuntimeMethod*);
-				((FunctionPointerType)targetMethodPointer)(targetThis, ___index0, targetMethod);
-			}
-		}
-		else
-		{
-			// closed
-			if (targetThis != NULL && il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
-			{
-				if (il2cpp_codegen_method_is_generic_instance(targetMethod))
-				{
-					if (il2cpp_codegen_method_is_interface_method(targetMethod))
-						GenericInterfaceActionInvoker1< int32_t >::Invoke(targetMethod, targetThis, ___index0);
-					else
-						GenericVirtActionInvoker1< int32_t >::Invoke(targetMethod, targetThis, ___index0);
-				}
-				else
-				{
-					if (il2cpp_codegen_method_is_interface_method(targetMethod))
-						InterfaceActionInvoker1< int32_t >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), il2cpp_codegen_method_get_declaring_type(targetMethod), targetThis, ___index0);
-					else
-						VirtActionInvoker1< int32_t >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), targetThis, ___index0);
-				}
-			}
-			else
-			{
-				typedef void (*FunctionPointerType) (void*, int32_t, const RuntimeMethod*);
-				((FunctionPointerType)targetMethodPointer)(targetThis, ___index0, targetMethod);
-			}
-		}
-	}
-}
-// System.IAsyncResult Firebase.Auth.Future_Credential/SWIG_CompletionDelegate::BeginInvoke(System.Int32,System.AsyncCallback,System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SWIG_CompletionDelegate_BeginInvoke_mD02C2ABA26D9A0A5A91257D50E18AD43DD2D39F9 (SWIG_CompletionDelegate_tA58DD21EC61553A20F33CFB2ECC18B45B86C121A * __this, int32_t ___index0, AsyncCallback_tA7921BEF974919C46FF8F9D9867C567B200BB0EA * ___callback1, RuntimeObject * ___object2, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	void *__d_args[2] = {0};
-	__d_args[0] = Box(Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_il2cpp_TypeInfo_var, &___index0);
-	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback1, (RuntimeObject*)___object2);;
-}
-// System.Void Firebase.Auth.Future_Credential/SWIG_CompletionDelegate::EndInvoke(System.IAsyncResult)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SWIG_CompletionDelegate_EndInvoke_mE7A74155D89E81BC00ED4349C6A246332843D34C (SWIG_CompletionDelegate_tA58DD21EC61553A20F33CFB2ECC18B45B86C121A * __this, RuntimeObject* ___result0, const RuntimeMethod* method)
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
 }

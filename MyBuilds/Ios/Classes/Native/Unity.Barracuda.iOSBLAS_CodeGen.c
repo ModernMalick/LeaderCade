@@ -31,9 +31,9 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[1] =
 };
 static const int32_t s_InvokerIndices[3] = 
 {
-	4748,
-	4625,
-	4625,
+	4781,
+	4653,
+	4653,
 };
 extern const CustomAttributesCacheGenerator g_Unity_Barracuda_iOSBLAS_AttributeGenerators[];
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Unity_Barracuda_iOSBLAS_CodeGenModule;
