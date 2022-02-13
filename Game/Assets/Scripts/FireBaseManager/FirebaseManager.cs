@@ -15,7 +15,7 @@ namespace FireBaseManager
 
         private void Awake()
         {
-            Reference = FirebaseDatabase.DefaultInstance.RootReference;
+            Reference = FirebaseDatabase.GetInstance("https://leadercade-a45d0-default-rtdb.firebaseio.com/").RootReference;
             FbUser = FirebaseAuth.DefaultInstance.CurrentUser;
         }
 
