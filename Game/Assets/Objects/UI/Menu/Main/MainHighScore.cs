@@ -1,5 +1,4 @@
 using FireBaseManager;
-using Objects.FireBaseManager;
 using TMPro;
 using UnityEngine;
 

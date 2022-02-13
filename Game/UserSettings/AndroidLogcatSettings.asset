@@ -1,9 +1,9 @@
 {
     "m_SelectedDeviceId": "R58N31N7N3M",
     "m_SelectedPackage": {
-        "deviceId": "R58N31N7N3M",
-        "name": "com.MalickNdiaye.LeaderCade",
-        "processId": 19673,
+        "deviceId": "",
+        "name": "",
+        "processId": 0,
         "exited": false
     },
     "m_SelectedPriority": 1,
@@ -17,68 +17,32 @@
         {
             "deviceId": "R58N31N7N3M",
             "name": "com.MalickNdiaye.LeaderCade",
-            "processId": 7271,
-            "exited": true
-        },
-        {
-            "deviceId": "R58N31N7N3M",
-            "name": "com.MalickNdiaye.LeaderCade",
-            "processId": 10860,
-            "exited": true
-        },
-        {
-            "deviceId": "R58N31N7N3M",
-            "name": "com.MalickNdiaye.LeaderCade",
-            "processId": 10982,
-            "exited": true
-        },
-        {
-            "deviceId": "R58N31N7N3M",
-            "name": "com.MalickNdiaye.LeaderCade",
-            "processId": 11133,
-            "exited": true
-        },
-        {
-            "deviceId": "R58N31N7N3M",
-            "name": "com.MalickNdiaye.LeaderCade",
-            "processId": 13939,
-            "exited": true
-        },
-        {
-            "deviceId": "R58N31N7N3M",
-            "name": "com.MalickNdiaye.LeaderCade",
-            "processId": 16035,
-            "exited": false
-        },
-        {
-            "deviceId": "R58N31N7N3M",
-            "name": "com.MalickNdiaye.LeaderCade",
             "processId": 11408,
-            "exited": false
+            "exited": true
         },
         {
             "deviceId": "R58N31N7N3M",
             "name": "com.MalickNdiaye.LeaderCade",
             "processId": 28481,
-            "exited": false
+            "exited": true
         },
         {
             "deviceId": "R58N31N7N3M",
             "name": "com.MalickNdiaye.LeaderCade",
             "processId": 16623,
-            "exited": false
+            "exited": true
         },
         {
             "deviceId": "R58N31N7N3M",
             "name": "com.MalickNdiaye.LeaderCade",
             "processId": 13636,
-            "exited": false
+            "exited": true
         },
         {
             "deviceId": "R58N31N7N3M",
             "name": "com.MalickNdiaye.LeaderCade",
             "processId": 19673,
-            "exited": false
+            "exited": true
         }
     ],
     "m_Tags": {
