@@ -33,7 +33,7 @@ namespace Objects.UI.Leaderboard
                 return;
             }
             
-            FirebaseDatabase.DefaultInstance.RootReference.Child("Users").OrderByChild("Highscore").GetValueAsync().ContinueWithOnMainThread(task =>
+            FirebaseManager.Reference.Child("Users").OrderByChild("Highscore").GetValueAsync().ContinueWithOnMainThread(task =>
             {
                 if (task.IsFaulted || task.IsCanceled) return;
                 var snapshot = task.Result;
